@@ -1287,6 +1287,7 @@ if (CLOUDFLARE) fetch("/api/furabolha").then(r => r.ok ? r.json() : Promise.reje
   // o link que circula é o da página do vídeo no Fura Bolha (?de=zap: lá conta como compartilhamento)
   FB = (d.videos || []).map(v => ({ ...v, id: "fb-" + v.id, fb: true, postado: v.publicado, link: v.url + "?de=zap", fonte: "fura-bolha.com" }));
   if (videos.length) desenhaVideos();
+  if (C) contra();
   fetch("https://fura-bolha.com/api/stats").then(r => r.json()).then(s => { FB_STATS = s || {}; if (videos.length) desenhaVideos(); }).catch(() => {});
 }).catch(() => {});
 fetch("videos.json", { cache: "no-store" }).then(r => r.json()).then(d => { videos = d.videos || []; desenhaVideos(); if (C) contra(); }).catch(() => { document.getElementById("destaque").innerHTML = '<div class="vazio">Não carregou. Recarregue a página.</div>'; });
@@ -1396,20 +1397,25 @@ fetch("guerra.json", { cache: "no-store" }).then(r => r.json()).then(g => { G = 
 
 /* ---------- temas para contra-atacar ---------- */
 let C = null;
+const MSG_TEMA = [];
+// mensagem do card: o vídeo vem antes da fonte, porque o WhatsApp mostra a prévia do primeiro link (o vídeo converte; a fonte sustenta)
+const msgTema = (t, v) => t.zap + (v ? "\n\n▶ Assista: " + (v.link || v.url) : "") + "\n\nFonte: " + fl(t.fontes[0]);
 function contra() {
   document.getElementById("contra").innerHTML = C.temas.map((t, i) => {
     let vs = [];
-    try { const rx = new RegExp(t.videos_rx, "i"); vs = atuais().filter(v => rx.test(v.titulo)).slice(0, 2); } catch {}
-    const msg = t.zap + "\n\nFonte: " + fl(t.fontes[0]) + (vs[0] ? "\nVídeo: " + vs[0].url : "");
+    // o vídeo do tema que mais cresce agora (views/h); sem vídeo medido, um do Fura Bolha sobre o tema
+    try { const rx = new RegExp(t.videos_rx, "i"); vs = atuais().filter(v => rx.test(v.titulo)).sort((a, b) => (b.vph || 0) - (a.vph || 0)).slice(0, 2);
+      if (!vs.length) vs = FB.filter(v => idade(v) <= 48 && fbConfere(v) && rx.test(v.titulo)).sort((a, b) => fbCompart(b) - fbCompart(a)).slice(0, 2); } catch {}
+    const msg = msgTema(t, vs[0]); MSG_TEMA[i] = msg;
     return `<article class="ca"><div class="ca-cab"><div><h3>${esc(t.titulo)}</h3><p class="gancho">${esc(t.gancho)}</p></div></div>
       <a class="prova" href="${esc(t.prova.u)}" target="_blank" rel="noopener"><b>${esc(t.prova.num)}</b><span>${esc(t.prova.txt)}</span><small>Pesquisa: ${esc(t.prova.f)} ↗</small></a>
       <p class="perg">${esc(t.pergunta)}</p>
-      ${vs.length ? `<div class="vids-ca">${vs.map(v => `<div class="vid-ca">${v.capa ? `<img src="${esc(v.capa)}" alt="" loading="lazy">` : "<span></span>"}<a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.titulo)}<small>▲ ${curto(v.vph || 0)}/h · ${quando(idade(v))}</small></a></div>`).join("")}</div>`
+      ${vs.length ? `<div class="vids-ca">${vs.map(v => `<div class="vid-ca">${v.capa ? `<img src="${esc(v.capa)}" alt="" loading="lazy">` : "<span></span>"}<a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.titulo)}<small>${v.fb ? "Fura Bolha" : `▲ ${curto(v.vph || 0)}/h`} · ${quando(idade(v))}</small></a></div>`).join("")}</div>`
         : `<p class="sem-vid">Nenhum vídeo pró-Lula sobre isso nas últimas 48 h. Oportunidade: grave o seu.</p>`}
       <details><summary>Fato e fontes</summary><p class="fato">${esc(t.fato)}</p><div class="fts">${t.fontes.map(f => `<a href="${esc(f.u)}" target="_blank" rel="noopener">${esc(f.f)} · ${esc(f.t)} ↗</a>`).join("")}</div></details>
       <div class="bts"><a class="bt zap" target="_blank" rel="noopener" data-ca="${i}" href="https://wa.me/?text=${encodeURIComponent(msg)}">Mandar no zap</a><button class="bt s" data-cp="${i}">Copiar</button></div></article>`; }).join("");
   document.querySelectorAll("[data-ca]").forEach(a => a.onclick = () => ev("zap", "tema " + C.temas[+a.dataset.ca].id));
-  document.querySelectorAll("[data-cp]").forEach(b => b.onclick = () => { const t = C.temas[+b.dataset.cp]; copiar(t.zap + "\n\nFonte: " + fl(t.fontes[0]), b); });
+  document.querySelectorAll("[data-cp]").forEach(b => b.onclick = () => copiar(MSG_TEMA[+b.dataset.cp], b));
 }
 
 

@@ -1,11 +1,11 @@
 {
- "gerado": "2026-10-08T18:45:00Z",
+ "gerado": "2026-10-10T01:00:00Z",
  "criterio": "Só entram temas com efeito comprovado em pesquisa (mudança de voto, maioria que inclui eleitor do adversário ou maior peso declarado na decisão do voto).",
  "temas": [
   {
    "id": "6x1",
    "titulo": "Escala 6x1",
-   "gancho": "Flávio diz que mais folga “não adianta”",
+   "gancho": "Senado vota o fim da 6x1 na quarta (14). Flávio quer jornada “negociada” com o patrão",
    "dor": "6x1",
    "prova": {
     "num": "68%",
@@ -14,9 +14,15 @@
     "u": "https://www.moneytimes.com.br/68-sao-a-favor-do-fim-da-escala-6x1-e-22-contra-mostra-pesquisa-genial-quaest-gaep/",
     "id": "cd7be2"
    },
-   "fato": "Questionado sobre o fim da 6x1, Flávio respondeu que mais folga “não adianta” com trabalhador endividado. A PEC em votação dá dois dias de descanso sem cortar salário.",
-   "pergunta": "Você trabalha seis dias por semana? Ele acha que folga não adianta.",
+   "fato": "Alcolumbre marcou para quarta (14/10) a votação em 1º turno da PEC que acaba com a 6x1: 40 horas, dois dias de folga, sem cortar salário. Flávio diz apoiar, mas defende uma alternativa em que a jornada é negociada entre patrão e empregado, e critica o avanço da votação (UOL). Antes, disse que mais folga “não adianta” com trabalhador endividado (O Globo).",
+   "pergunta": "Você trabalha seis dias por semana? Na quarta o Senado vota. Ele quer que seu patrão decida.",
    "fontes": [
+    {
+     "t": "Alcolumbre marca últimas sessões e votação do fim da 6x1 na quarta",
+     "f": "UOL",
+     "u": "https://economia.uol.com.br/noticias/redacao/2026/10/09/alcolumbre-6x1-senado.htm",
+     "id": "fa04b6"
+    },
     {
      "t": "Escala 6x1: Lula cobra posição de Flávio, e candidato do PL diz que mais folga 'não adianta' com trabalhador endividado",
      "f": "O GLOBO",
@@ -31,7 +37,7 @@
     }
    ],
    "videos_rx": "6\\s?x\\s?1|fim da escala|escala de trabalho",
-   "zap": "*Escala 6x1*\n68% dos brasileiros querem o fim da 6x1 (Quaest).\nPerguntaram ao Flávio. Resposta dele: mais folga \"não adianta\" com trabalhador endividado (O Globo).\nQuem trabalha 6 por 1 sabe de que lado ficar."
+   "zap": "*Fim da 6x1: o Senado vota na quarta (14)*\n68% dos brasileiros querem o fim da 6x1 (Quaest).\nFlávio diz que mais folga \"não adianta\" (O Globo) e quer a jornada negociada entre patrão e empregado (UOL).\nQuem trabalha 6 por 1 sabe de que lado ficar."
   },
   {
    "id": "constituicao",
@@ -72,8 +78,8 @@
   },
   {
    "id": "bolso",
-   "titulo": "Salário, imposto e custo de vida",
-   "gancho": "Promete aumento ao aposentado, mas não diz se mantém a regra",
+   "titulo": "Corte de gastos e aposentadoria",
+   "gancho": "Campanha fala em cortar R$ 190 bi e não diz de onde sai",
    "dor": "economia",
    "prova": {
     "num": "29% · 28%",
@@ -82,9 +88,15 @@
     "u": "https://viva.com.br/politica/impostos-e-empregos-pesam-mais-para-o-eleitor-mostra-indexabroadcast.html",
     "id": "126569"
    },
-   "fato": "Em 8/10, perguntado se reajusta a aposentadoria acima da inflação, Flávio disse “sim”. Mas a Folha revelou plano da equipe dele para desligar o reajuste de aposentadoria e BPC do ganho real do salário mínimo, e ele não diz se mantém essa ligação. A campanha nega o plano.",
-   "pergunta": "Ele promete aumento ao aposentado. Mantém o reajuste ligado ao salário mínimo? Isso ele não diz.",
+   "fato": "A economista da campanha, Daniella Marques, disse que o plano de Flávio prevê cortar 1,5% do PIB, cerca de R$ 190 bilhões (Gazeta do Povo). Em 8/10, perguntado se reajusta a aposentadoria acima da inflação, ele disse “sim”, mas a Folha revelou plano da equipe para desligar o reajuste de aposentadoria e BPC do ganho real do salário mínimo. A campanha nega o plano.",
+   "pergunta": "R$ 190 bilhões a menos no orçamento. Ele garante que não sai da sua aposentadoria?",
    "fontes": [
+    {
+     "t": "Daniella Marques diz que plano de Flávio Bolsonaro prevê corte de R$ 190 bi em gastos",
+     "f": "Gazeta do Povo",
+     "u": "https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-diz-que-plano-de-flavio-bolsonaro-preve-corte-de-r-190-bi-em-gastos/",
+     "id": "d3cc21"
+    },
     {
      "t": "Flávio nega corte em aposentadoria e cita reajuste acima da inflação",
      "f": "Poder360",
@@ -96,16 +108,10 @@
      "f": "Jornal do Comércio",
      "u": "https://www.jornaldocomercio.com/politica/2026/10/1266272-publicamente-flavio-bolsonaro-defende-reajuste-de-aposentadorias-acima-da-inflacao.html",
      "id": "fbccaa"
-    },
-    {
-     "t": "Daniella Marques diz que plano de Flávio Bolsonaro prevê corte de R$ 190 bi em gastos",
-     "f": "Gazeta do Povo",
-     "u": "https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-diz-que-plano-de-flavio-bolsonaro-preve-corte-de-r-190-bi-em-gastos/",
-     "id": "d3cc21"
     }
    ],
-   "videos_rx": "sal[áa]rio m[íi]nimo|aposentad|\\bbpc\\b|custo de vida|pre[çc]o d[ao]s? (comida|alimento)",
-   "zap": "*Aposentadoria e salário mínimo*\nFlávio prometeu reajustar a aposentadoria acima da inflação (Poder360).\nMas não diz se mantém o reajuste ligado ao salário mínimo, que é o que a equipe dele planejava desligar, segundo a Folha (Jornal do Comércio).\nE a campanha fala em cortar R$ 190 bilhões sem dizer de onde (Gazeta do Povo)."
+   "videos_rx": "corte de (gastos|r\\$)|tesour|bilh[õo]es|p[ée]-de-meia|or[çc]amento|sal[áa]rio m[íi]nimo|aposentad|\\bbpc\\b|farm[áa]cia popular|custo de vida",
+   "zap": "*Corte de R$ 190 bilhões*\nA campanha de Flávio fala em cortar 1,5% do PIB, cerca de R$ 190 bi (Gazeta do Povo), sem dizer de onde sai.\nEle promete aumento ao aposentado, mas a equipe dele planejava desligar o reajuste do salário mínimo, segundo a Folha (Jornal do Comércio).\nImposto e emprego são o que mais pesa no voto (Indexa)."
   }
  ]
 }

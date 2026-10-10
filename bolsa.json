@@ -1,8 +1,8 @@
 {
- "gerado": "2026-10-09T23:59:37Z",
+ "gerado": "2026-10-10T00:58:24Z",
  "horas": {
   "x": "2026-10-07T17:40:10Z",
-  "google": "2026-10-09T23:59:41Z"
+  "google": "2026-10-10T00:58:27Z"
  },
  "fita": [
   {
@@ -142,19 +142,6 @@
    "veiculo": "Google Trends"
   },
   {
-   "t": "ana elisa",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "50 mil+",
-   "var": "50 mil+",
-   "dir": "sobe",
-   "peso": 500.0,
-   "nota": "Alvo de ataque e ameaças na redes, Ana Elisa (PT) mobiliza PF e irá ao TSE",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=ana%20elisa",
-   "veiculo": "Google Trends"
-  },
-  {
    "t": "pablo marçal",
    "fonte": "Google",
    "lado": "disputa",
@@ -168,6 +155,19 @@
    "veiculo": "Google Trends"
   },
   {
+   "t": "ana elisa lula",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "10 mil+",
+   "var": "10 mil+",
+   "dir": "sobe",
+   "peso": 100.0,
+   "nota": "Nome forte de Lula para campanha online, deputada eleita Ana Elisa sofre ataques racistas nas redes",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=ana%20elisa%20lula",
+   "veiculo": "Google Trends"
+  },
+  {
    "t": "gasolina",
    "fonte": "Google",
    "lado": "disputa",
@@ -175,22 +175,22 @@
    "var": "10 mil+",
    "dir": "sobe",
    "peso": 100.0,
-   "nota": "Governo zera impostos federais sobre a gasolina a 16 dias do segundo turno",
+   "nota": "Governo Lula zera impostos federais sobre gasolina e dá subvenção extra ao diesel a 16 dias do segundo turno",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=gasolina",
    "veiculo": "Google Trends"
   },
   {
-   "t": "debate eleitoral",
+   "t": "record cancela debate",
    "fonte": "Google",
    "lado": "disputa",
    "valor": "5 mil+",
    "var": "5 mil+",
    "dir": "sobe",
    "peso": 50.0,
-   "nota": "Outro Canal: Record cancela debate após Lula e Flávio Bolsonaro não confirmarem presença",
+   "nota": "Record cancela debate entre Flávio Bolsonaro e Lula",
    "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=debate%20eleitoral",
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=record%20cancela%20debate",
    "veiculo": "Google Trends"
   },
   {
@@ -198,110 +198,110 @@
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "33,6%",
-   "var": "+9,8 pp",
+   "valor": "31,1%",
+   "var": "+5,8 pp",
    "dir": "sobe",
-   "peso": 33.61555101937446,
-   "fatia": 33.6
+   "peso": 31.101692337085225,
+   "fatia": 31.1
   },
   {
    "t": "Moraes",
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "27,1%",
-   "var": "-4,6 pp",
+   "valor": "25,1%",
+   "var": "-4,4 pp",
    "dir": "cai",
-   "peso": 27.137800726598172,
-   "fatia": 27.1
+   "peso": 25.08947425757967,
+   "fatia": 25.1
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,3%",
-   "var": "-1,0 pp",
+   "valor": "11,8%",
+   "var": "-2,7 pp",
    "dir": "cai",
-   "peso": 12.301568434619059,
-   "fatia": 12.3
+   "peso": 11.75064897471992,
+   "fatia": 11.8
   },
   {
-   "t": "Janja",
-   "k": "Janja",
+   "t": "Fake news",
+   "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "8,5%",
-   "var": "+0,1 pp",
-   "dir": "igual",
-   "peso": 8.51120681555501,
-   "fatia": 8.5
+   "valor": "7,1%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 7.085960173884227,
+   "fatia": 7.1
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "5,8%",
-   "var": "+2,0 pp",
+   "valor": "5,7%",
+   "var": "+0,7 pp",
    "dir": "sobe",
-   "peso": 5.817486696339844,
-   "fatia": 5.8
+   "peso": 5.719818571374674,
+   "fatia": 5.7
   },
   {
    "t": "Estudantes e ruas",
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "19,6%",
-   "var": "-2,8 pp",
-   "dir": "cai",
-   "peso": 19.64667247789705,
-   "fatia": 19.6
+   "valor": "24,1%",
+   "var": "+1,2 pp",
+   "dir": "sobe",
+   "peso": 24.115351809920842,
+   "fatia": 24.1
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "15,9%",
-   "var": "+3,2 pp",
+   "valor": "17,7%",
+   "var": "+5,2 pp",
    "dir": "sobe",
-   "peso": 15.853890712087502,
-   "fatia": 15.9
+   "peso": 17.725155415984357,
+   "fatia": 17.7
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "15,1%",
-   "var": "-2,1 pp",
+   "valor": "13,3%",
+   "var": "-1,9 pp",
    "dir": "cai",
-   "peso": 15.07641993261416,
-   "fatia": 15.1
+   "peso": 13.313428563840587,
+   "fatia": 13.3
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "12,2%",
-   "var": "-0,3 pp",
+   "valor": "10,6%",
+   "var": "-1,4 pp",
    "dir": "cai",
-   "peso": 12.229211733506833,
-   "fatia": 12.2
+   "peso": 10.608945773268152,
+   "fatia": 10.6
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "5,1%",
+   "valor": "5,0%",
    "var": "-4,0 pp",
    "dir": "cai",
-   "peso": 5.122493007607026,
-   "fatia": 5.1
+   "peso": 5.027510466904617,
+   "fatia": 5.0
   }
  ],
  "x": [
@@ -466,19 +466,6 @@
    "veiculo": "Google Trends"
   },
   {
-   "t": "ana elisa",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "50 mil+",
-   "var": "50 mil+",
-   "dir": "sobe",
-   "peso": 500.0,
-   "nota": "Alvo de ataque e ameaças na redes, Ana Elisa (PT) mobiliza PF e irá ao TSE",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=ana%20elisa",
-   "veiculo": "Google Trends"
-  },
-  {
    "t": "pablo marçal",
    "fonte": "Google",
    "lado": "disputa",
@@ -492,6 +479,19 @@
    "veiculo": "Google Trends"
   },
   {
+   "t": "ana elisa lula",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "10 mil+",
+   "var": "10 mil+",
+   "dir": "sobe",
+   "peso": 100.0,
+   "nota": "Nome forte de Lula para campanha online, deputada eleita Ana Elisa sofre ataques racistas nas redes",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=ana%20elisa%20lula",
+   "veiculo": "Google Trends"
+  },
+  {
    "t": "gasolina",
    "fonte": "Google",
    "lado": "disputa",
@@ -499,22 +499,35 @@
    "var": "10 mil+",
    "dir": "sobe",
    "peso": 100.0,
-   "nota": "Governo zera impostos federais sobre a gasolina a 16 dias do segundo turno",
+   "nota": "Governo Lula zera impostos federais sobre gasolina e dá subvenção extra ao diesel a 16 dias do segundo turno",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=gasolina",
    "veiculo": "Google Trends"
   },
   {
-   "t": "debate eleitoral",
+   "t": "record cancela debate",
    "fonte": "Google",
    "lado": "disputa",
    "valor": "5 mil+",
    "var": "5 mil+",
    "dir": "sobe",
    "peso": 50.0,
-   "nota": "Outro Canal: Record cancela debate após Lula e Flávio Bolsonaro não confirmarem presença",
+   "nota": "Record cancela debate entre Flávio Bolsonaro e Lula",
    "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=debate%20eleitoral",
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=record%20cancela%20debate",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "gilberto kassab",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "100+",
+   "var": "100+",
+   "dir": "sobe",
+   "peso": 1.0,
+   "nota": "Torço para que não haja caos institucional se Flávio vencer, diz Kassab",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=gilberto%20kassab",
    "veiculo": "Google Trends"
   }
  ],
@@ -524,55 +537,55 @@
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "19,6%",
-   "var": "-2,8 pp",
-   "dir": "cai",
-   "peso": 19.64667247789705,
-   "fatia": 19.6
+   "valor": "24,1%",
+   "var": "+1,2 pp",
+   "dir": "sobe",
+   "peso": 24.115351809920842,
+   "fatia": 24.1
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "15,9%",
-   "var": "+3,2 pp",
+   "valor": "17,7%",
+   "var": "+5,2 pp",
    "dir": "sobe",
-   "peso": 15.853890712087502,
-   "fatia": 15.9
+   "peso": 17.725155415984357,
+   "fatia": 17.7
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "15,1%",
-   "var": "-2,1 pp",
+   "valor": "13,3%",
+   "var": "-1,9 pp",
    "dir": "cai",
-   "peso": 15.07641993261416,
-   "fatia": 15.1
+   "peso": 13.313428563840587,
+   "fatia": 13.3
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "12,2%",
-   "var": "-0,3 pp",
+   "valor": "10,6%",
+   "var": "-1,4 pp",
    "dir": "cai",
-   "peso": 12.229211733506833,
-   "fatia": 12.2
+   "peso": 10.608945773268152,
+   "fatia": 10.6
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "5,1%",
+   "valor": "5,0%",
    "var": "-4,0 pp",
    "dir": "cai",
-   "peso": 5.122493007607026,
-   "fatia": 5.1
+   "peso": 5.027510466904617,
+   "fatia": 5.0
   },
   {
    "t": "Nikolas",
@@ -580,20 +593,31 @@
    "fonte": "Vídeos",
    "lado": "nossa",
    "valor": "3,8%",
-   "var": "-0,0 pp",
-   "dir": "igual",
-   "peso": 3.7570327741078735,
+   "var": "+0,5 pp",
+   "dir": "sobe",
+   "peso": 3.7870726758999522,
    "fatia": 3.8
   },
   {
-   "t": "Exército de Lula",
-   "k": "Exército de Lula",
+   "t": "Constituição",
+   "k": "Constituição",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "3,7%",
+   "var": "+0,7 pp",
+   "dir": "sobe",
+   "peso": 3.7360469741986946,
+   "fatia": 3.7
+  },
+  {
+   "t": "Fake news",
+   "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "nossa",
    "valor": "3,5%",
-   "var": "-0,1 pp",
-   "dir": "igual",
-   "peso": 3.4744049537281705,
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 3.4978358704364636,
    "fatia": 3.5
   },
   {
@@ -601,44 +625,11 @@
    "k": "Segurança e crime",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "3,4%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 3.4111767799121564,
-   "fatia": 3.4
-  },
-  {
-   "t": "Fake news",
-   "k": "Fake news",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "3,3%",
-   "var": "+1,1 pp",
-   "dir": "sobe",
-   "peso": 3.25008198060825,
-   "fatia": 3.3
-  },
-  {
-   "t": "Constituição",
-   "k": "Constituição",
-   "fonte": "Vídeos",
-   "lado": "nossa",
    "valor": "3,1%",
-   "var": "-0,3 pp",
-   "dir": "cai",
-   "peso": 3.1005849411351107,
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 3.0983953201602144,
    "fatia": 3.1
-  },
-  {
-   "t": "Centrão e apoios",
-   "k": "Centrão e apoios",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "2,5%",
-   "var": "+0,4 pp",
-   "dir": "sobe",
-   "peso": 2.47353292357645,
-   "fatia": 2.5
   },
   {
    "t": "Salário mínimo",
@@ -646,157 +637,224 @@
    "fonte": "Vídeos",
    "lado": "nossa",
    "valor": "2,4%",
-   "var": "-0,3 pp",
-   "dir": "cai",
-   "peso": 2.3627121280528747,
+   "var": "-0,1 pp",
+   "dir": "igual",
+   "peso": 2.4426078044955677,
    "fatia": 2.4
+  },
+  {
+   "t": "Centrão e apoios",
+   "k": "Centrão e apoios",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "2,4%",
+   "var": "+0,4 pp",
+   "dir": "sobe",
+   "peso": 2.4227321893902682,
+   "fatia": 2.4
+  },
+  {
+   "t": "Exército de Lula",
+   "k": "Exército de Lula",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "2,2%",
+   "var": "-1,3 pp",
+   "dir": "cai",
+   "peso": 2.168776349648434,
+   "fatia": 2.2
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "33,6%",
-   "var": "+9,8 pp",
+   "valor": "31,1%",
+   "var": "+5,8 pp",
    "dir": "sobe",
-   "peso": 33.61555101937446,
-   "fatia": 33.6
+   "peso": 31.101692337085225,
+   "fatia": 31.1
   },
   {
    "t": "Moraes",
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "27,1%",
-   "var": "-4,6 pp",
+   "valor": "25,1%",
+   "var": "-4,4 pp",
    "dir": "cai",
-   "peso": 27.137800726598172,
-   "fatia": 27.1
+   "peso": 25.08947425757967,
+   "fatia": 25.1
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,3%",
-   "var": "-1,0 pp",
+   "valor": "11,8%",
+   "var": "-2,7 pp",
    "dir": "cai",
-   "peso": 12.301568434619059,
-   "fatia": 12.3
-  },
-  {
-   "t": "Janja",
-   "k": "Janja",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "8,5%",
-   "var": "+0,1 pp",
-   "dir": "igual",
-   "peso": 8.51120681555501,
-   "fatia": 8.5
-  },
-  {
-   "t": "Nikolas",
-   "k": "Nikolas",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "5,8%",
-   "var": "+2,0 pp",
-   "dir": "sobe",
-   "peso": 5.817486696339844,
-   "fatia": 5.8
+   "peso": 11.75064897471992,
+   "fatia": 11.8
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "5,7%",
+   "valor": "7,1%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 5.744512665062376,
+   "peso": 7.085960173884227,
+   "fatia": 7.1
+  },
+  {
+   "t": "Nikolas",
+   "k": "Nikolas",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "5,7%",
+   "var": "+0,7 pp",
+   "dir": "sobe",
+   "peso": 5.719818571374674,
    "fatia": 5.7
+  },
+  {
+   "t": "Janja",
+   "k": "Janja",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "4,6%",
+   "var": "-5,0 pp",
+   "dir": "cai",
+   "peso": 4.610177564093438,
+   "fatia": 4.6
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "3,7%",
-   "var": "+0,7 pp",
+   "valor": "4,2%",
+   "var": "+1,8 pp",
    "dir": "sobe",
-   "peso": 3.671578582343999,
-   "fatia": 3.7
+   "peso": 4.247207696625504,
+   "fatia": 4.2
   },
   {
    "t": "EUA e Trump",
    "k": "EUA e Trump",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "1,8%",
-   "var": "-0,9 pp",
+   "valor": "2,7%",
+   "var": "-2,1 pp",
    "dir": "cai",
-   "peso": 1.8088387178557388,
-   "fatia": 1.8
+   "peso": 2.665008908296723,
+   "fatia": 2.7
+  },
+  {
+   "t": "Pesquisas",
+   "k": "Pesquisas",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "2,1%",
+   "var": "-0,2 pp",
+   "dir": "igual",
+   "peso": 2.065488413576259,
+   "fatia": 2.1
+  },
+  {
+   "t": "Bolsa Família",
+   "k": "Bolsa Família",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "1,9%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.9261667229928443,
+   "fatia": 1.9
+  },
+  {
+   "t": "Exército de Lula",
+   "k": "Exército de Lula",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "1,6%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.6101003596626675,
+   "fatia": 1.6
   },
   {
    "t": "Anistia",
    "k": "Anistia",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "1,4%",
+   "valor": "1,3%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.3914563422513406,
-   "fatia": 1.4
+   "peso": 1.294247955479392,
+   "fatia": 1.3
   }
  ],
- "historico": 6,
+ "historico": 7,
  "base_tiktok": {
   "nossa": {
    "Constituição": [
-    149.04,
-    1
-   ],
-   "Estudantes e ruas": [
-    18.52,
-    1
-   ],
-   "Escala 6x1": [
-    118.005,
+    216.009,
     2
    ],
+   "Estudantes e ruas": [
+    166.263,
+    2
+   ],
+   "Escala 6x1": [
+    113.307,
+    2
+   ],
+   "Centrão e apoios": [
+    11.832,
+    1
+   ],
    "Tortura e ditadura": [
-    11.18,
+    74.586,
     1
    ]
   },
   "deles": {
    "Janja": [
-    159.246,
+    155.065,
     3
    ],
    "Escala 6x1": [
-    114.63,
+    112.854,
     1
    ],
    "Moraes": [
-    103.074,
-    4
-   ],
-   "Nikolas": [
-    5.196,
+    54.259,
     1
    ],
-   "Fake news": [
-    12.207,
+   "Caso Master": [
+    94.72,
+    3
+   ],
+   "EUA e Trump": [
+    20.199,
+    1
+   ],
+   "Bolsa Família": [
+    14.107,
+    1
+   ],
+   "Pesquisas": [
+    67.713,
     1
    ]
   }
  },
  "regras": {
-  "nossa": "el[eê] ?n[aã]o|vote ?13|lula ?13|fandomscomlula|6x1|fora ?bolsonaro|fora ?fl[aá]vio|sem ?anistia|constitui|t[oô] com lula|sou lula|vote lula",
-  "deles": "fora ?lula|lula ?ladr|fl[aá]vio ?22|elesim|lula ?nunca|pt ?nunca|anistia ?j[aá]|tropa do (fl[aá]vio|01)|patriotas? pelo brasil|n[aã]o fech\\w* (a |minha |as |nossas )?igrejas?|fechar (as )?igrejas",
+  "nossa": "el[eê] ?n[aã]o|vote ?13|lula ?13|fandomscomlula|6x1|fora ?bolsonaro|fora ?fl[aá]vio|sem ?anistia|constitui|t[oô] com lula|sou lula|vote lula|somos todos ana elisa|vamos virar|lula ?contra ?a? ?barb[aá]rie|se fl[aá]vio vence|fl[aá]vion[aã]o",
+  "deles": "fora ?lula|lula ?ladr|fl[aá]vio ?22|elesim|lula ?nunca|pt ?nunca|anistia ?j[aá]|tropa do (fl[aá]vio|01)|patriotas? pelo brasil|n[aã]o fech\\w* (a |minha |as |nossas )?igrejas?|fechar (as )?igrejas|brasil acima de tudo|deus acima de todos|foi por fora",
   "ctx_deles": "nega apoi\\w* (a )?lula|(declara|revela|anuncia) voto em fl[aá]vio|apoi\\w* (a )?fl[aá]vio",
   "ctx_nossa": "(declara|revela|anuncia) voto em lula|vota em lula|apoi\\w* (a )?lula|ex[ée]rcito de lula"
  }
