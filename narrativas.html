@@ -992,7 +992,7 @@ function bolsa() {
     f.addEventListener("touchstart", on, { passive: true }); ["touchend", "touchcancel"].forEach(e => f.addEventListener(e, off)); }
 }
 let NOSSA = /el[eê] ?n[aã]o|vote ?13|lula ?13|fandomscomlula|6x1|fora ?bolsonaro|fora ?fl[aá]vio|sem ?anistia|constitui|t[oô] com lula|sou lula|vote lula|somos todos ana elisa|vamos virar|lula ?contra ?a? ?barb[aá]rie|se fl[aá]vio vence|fl[aá]vion[aã]o|\banitta\b|ludmilla|maya massafera|ana paula renault|l[aá]zaro ramos|ex[eé]rcito ?d[eo] ?lula/i;
-let DELES = /fora ?lula|lula ?ladr|fl[aá]vio ?22|elesim|lula ?nunca|pt ?nunca|anistia ?j[aá]|tropa do (fl[aá]vio|01)|patriotas? pelo brasil|n[aã]o fech\w* (a |minha |as |nossas )?igrejas?|fechar (as )?igrejas|brasil acima de tudo|deus acima de todos|foi por fora/i;
+let DELES = /fora ?lula|lula ?ladr|fl[aá]vio ?22|elesim|lula ?nunca|pt ?nunca|anistia ?j[aá]|tropa do (fl[aá]vio|01)|patriotas? pelo brasil|n[aã]o fech\w* (a |minha |as |nossas )?igrejas?|fechar (as )?igrejas|brasil acima de tudo|deus acima de todos|foi por fora|lula ?genocida|lula ?(é|e) ?vorcaro/i;
 let CTX_D = /nega apoi\w* (a )?lula|(declara|revela|anuncia) voto em fl[aá]vio|apoi\w* (a )?fl[aá]vio/i, CTX_N = /(declara|revela|anuncia) voto em lula|vota em lula|apoi\w* (a )?lula|ex[ée]rcito de lula/i;
 const semAc = t => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 // o próprio assunto vale mais que a manchete ligada a ele (mesma regra do scripts/17_bolsa.py)

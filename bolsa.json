@@ -1,119 +1,20 @@
 {
- "gerado": "2026-10-10T14:59:09Z",
+ "gerado": "2026-10-10T15:07:55Z",
  "horas": {
-  "x": "2026-10-07T17:40:10Z",
-  "google": "2026-10-10T14:59:12Z"
+  "x": "2026-10-10T14:03:12Z",
+  "google": "2026-10-10T15:07:58Z"
  },
  "fita": [
   {
-   "t": "Anitta",
+   "t": "#EXERCITODOLULAEMCAMPO",
    "fonte": "X",
-   "lado": "deles",
+   "lado": "nossa",
    "valor": "1º",
-   "var": "0",
-   "dir": "igual",
-   "peso": 29,
-   "nota": "Anitta nega apoiar Lula explicitamente no 2º turno e divide opiniões entre os fãs",
-   "cidades": 15
-  },
-  {
-   "t": "Ana Elisa",
-   "fonte": "X",
-   "lado": "disputa",
-   "valor": "2º",
-   "var": "0",
-   "dir": "igual",
-   "peso": 28,
-   "nota": "Ana Elisa diz que \"ódio pelo PT não deixa sociedade ver quem é Flávio\"",
-   "cidades": 15
-  },
-  {
-   "t": "ANCINE",
-   "fonte": "X",
-   "lado": "disputa",
-   "valor": "4º",
    "var": "+1",
    "dir": "sobe",
-   "peso": 28,
-   "nota": "Projeto do PL para extinguir Ancine volta a circular após eleições",
-   "cidades": 15
-  },
-  {
-   "t": "Constituição",
-   "fonte": "X",
-   "lado": "nossa",
-   "valor": "3º",
-   "var": "0",
-   "dir": "igual",
-   "peso": 27,
+   "peso": 31,
    "nota": "",
    "cidades": 15
-  },
-  {
-   "t": "maya massafera",
-   "fonte": "X",
-   "lado": "nossa",
-   "valor": "8º",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 27,
-   "nota": "Eleições 2026: Maya Massafera declara voto em Lula, do PT, no 2º turno: \"Não temos duas opções\"",
-   "cidades": 15
-  },
-  {
-   "t": "Kátia Abreu",
-   "fonte": "X",
-   "lado": "disputa",
-   "valor": "13º",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 22,
-   "nota": "",
-   "cidades": 1
-  },
-  {
-   "t": "Ludmilla",
-   "fonte": "X",
-   "lado": "nossa",
-   "valor": "10º",
-   "var": "0",
-   "dir": "igual",
-   "peso": 20,
-   "nota": "Eleições 2026: Ludmilla revela voto em Lula no 2º turno: “É desse lado que eu tô”",
-   "cidades": 15
-  },
-  {
-   "t": "Luiz Philippe",
-   "fonte": "X",
-   "lado": "disputa",
-   "valor": "9º",
-   "var": "-1",
-   "dir": "cai",
-   "peso": 19,
-   "nota": "",
-   "cidades": 15
-  },
-  {
-   "t": "Candelária",
-   "fonte": "X",
-   "lado": "nossa",
-   "valor": "19º",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 16,
-   "nota": "VÍDEO: Estudantes tomam a Candelária, no Rio, em apoio a Lula no 2º turno",
-   "cidades": 9
-  },
-  {
-   "t": "#EleNão",
-   "fonte": "X",
-   "lado": "nossa",
-   "valor": "6 de 15 cidades",
-   "var": "cidades",
-   "dir": "igual",
-   "peso": 9.0,
-   "nota": "",
-   "cidades": 6
   },
   {
    "t": "alexandre de moraes",
@@ -136,7 +37,7 @@
    "var": "10 mil+",
    "dir": "sobe",
    "peso": 100.0,
-   "nota": "Apuração RN eleições 2026: resultado para governador no 2º turno",
+   "nota": "Os números da disputa Flávio x Lula nas primeiras pesquisas do segundo turno",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=elei%C3%A7%C3%B5es%202026%20pesquisa%20segundo%20turno",
    "veiculo": "Google Trends"
@@ -175,7 +76,7 @@
    "var": "1 mil+",
    "dir": "sobe",
    "peso": 10.0,
-   "nota": "Mulher de Flávio diz que “inventar mentiras” é diferente de discordar",
+   "nota": "Fernanda Bolsonaro critica informações sobre Flávio",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=fernanda%20bolsonaro",
    "veiculo": "Google Trends"
@@ -185,244 +86,255 @@
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "32,3%",
-   "var": "+3,0 pp",
+   "valor": "31,6%",
+   "var": "+2,3 pp",
    "dir": "sobe",
-   "peso": 32.34075251955966,
-   "fatia": 32.3
+   "peso": 31.635465767222925,
+   "fatia": 31.6
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "15,8%",
-   "var": "-6,5 pp",
+   "valor": "15,6%",
+   "var": "-6,7 pp",
    "dir": "cai",
-   "peso": 15.841988441399032,
-   "fatia": 15.8
-  },
-  {
-   "t": "STF",
-   "k": "STF",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "15,3%",
-   "var": "+2,7 pp",
-   "dir": "sobe",
-   "peso": 15.28553190106143,
-   "fatia": 15.3
+   "peso": 15.611992868968114,
+   "fatia": 15.6
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,7%",
+   "valor": "15,6%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 12.653818937727133,
-   "fatia": 12.7
+   "peso": 15.589408006660435,
+   "fatia": 15.6
+  },
+  {
+   "t": "STF",
+   "k": "STF",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "13,7%",
+   "var": "+1,1 pp",
+   "dir": "sobe",
+   "peso": 13.726377708184783,
+   "fatia": 13.7
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,5%",
-   "var": "-1,2 pp",
+   "valor": "12,4%",
+   "var": "-1,3 pp",
    "dir": "cai",
-   "peso": 12.492894241618307,
-   "fatia": 12.5
+   "peso": 12.362233312698761,
+   "fatia": 12.4
   },
   {
    "t": "Estudantes e ruas",
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "28,9%",
-   "var": "-0,9 pp",
-   "dir": "cai",
-   "peso": 28.853351784317727,
-   "fatia": 28.9
+   "valor": "29,9%",
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 29.917456960065834,
+   "fatia": 29.9
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "14,1%",
-   "var": "+2,2 pp",
+   "valor": "14,4%",
+   "var": "+2,5 pp",
    "dir": "sobe",
-   "peso": 14.143538765553501,
-   "fatia": 14.1
+   "peso": 14.38294301408527,
+   "fatia": 14.4
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "13,3%",
-   "var": "+1,4 pp",
+   "valor": "12,9%",
+   "var": "+1,0 pp",
    "dir": "sobe",
-   "peso": 13.277299398680439,
-   "fatia": 13.3
+   "peso": 12.872460667936494,
+   "fatia": 12.9
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "11,9%",
-   "var": "+2,7 pp",
+   "valor": "10,7%",
+   "var": "+1,5 pp",
    "dir": "sobe",
-   "peso": 11.868024910706604,
-   "fatia": 11.9
+   "peso": 10.715815420684846,
+   "fatia": 10.7
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "7,5%",
-   "var": "+0,2 pp",
-   "dir": "igual",
-   "peso": 7.531618172257779,
-   "fatia": 7.5
+   "valor": "7,8%",
+   "var": "+0,5 pp",
+   "dir": "sobe",
+   "peso": 7.832153787510866,
+   "fatia": 7.8
   }
  ],
  "x": [
   {
-   "t": "Anitta",
+   "t": "#EXERCITODOLULAEMCAMPO",
+   "fonte": "X",
+   "lado": "nossa",
+   "valor": "1º",
+   "var": "+1",
+   "dir": "sobe",
+   "peso": 31,
+   "nota": "",
+   "cidades": 15
+  },
+  {
+   "t": "SE FLÁVIO VENCE VOCÊ PERDE",
+   "fonte": "X",
+   "lado": "nossa",
+   "valor": "pico 1º",
+   "var": "antes",
+   "dir": "igual",
+   "peso": 5.0,
+   "nota": "",
+   "visto": "2026-10-10T11:21:37Z"
+  },
+  {
+   "t": "O DO LULA FOI POR FORA",
    "fonte": "X",
    "lado": "deles",
-   "valor": "1º",
-   "var": "0",
+   "valor": "pico 1º",
+   "var": "antes",
    "dir": "igual",
-   "peso": 29,
-   "nota": "Anitta nega apoiar Lula explicitamente no 2º turno e divide opiniões entre os fãs",
-   "cidades": 15
+   "peso": 5.0,
+   "nota": "",
+   "visto": "2026-10-10T11:21:37Z"
+  },
+  {
+   "t": "Cleitinho",
+   "fonte": "X",
+   "lado": "disputa",
+   "valor": "pico 2º",
+   "var": "antes",
+   "dir": "igual",
+   "peso": 4.75,
+   "nota": "",
+   "visto": "2026-10-10T12:16:12Z"
   },
   {
    "t": "Ana Elisa",
    "fonte": "X",
    "lado": "disputa",
-   "valor": "2º",
-   "var": "0",
+   "valor": "pico 2º",
+   "var": "antes",
    "dir": "igual",
-   "peso": 28,
-   "nota": "Ana Elisa diz que \"ódio pelo PT não deixa sociedade ver quem é Flávio\"",
-   "cidades": 15
+   "peso": 4.75,
+   "nota": "",
+   "visto": "2026-10-10T11:21:37Z"
   },
   {
-   "t": "Constituição",
+   "t": "Vorcaro",
+   "fonte": "X",
+   "lado": "disputa",
+   "valor": "pico 2º",
+   "var": "antes",
+   "dir": "igual",
+   "peso": 4.75,
+   "nota": "",
+   "visto": "2026-10-10T11:21:37Z"
+  },
+  {
+   "t": "BRASIL ACIMA DE TUDO",
+   "fonte": "X",
+   "lado": "deles",
+   "valor": "pico 2º",
+   "var": "antes",
+   "dir": "igual",
+   "peso": 4.75,
+   "nota": "",
+   "visto": "2026-10-10T11:21:37Z"
+  },
+  {
+   "t": "#AcordaBrasil",
+   "fonte": "X",
+   "lado": "disputa",
+   "valor": "pico 3º",
+   "var": "antes",
+   "dir": "igual",
+   "peso": 4.5,
+   "nota": "",
+   "visto": "2026-10-10T11:21:37Z"
+  },
+  {
+   "t": "LULA VAMOS VIRAR",
    "fonte": "X",
    "lado": "nossa",
-   "valor": "3º",
-   "var": "0",
+   "valor": "pico 4º",
+   "var": "antes",
    "dir": "igual",
-   "peso": 27,
+   "peso": 4.25,
    "nota": "",
-   "cidades": 15
+   "visto": "2026-10-10T12:16:12Z"
   },
   {
-   "t": "ANCINE",
+   "t": "LULA GENOCIDA",
    "fonte": "X",
    "lado": "disputa",
-   "valor": "4º",
-   "var": "+1",
-   "dir": "sobe",
-   "peso": 28,
-   "nota": "Projeto do PL para extinguir Ancine volta a circular após eleições",
-   "cidades": 15
+   "valor": "pico 4º",
+   "var": "antes",
+   "dir": "igual",
+   "peso": 4.25,
+   "nota": "",
+   "visto": "2026-10-10T08:45:58Z"
   },
   {
-   "t": "maya massafera",
+   "t": "SOMOS TODOS ANA ELISA",
    "fonte": "X",
    "lado": "nossa",
-   "valor": "8º",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 27,
-   "nota": "Eleições 2026: Maya Massafera declara voto em Lula, do PT, no 2º turno: \"Não temos duas opções\"",
-   "cidades": 15
-  },
-  {
-   "t": "Luiz Philippe",
-   "fonte": "X",
-   "lado": "disputa",
-   "valor": "9º",
-   "var": "-1",
-   "dir": "cai",
-   "peso": 19,
-   "nota": "",
-   "cidades": 15
-  },
-  {
-   "t": "Ludmilla",
-   "fonte": "X",
-   "lado": "nossa",
-   "valor": "10º",
-   "var": "0",
+   "valor": "pico 5º",
+   "var": "antes",
    "dir": "igual",
-   "peso": 20,
-   "nota": "Eleições 2026: Ludmilla revela voto em Lula no 2º turno: “É desse lado que eu tô”",
-   "cidades": 15
-  },
-  {
-   "t": "Kátia Abreu",
-   "fonte": "X",
-   "lado": "disputa",
-   "valor": "13º",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 22,
+   "peso": 4.0,
    "nota": "",
-   "cidades": 1
+   "visto": "2026-10-10T00:51:40Z"
   },
   {
-   "t": "Fake News",
+   "t": "PF e PGR",
    "fonte": "X",
    "lado": "disputa",
-   "valor": "17º",
-   "var": "-3",
-   "dir": "cai",
-   "peso": 7,
-   "nota": "",
-   "cidades": 14
-  },
-  {
-   "t": "Candelária",
-   "fonte": "X",
-   "lado": "nossa",
-   "valor": "19º",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 16,
-   "nota": "VÍDEO: Estudantes tomam a Candelária, no Rio, em apoio a Lula no 2º turno",
-   "cidades": 9
-  },
-  {
-   "t": "Janja",
-   "fonte": "X",
-   "lado": "disputa",
-   "valor": "2 de 15 cidades",
-   "var": "cidades",
+   "valor": "pico 5º",
+   "var": "antes",
    "dir": "igual",
-   "peso": 3.0,
+   "peso": 4.0,
    "nota": "",
-   "cidades": 2
+   "visto": "2026-10-09T22:09:39Z"
   },
   {
    "t": "#EleNão",
    "fonte": "X",
    "lado": "nossa",
-   "valor": "6 de 15 cidades",
-   "var": "cidades",
+   "valor": "pico 6º",
+   "var": "antes",
    "dir": "igual",
-   "peso": 9.0,
+   "peso": 3.75,
    "nota": "",
-   "cidades": 6
+   "visto": "2026-10-10T11:21:37Z"
   }
  ],
  "google": [
@@ -447,7 +359,7 @@
    "var": "10 mil+",
    "dir": "sobe",
    "peso": 100.0,
-   "nota": "Apuração RN eleições 2026: resultado para governador no 2º turno",
+   "nota": "Os números da disputa Flávio x Lula nas primeiras pesquisas do segundo turno",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=elei%C3%A7%C3%B5es%202026%20pesquisa%20segundo%20turno",
    "veiculo": "Google Trends"
@@ -486,7 +398,7 @@
    "var": "1 mil+",
    "dir": "sobe",
    "peso": 10.0,
-   "nota": "Mulher de Flávio diz que “inventar mentiras” é diferente de discordar",
+   "nota": "Fernanda Bolsonaro critica informações sobre Flávio",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=fernanda%20bolsonaro",
    "veiculo": "Google Trends"
@@ -498,88 +410,88 @@
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "28,9%",
-   "var": "-0,9 pp",
-   "dir": "cai",
-   "peso": 28.853351784317727,
-   "fatia": 28.9
+   "valor": "29,9%",
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 29.917456960065834,
+   "fatia": 29.9
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "14,1%",
-   "var": "+2,2 pp",
+   "valor": "14,4%",
+   "var": "+2,5 pp",
    "dir": "sobe",
-   "peso": 14.143538765553501,
-   "fatia": 14.1
+   "peso": 14.38294301408527,
+   "fatia": 14.4
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "13,3%",
-   "var": "+1,4 pp",
+   "valor": "12,9%",
+   "var": "+1,0 pp",
    "dir": "sobe",
-   "peso": 13.277299398680439,
-   "fatia": 13.3
+   "peso": 12.872460667936494,
+   "fatia": 12.9
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "11,9%",
-   "var": "+2,7 pp",
+   "valor": "10,7%",
+   "var": "+1,5 pp",
    "dir": "sobe",
-   "peso": 11.868024910706604,
-   "fatia": 11.9
+   "peso": 10.715815420684846,
+   "fatia": 10.7
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "7,5%",
-   "var": "+0,2 pp",
-   "dir": "igual",
-   "peso": 7.531618172257779,
-   "fatia": 7.5
+   "valor": "7,8%",
+   "var": "+0,5 pp",
+   "dir": "sobe",
+   "peso": 7.832153787510866,
+   "fatia": 7.8
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "6,2%",
-   "var": "+0,9 pp",
+   "valor": "5,6%",
+   "var": "+0,3 pp",
    "dir": "sobe",
-   "peso": 6.239612913530233,
-   "fatia": 6.2
-  },
-  {
-   "t": "Fake news",
-   "k": "Fake news",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "4,3%",
-   "var": "-0,1 pp",
-   "dir": "igual",
-   "peso": 4.278212061254006,
-   "fatia": 4.3
+   "peso": 5.580129790026269,
+   "fatia": 5.6
   },
   {
    "t": "Salário mínimo",
    "k": "Salário mínimo",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "4,2%",
-   "var": "+1,5 pp",
+   "valor": "4,5%",
+   "var": "+1,8 pp",
    "dir": "sobe",
-   "peso": 4.1978025780790444,
-   "fatia": 4.2
+   "peso": 4.500748400849402,
+   "fatia": 4.5
+  },
+  {
+   "t": "Fake news",
+   "k": "Fake news",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "4,4%",
+   "var": "-0,0 pp",
+   "dir": "igual",
+   "peso": 4.355765740487067,
+   "fatia": 4.4
   },
   {
    "t": "Segurança e crime",
@@ -589,7 +501,7 @@
    "valor": "2,2%",
    "var": "-0,2 pp",
    "dir": "igual",
-   "peso": 2.1781377933897894,
+   "peso": 2.2170077457557276,
    "fatia": 2.2
   },
   {
@@ -597,11 +509,11 @@
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "1,7%",
+   "valor": "1,8%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.7429109506440599,
-   "fatia": 1.7
+   "peso": 1.7753135152673658,
+   "fatia": 1.8
   },
   {
    "t": "Constituição",
@@ -611,7 +523,7 @@
    "valor": "1,7%",
    "var": "-1,4 pp",
    "dir": "cai",
-   "peso": 1.6658355757948207,
+   "peso": 1.7433011783796863,
    "fatia": 1.7
   },
   {
@@ -622,7 +534,7 @@
    "valor": "1,6%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.5803191234319625,
+   "peso": 1.6220549869729712,
    "fatia": 1.6
   },
   {
@@ -630,88 +542,77 @@
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "32,3%",
-   "var": "+3,0 pp",
+   "valor": "31,6%",
+   "var": "+2,3 pp",
    "dir": "sobe",
-   "peso": 32.34075251955966,
-   "fatia": 32.3
+   "peso": 31.635465767222925,
+   "fatia": 31.6
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "15,8%",
-   "var": "-6,5 pp",
+   "valor": "15,6%",
+   "var": "-6,7 pp",
    "dir": "cai",
-   "peso": 15.841988441399032,
-   "fatia": 15.8
-  },
-  {
-   "t": "STF",
-   "k": "STF",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "15,3%",
-   "var": "+2,7 pp",
-   "dir": "sobe",
-   "peso": 15.28553190106143,
-   "fatia": 15.3
+   "peso": 15.611992868968114,
+   "fatia": 15.6
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,7%",
+   "valor": "15,6%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 12.653818937727133,
-   "fatia": 12.7
+   "peso": 15.589408006660435,
+   "fatia": 15.6
+  },
+  {
+   "t": "STF",
+   "k": "STF",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "13,7%",
+   "var": "+1,1 pp",
+   "dir": "sobe",
+   "peso": 13.726377708184783,
+   "fatia": 13.7
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,5%",
-   "var": "-1,2 pp",
+   "valor": "12,4%",
+   "var": "-1,3 pp",
    "dir": "cai",
-   "peso": 12.492894241618307,
-   "fatia": 12.5
-  },
-  {
-   "t": "EUA e Trump",
-   "k": "EUA e Trump",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "4,2%",
-   "var": "+1,1 pp",
-   "dir": "sobe",
-   "peso": 4.234007087106131,
-   "fatia": 4.2
+   "peso": 12.362233312698761,
+   "fatia": 12.4
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "3,1%",
-   "var": "-0,6 pp",
-   "dir": "cai",
-   "peso": 3.13328850132287,
-   "fatia": 3.1
+   "valor": "4,3%",
+   "var": "+0,6 pp",
+   "dir": "sobe",
+   "peso": 4.279136668680937,
+   "fatia": 4.3
   },
   {
-   "t": "Pesquisas",
-   "k": "Pesquisas",
+   "t": "EUA e Trump",
+   "k": "EUA e Trump",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "2,5%",
-   "var": "-4,7 pp",
-   "dir": "cai",
-   "peso": 2.546248850535951,
-   "fatia": 2.5
+   "valor": "3,9%",
+   "var": "+0,8 pp",
+   "dir": "sobe",
+   "peso": 3.910054150677457,
+   "fatia": 3.9
   },
   {
    "t": "Impeachment de ministro",
@@ -721,63 +622,78 @@
    "valor": "1,5%",
    "var": "-0,0 pp",
    "dir": "igual",
-   "peso": 1.4714695196694856,
+   "peso": 1.4529956267512985,
    "fatia": 1.5
+  },
+  {
+   "t": "Pesquisas",
+   "k": "Pesquisas",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "1,4%",
+   "var": "-5,8 pp",
+   "dir": "cai",
+   "peso": 1.4323358901552836,
+   "fatia": 1.4
   }
  ],
- "historico": 22,
+ "historico": 21,
  "base_tiktok": {
   "nossa": {
    "Constituição": [
-    17.493,
+    17.407,
     1
    ],
    "Tortura e ditadura": [
-    17.493,
+    17.407,
     1
    ],
    "Estudantes e ruas": [
-    397.81,
-    6
+    428.636,
+    8
    ],
-   "Pesquisas": [
-    35.623,
-    1
-   ],
-   "Nikolas": [
-    35.623,
+   "Vitória e virada": [
+    13.229,
     1
    ],
    "Escala 6x1": [
-    150.243,
-    4
+    146.156,
+    3
    ],
    "Janja": [
-    39.887,
+    39.787,
     1
    ]
   },
   "deles": {
-   "Moraes": [
-    142.615,
-    1
-   ],
    "Nikolas": [
-    194.828,
-    1
+    297.001,
+    3
+   ],
+   "Escala 6x1": [
+    39.238,
+    2
    ],
    "EUA e Trump": [
-    17.916,
+    8.66,
+    1
+   ],
+   "Moraes": [
+    153.567,
+    2
+   ],
+   "Segurança e crime": [
+    26.889,
     1
    ],
    "Pesquisas": [
-    44.396,
+    8.307,
     1
    ]
   }
  },
  "regras": {
-  "nossa": "el[eê] ?n[aã]o|vote ?13|lula ?13|fandomscomlula|6x1|fora ?bolsonaro|fora ?fl[aá]vio|sem ?anistia|constitui|t[oô] com lula|sou lula|vote lula|somos todos ana elisa|vamos virar|lula ?contra ?a? ?barb[aá]rie|se fl[aá]vio vence|fl[aá]vion[aã]o",
+  "nossa": "el[eê] ?n[aã]o|vote ?13|lula ?13|fandomscomlula|6x1|fora ?bolsonaro|fora ?fl[aá]vio|sem ?anistia|constitui|t[oô] com lula|sou lula|vote lula|somos todos ana elisa|vamos virar|lula ?contra ?a? ?barb[aá]rie|se fl[aá]vio vence|fl[aá]vion[aã]o|\\banitta\\b|ludmilla|maya massafera|ana paula renault|l[aá]zaro ramos|ex[eé]rcito ?d[eo] ?lula",
   "deles": "fora ?lula|lula ?ladr|fl[aá]vio ?22|elesim|lula ?nunca|pt ?nunca|anistia ?j[aá]|tropa do (fl[aá]vio|01)|patriotas? pelo brasil|n[aã]o fech\\w* (a |minha |as |nossas )?igrejas?|fechar (as )?igrejas|brasil acima de tudo|deus acima de todos|foi por fora",
   "ctx_deles": "nega apoi\\w* (a )?lula|(declara|revela|anuncia) voto em fl[aá]vio|apoi\\w* (a )?fl[aá]vio",
   "ctx_nossa": "(declara|revela|anuncia) voto em lula|vota em lula|apoi\\w* (a )?lula|ex[ée]rcito de lula"
