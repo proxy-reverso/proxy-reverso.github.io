@@ -1242,8 +1242,15 @@ function doMonitor() {
 const CONVERTE = { pautas: 1.25, bolsonaro: 1.2, lula: 1, famosos: 0.7, ruas: 0.75 };  // famosos 0,7: com alcance parecido, a pauta fica na frente (09/10/2026)
 const forcaIdade = v => { const h = idade(v); return h <= 12 ? 1 : Math.max(0.4, 1 - (h - 12) / 60); };
 // famosa que fala com o eleitor de direita (Anitta, 09/10/2026): fica nos hits com o peso de pauta, a pedido
+// 1 milhão de views no Instagram além do TikTok: peso acima de qualquer famoso, abaixo de pauta muito maior
 const HIT_FIXO = /\banitta\b/i;
-const nota = v => (v.ordem ?? v.vph ?? 0) * forcaIdade(v) * (HIT_FIXO.test(v.titulo || "") ? CONVERTE.pautas : CONVERTE[v.cat] ?? 1);
+// Bora Lula (curadoria parceira, /api/boralula): não copia a lista, só dá um empurrão (x1,2) no vídeo do nosso
+// ranking que trata do mesmo assunto que um destaque ou um material muito usado lá (2 palavras de conteúdo em comum)
+let BORA = [];
+const PARE_B = new Set("sobre contra quando porque pelos pelas para como mais menos esse essa isso voce voto votar flavio bolsonaro lula presidente brasil governo video".split(" "));
+const palavrasB = t => new Set(semAc(t || "").split(/[^a-z0-9]+/).filter(w => w.length >= 5 && !PARE_B.has(w)));
+const naBora = v => { const p = palavrasB(v.titulo); return BORA.some(b => { let n = 0; b.forEach(w => { if (p.has(w)) n++; }); return n >= 2; }); };
+const nota = v => (v.ordem ?? v.vph ?? 0) * forcaIdade(v) * (HIT_FIXO.test(v.titulo || "") ? 2.2 : CONVERTE[v.cat] ?? 1) * (naBora(v) ? 1.2 : 1);
 const atuais = (ref = false) => videos.concat(doMonitor()).filter(v => !IMPRENSA.test(v.fonte || "") && !doOutroLado(v.fonte, v.titulo) && idade(v) <= 48 && refFixo(v) === ref)
   .sort((a, b) => nota(b) - nota(a));
 const medidoH = v => { const t = Date.parse(v.coletado || ""); return isNaN(t) ? null : Math.max(0, (Date.now() - t) / 36e5); };
@@ -1289,6 +1296,11 @@ document.getElementById("mais").onclick = () => { limite += 12; desenhaVideos();
 
 /* ---------- Fura Bolha (iniciativa parceira): entra em "Pra mandar agora"; /api/furabolha lê a lista, contagem e vídeo vêm direto de lá ---------- */
 let FB = [], FB_STATS = {};
+if (CLOUDFLARE) fetch("/api/boralula").then(r => r.ok ? r.json() : Promise.reject()).then(d => {
+  BORA = (d.itens || []).filter(i => i.destaque || i.uso >= 10).map(i => palavrasB(i.rotulo)).filter(p => p.size >= 2);
+  if (videos.length) desenhaVideos();
+  if (C) contra();
+}).catch(() => {});
 const minutos = s => s >= 60 ? `${Math.round(s / 60)} min` : `${s} s`;
 if (CLOUDFLARE) fetch("/api/furabolha").then(r => r.ok ? r.json() : Promise.reject()).then(d => {
   // o link que circula é o da página do vídeo no Fura Bolha (?de=zap: lá conta como compartilhamento)
