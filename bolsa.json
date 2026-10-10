@@ -1,8 +1,8 @@
 {
- "gerado": "2026-10-10T01:10:04Z",
+ "gerado": "2026-10-10T01:53:52Z",
  "horas": {
   "x": "2026-10-07T17:40:10Z",
-  "google": "2026-10-10T01:10:17Z"
+  "google": "2026-10-10T01:53:59Z"
  },
  "fita": [
   {
@@ -123,7 +123,7 @@
    "var": "200 mil+",
    "dir": "sobe",
    "peso": 2000.0,
-   "nota": "Em áudio, Daniel Vorcaro descreve reação de investigador da PGR ao ouvir sobre Lula",
+   "nota": "Edson Fachin manda PF investigar ameaças contra Flávio Dino",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=veja",
    "veiculo": "Google Trends"
@@ -139,19 +139,6 @@
    "nota": "Pesquisa com Lula e Flávio para segundo turno: veja últimos números recentes",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=pesquisas%20segundo%20turno%202026",
-   "veiculo": "Google Trends"
-  },
-  {
-   "t": "pablo marçal",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "50 mil+",
-   "var": "50 mil+",
-   "dir": "sobe",
-   "peso": 500.0,
-   "nota": "PT vai ao TSE para cassar a chapa de Flávio Bolsonaro por esquema com Pablo Marçal",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=pablo%20mar%C3%A7al",
    "veiculo": "Google Trends"
   },
   {
@@ -184,124 +171,137 @@
    "t": "record cancela debate",
    "fonte": "Google",
    "lado": "disputa",
-   "valor": "5 mil+",
-   "var": "5 mil+",
+   "valor": "10 mil+",
+   "var": "10 mil+",
    "dir": "sobe",
-   "peso": 50.0,
+   "peso": 100.0,
    "nota": "Record cancela debate entre Flávio Bolsonaro e Lula",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=record%20cancela%20debate",
    "veiculo": "Google Trends"
   },
   {
-   "t": "Caso Master",
-   "k": "Caso Master",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "31,5%",
-   "var": "+6,2 pp",
+   "t": "gilberto kassab",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "100+",
+   "var": "100+",
    "dir": "sobe",
-   "peso": 31.530913381883856,
-   "fatia": 31.5
+   "peso": 1.0,
+   "nota": "Torço para que não haja caos institucional se Flávio vencer, diz Kassab",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=gilberto%20kassab",
+   "veiculo": "Google Trends"
   },
   {
    "t": "Moraes",
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "27,4%",
-   "var": "-2,1 pp",
+   "valor": "26,0%",
+   "var": "-3,0 pp",
    "dir": "cai",
-   "peso": 27.388747573171546,
-   "fatia": 27.4
+   "peso": 26.034485041916238,
+   "fatia": 26.0
+  },
+  {
+   "t": "Caso Master",
+   "k": "Caso Master",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "20,8%",
+   "var": "+3,3 pp",
+   "dir": "sobe",
+   "peso": 20.804835861671535,
+   "fatia": 20.8
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,8%",
-   "var": "-1,7 pp",
+   "valor": "9,9%",
+   "var": "-3,8 pp",
    "dir": "cai",
-   "peso": 12.786408533901902,
-   "fatia": 12.8
+   "peso": 9.925877762275228,
+   "fatia": 9.9
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "8,4%",
+   "valor": "8,9%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 8.448320471261834,
-   "fatia": 8.4
+   "peso": 8.92538252467865,
+   "fatia": 8.9
   },
   {
-   "t": "Nikolas",
-   "k": "Nikolas",
+   "t": "Pesquisas",
+   "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "6,4%",
-   "var": "+1,4 pp",
+   "valor": "8,7%",
+   "var": "+3,7 pp",
    "dir": "sobe",
-   "peso": 6.358948972857724,
-   "fatia": 6.4
+   "peso": 8.675716117759585,
+   "fatia": 8.7
   },
   {
    "t": "Estudantes e ruas",
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "22,9%",
-   "var": "+0,0 pp",
-   "dir": "igual",
-   "peso": 22.94961267087385,
-   "fatia": 22.9
+   "valor": "29,5%",
+   "var": "+11,8 pp",
+   "dir": "sobe",
+   "peso": 29.536342674960842,
+   "fatia": 29.5
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "18,4%",
+   "valor": "14,9%",
    "var": "+5,9 pp",
    "dir": "sobe",
-   "peso": 18.36408139061401,
-   "fatia": 18.4
+   "peso": 14.926745233703468,
+   "fatia": 14.9
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "13,9%",
-   "var": "-1,3 pp",
+   "valor": "12,5%",
+   "var": "-4,5 pp",
    "dir": "cai",
-   "peso": 13.944674794806136,
-   "fatia": 13.9
+   "peso": 12.47922769736378,
+   "fatia": 12.5
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "11,1%",
-   "var": "-0,9 pp",
+   "valor": "9,8%",
+   "var": "-3,2 pp",
    "dir": "cai",
-   "peso": 11.074187003895927,
-   "fatia": 11.1
+   "peso": 9.778458702352243,
+   "fatia": 9.8
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "5,1%",
-   "var": "-3,9 pp",
+   "valor": "6,9%",
+   "var": "-3,1 pp",
    "dir": "cai",
-   "peso": 5.148133550239256,
-   "fatia": 5.1
+   "peso": 6.908020326664101,
+   "fatia": 6.9
   }
  ],
  "x": [
@@ -447,7 +447,7 @@
    "var": "200 mil+",
    "dir": "sobe",
    "peso": 2000.0,
-   "nota": "Em áudio, Daniel Vorcaro descreve reação de investigador da PGR ao ouvir sobre Lula",
+   "nota": "Edson Fachin manda PF investigar ameaças contra Flávio Dino",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=veja",
    "veiculo": "Google Trends"
@@ -463,19 +463,6 @@
    "nota": "Pesquisa com Lula e Flávio para segundo turno: veja últimos números recentes",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=pesquisas%20segundo%20turno%202026",
-   "veiculo": "Google Trends"
-  },
-  {
-   "t": "pablo marçal",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "50 mil+",
-   "var": "50 mil+",
-   "dir": "sobe",
-   "peso": 500.0,
-   "nota": "PT vai ao TSE para cassar a chapa de Flávio Bolsonaro por esquema com Pablo Marçal",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=pablo%20mar%C3%A7al",
    "veiculo": "Google Trends"
   },
   {
@@ -508,10 +495,10 @@
    "t": "record cancela debate",
    "fonte": "Google",
    "lado": "disputa",
-   "valor": "5 mil+",
-   "var": "5 mil+",
+   "valor": "10 mil+",
+   "var": "10 mil+",
    "dir": "sobe",
-   "peso": 50.0,
+   "peso": 100.0,
    "nota": "Record cancela debate entre Flávio Bolsonaro e Lula",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=record%20cancela%20debate",
@@ -537,198 +524,220 @@
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "22,9%",
-   "var": "+0,0 pp",
-   "dir": "igual",
-   "peso": 22.94961267087385,
-   "fatia": 22.9
+   "valor": "29,5%",
+   "var": "+11,8 pp",
+   "dir": "sobe",
+   "peso": 29.536342674960842,
+   "fatia": 29.5
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "18,4%",
+   "valor": "14,9%",
    "var": "+5,9 pp",
    "dir": "sobe",
-   "peso": 18.36408139061401,
-   "fatia": 18.4
+   "peso": 14.926745233703468,
+   "fatia": 14.9
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "13,9%",
-   "var": "-1,3 pp",
+   "valor": "12,5%",
+   "var": "-4,5 pp",
    "dir": "cai",
-   "peso": 13.944674794806136,
-   "fatia": 13.9
+   "peso": 12.47922769736378,
+   "fatia": 12.5
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "11,1%",
-   "var": "-0,9 pp",
+   "valor": "9,8%",
+   "var": "-3,2 pp",
    "dir": "cai",
-   "peso": 11.074187003895927,
-   "fatia": 11.1
+   "peso": 9.778458702352243,
+   "fatia": 9.8
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "5,1%",
-   "var": "-3,9 pp",
+   "valor": "6,9%",
+   "var": "-3,1 pp",
    "dir": "cai",
-   "peso": 5.148133550239256,
-   "fatia": 5.1
-  },
-  {
-   "t": "Nikolas",
-   "k": "Nikolas",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "4,0%",
-   "var": "+0,7 pp",
-   "dir": "sobe",
-   "peso": 3.9820966585351716,
-   "fatia": 4.0
+   "peso": 6.908020326664101,
+   "fatia": 6.9
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "3,8%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 3.7555925243520965,
-   "fatia": 3.8
+   "valor": "3,9%",
+   "var": "+1,7 pp",
+   "dir": "sobe",
+   "peso": 3.857748278903509,
+   "fatia": 3.9
+  },
+  {
+   "t": "Nikolas",
+   "k": "Nikolas",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "3,9%",
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 3.8520255601297717,
+   "fatia": 3.9
   },
   {
    "t": "Segurança e crime",
    "k": "Segurança e crime",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "3,3%",
-   "var": "+0,3 pp",
-   "dir": "sobe",
-   "peso": 3.2793424659027224,
-   "fatia": 3.3
+   "valor": "2,8%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 2.84515426271595,
+   "fatia": 2.8
+  },
+  {
+   "t": "Salário mínimo",
+   "k": "Salário mínimo",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "2,4%",
+   "var": "-0,8 pp",
+   "dir": "cai",
+   "peso": 2.4005148035367987,
+   "fatia": 2.4
   },
   {
    "t": "Constituição",
    "k": "Constituição",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,9%",
-   "var": "-0,1 pp",
-   "dir": "igual",
-   "peso": 2.9024578300077386,
-   "fatia": 2.9
-  },
-  {
-   "t": "Salário mínimo",
-   "k": "Salário mínimo",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "2,6%",
-   "var": "+0,1 pp",
-   "dir": "igual",
-   "peso": 2.5954264245392307,
-   "fatia": 2.6
+   "valor": "2,3%",
+   "var": "-2,9 pp",
+   "dir": "cai",
+   "peso": 2.2885284913702884,
+   "fatia": 2.3
   },
   {
    "t": "Centrão e apoios",
    "k": "Centrão e apoios",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,4%",
-   "var": "+0,4 pp",
-   "dir": "sobe",
-   "peso": 2.361101606280491,
-   "fatia": 2.4
+   "valor": "2,2%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 2.2464927972861517,
+   "fatia": 2.2
   },
   {
    "t": "Exército de Lula",
    "k": "Exército de Lula",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,3%",
-   "var": "-1,2 pp",
-   "dir": "cai",
-   "peso": 2.254097030414533,
-   "fatia": 2.3
-  },
-  {
-   "t": "Caso Master",
-   "k": "Caso Master",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "31,5%",
-   "var": "+6,2 pp",
-   "dir": "sobe",
-   "peso": 31.530913381883856,
-   "fatia": 31.5
+   "valor": "1,9%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.9241427433517482,
+   "fatia": 1.9
   },
   {
    "t": "Moraes",
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "27,4%",
-   "var": "-2,1 pp",
+   "valor": "26,0%",
+   "var": "-3,0 pp",
    "dir": "cai",
-   "peso": 27.388747573171546,
-   "fatia": 27.4
+   "peso": 26.034485041916238,
+   "fatia": 26.0
+  },
+  {
+   "t": "Caso Master",
+   "k": "Caso Master",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "20,8%",
+   "var": "+3,3 pp",
+   "dir": "sobe",
+   "peso": 20.804835861671535,
+   "fatia": 20.8
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,8%",
-   "var": "-1,7 pp",
+   "valor": "9,9%",
+   "var": "-3,8 pp",
    "dir": "cai",
-   "peso": 12.786408533901902,
-   "fatia": 12.8
+   "peso": 9.925877762275228,
+   "fatia": 9.9
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "8,4%",
+   "valor": "8,9%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 8.448320471261834,
-   "fatia": 8.4
+   "peso": 8.92538252467865,
+   "fatia": 8.9
+  },
+  {
+   "t": "Pesquisas",
+   "k": "Pesquisas",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "8,7%",
+   "var": "+3,7 pp",
+   "dir": "sobe",
+   "peso": 8.675716117759585,
+   "fatia": 8.7
+  },
+  {
+   "t": "Janja",
+   "k": "Janja",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "5,9%",
+   "var": "-4,0 pp",
+   "dir": "cai",
+   "peso": 5.904471758037784,
+   "fatia": 5.9
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "6,4%",
+   "valor": "5,7%",
    "var": "+1,4 pp",
    "dir": "sobe",
-   "peso": 6.358948972857724,
-   "fatia": 6.4
+   "peso": 5.742268688614854,
+   "fatia": 5.7
   },
   {
-   "t": "Salário mínimo",
-   "k": "Salário mínimo",
+   "t": "Escala 6x1",
+   "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "2,8%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 2.803717450096215,
-   "fatia": 2.8
+   "valor": "4,3%",
+   "var": "+1,9 pp",
+   "dir": "sobe",
+   "peso": 4.264974780992269,
+   "fatia": 4.3
   },
   {
    "t": "EUA e Trump",
@@ -736,82 +745,88 @@
    "fonte": "Vídeos",
    "lado": "deles",
    "valor": "2,3%",
-   "var": "-2,5 pp",
+   "var": "-1,6 pp",
    "dir": "cai",
-   "peso": 2.2994593135460706,
+   "peso": 2.2620228939608507,
    "fatia": 2.3
   },
   {
-   "t": "Escala 6x1",
-   "k": "Escala 6x1",
+   "t": "Salário mínimo",
+   "k": "Salário mínimo",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "2,1%",
-   "var": "-0,3 pp",
-   "dir": "cai",
-   "peso": 2.1132584663451306,
-   "fatia": 2.1
+   "valor": "2,2%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 2.2465097973626373,
+   "fatia": 2.2
   },
   {
    "t": "Bolsa Família",
    "k": "Bolsa Família",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "2,0%",
+   "valor": "1,5%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 2.016596764122691,
-   "fatia": 2.0
+   "peso": 1.5122332594427752,
+   "fatia": 1.5
   },
   {
    "t": "Exército de Lula",
    "k": "Exército de Lula",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "1,8%",
+   "valor": "1,4%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.7806985047703232,
-   "fatia": 1.8
-  },
-  {
-   "t": "Anistia",
-   "k": "Anistia",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "1,5%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 1.4642194828545945,
-   "fatia": 1.5
-  },
-  {
-   "t": "Impeachment de ministro",
-   "k": "Impeachment de ministro",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "1,0%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 1.0087110851881076,
-   "fatia": 1.0
+   "peso": 1.4116513219447584,
+   "fatia": 1.4
   }
  ],
- "historico": 7,
+ "historico": 2,
  "base_tiktok": {
   "nossa": {
    "Constituição": [
-    146.673,
+    179.117,
+    2
+   ],
+   "Tortura e ditadura": [
+    34.059,
     1
    ],
+   "Estudantes e ruas": [
+    525.228,
+    5
+   ],
    "Escala 6x1": [
-    104.403,
+    282.371,
+    4
+   ],
+   "Janja": [
+    56.027,
     1
    ]
   },
   "deles": {
+   "Janja": [
+    252.107,
+    4
+   ],
+   "Escala 6x1": [
+    111.104,
+    1
+   ],
    "Moraes": [
-    53.963,
+    270.843,
+    2
+   ],
+   "Pesquisas": [
+    374.676,
+    3
+   ],
+   "Vitória e virada": [
+    92.79,
     1
    ]
   }
