@@ -31,7 +31,7 @@
   --f-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 * { box-sizing: border-box; }
-html, body { margin: 0; background: var(--fundo); color: var(--tinta); font: 400 16px/1.45 var(--f-corpo); }
+html, body { margin: 0; background: var(--fundo); color: var(--tinta); font: 400 16px/1.45 var(--f-corpo); overflow-x: clip; }  /* nada passa da largura da tela (clip não quebra o topo fixo) */
 a { color: inherit; }
 button { font: inherit; color: inherit; }
 .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
@@ -178,7 +178,8 @@ a.bb-it:hover span { text-decoration: underline; }
 .secs a.on { color: #FFF; border-bottom-color: var(--amarelo); }
 @media (max-width: 720px) {
   .topo .wrap { flex-wrap: wrap; row-gap: 8px; padding-top: 10px; padding-bottom: 8px; }
-  .secs { order: 3; width: 100%; margin-left: 0; gap: 18px; overflow-x: auto; scrollbar-width: none; }
+  .secs { order: 3; width: 100%; margin-left: 0; gap: 18px; overflow-x: auto; scrollbar-width: none; padding-right: 24px;
+    -webkit-mask-image: linear-gradient(to right, #000 85%, transparent); mask-image: linear-gradient(to right, #000 85%, transparent); }  /* esmaece na borda: mostra que o menu arrasta para o lado */
   .secs::-webkit-scrollbar { display: none; }
   .secs a { font-size: 14px; padding: 10px 0 9px; }  /* área de toque de ~36 px */
   .topo .wrap { padding-bottom: 0; }
@@ -230,7 +231,7 @@ section[id], #videos { scroll-margin-top: 92px; }  /* altura do topo fixo */
 .nuvem span { font-weight: 700; line-height: 1.1; cursor: default; overflow-wrap: anywhere; }
 .nuvem span.nossa { color: var(--nossa); } .nuvem span.deles { color: var(--deles); } .nuvem span.disputa { color: var(--disputa); }
 .pal-busca { display: flex; gap: 6px; padding-top: 10px; border-top: 1px dashed var(--linha-2); }
-.pal-busca input { flex: 1; min-width: 0; min-height: 44px; border: 1px solid var(--linha-2); border-radius: 10px; padding: 0 12px; font: 500 15px var(--f-corpo); background: var(--card-2); }
+.pal-busca input { flex: 1; min-width: 0; min-height: 44px; border: 1px solid var(--linha-2); border-radius: 10px; padding: 0 12px; font: 500 16px var(--f-corpo); background: var(--card-2); }  /* 16 px: com menos, o Safari do iPhone dá zoom ao tocar e não volta */
 .pal-res { margin: 0 0 8px; font-size: 13px; color: var(--tx-2); }
 .pal-res:empty { display: none; }
 .pico { display: grid; grid-template-columns: minmax(0, 1fr) 64px; gap: 2px 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--linha); }
@@ -480,8 +481,8 @@ details.cuidado[open] .cuid-n { background: var(--alerta); color: #FFF; }
 /* painel de detalhe */
 .veu { position: fixed; inset: 0; background: rgb(23 23 26 / .45); z-index: 20; opacity: 0; pointer-events: none; transition: opacity .2s; }
 .veu.on { opacity: 1; pointer-events: auto; }
-.gaveta { position: fixed; top: 0; right: 0; bottom: 0; width: min(620px, 100%); background: var(--fundo); z-index: 21; overflow-y: auto; transform: translateX(100%); transition: transform .25s ease; box-shadow: -10px 0 40px rgb(0 0 0 / .15); }
-.gaveta.on { transform: none; }
+.gaveta { position: fixed; top: 0; right: 0; bottom: 0; width: min(620px, 100%); background: var(--fundo); z-index: 21; overflow-y: auto; transform: translateX(100%); visibility: hidden; transition: transform .25s ease, visibility 0s .25s; box-shadow: -10px 0 40px rgb(0 0 0 / .15); }
+.gaveta.on { transform: none; visibility: visible; transition: transform .25s ease; }  /* fechada e invisível: no iPhone a gaveta fora da tela alargava a página e o Safari afastava o zoom */
 .g-cab { position: sticky; top: 0; background: var(--fundo); padding: 16px 22px 12px; display: flex; justify-content: space-between; align-items: center; gap: 10px; border-bottom: 1px solid var(--linha); z-index: 1; }
 .g-cab .lado { font: 800 12px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .07em; padding: 6px 10px; border-radius: 999px; }
 .lado.deles { background: var(--deles-cl); color: var(--deles-esc); } .lado.nossa { background: var(--nossa-cl); color: var(--nossa-esc); } .lado.disputa { background: var(--disputa-cl); color: var(--disputa); }
@@ -497,7 +498,7 @@ details.cuidado[open] .cuid-n { background: var(--alerta); color: #FFF; }
 .metricas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
 .metricas div { background: var(--card); border: 1px solid var(--linha); border-radius: 12px; padding: 10px 12px; }
 .metricas b { display: block; font: 900 28px/1 var(--f-display); }
-.metricas span { font-size: 12px; color: var(--tx-2); }
+.metricas span { font-size: 12px; color: var(--tx-2); overflow-wrap: anywhere; hyphens: auto; }  /* "compartilhamentos" vazava da caixa em tela de 320 px */
 .g-h { font: 800 12px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .08em; color: var(--tx-3); margin: 6px 0 -6px; }
 .contas { display: grid; gap: 6px; }
 .conta { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; background: var(--card); border: 1px solid var(--linha); border-radius: 10px; padding: 9px 12px; font-size: 14px; }
