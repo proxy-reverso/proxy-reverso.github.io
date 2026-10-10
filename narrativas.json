@@ -1,24 +1,24 @@
 {
- "gerado": "2026-10-10T15:07:55Z",
- "coleta": "2026-10-10T15",
- "coletado": "2026-10-10T15:07:48Z",
+ "gerado": "2026-10-10T15:11:24Z",
+ "coleta": "2026-10-10T14",
+ "coletado": "2026-10-10T15:10:20Z",
  "amostra": {
-  "videos": 257,
-  "contas": 201,
+  "videos": 245,
+  "contas": 189,
   "buscas": 12,
   "janela_h": 72,
   "kwai": {
-   "videos": 4,
-   "contas": 3,
+   "videos": 1,
+   "contas": 1,
    "perfis_lidos": 30,
-   "medidos": 51,
+   "medidos": 34,
    "contas_medidas": 11,
-   "gerado": "2026-10-10T15:07:48Z"
+   "gerado": "2026-10-10T15:11:17Z"
   }
  },
  "placar": {
-  "deles": 489845,
-  "nossa": 1111899
+  "deles": 726268,
+  "nossa": 1346233
  },
  "narrativas": [
   {
@@ -84,111 +84,51 @@
      }
     }
    ],
-   "redes_vph": 9003,
+   "redes_vph": 12344,
    "imprensa_vph": 0,
-   "compart": 4534,
-   "n_videos": 3,
-   "n_contas": 3,
+   "compart": 3476,
+   "n_videos": 1,
+   "n_contas": 1,
    "contas": [],
    "videos": [
     {
      "id": "7694625540023569672",
      "a": "daianeluizetti",
      "ver": false,
-     "seg": 21000,
-     "views": 221700,
-     "sh": 4525,
-     "vph": 7993,
+     "seg": 20000,
+     "views": 178000,
+     "sh": 3476,
+     "vph": 12344,
      "imp": false,
      "titulo": "Comemora sessão da 6x1 esvaziada por Flávio",
      "frase": "Flávio Bolsonaro conseguiu esvaziar a sessão que ia votar.",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@daianeluizetti/video/7694625540023569672",
      "capa": "capas-n/7694625540023569672.jpg"
-    },
-    {
-     "id": "7695003428270951681",
-     "a": "mundinhodecoisas",
-     "ver": false,
-     "seg": 1276,
-     "views": 3080,
-     "sh": 9,
-     "vph": 935,
-     "imp": false,
-     "titulo": "Fim da escala 6x1",
-     "frase": "",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@mundinhodecoisas/video/7695003428270951681",
-     "capa": "capas-n/7695003428270951681.jpg"
-    },
-    {
-     "id": "7695016940749802770",
-     "a": "drianocorrea",
-     "ver": false,
-     "seg": 17,
-     "views": 181,
-     "sh": 0,
-     "vph": 75,
-     "imp": false,
-     "titulo": "#flavio22 #flavinho #bolsonaro #22",
-     "frase": "Ele é CONTRA o fim escala 6x1 - Quer entregar a riqueza mineral para os EUA",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@drianocorrea/video/7695016940749802770",
-     "capa": "capas-n/7695016940749802770.jpg"
     }
    ],
    "tiktok": {
-    "redes_vph": 9003,
+    "redes_vph": 12344,
     "imprensa_vph": 0,
-    "compart": 4534,
-    "n_videos": 3,
-    "n_contas": 3,
+    "compart": 3476,
+    "n_videos": 1,
+    "n_contas": 1,
     "contas": [],
     "videos": [
      {
       "id": "7694625540023569672",
       "a": "daianeluizetti",
       "ver": false,
-      "seg": 21000,
-      "views": 221700,
-      "sh": 4525,
-      "vph": 7993,
+      "seg": 20000,
+      "views": 178000,
+      "sh": 3476,
+      "vph": 12344,
       "imp": false,
       "titulo": "Comemora sessão da 6x1 esvaziada por Flávio",
       "frase": "Flávio Bolsonaro conseguiu esvaziar a sessão que ia votar.",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@daianeluizetti/video/7694625540023569672",
       "capa": "capas-n/7694625540023569672.jpg"
-     },
-     {
-      "id": "7695003428270951681",
-      "a": "mundinhodecoisas",
-      "ver": false,
-      "seg": 1276,
-      "views": 3080,
-      "sh": 9,
-      "vph": 935,
-      "imp": false,
-      "titulo": "Fim da escala 6x1",
-      "frase": "",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@mundinhodecoisas/video/7695003428270951681",
-      "capa": "capas-n/7695003428270951681.jpg"
-     },
-     {
-      "id": "7695016940749802770",
-      "a": "drianocorrea",
-      "ver": false,
-      "seg": 17,
-      "views": 181,
-      "sh": 0,
-      "vph": 75,
-      "imp": false,
-      "titulo": "#flavio22 #flavinho #bolsonaro #22",
-      "frase": "Ele é CONTRA o fim escala 6x1 - Quer entregar a riqueza mineral para os EUA",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@drianocorrea/video/7695016940749802770",
-      "capa": "capas-n/7695016940749802770.jpg"
      }
     ]
    }
@@ -219,67 +159,34 @@
      }
     }
    ],
-   "redes_vph": 339620,
-   "imprensa_vph": 40614,
-   "compart": 159332,
-   "n_videos": 66,
-   "n_contas": 62,
+   "redes_vph": 470534,
+   "imprensa_vph": 109831,
+   "compart": 169482,
+   "n_videos": 34,
+   "n_contas": 29,
    "contas": [
     {
      "a": "novo_brasil6",
-     "seg": 191900,
+     "seg": 190900,
      "ver": false,
-     "vph": 19307
-    },
-    {
-     "a": "andrebankoff",
-     "seg": 77400,
-     "ver": true,
-     "vph": 1391
-    },
-    {
-     "a": "silviacostaoficial71",
-     "seg": 125300,
-     "ver": false,
-     "vph": 71
+     "vph": 33103
     },
     {
      "a": "CarlosBolsonaro",
-     "seg": 218343,
+     "seg": 218342,
      "ver": true,
-     "vph": 40
-    },
-    {
-     "a": "FlavioBolsonaro",
-     "seg": 745257,
-     "ver": true,
-     "vph": 34
+     "vph": 39
     }
    ],
    "videos": [
     {
-     "id": "7694462379404299527",
-     "a": "glauconetobr",
-     "ver": false,
-     "seg": 17400,
-     "views": 3300000,
-     "sh": 65100,
-     "vph": 86195,
-     "imp": false,
-     "titulo": "“O povo não aguenta mais o Lula”",
-     "frase": "Se depender do rico, o Lula nunca ganha uma eleição.",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@glauconetobr/video/7694462379404299527",
-     "capa": "capas-n/7694462379404299527.jpg"
-    },
-    {
      "id": "7694661608626261256",
      "a": "hilc1leite",
      "ver": false,
-     "seg": 67600,
+     "seg": 65200,
      "views": 1200000,
-     "sh": 9958,
-     "vph": 47239,
+     "sh": 9447,
+     "vph": 96355,
      "imp": false,
      "titulo": "Canal “tropa do Flávio” no WhatsApp quer 1 milhão",
      "frase": "o nosso canal no WhatsApp tropa do Flávio tá bombando e a nossa meta hoje é chegar a um milhão de inscritos",
@@ -288,19 +195,19 @@
      "capa": "capas-n/7694661608626261256.jpg"
     },
     {
-     "id": "7694824169271217428",
-     "a": "direita789",
+     "id": "7694462379404299527",
+     "a": "glauconetobr",
      "ver": false,
-     "seg": 4630,
-     "views": 561500,
-     "sh": 1644,
-     "vph": 37713,
+     "seg": 15000,
+     "views": 3300000,
+     "sh": 64900,
+     "vph": 86275,
      "imp": false,
-     "titulo": "Nikolas responde a jornalistas sobre o 2º turno",
-     "frase": "o senhor tem falado com seguidores agora nesse caminho ao segundo turno",
+     "titulo": "“O povo não aguenta mais o Lula”",
+     "frase": "Se depender do rico, o Lula nunca ganha uma eleição.",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@direita789/video/7694824169271217428",
-     "capa": "capas-n/7694824169271217428.jpg"
+     "url": "https://www.tiktok.com/@glauconetobr/video/7694462379404299527",
+     "capa": "capas-n/7694462379404299527.jpg"
     },
     {
      "id": "7694424225351765269",
@@ -308,8 +215,8 @@
      "ver": true,
      "seg": 13400000,
      "views": 1400000,
-     "sh": 8383,
-     "vph": 34353,
+     "sh": 8359,
+     "vph": 51018,
      "imp": true,
      "titulo": "Augusto Cury declara apoio a Flávio",
      "frase": "O apoio dele não é um cheque em branco.",
@@ -318,86 +225,74 @@
      "capa": "capas-n/7694424225351765269.jpg"
     },
     {
-     "id": "7694707058347609364",
-     "a": "fadson.sampaio",
-     "ver": false,
-     "seg": 20800,
-     "views": 445600,
-     "sh": 3843,
-     "vph": 19836,
-     "imp": false,
-     "titulo": "Entrevista de rua: “pobre que vota no Lula quer continuar pobre”",
-     "frase": "você acha que quem é pobre vota no Lula ou não quem é pobre se vota no Lula nem todos os pobres vota no Lula",
+     "id": "7694799121479388436",
+     "a": "jovempannews",
+     "ver": true,
+     "seg": 6200000,
+     "views": 563800,
+     "sh": 4254,
+     "vph": 34235,
+     "imp": true,
+     "titulo": "Jovem Pan: “campanha de Lula aposta no desespero”",
+     "frase": "a campanha de Lula aposta no desespero",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@fadson.sampaio/video/7694707058347609364",
+     "url": "https://www.tiktok.com/@jovempannews/video/7694799121479388436",
      "capa": ""
     },
     {
-     "id": "7694815142332091666",
-     "a": "samuvr7",
+     "id": "7694819323243744533",
+     "a": "marcosz.ftbl",
      "ver": false,
-     "seg": 16800,
-     "views": 279500,
-     "sh": 9085,
-     "vph": 18066,
+     "seg": 4843,
+     "views": 487600,
+     "sh": 11200,
+     "vph": 32153,
      "imp": false,
-     "titulo": "Piada com os dedos de Lula",
-     "frase": "2 l em campanha 1 pra governador e 1 pra presidente",
+     "titulo": "Flávio diz que vai melhorar o Pé-de-Meia",
+     "frase": "a gente inclusive vai propor uma melhoria no pé de meia",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@samuvr7/video/7694815142332091666",
+     "url": "https://www.tiktok.com/@marcosz.ftbl/video/7694819323243744533",
+     "capa": ""
+    },
+    {
+     "id": "7694824169271217428",
+     "a": "direita789",
+     "ver": false,
+     "seg": 1284,
+     "views": 54800,
+     "sh": 78,
+     "vph": 26886,
+     "imp": false,
+     "titulo": "Nikolas responde a jornalistas sobre o 2º turno",
+     "frase": "o senhor tem falado com seguidores agora nesse caminho ao segundo turno",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@direita789/video/7694824169271217428",
      "capa": ""
     }
    ],
    "tiktok": {
-    "redes_vph": 339546,
-    "imprensa_vph": 40614,
-    "compart": 159238,
-    "n_videos": 64,
-    "n_contas": 60,
+    "redes_vph": 470495,
+    "imprensa_vph": 109831,
+    "compart": 169461,
+    "n_videos": 33,
+    "n_contas": 28,
     "contas": [
      {
       "a": "novo_brasil6",
-      "seg": 191900,
+      "seg": 190900,
       "ver": false,
-      "vph": 19307
-     },
-     {
-      "a": "andrebankoff",
-      "seg": 77400,
-      "ver": true,
-      "vph": 1391
-     },
-     {
-      "a": "silviacostaoficial71",
-      "seg": 125300,
-      "ver": false,
-      "vph": 71
+      "vph": 33103
      }
     ],
     "videos": [
      {
-      "id": "7694462379404299527",
-      "a": "glauconetobr",
-      "ver": false,
-      "seg": 17400,
-      "views": 3300000,
-      "sh": 65100,
-      "vph": 86195,
-      "imp": false,
-      "titulo": "“O povo não aguenta mais o Lula”",
-      "frase": "Se depender do rico, o Lula nunca ganha uma eleição.",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@glauconetobr/video/7694462379404299527",
-      "capa": "capas-n/7694462379404299527.jpg"
-     },
-     {
       "id": "7694661608626261256",
       "a": "hilc1leite",
       "ver": false,
-      "seg": 67600,
+      "seg": 65200,
       "views": 1200000,
-      "sh": 9958,
-      "vph": 47239,
+      "sh": 9447,
+      "vph": 96355,
       "imp": false,
       "titulo": "Canal “tropa do Flávio” no WhatsApp quer 1 milhão",
       "frase": "o nosso canal no WhatsApp tropa do Flávio tá bombando e a nossa meta hoje é chegar a um milhão de inscritos",
@@ -406,19 +301,19 @@
       "capa": "capas-n/7694661608626261256.jpg"
      },
      {
-      "id": "7694824169271217428",
-      "a": "direita789",
+      "id": "7694462379404299527",
+      "a": "glauconetobr",
       "ver": false,
-      "seg": 4630,
-      "views": 561500,
-      "sh": 1644,
-      "vph": 37713,
+      "seg": 15000,
+      "views": 3300000,
+      "sh": 64900,
+      "vph": 86275,
       "imp": false,
-      "titulo": "Nikolas responde a jornalistas sobre o 2º turno",
-      "frase": "o senhor tem falado com seguidores agora nesse caminho ao segundo turno",
+      "titulo": "“O povo não aguenta mais o Lula”",
+      "frase": "Se depender do rico, o Lula nunca ganha uma eleição.",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@direita789/video/7694824169271217428",
-      "capa": "capas-n/7694824169271217428.jpg"
+      "url": "https://www.tiktok.com/@glauconetobr/video/7694462379404299527",
+      "capa": "capas-n/7694462379404299527.jpg"
      },
      {
       "id": "7694424225351765269",
@@ -426,8 +321,8 @@
       "ver": true,
       "seg": 13400000,
       "views": 1400000,
-      "sh": 8383,
-      "vph": 34353,
+      "sh": 8359,
+      "vph": 51018,
       "imp": true,
       "titulo": "Augusto Cury declara apoio a Flávio",
       "frase": "O apoio dele não é um cheque em branco.",
@@ -436,33 +331,48 @@
       "capa": "capas-n/7694424225351765269.jpg"
      },
      {
-      "id": "7694707058347609364",
-      "a": "fadson.sampaio",
-      "ver": false,
-      "seg": 20800,
-      "views": 445600,
-      "sh": 3843,
-      "vph": 19836,
-      "imp": false,
-      "titulo": "Entrevista de rua: “pobre que vota no Lula quer continuar pobre”",
-      "frase": "você acha que quem é pobre vota no Lula ou não quem é pobre se vota no Lula nem todos os pobres vota no Lula",
+      "id": "7694799121479388436",
+      "a": "jovempannews",
+      "ver": true,
+      "seg": 6200000,
+      "views": 563800,
+      "sh": 4254,
+      "vph": 34235,
+      "imp": true,
+      "titulo": "Jovem Pan: “campanha de Lula aposta no desespero”",
+      "frase": "a campanha de Lula aposta no desespero",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@fadson.sampaio/video/7694707058347609364",
+      "url": "https://www.tiktok.com/@jovempannews/video/7694799121479388436",
       "capa": ""
      },
      {
-      "id": "7694815142332091666",
-      "a": "samuvr7",
+      "id": "7694819323243744533",
+      "a": "marcosz.ftbl",
       "ver": false,
-      "seg": 16800,
-      "views": 279500,
-      "sh": 9085,
-      "vph": 18066,
+      "seg": 4843,
+      "views": 487600,
+      "sh": 11200,
+      "vph": 32153,
       "imp": false,
-      "titulo": "Piada com os dedos de Lula",
-      "frase": "2 l em campanha 1 pra governador e 1 pra presidente",
+      "titulo": "Flávio diz que vai melhorar o Pé-de-Meia",
+      "frase": "a gente inclusive vai propor uma melhoria no pé de meia",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@samuvr7/video/7694815142332091666",
+      "url": "https://www.tiktok.com/@marcosz.ftbl/video/7694819323243744533",
+      "capa": ""
+     },
+     {
+      "id": "7694824169271217428",
+      "a": "direita789",
+      "ver": false,
+      "seg": 1284,
+      "views": 54800,
+      "sh": 78,
+      "vph": 26886,
+      "imp": false,
+      "titulo": "Nikolas responde a jornalistas sobre o 2º turno",
+      "frase": "o senhor tem falado com seguidores agora nesse caminho ao segundo turno",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@direita789/video/7694824169271217428",
       "capa": ""
      }
     ]
@@ -476,49 +386,49 @@
    "tecnica": "Ataque ao mensageiro: trocar o tema da eleição pela pessoa.",
    "como": "Não defenda nem ataque Janja. Puxe o assunto de volta para a 6x1 e a Constituição.",
    "args": [],
-   "redes_vph": 52536,
-   "imprensa_vph": 2959,
-   "compart": 25802,
-   "n_videos": 11,
-   "n_contas": 9,
+   "redes_vph": 92545,
+   "imprensa_vph": 5197,
+   "compart": 24790,
+   "n_videos": 13,
+   "n_contas": 11,
    "contas": [
     {
      "a": "fatodexx",
-     "seg": 459700,
+     "seg": 466300,
      "ver": false,
-     "vph": 7862
+     "vph": 7857
     },
     {
      "a": "foconaverdade14",
      "seg": 119700,
      "ver": false,
-     "vph": 3094
+     "vph": 5540
     }
    ],
    "videos": [
     {
-     "id": "7695016194125974791",
-     "a": "radar.direita",
+     "id": "7694980023534505224",
+     "a": "osalvadordapatria01",
      "ver": false,
-     "seg": 51300,
-     "views": 22600,
-     "sh": 209,
-     "vph": 9151,
+     "seg": 6089,
+     "views": 83400,
+     "sh": 1049,
+     "vph": 17457,
      "imp": false,
-     "titulo": "Nikolas Ferreira e Ana Elisa. Essa história está longe de terminar. Ou é apenas o começo? …",
-     "frase": "",
+     "titulo": "Roupas e viagens de Lula e Janja",
+     "frase": "Vocês sabem o valor das roupas que o Lula e Janja usam?",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@radar.direita/video/7695016194125974791",
-     "capa": "capas-n/7695016194125974791.jpg"
+     "url": "https://www.tiktok.com/@osalvadordapatria01/video/7694980023534505224",
+     "capa": "capas-n/7694980023534505224.jpg"
     },
     {
      "id": "7694358585869896981",
      "a": "aninha._ferreira",
      "ver": false,
-     "seg": 95200,
-     "views": 377100,
-     "sh": 14900,
-     "vph": 8380,
+     "seg": 85900,
+     "views": 339500,
+     "sh": 13100,
+     "vph": 10569,
      "imp": false,
      "titulo": "“As mentiras de Janja”",
      "frase": "Vamo desmascarar a Janja juntos.",
@@ -527,28 +437,43 @@
      "capa": "capas-n/7694358585869896981.jpg"
     },
     {
-     "id": "7694311806487088404",
-     "a": "fatodexx",
+     "id": "7694503626198289670",
+     "a": "gtnews.ofc",
      "ver": false,
-     "seg": 459700,
-     "views": 377600,
-     "sh": 1292,
-     "vph": 7862,
+     "seg": 57200,
+     "views": 177800,
+     "sh": 1225,
+     "vph": 10223,
      "imp": false,
-     "titulo": "Os “luxos” da primeira-dama Janja",
-     "frase": "os luxos exagerados da 1ª dama janja",
+     "titulo": "Bacci: “Janja tomou conta da campanha”",
+     "frase": "e qual que é o problema agora eles reclamam os próprios petistas os aliados do Lula tão reclamando muito que",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@fatodexx/video/7694311806487088404",
-     "capa": "capas-n/7694311806487088404.jpg"
+     "url": "https://www.tiktok.com/@gtnews.ofc/video/7694503626198289670",
+     "capa": "capas-n/7694503626198289670.jpg"
+    },
+    {
+     "id": "7695006918645075208",
+     "a": "blogthalitamoema",
+     "ver": false,
+     "seg": 29000,
+     "views": 30200,
+     "sh": 262,
+     "vph": 9941,
+     "imp": false,
+     "titulo": "Resposta a Janja: “quem perde é você”",
+     "frase": "se o Flávio ganha você perde não mulher quem perde é você",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@blogthalitamoema/video/7695006918645075208",
+     "capa": ""
     },
     {
      "id": "7694065587965791495",
      "a": "habibvinicius",
      "ver": false,
-     "seg": 2218,
-     "views": 450100,
-     "sh": 4713,
-     "vph": 7038,
+     "seg": 2212,
+     "views": 447500,
+     "sh": 4692,
+     "vph": 8763,
      "imp": false,
      "titulo": "“Piá de BH”: edit sobre Janja e Nikolas",
      "frase": "",
@@ -560,77 +485,62 @@
      "id": "7694255980330159393",
      "a": "politicabrasileira09",
      "ver": false,
-     "seg": 63200,
-     "views": 333200,
-     "sh": 2059,
-     "vph": 6453,
+     "seg": 58500,
+     "views": 304100,
+     "sh": 1874,
+     "vph": 7937,
      "imp": false,
      "titulo": "“Quero ver a Janja me chamar de piá”",
      "frase": "Quero ver a Janja me chamar de piá de novo.",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@politicabrasileira09/video/7694255980330159393",
      "capa": "capas-n/7694255980330159393.jpg"
-    },
-    {
-     "id": "7694503626198289670",
-     "a": "gtnews.ofc",
-     "ver": false,
-     "seg": 57500,
-     "views": 191300,
-     "sh": 1289,
-     "vph": 5371,
-     "imp": false,
-     "titulo": "Bacci: “Janja tomou conta da campanha”",
-     "frase": "e qual que é o problema agora eles reclamam os próprios petistas os aliados do Lula tão reclamando muito que",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@gtnews.ofc/video/7694503626198289670",
-     "capa": "capas-n/7694503626198289670.jpg"
     }
    ],
    "tiktok": {
-    "redes_vph": 52536,
-    "imprensa_vph": 2959,
-    "compart": 25802,
-    "n_videos": 11,
-    "n_contas": 9,
+    "redes_vph": 92545,
+    "imprensa_vph": 5197,
+    "compart": 24790,
+    "n_videos": 13,
+    "n_contas": 11,
     "contas": [
      {
       "a": "fatodexx",
-      "seg": 459700,
+      "seg": 466300,
       "ver": false,
-      "vph": 7862
+      "vph": 7857
      },
      {
       "a": "foconaverdade14",
       "seg": 119700,
       "ver": false,
-      "vph": 3094
+      "vph": 5540
      }
     ],
     "videos": [
      {
-      "id": "7695016194125974791",
-      "a": "radar.direita",
+      "id": "7694980023534505224",
+      "a": "osalvadordapatria01",
       "ver": false,
-      "seg": 51300,
-      "views": 22600,
-      "sh": 209,
-      "vph": 9151,
+      "seg": 6089,
+      "views": 83400,
+      "sh": 1049,
+      "vph": 17457,
       "imp": false,
-      "titulo": "Nikolas Ferreira e Ana Elisa. Essa história está longe de terminar. Ou é apenas o começo? …",
-      "frase": "",
+      "titulo": "Roupas e viagens de Lula e Janja",
+      "frase": "Vocês sabem o valor das roupas que o Lula e Janja usam?",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@radar.direita/video/7695016194125974791",
-      "capa": "capas-n/7695016194125974791.jpg"
+      "url": "https://www.tiktok.com/@osalvadordapatria01/video/7694980023534505224",
+      "capa": "capas-n/7694980023534505224.jpg"
      },
      {
       "id": "7694358585869896981",
       "a": "aninha._ferreira",
       "ver": false,
-      "seg": 95200,
-      "views": 377100,
-      "sh": 14900,
-      "vph": 8380,
+      "seg": 85900,
+      "views": 339500,
+      "sh": 13100,
+      "vph": 10569,
       "imp": false,
       "titulo": "“As mentiras de Janja”",
       "frase": "Vamo desmascarar a Janja juntos.",
@@ -639,28 +549,43 @@
       "capa": "capas-n/7694358585869896981.jpg"
      },
      {
-      "id": "7694311806487088404",
-      "a": "fatodexx",
+      "id": "7694503626198289670",
+      "a": "gtnews.ofc",
       "ver": false,
-      "seg": 459700,
-      "views": 377600,
-      "sh": 1292,
-      "vph": 7862,
+      "seg": 57200,
+      "views": 177800,
+      "sh": 1225,
+      "vph": 10223,
       "imp": false,
-      "titulo": "Os “luxos” da primeira-dama Janja",
-      "frase": "os luxos exagerados da 1ª dama janja",
+      "titulo": "Bacci: “Janja tomou conta da campanha”",
+      "frase": "e qual que é o problema agora eles reclamam os próprios petistas os aliados do Lula tão reclamando muito que",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@fatodexx/video/7694311806487088404",
-      "capa": "capas-n/7694311806487088404.jpg"
+      "url": "https://www.tiktok.com/@gtnews.ofc/video/7694503626198289670",
+      "capa": "capas-n/7694503626198289670.jpg"
+     },
+     {
+      "id": "7695006918645075208",
+      "a": "blogthalitamoema",
+      "ver": false,
+      "seg": 29000,
+      "views": 30200,
+      "sh": 262,
+      "vph": 9941,
+      "imp": false,
+      "titulo": "Resposta a Janja: “quem perde é você”",
+      "frase": "se o Flávio ganha você perde não mulher quem perde é você",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@blogthalitamoema/video/7695006918645075208",
+      "capa": ""
      },
      {
       "id": "7694065587965791495",
       "a": "habibvinicius",
       "ver": false,
-      "seg": 2218,
-      "views": 450100,
-      "sh": 4713,
-      "vph": 7038,
+      "seg": 2212,
+      "views": 447500,
+      "sh": 4692,
+      "vph": 8763,
       "imp": false,
       "titulo": "“Piá de BH”: edit sobre Janja e Nikolas",
       "frase": "",
@@ -672,31 +597,16 @@
       "id": "7694255980330159393",
       "a": "politicabrasileira09",
       "ver": false,
-      "seg": 63200,
-      "views": 333200,
-      "sh": 2059,
-      "vph": 6453,
+      "seg": 58500,
+      "views": 304100,
+      "sh": 1874,
+      "vph": 7937,
       "imp": false,
       "titulo": "“Quero ver a Janja me chamar de piá”",
       "frase": "Quero ver a Janja me chamar de piá de novo.",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@politicabrasileira09/video/7694255980330159393",
       "capa": "capas-n/7694255980330159393.jpg"
-     },
-     {
-      "id": "7694503626198289670",
-      "a": "gtnews.ofc",
-      "ver": false,
-      "seg": 57500,
-      "views": 191300,
-      "sh": 1289,
-      "vph": 5371,
-      "imp": false,
-      "titulo": "Bacci: “Janja tomou conta da campanha”",
-      "frase": "e qual que é o problema agora eles reclamam os próprios petistas os aliados do Lula tão reclamando muito que",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@gtnews.ofc/video/7694503626198289670",
-      "capa": "capas-n/7694503626198289670.jpg"
      }
     ]
    }
@@ -718,43 +628,28 @@
      }
     }
    ],
-   "redes_vph": 46418,
-   "imprensa_vph": 13551,
-   "compart": 9672,
-   "n_videos": 8,
+   "redes_vph": 79006,
+   "imprensa_vph": 19629,
+   "compart": 9145,
+   "n_videos": 5,
    "n_contas": 4,
    "contas": [
     {
      "a": "breakingpolitica",
-     "seg": 181700,
+     "seg": 179800,
      "ver": false,
-     "vph": 20213
+     "vph": 45844
     }
    ],
    "videos": [
     {
-     "id": "7694173556439043349",
-     "a": "antiotario_oficial",
-     "ver": false,
-     "seg": 25000,
-     "views": 1400000,
-     "sh": 8480,
-     "vph": 24575,
-     "imp": false,
-     "titulo": "STF arquiva casos de aliados após o 1º turno",
-     "frase": "Foi só Flávio terminar o primeiro turno na frente que uma sequência de decisões do STF chamou atenção.",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@antiotario_oficial/video/7694173556439043349",
-     "capa": "capas-n/7694173556439043349.jpg"
-    },
-    {
      "id": "7694747900156464402",
      "a": "breakingpolitica",
      "ver": false,
-     "seg": 181700,
-     "views": 400600,
-     "sh": 1167,
-     "vph": 20213,
+     "seg": 179800,
+     "views": 317700,
+     "sh": 807,
+     "vph": 45844,
      "imp": false,
      "titulo": "Flávio reage a decisão de Moraes sobre Eduardo e cobra renúncia",
      "frase": "por essa Alexandre de Moraes não esperava Flávio Bolsonaro reage à ordem de prisão contra Eduardo e cobra a",
@@ -763,13 +658,28 @@
      "capa": "capas-n/7694747900156464402.jpg"
     },
     {
+     "id": "7694173556439043349",
+     "a": "antiotario_oficial",
+     "ver": false,
+     "seg": 24200,
+     "views": 1300000,
+     "sh": 8309,
+     "vph": 29532,
+     "imp": false,
+     "titulo": "STF arquiva casos de aliados após o 1º turno",
+     "frase": "Foi só Flávio terminar o primeiro turno na frente que uma sequência de decisões do STF chamou atenção.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@antiotario_oficial/video/7694173556439043349",
+     "capa": "capas-n/7694173556439043349.jpg"
+    },
+    {
      "id": "7694432528329002260",
      "a": "metropolesoficial",
      "ver": true,
-     "seg": 17400000,
-     "views": 545000,
-     "sh": 1609,
-     "vph": 13551,
+     "seg": 17500000,
+     "views": 528100,
+     "sh": 1556,
+     "vph": 19629,
      "imp": true,
      "titulo": "Flávio ataca Moraes: “violador de direitos humanos”",
      "frase": "Ele é um violador de direitos humanos internacional.",
@@ -781,10 +691,10 @@
      "id": "7694592114117643538",
      "a": "alerta.viral07",
      "ver": false,
-     "seg": 45200,
-     "views": 47000,
+     "seg": 45100,
+     "views": 46400,
      "sh": 24,
-     "vph": 1572,
+     "vph": 2798,
      "imp": false,
      "titulo": "A reação de Moraes à liderança de Flávio",
      "frase": "Olha só qual foi a reação do ministro Alexandre de Moraes.",
@@ -793,74 +703,44 @@
      "capa": "capas-n/7694592114117643538.jpg"
     },
     {
-     "id": "7694937407099096341",
-     "a": "joaofrangoofc01",
+     "id": "7694885929063845140",
+     "a": "fruticena3d",
      "ver": false,
-     "seg": 28,
-     "views": 145,
-     "sh": 0,
-     "vph": 19,
+     "seg": 1526,
+     "views": 3341,
+     "sh": 5,
+     "vph": 832,
      "imp": false,
-     "titulo": "#direita #eleiçoes2026 #ACORDABRASIL #FORAMORAES",
-     "frase": "",
+     "titulo": "Animação: “Moraes encontrou Lula congelado”",
+     "frase": "Moraes encontrou Lula congelado",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@joaofrangoofc01/video/7694937407099096341",
-     "capa": ""
-    },
-    {
-     "id": "7694936782172966164",
-     "a": "joaofrangoofc01",
-     "ver": false,
-     "seg": 28,
-     "views": 112,
-     "sh": 0,
-     "vph": 15,
-     "imp": false,
-     "titulo": "#direita #eleiçoes2026 #ACORDABRASIL #FORAMORAES",
-     "frase": "",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@joaofrangoofc01/video/7694936782172966164",
+     "url": "https://www.tiktok.com/@fruticena3d/video/7694885929063845140",
      "capa": ""
     }
    ],
    "tiktok": {
-    "redes_vph": 46418,
-    "imprensa_vph": 13551,
-    "compart": 9672,
-    "n_videos": 8,
+    "redes_vph": 79006,
+    "imprensa_vph": 19629,
+    "compart": 9145,
+    "n_videos": 5,
     "n_contas": 4,
     "contas": [
      {
       "a": "breakingpolitica",
-      "seg": 181700,
+      "seg": 179800,
       "ver": false,
-      "vph": 20213
+      "vph": 45844
      }
     ],
     "videos": [
      {
-      "id": "7694173556439043349",
-      "a": "antiotario_oficial",
-      "ver": false,
-      "seg": 25000,
-      "views": 1400000,
-      "sh": 8480,
-      "vph": 24575,
-      "imp": false,
-      "titulo": "STF arquiva casos de aliados após o 1º turno",
-      "frase": "Foi só Flávio terminar o primeiro turno na frente que uma sequência de decisões do STF chamou atenção.",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@antiotario_oficial/video/7694173556439043349",
-      "capa": "capas-n/7694173556439043349.jpg"
-     },
-     {
       "id": "7694747900156464402",
       "a": "breakingpolitica",
       "ver": false,
-      "seg": 181700,
-      "views": 400600,
-      "sh": 1167,
-      "vph": 20213,
+      "seg": 179800,
+      "views": 317700,
+      "sh": 807,
+      "vph": 45844,
       "imp": false,
       "titulo": "Flávio reage a decisão de Moraes sobre Eduardo e cobra renúncia",
       "frase": "por essa Alexandre de Moraes não esperava Flávio Bolsonaro reage à ordem de prisão contra Eduardo e cobra a",
@@ -869,13 +749,28 @@
       "capa": "capas-n/7694747900156464402.jpg"
      },
      {
+      "id": "7694173556439043349",
+      "a": "antiotario_oficial",
+      "ver": false,
+      "seg": 24200,
+      "views": 1300000,
+      "sh": 8309,
+      "vph": 29532,
+      "imp": false,
+      "titulo": "STF arquiva casos de aliados após o 1º turno",
+      "frase": "Foi só Flávio terminar o primeiro turno na frente que uma sequência de decisões do STF chamou atenção.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@antiotario_oficial/video/7694173556439043349",
+      "capa": "capas-n/7694173556439043349.jpg"
+     },
+     {
       "id": "7694432528329002260",
       "a": "metropolesoficial",
       "ver": true,
-      "seg": 17400000,
-      "views": 545000,
-      "sh": 1609,
-      "vph": 13551,
+      "seg": 17500000,
+      "views": 528100,
+      "sh": 1556,
+      "vph": 19629,
       "imp": true,
       "titulo": "Flávio ataca Moraes: “violador de direitos humanos”",
       "frase": "Ele é um violador de direitos humanos internacional.",
@@ -887,10 +782,10 @@
       "id": "7694592114117643538",
       "a": "alerta.viral07",
       "ver": false,
-      "seg": 45200,
-      "views": 47000,
+      "seg": 45100,
+      "views": 46400,
       "sh": 24,
-      "vph": 1572,
+      "vph": 2798,
       "imp": false,
       "titulo": "A reação de Moraes à liderança de Flávio",
       "frase": "Olha só qual foi a reação do ministro Alexandre de Moraes.",
@@ -899,33 +794,18 @@
       "capa": "capas-n/7694592114117643538.jpg"
      },
      {
-      "id": "7694937407099096341",
-      "a": "joaofrangoofc01",
+      "id": "7694885929063845140",
+      "a": "fruticena3d",
       "ver": false,
-      "seg": 28,
-      "views": 145,
-      "sh": 0,
-      "vph": 19,
+      "seg": 1526,
+      "views": 3341,
+      "sh": 5,
+      "vph": 832,
       "imp": false,
-      "titulo": "#direita #eleiçoes2026 #ACORDABRASIL #FORAMORAES",
-      "frase": "",
+      "titulo": "Animação: “Moraes encontrou Lula congelado”",
+      "frase": "Moraes encontrou Lula congelado",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@joaofrangoofc01/video/7694937407099096341",
-      "capa": ""
-     },
-     {
-      "id": "7694936782172966164",
-      "a": "joaofrangoofc01",
-      "ver": false,
-      "seg": 28,
-      "views": 112,
-      "sh": 0,
-      "vph": 15,
-      "imp": false,
-      "titulo": "#direita #eleiçoes2026 #ACORDABRASIL #FORAMORAES",
-      "frase": "",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@joaofrangoofc01/video/7694936782172966164",
+      "url": "https://www.tiktok.com/@fruticena3d/video/7694885929063845140",
       "capa": ""
      }
     ]
@@ -948,23 +828,23 @@
      }
     }
    ],
-   "redes_vph": 28374,
-   "imprensa_vph": 17796,
-   "compart": 7736,
+   "redes_vph": 57954,
+   "imprensa_vph": 35668,
+   "compart": 7217,
    "n_videos": 5,
    "n_contas": 3,
    "contas": [
     {
      "a": "plnacional_",
-     "seg": 1200000,
+     "seg": 1100000,
      "ver": true,
-     "vph": 16974
+     "vph": 31882
     },
     {
      "a": "valldiiney",
-     "seg": 557600,
+     "seg": 559500,
      "ver": false,
-     "vph": 3626
+     "vph": 10160
     }
    ],
    "videos": [
@@ -972,10 +852,10 @@
      "id": "7694632718960823558",
      "a": "plnacional_",
      "ver": true,
-     "seg": 1200000,
-     "views": 462900,
-     "sh": 5288,
-     "vph": 16974,
+     "seg": 1100000,
+     "views": 445100,
+     "sh": 5148,
+     "vph": 31882,
      "imp": false,
      "titulo": "PL: “filme sobre Lula e negócios obscuros”",
      "frase": "Mais um escândalo envolvendo Lula e o PT.",
@@ -988,9 +868,9 @@
      "a": "portalndmais",
      "ver": true,
      "seg": 1300000,
-     "views": 235400,
-     "sh": 413,
-     "vph": 9678,
+     "views": 222000,
+     "sh": 378,
+     "vph": 20132,
      "imp": true,
      "titulo": "Oposição reage ao áudio de Vorcaro sobre o filme",
      "frase": "Isso tudo daí não merece investigação?",
@@ -999,13 +879,28 @@
      "capa": "capas-n/7694678310021909778.jpg"
     },
     {
+     "id": "7694707311696153863",
+     "a": "ropz140",
+     "ver": false,
+     "seg": 30300,
+     "views": 151200,
+     "sh": 1446,
+     "vph": 15912,
+     "imp": false,
+     "titulo": "Áudio de Vorcaro sobre filme de Lula",
+     "frase": "Daniel Vorcaro teria financiado um filme sobre Lula",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@ropz140/video/7694707311696153863",
+     "capa": "capas-n/7694707311696153863.jpg"
+    },
+    {
      "id": "7694637108215942406",
      "a": "portalndmais",
      "ver": true,
      "seg": 1300000,
-     "views": 219100,
-     "sh": 2581,
-     "vph": 8118,
+     "views": 212700,
+     "sh": 2463,
+     "vph": 15536,
      "imp": true,
      "titulo": "Áudio de Vorcaro sobre pagamento a filme de Lula",
      "frase": "Só que o do Lula foi por fora.",
@@ -1014,28 +909,13 @@
      "capa": "capas-n/7694637108215942406.jpg"
     },
     {
-     "id": "7694707311696153863",
-     "a": "ropz140",
-     "ver": false,
-     "seg": 30500,
-     "views": 174500,
-     "sh": 1661,
-     "vph": 7774,
-     "imp": false,
-     "titulo": "Áudio de Vorcaro sobre filme de Lula",
-     "frase": "Daniel Vorcaro teria financiado um filme sobre Lula",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@ropz140/video/7694707311696153863",
-     "capa": ""
-    },
-    {
      "id": "7694657211787709710",
      "a": "valldiiney",
      "ver": false,
-     "seg": 557600,
-     "views": 93100,
-     "sh": 787,
-     "vph": 3626,
+     "seg": 559500,
+     "views": 75700,
+     "sh": 623,
+     "vph": 10160,
      "imp": false,
      "titulo": "“Vorcaro admite R$ 30 milhões para o filme de Lula”",
      "frase": "por essa aqui os petista não esperava logo numa sexta feira de manhã né mas tipo ele não esperava por uma",
@@ -1045,23 +925,23 @@
     }
    ],
    "tiktok": {
-    "redes_vph": 28374,
-    "imprensa_vph": 17796,
-    "compart": 7736,
+    "redes_vph": 57954,
+    "imprensa_vph": 35668,
+    "compart": 7217,
     "n_videos": 5,
     "n_contas": 3,
     "contas": [
      {
       "a": "plnacional_",
-      "seg": 1200000,
+      "seg": 1100000,
       "ver": true,
-      "vph": 16974
+      "vph": 31882
      },
      {
       "a": "valldiiney",
-      "seg": 557600,
+      "seg": 559500,
       "ver": false,
-      "vph": 3626
+      "vph": 10160
      }
     ],
     "videos": [
@@ -1069,10 +949,10 @@
       "id": "7694632718960823558",
       "a": "plnacional_",
       "ver": true,
-      "seg": 1200000,
-      "views": 462900,
-      "sh": 5288,
-      "vph": 16974,
+      "seg": 1100000,
+      "views": 445100,
+      "sh": 5148,
+      "vph": 31882,
       "imp": false,
       "titulo": "PL: “filme sobre Lula e negócios obscuros”",
       "frase": "Mais um escândalo envolvendo Lula e o PT.",
@@ -1085,9 +965,9 @@
       "a": "portalndmais",
       "ver": true,
       "seg": 1300000,
-      "views": 235400,
-      "sh": 413,
-      "vph": 9678,
+      "views": 222000,
+      "sh": 378,
+      "vph": 20132,
       "imp": true,
       "titulo": "Oposição reage ao áudio de Vorcaro sobre o filme",
       "frase": "Isso tudo daí não merece investigação?",
@@ -1096,13 +976,28 @@
       "capa": "capas-n/7694678310021909778.jpg"
      },
      {
+      "id": "7694707311696153863",
+      "a": "ropz140",
+      "ver": false,
+      "seg": 30300,
+      "views": 151200,
+      "sh": 1446,
+      "vph": 15912,
+      "imp": false,
+      "titulo": "Áudio de Vorcaro sobre filme de Lula",
+      "frase": "Daniel Vorcaro teria financiado um filme sobre Lula",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@ropz140/video/7694707311696153863",
+      "capa": "capas-n/7694707311696153863.jpg"
+     },
+     {
       "id": "7694637108215942406",
       "a": "portalndmais",
       "ver": true,
       "seg": 1300000,
-      "views": 219100,
-      "sh": 2581,
-      "vph": 8118,
+      "views": 212700,
+      "sh": 2463,
+      "vph": 15536,
       "imp": true,
       "titulo": "Áudio de Vorcaro sobre pagamento a filme de Lula",
       "frase": "Só que o do Lula foi por fora.",
@@ -1111,28 +1006,13 @@
       "capa": "capas-n/7694637108215942406.jpg"
      },
      {
-      "id": "7694707311696153863",
-      "a": "ropz140",
-      "ver": false,
-      "seg": 30500,
-      "views": 174500,
-      "sh": 1661,
-      "vph": 7774,
-      "imp": false,
-      "titulo": "Áudio de Vorcaro sobre filme de Lula",
-      "frase": "Daniel Vorcaro teria financiado um filme sobre Lula",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@ropz140/video/7694707311696153863",
-      "capa": ""
-     },
-     {
       "id": "7694657211787709710",
       "a": "valldiiney",
       "ver": false,
-      "seg": 557600,
-      "views": 93100,
-      "sh": 787,
-      "vph": 3626,
+      "seg": 559500,
+      "views": 75700,
+      "sh": 623,
+      "vph": 10160,
       "imp": false,
       "titulo": "“Vorcaro admite R$ 30 milhões para o filme de Lula”",
       "frase": "por essa aqui os petista não esperava logo numa sexta feira de manhã né mas tipo ele não esperava por uma",
@@ -1151,23 +1031,35 @@
    "tecnica": "Pesquisa de origem duvidosa vendida como “urgente”.",
    "como": "Só compartilhe pesquisa com nome do instituto e registro. Empate quer dizer que cada voto decide.",
    "args": [],
-   "redes_vph": 37599,
-   "imprensa_vph": 55758,
-   "compart": 3151,
-   "n_videos": 9,
-   "n_contas": 6,
+   "redes_vph": 100536,
+   "imprensa_vph": 80024,
+   "compart": 5211,
+   "n_videos": 10,
+   "n_contas": 7,
    "contas": [
     {
      "a": "radardapolitica03",
-     "seg": 357000,
+     "seg": 345500,
      "ver": false,
-     "vph": 10565
+     "vph": 21815
+    },
+    {
+     "a": "edinhos2.0",
+     "seg": 135400,
+     "ver": false,
+     "vph": 11400
     },
     {
      "a": "revistaforum",
-     "seg": 119400,
+     "seg": 118800,
      "ver": false,
-     "vph": 3851
+     "vph": 8610
+    },
+    {
+     "a": "escaleno_",
+     "seg": 492500,
+     "ver": false,
+     "vph": 8037
     }
    ],
    "videos": [
@@ -1177,8 +1069,8 @@
      "ver": true,
      "seg": 13400000,
      "views": 1600000,
-     "sh": 5132,
-     "vph": 38910,
+     "sh": 5026,
+     "vph": 57516,
      "imp": true,
      "titulo": "Datafolha: Flávio 49%, Lula 45% no 2º turno",
      "frase": "Flávio tem, segundo o Datafolha, 49% das intenções de voto.",
@@ -1187,13 +1079,28 @@
      "capa": "capas-n/7694418565448961301.jpg"
     },
     {
+     "id": "7694647088415542546",
+     "a": "radardapolitica03",
+     "ver": false,
+     "seg": 345500,
+     "views": 177000,
+     "sh": 660,
+     "vph": 21815,
+     "imp": false,
+     "titulo": "“Reviravolta” na pesquisa do 2º turno",
+     "frase": "pesquisa para presidente no segundo turno é meus amigos já começou sair as pesquisas aí para o segundo turno",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@radardapolitica03/video/7694647088415542546",
+     "capa": "capas-n/7694647088415542546.jpg"
+    },
+    {
      "id": "7694436564604046644",
      "a": "bandjornalismo",
      "ver": true,
      "seg": 3100000,
-     "views": 620400,
-     "sh": 943,
-     "vph": 15526,
+     "views": 560800,
+     "sh": 874,
+     "vph": 20764,
      "imp": true,
      "titulo": "PoderData: Flávio 53% dos válidos no 2º turno",
      "frase": "Considerando os votos válidos, Flávio Bolsonaro lidera com 53%.",
@@ -1205,25 +1112,25 @@
      "id": "7694463213492014356",
      "a": "detudoumpouco.oficial._",
      "ver": false,
-     "seg": 16400,
-     "views": 433400,
-     "sh": 1319,
-     "vph": 11336,
+     "seg": 16200,
+     "views": 361500,
+     "sh": 1097,
+     "vph": 18073,
      "imp": false,
      "titulo": "Datafolha: Flávio 52% dos válidos, Lula 48%",
      "frase": "a folha divulgou hoje a primeira pesquisa de intenção de voto para presidente no segundo turno contratada",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@detudoumpouco.oficial._/video/7694463213492014356",
-     "capa": "capas-n/7694463213492014356.jpg"
+     "capa": ""
     },
     {
      "id": "7694499980312136978",
      "a": "vote13sempre",
      "ver": false,
-     "seg": 58700,
-     "views": 390000,
-     "sh": 87,
-     "vph": 10877,
+     "seg": 56600,
+     "views": 317400,
+     "sh": 72,
+     "vph": 18006,
      "imp": false,
      "titulo": "Primeira pesquisa Datafolha do 2º turno",
      "frase": "a primeira pesquisa para o segundo turno entre Lula e Flávio Bolsonaro acaba de ser divulgada e o resultado",
@@ -1232,54 +1139,51 @@
      "capa": ""
     },
     {
-     "id": "7694647088415542546",
-     "a": "radardapolitica03",
+     "id": "7694500466675272982",
+     "a": "iphone.sem.segredo",
      "ver": false,
-     "seg": 357000,
-     "views": 278300,
-     "sh": 985,
-     "vph": 10565,
+     "seg": 20000,
+     "views": 221100,
+     "sh": 1866,
+     "vph": 14595,
      "imp": false,
-     "titulo": "“Reviravolta” na pesquisa do 2º turno",
-     "frase": "pesquisa para presidente no segundo turno é meus amigos já começou sair as pesquisas aí para o segundo turno",
+     "titulo": "“Flávio disparado” sem instituto",
+     "frase": "pesquisa eleitoral do segundo turno mostra Flávio Bolsonaro disparado na liderança",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@radardapolitica03/video/7694647088415542546",
-     "capa": "capas-n/7694647088415542546.jpg"
-    },
-    {
-     "id": "7694629962883566868",
-     "a": "revistaforum",
-     "ver": false,
-     "seg": 119400,
-     "views": 105700,
-     "sh": 756,
-     "vph": 3851,
-     "imp": false,
-     "titulo": "Felipe Pena compara com a virada de Dilma em 2014",
-     "frase": "no começo da semana eu disse aqui né quando vierem as primeiras pesquisas do o resultado não vai ser",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@revistaforum/video/7694629962883566868",
+     "url": "https://www.tiktok.com/@iphone.sem.segredo/video/7694500466675272982",
      "capa": ""
     }
    ],
    "tiktok": {
-    "redes_vph": 37599,
-    "imprensa_vph": 55758,
-    "compart": 3151,
-    "n_videos": 9,
-    "n_contas": 6,
+    "redes_vph": 100536,
+    "imprensa_vph": 80024,
+    "compart": 5211,
+    "n_videos": 10,
+    "n_contas": 7,
     "contas": [
      {
       "a": "radardapolitica03",
-      "seg": 357000,
+      "seg": 345500,
       "ver": false,
-      "vph": 10565
+      "vph": 21815
+     },
+     {
+      "a": "edinhos2.0",
+      "seg": 135400,
+      "ver": false,
+      "vph": 11400
      },
      {
       "a": "revistaforum",
-      "seg": 119400,
+      "seg": 118800,
       "ver": false,
-      "vph": 3851
+      "vph": 8610
+     },
+     {
+      "a": "escaleno_",
+      "seg": 492500,
+      "ver": false,
+      "vph": 8037
      }
     ],
     "videos": [
@@ -1289,8 +1193,8 @@
       "ver": true,
       "seg": 13400000,
       "views": 1600000,
-      "sh": 5132,
-      "vph": 38910,
+      "sh": 5026,
+      "vph": 57516,
       "imp": true,
       "titulo": "Datafolha: Flávio 49%, Lula 45% no 2º turno",
       "frase": "Flávio tem, segundo o Datafolha, 49% das intenções de voto.",
@@ -1299,13 +1203,28 @@
       "capa": "capas-n/7694418565448961301.jpg"
      },
      {
+      "id": "7694647088415542546",
+      "a": "radardapolitica03",
+      "ver": false,
+      "seg": 345500,
+      "views": 177000,
+      "sh": 660,
+      "vph": 21815,
+      "imp": false,
+      "titulo": "“Reviravolta” na pesquisa do 2º turno",
+      "frase": "pesquisa para presidente no segundo turno é meus amigos já começou sair as pesquisas aí para o segundo turno",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@radardapolitica03/video/7694647088415542546",
+      "capa": "capas-n/7694647088415542546.jpg"
+     },
+     {
       "id": "7694436564604046644",
       "a": "bandjornalismo",
       "ver": true,
       "seg": 3100000,
-      "views": 620400,
-      "sh": 943,
-      "vph": 15526,
+      "views": 560800,
+      "sh": 874,
+      "vph": 20764,
       "imp": true,
       "titulo": "PoderData: Flávio 53% dos válidos no 2º turno",
       "frase": "Considerando os votos válidos, Flávio Bolsonaro lidera com 53%.",
@@ -1317,25 +1236,25 @@
       "id": "7694463213492014356",
       "a": "detudoumpouco.oficial._",
       "ver": false,
-      "seg": 16400,
-      "views": 433400,
-      "sh": 1319,
-      "vph": 11336,
+      "seg": 16200,
+      "views": 361500,
+      "sh": 1097,
+      "vph": 18073,
       "imp": false,
       "titulo": "Datafolha: Flávio 52% dos válidos, Lula 48%",
       "frase": "a folha divulgou hoje a primeira pesquisa de intenção de voto para presidente no segundo turno contratada",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@detudoumpouco.oficial._/video/7694463213492014356",
-      "capa": "capas-n/7694463213492014356.jpg"
+      "capa": ""
      },
      {
       "id": "7694499980312136978",
       "a": "vote13sempre",
       "ver": false,
-      "seg": 58700,
-      "views": 390000,
-      "sh": 87,
-      "vph": 10877,
+      "seg": 56600,
+      "views": 317400,
+      "sh": 72,
+      "vph": 18006,
       "imp": false,
       "titulo": "Primeira pesquisa Datafolha do 2º turno",
       "frase": "a primeira pesquisa para o segundo turno entre Lula e Flávio Bolsonaro acaba de ser divulgada e o resultado",
@@ -1344,33 +1263,18 @@
       "capa": ""
      },
      {
-      "id": "7694647088415542546",
-      "a": "radardapolitica03",
+      "id": "7694500466675272982",
+      "a": "iphone.sem.segredo",
       "ver": false,
-      "seg": 357000,
-      "views": 278300,
-      "sh": 985,
-      "vph": 10565,
+      "seg": 20000,
+      "views": 221100,
+      "sh": 1866,
+      "vph": 14595,
       "imp": false,
-      "titulo": "“Reviravolta” na pesquisa do 2º turno",
-      "frase": "pesquisa para presidente no segundo turno é meus amigos já começou sair as pesquisas aí para o segundo turno",
+      "titulo": "“Flávio disparado” sem instituto",
+      "frase": "pesquisa eleitoral do segundo turno mostra Flávio Bolsonaro disparado na liderança",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@radardapolitica03/video/7694647088415542546",
-      "capa": "capas-n/7694647088415542546.jpg"
-     },
-     {
-      "id": "7694629962883566868",
-      "a": "revistaforum",
-      "ver": false,
-      "seg": 119400,
-      "views": 105700,
-      "sh": 756,
-      "vph": 3851,
-      "imp": false,
-      "titulo": "Felipe Pena compara com a virada de Dilma em 2014",
-      "frase": "no começo da semana eu disse aqui né quando vierem as primeiras pesquisas do o resultado não vai ser",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@revistaforum/video/7694629962883566868",
+      "url": "https://www.tiktok.com/@iphone.sem.segredo/video/7694500466675272982",
       "capa": ""
      }
     ]
@@ -1401,41 +1305,41 @@
      }
     }
    ],
-   "redes_vph": 198570,
-   "imprensa_vph": 48980,
-   "compart": 102954,
-   "n_videos": 28,
-   "n_contas": 13,
+   "redes_vph": 188519,
+   "imprensa_vph": 59662,
+   "compart": 96434,
+   "n_videos": 27,
+   "n_contas": 12,
    "contas": [
     {
      "a": "ptbrasil",
      "seg": 1900000,
      "ver": true,
-     "vph": 63421
+     "vph": 63450
     },
     {
      "a": "danielmoreno.adv",
-     "seg": 208300,
+     "seg": 206900,
      "ver": false,
-     "vph": 37997
-    },
-    {
-     "a": "Lulaoficial",
-     "seg": 7400953,
-     "ver": true,
-     "vph": 24995
+     "vph": 38003
     },
     {
      "a": "ofofoquinho",
-     "seg": 316300,
+     "seg": 314400,
      "ver": false,
-     "vph": 9786
+     "vph": 9753
     },
     {
      "a": "guilhermeboulos",
      "seg": 1100000,
      "ver": true,
-     "vph": 6915
+     "vph": 6907
+    },
+    {
+     "a": "lulaoficial",
+     "seg": 6100000,
+     "ver": true,
+     "vph": 6866
     }
    ],
    "videos": [
@@ -1445,8 +1349,8 @@
      "ver": true,
      "seg": 1900000,
      "views": 2600000,
-     "sh": 28600,
-     "vph": 63421,
+     "sh": 28500,
+     "vph": 63450,
      "imp": false,
      "titulo": "Lula a Flávio: coloque a bancada para votar o fim da 6x1",
      "frase": "Vai ou não vai votar o fim da escala seis por um?",
@@ -1458,10 +1362,10 @@
      "id": "7694037039213284626",
      "a": "danielmoreno.adv",
      "ver": false,
-     "seg": 208300,
+     "seg": 206900,
      "views": 2500000,
      "sh": 30400,
-     "vph": 37997,
+     "vph": 38003,
      "imp": false,
      "titulo": "Advogado compara as propostas para o trabalhador",
      "frase": "olha a proposta desse candidato pros trabalhadores o salário mínimo será por horas trabalhadas e a nossa",
@@ -1470,43 +1374,13 @@
      "capa": "capas-n/7694037039213284626.jpg"
     },
     {
-     "id": "5223762731144897034",
-     "a": "Lulaoficial",
-     "ver": true,
-     "seg": 7400953,
-     "views": 1079265,
-     "sh": 4852,
-     "vph": 24925,
-     "imp": false,
-     "titulo": "Eu já cobrei mais de uma vez, e cobro novamente. Sem enrolação. Vamos votar o fim da escal…",
-     "frase": "",
-     "rede": "Kwai",
-     "url": "https://www.kwai.com/@Lulaoficial/video/5223762731144897034",
-     "capa": "capas-n/5223762731144897034.jpg"
-    },
-    {
-     "id": "7694413617525001492",
-     "a": "metropolesoficial",
-     "ver": true,
-     "seg": 17400000,
-     "views": 815400,
-     "sh": 1152,
-     "vph": 19677,
-     "imp": true,
-     "titulo": "Lula volta a cobrar Flávio sobre a 6x1",
-     "frase": "Bota a sua bancada pra votar.",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@metropolesoficial/video/7694413617525001492",
-     "capa": "capas-n/7694413617525001492.jpg"
-    },
-    {
      "id": "7694366460809874708",
      "a": "leticia.carvalho.adv",
      "ver": false,
-     "seg": 10800,
-     "views": 753400,
-     "sh": 9068,
-     "vph": 16933,
+     "seg": 8883,
+     "views": 702000,
+     "sh": 8328,
+     "vph": 22199,
      "imp": false,
      "titulo": "Advogada: “liberdade para negociar” com o patrão não é real",
      "frase": "Na teoria, trabalhar por hora com liberdade pra negociar parece boa demais.",
@@ -1515,57 +1389,87 @@
      "capa": "capas-n/7694366460809874708.jpg"
     },
     {
+     "id": "7694413617525001492",
+     "a": "metropolesoficial",
+     "ver": true,
+     "seg": 17500000,
+     "views": 814600,
+     "sh": 1151,
+     "vph": 19668,
+     "imp": true,
+     "titulo": "Lula volta a cobrar Flávio sobre a 6x1",
+     "frase": "Bota a sua bancada pra votar.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@metropolesoficial/video/7694413617525001492",
+     "capa": "capas-n/7694413617525001492.jpg"
+    },
+    {
      "id": "7694411478232829192",
      "a": "_rkikive",
      "ver": false,
-     "seg": 717,
-     "views": 690900,
-     "sh": 9463,
-     "vph": 16617,
+     "seg": 621,
+     "views": 689100,
+     "sh": 9443,
+     "vph": 16575,
      "imp": false,
      "titulo": "Na Câmara: “viva a luta pelo fim da escala 6x1”",
      "frase": "humilhante é não defender a própria exposição viva a classe trabalhadora brasileira viva o presidente Lula e",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@_rkikive/video/7694411478232829192",
-     "capa": "capas-n/7694411478232829192.jpg"
+     "capa": ""
+    },
+    {
+     "id": "7693989689413405959",
+     "a": "cnnbrasil",
+     "ver": true,
+     "seg": 4100000,
+     "views": 747900,
+     "sh": 2821,
+     "vph": 10904,
+     "imp": true,
+     "titulo": "Lula: quero saber como Flávio vai votar o fim da 6x1",
+     "frase": "você percebeu que o Congresso Nacional começou a votar o fim da escala seis por um? eu quero saber como é que",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@cnnbrasil/video/7693989689413405959",
+     "capa": "capas-n/7693989689413405959.jpg"
     }
    ],
    "tiktok": {
-    "redes_vph": 173575,
-    "imprensa_vph": 48980,
-    "compart": 97864,
-    "n_videos": 26,
+    "redes_vph": 188519,
+    "imprensa_vph": 59662,
+    "compart": 96434,
+    "n_videos": 27,
     "n_contas": 12,
     "contas": [
      {
       "a": "ptbrasil",
       "seg": 1900000,
       "ver": true,
-      "vph": 63421
+      "vph": 63450
      },
      {
       "a": "danielmoreno.adv",
-      "seg": 208300,
+      "seg": 206900,
       "ver": false,
-      "vph": 37997
+      "vph": 38003
      },
      {
       "a": "ofofoquinho",
-      "seg": 316300,
+      "seg": 314400,
       "ver": false,
-      "vph": 9786
+      "vph": 9753
      },
      {
       "a": "guilhermeboulos",
       "seg": 1100000,
       "ver": true,
-      "vph": 6915
+      "vph": 6907
      },
      {
       "a": "lulaoficial",
       "seg": 6100000,
       "ver": true,
-      "vph": 4544
+      "vph": 6866
      }
     ],
     "videos": [
@@ -1575,8 +1479,8 @@
       "ver": true,
       "seg": 1900000,
       "views": 2600000,
-      "sh": 28600,
-      "vph": 63421,
+      "sh": 28500,
+      "vph": 63450,
       "imp": false,
       "titulo": "Lula a Flávio: coloque a bancada para votar o fim da 6x1",
       "frase": "Vai ou não vai votar o fim da escala seis por um?",
@@ -1588,10 +1492,10 @@
       "id": "7694037039213284626",
       "a": "danielmoreno.adv",
       "ver": false,
-      "seg": 208300,
+      "seg": 206900,
       "views": 2500000,
       "sh": 30400,
-      "vph": 37997,
+      "vph": 38003,
       "imp": false,
       "titulo": "Advogado compara as propostas para o trabalhador",
       "frase": "olha a proposta desse candidato pros trabalhadores o salário mínimo será por horas trabalhadas e a nossa",
@@ -1600,28 +1504,13 @@
       "capa": "capas-n/7694037039213284626.jpg"
      },
      {
-      "id": "7694413617525001492",
-      "a": "metropolesoficial",
-      "ver": true,
-      "seg": 17400000,
-      "views": 815400,
-      "sh": 1152,
-      "vph": 19677,
-      "imp": true,
-      "titulo": "Lula volta a cobrar Flávio sobre a 6x1",
-      "frase": "Bota a sua bancada pra votar.",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@metropolesoficial/video/7694413617525001492",
-      "capa": "capas-n/7694413617525001492.jpg"
-     },
-     {
       "id": "7694366460809874708",
       "a": "leticia.carvalho.adv",
       "ver": false,
-      "seg": 10800,
-      "views": 753400,
-      "sh": 9068,
-      "vph": 16933,
+      "seg": 8883,
+      "views": 702000,
+      "sh": 8328,
+      "vph": 22199,
       "imp": false,
       "titulo": "Advogada: “liberdade para negociar” com o patrão não é real",
       "frase": "Na teoria, trabalhar por hora com liberdade pra negociar parece boa demais.",
@@ -1630,34 +1519,49 @@
       "capa": "capas-n/7694366460809874708.jpg"
      },
      {
+      "id": "7694413617525001492",
+      "a": "metropolesoficial",
+      "ver": true,
+      "seg": 17500000,
+      "views": 814600,
+      "sh": 1151,
+      "vph": 19668,
+      "imp": true,
+      "titulo": "Lula volta a cobrar Flávio sobre a 6x1",
+      "frase": "Bota a sua bancada pra votar.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@metropolesoficial/video/7694413617525001492",
+      "capa": "capas-n/7694413617525001492.jpg"
+     },
+     {
       "id": "7694411478232829192",
       "a": "_rkikive",
       "ver": false,
-      "seg": 717,
-      "views": 690900,
-      "sh": 9463,
-      "vph": 16617,
+      "seg": 621,
+      "views": 689100,
+      "sh": 9443,
+      "vph": 16575,
       "imp": false,
       "titulo": "Na Câmara: “viva a luta pelo fim da escala 6x1”",
       "frase": "humilhante é não defender a própria exposição viva a classe trabalhadora brasileira viva o presidente Lula e",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@_rkikive/video/7694411478232829192",
-      "capa": "capas-n/7694411478232829192.jpg"
+      "capa": ""
      },
      {
       "id": "7693989689413405959",
       "a": "cnnbrasil",
       "ver": true,
       "seg": 4100000,
-      "views": 748000,
-      "sh": 2822,
-      "vph": 10903,
+      "views": 747900,
+      "sh": 2821,
+      "vph": 10904,
       "imp": true,
       "titulo": "Lula: quero saber como Flávio vai votar o fim da 6x1",
       "frase": "você percebeu que o Congresso Nacional começou a votar o fim da escala seis por um? eu quero saber como é que",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@cnnbrasil/video/7693989689413405959",
-      "capa": ""
+      "capa": "capas-n/7693989689413405959.jpg"
      }
     ]
    }
@@ -1696,9 +1600,9 @@
      }
     }
    ],
-   "redes_vph": 42569,
-   "imprensa_vph": 43016,
-   "compart": 39747,
+   "redes_vph": 45154,
+   "imprensa_vph": 45093,
+   "compart": 39421,
    "n_videos": 10,
    "n_contas": 6,
    "contas": [
@@ -1706,25 +1610,25 @@
      "a": "guilhermeboulos",
      "seg": 1100000,
      "ver": true,
-     "vph": 15057
+     "vph": 15033
     },
     {
      "a": "iclnoticias",
-     "seg": 540600,
+     "seg": 539400,
      "ver": false,
-     "vph": 12644
+     "vph": 12637
     },
     {
      "a": "leosismos",
-     "seg": 104300,
+     "seg": 104100,
      "ver": false,
-     "vph": 3312
+     "vph": 4277
     },
     {
      "a": "25outubro2026",
-     "seg": 186000,
+     "seg": 171000,
      "ver": false,
-     "vph": 3286
+     "vph": 4169
     }
    ],
    "videos": [
@@ -1735,7 +1639,7 @@
      "seg": 13400000,
      "views": 1200000,
      "sh": 23100,
-     "vph": 18353,
+     "vph": 18356,
      "imp": true,
      "titulo": "Análise: a fala de Flávio sobre mudar a Constituição",
      "frase": "Ele falou que já tem maioria pra fazer mudança na Constituição.",
@@ -1747,10 +1651,10 @@
      "id": "7694313027910290694",
      "a": "redetvt",
      "ver": true,
-     "seg": 694500,
-     "views": 704900,
+     "seg": 692900,
+     "views": 704500,
      "sh": 18800,
-     "vph": 14704,
+     "vph": 14697,
      "imp": true,
      "titulo": "The Guardian alerta para os planos de Flávio",
      "frase": "mais um golpe de estado é o alerta que ganha destaque no respeitado jornal britânico The Guardian sobre os",
@@ -1763,9 +1667,9 @@
      "a": "guilhermeboulos",
      "ver": true,
      "seg": 1100000,
-     "views": 343400,
+     "views": 342700,
      "sh": 10600,
-     "vph": 13559,
+     "vph": 13535,
      "imp": false,
      "titulo": "Boulos: Flávio quer mudar a Constituição",
      "frase": "Ele pode mexer até nos direitos sociais e trabalhistas.",
@@ -1777,10 +1681,10 @@
      "id": "7694302386109598982",
      "a": "iclnoticias",
      "ver": false,
-     "seg": 540600,
-     "views": 614900,
+     "seg": 539400,
+     "views": 614500,
      "sh": 16900,
-     "vph": 12644,
+     "vph": 12637,
      "imp": false,
      "titulo": "ICL: a “redemocratização” de Flávio e a Constituição",
      "frase": "Essa fala gerou preocupação inclusive nos aliados do Flávio.",
@@ -1793,36 +1697,36 @@
      "a": "folha",
      "ver": true,
      "seg": 1400000,
-     "views": 694200,
-     "sh": 2258,
-     "vph": 9959,
+     "views": 684400,
+     "sh": 2229,
+     "vph": 12040,
      "imp": true,
      "titulo": "Flávio explica o que quis dizer com “redemocratizar”",
      "frase": "que que quis dizer com essa fala de redemocratizar o Brasil, mudar a constituição? se vocês acham que o",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@folha/video/7693976616564821254",
-     "capa": ""
+     "capa": "capas-n/7693976616564821254.jpg"
     },
     {
      "id": "7694382897448455445",
      "a": "detudoumpouco.oficial._",
      "ver": false,
-     "seg": 16400,
+     "seg": 16300,
      "views": 346000,
      "sh": 846,
-     "vph": 7967,
+     "vph": 7968,
      "imp": false,
      "titulo": "Igão (Podpah): um lado fala em mudar a Constituição",
      "frase": "De um lado, um lado totalmente democrático; do outro, um lado antidemocrático.",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@detudoumpouco.oficial._/video/7694382897448455445",
-     "capa": "capas-n/7694382897448455445.jpg"
+     "capa": ""
     }
    ],
    "tiktok": {
-    "redes_vph": 42569,
-    "imprensa_vph": 43016,
-    "compart": 39747,
+    "redes_vph": 45154,
+    "imprensa_vph": 45093,
+    "compart": 39421,
     "n_videos": 10,
     "n_contas": 6,
     "contas": [
@@ -1830,25 +1734,25 @@
       "a": "guilhermeboulos",
       "seg": 1100000,
       "ver": true,
-      "vph": 15057
+      "vph": 15033
      },
      {
       "a": "iclnoticias",
-      "seg": 540600,
+      "seg": 539400,
       "ver": false,
-      "vph": 12644
+      "vph": 12637
      },
      {
       "a": "leosismos",
-      "seg": 104300,
+      "seg": 104100,
       "ver": false,
-      "vph": 3312
+      "vph": 4277
      },
      {
       "a": "25outubro2026",
-      "seg": 186000,
+      "seg": 171000,
       "ver": false,
-      "vph": 3286
+      "vph": 4169
      }
     ],
     "videos": [
@@ -1859,7 +1763,7 @@
       "seg": 13400000,
       "views": 1200000,
       "sh": 23100,
-      "vph": 18353,
+      "vph": 18356,
       "imp": true,
       "titulo": "Análise: a fala de Flávio sobre mudar a Constituição",
       "frase": "Ele falou que já tem maioria pra fazer mudança na Constituição.",
@@ -1871,10 +1775,10 @@
       "id": "7694313027910290694",
       "a": "redetvt",
       "ver": true,
-      "seg": 694500,
-      "views": 704900,
+      "seg": 692900,
+      "views": 704500,
       "sh": 18800,
-      "vph": 14704,
+      "vph": 14697,
       "imp": true,
       "titulo": "The Guardian alerta para os planos de Flávio",
       "frase": "mais um golpe de estado é o alerta que ganha destaque no respeitado jornal britânico The Guardian sobre os",
@@ -1887,9 +1791,9 @@
       "a": "guilhermeboulos",
       "ver": true,
       "seg": 1100000,
-      "views": 343400,
+      "views": 342700,
       "sh": 10600,
-      "vph": 13559,
+      "vph": 13535,
       "imp": false,
       "titulo": "Boulos: Flávio quer mudar a Constituição",
       "frase": "Ele pode mexer até nos direitos sociais e trabalhistas.",
@@ -1901,10 +1805,10 @@
       "id": "7694302386109598982",
       "a": "iclnoticias",
       "ver": false,
-      "seg": 540600,
-      "views": 614900,
+      "seg": 539400,
+      "views": 614500,
       "sh": 16900,
-      "vph": 12644,
+      "vph": 12637,
       "imp": false,
       "titulo": "ICL: a “redemocratização” de Flávio e a Constituição",
       "frase": "Essa fala gerou preocupação inclusive nos aliados do Flávio.",
@@ -1917,30 +1821,30 @@
       "a": "folha",
       "ver": true,
       "seg": 1400000,
-      "views": 694200,
-      "sh": 2258,
-      "vph": 9959,
+      "views": 684400,
+      "sh": 2229,
+      "vph": 12040,
       "imp": true,
       "titulo": "Flávio explica o que quis dizer com “redemocratizar”",
       "frase": "que que quis dizer com essa fala de redemocratizar o Brasil, mudar a constituição? se vocês acham que o",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@folha/video/7693976616564821254",
-      "capa": ""
+      "capa": "capas-n/7693976616564821254.jpg"
      },
      {
       "id": "7694382897448455445",
       "a": "detudoumpouco.oficial._",
       "ver": false,
-      "seg": 16400,
+      "seg": 16300,
       "views": 346000,
       "sh": 846,
-      "vph": 7967,
+      "vph": 7968,
       "imp": false,
       "titulo": "Igão (Podpah): um lado fala em mudar a Constituição",
       "frase": "De um lado, um lado totalmente democrático; do outro, um lado antidemocrático.",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@detudoumpouco.oficial._/video/7694382897448455445",
-      "capa": "capas-n/7694382897448455445.jpg"
+      "capa": ""
      }
     ]
    }
@@ -1962,17 +1866,17 @@
      }
     }
    ],
-   "redes_vph": 13894,
+   "redes_vph": 13885,
    "imprensa_vph": 0,
-   "compart": 10048,
+   "compart": 10041,
    "n_videos": 2,
    "n_contas": 2,
    "contas": [
     {
      "a": "lauschultz",
-     "seg": 581100,
+     "seg": 582800,
      "ver": false,
-     "vph": 11372
+     "vph": 11364
     }
    ],
    "videos": [
@@ -1980,10 +1884,10 @@
      "id": "7694282265194401044",
      "a": "lauschultz",
      "ver": false,
-     "seg": 581100,
-     "views": 567900,
-     "sh": 7261,
-     "vph": 11372,
+     "seg": 582800,
+     "views": 567400,
+     "sh": 7256,
+     "vph": 11364,
      "imp": false,
      "titulo": "“Estão distorcendo” a fala de Flávio sobre a Constituição",
      "frase": "Tem muita gente que tá distorcendo o que o Flávio disse.",
@@ -1995,10 +1899,10 @@
      "id": "7694021201571630337",
      "a": "contaoutra.invest",
      "ver": false,
-     "seg": 47200,
-     "views": 168500,
-     "sh": 2787,
-     "vph": 2522,
+     "seg": 47100,
+     "views": 168400,
+     "sh": 2785,
+     "vph": 2521,
      "imp": false,
      "titulo": "“O PT já mudou a Constituição mais de 60 vezes”",
      "frase": "Que história é essa que o Flávio quer acabar com a Constituição?",
@@ -2008,17 +1912,17 @@
     }
    ],
    "tiktok": {
-    "redes_vph": 13894,
+    "redes_vph": 13885,
     "imprensa_vph": 0,
-    "compart": 10048,
+    "compart": 10041,
     "n_videos": 2,
     "n_contas": 2,
     "contas": [
      {
       "a": "lauschultz",
-      "seg": 581100,
+      "seg": 582800,
       "ver": false,
-      "vph": 11372
+      "vph": 11364
      }
     ],
     "videos": [
@@ -2026,10 +1930,10 @@
       "id": "7694282265194401044",
       "a": "lauschultz",
       "ver": false,
-      "seg": 581100,
-      "views": 567900,
-      "sh": 7261,
-      "vph": 11372,
+      "seg": 582800,
+      "views": 567400,
+      "sh": 7256,
+      "vph": 11364,
       "imp": false,
       "titulo": "“Estão distorcendo” a fala de Flávio sobre a Constituição",
       "frase": "Tem muita gente que tá distorcendo o que o Flávio disse.",
@@ -2041,10 +1945,10 @@
       "id": "7694021201571630337",
       "a": "contaoutra.invest",
       "ver": false,
-      "seg": 47200,
-      "views": 168500,
-      "sh": 2787,
-      "vph": 2522,
+      "seg": 47100,
+      "views": 168400,
+      "sh": 2785,
+      "vph": 2521,
       "imp": false,
       "titulo": "“O PT já mudou a Constituição mais de 60 vezes”",
       "frase": "Que história é essa que o Flávio quer acabar com a Constituição?",
@@ -2104,35 +2008,29 @@
      }
     }
    ],
-   "redes_vph": 147039,
-   "imprensa_vph": 27248,
-   "compart": 100805,
-   "n_videos": 22,
-   "n_contas": 14,
+   "redes_vph": 163802,
+   "imprensa_vph": 39750,
+   "compart": 96765,
+   "n_videos": 20,
+   "n_contas": 11,
    "contas": [
     {
      "a": "ptbrasil",
      "seg": 1900000,
      "ver": true,
-     "vph": 55881
+     "vph": 55872
     },
     {
      "a": "guilhermeboulos",
      "seg": 1100000,
      "ver": true,
-     "vph": 29202
+     "vph": 29227
     },
     {
      "a": "ptsaopaulo",
-     "seg": 809500,
+     "seg": 795500,
      "ver": true,
-     "vph": 9447
-    },
-    {
-     "a": "nossa.vita1",
-     "seg": 142300,
-     "ver": false,
-     "vph": 1161
+     "vph": 13361
     }
    ],
    "videos": [
@@ -2143,7 +2041,7 @@
      "seg": 1900000,
      "views": 2800000,
      "sh": 35700,
-     "vph": 41764,
+     "vph": 41772,
      "imp": false,
      "titulo": "Lula: 33 milhões não votaram, venha votar",
      "frase": "gente nós tivemos trinta e três milhões de pessoas que não compareceram pra votar é importante nesse 2º turno",
@@ -2158,7 +2056,7 @@
      "seg": 1100000,
      "views": 1900000,
      "sh": 19500,
-     "vph": 29202,
+     "vph": 29227,
      "imp": false,
      "titulo": "Boulos: a virada começou, caminhada no Rio",
      "frase": "A virada começou. Caminhada agora no Rio de Janeiro",
@@ -2167,13 +2065,28 @@
      "capa": "capas-n/7694048363343252757.jpg"
     },
     {
+     "id": "7694685402803850517",
+     "a": "centralfabiofelix",
+     "ver": false,
+     "seg": 13200,
+     "views": 226200,
+     "sh": 1565,
+     "vph": 20653,
+     "imp": false,
+     "titulo": "Lula chega para caminhada em Ceilândia",
+     "frase": "Agora: Lula chegando para a caminhada em Ceilândia.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@centralfabiofelix/video/7694685402803850517",
+     "capa": "capas-n/7694685402803850517.jpg"
+    },
+    {
      "id": "7694718545686465799",
      "a": "cristianoreads",
      "ver": false,
-     "seg": 56400,
-     "views": 361900,
-     "sh": 10400,
-     "vph": 16662,
+     "seg": 55500,
+     "views": 359900,
+     "sh": 10300,
+     "vph": 16568,
      "imp": false,
      "titulo": "Manifestação da esquerda e da direita: compare",
      "frase": "isso aqui é 1 manifestação da esquerda. agora, isso aqui é 1 manifestação da direita. só de ver a enorme",
@@ -2186,9 +2099,9 @@
      "a": "ptbrasil",
      "ver": true,
      "seg": 1900000,
-     "views": 333000,
-     "sh": 4590,
-     "vph": 14117,
+     "views": 332600,
+     "sh": 4583,
+     "vph": 14100,
      "imp": false,
      "titulo": "PT: “vamos pra cima” na caminhada de Lula",
      "frase": "",
@@ -2201,62 +2114,41 @@
      "a": "sbtnews",
      "ver": true,
      "seg": 4400000,
-     "views": 890400,
+     "views": 890000,
      "sh": 3374,
-     "vph": 12962,
+     "vph": 12959,
      "imp": true,
      "titulo": "Ana Elisa: Lula vai gravar vídeos no formato TikTok",
      "frase": "a comunicação do presidente não fazia esse formato de vídeo que ele fez hoje, e é um formato de vídeo que dá",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@sbtnews/video/7693992372908215572",
      "capa": ""
-    },
-    {
-     "id": "7694685402803850517",
-     "a": "centralfabiofelix",
-     "ver": false,
-     "seg": 13600,
-     "views": 251900,
-     "sh": 1716,
-     "vph": 10556,
-     "imp": false,
-     "titulo": "Lula chega para caminhada em Ceilândia",
-     "frase": "Agora: Lula chegando para a caminhada em Ceilândia.",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@centralfabiofelix/video/7694685402803850517",
-     "capa": "capas-n/7694685402803850517.jpg"
     }
    ],
    "tiktok": {
-    "redes_vph": 147039,
-    "imprensa_vph": 27248,
-    "compart": 100805,
-    "n_videos": 22,
-    "n_contas": 14,
+    "redes_vph": 163802,
+    "imprensa_vph": 39750,
+    "compart": 96765,
+    "n_videos": 20,
+    "n_contas": 11,
     "contas": [
      {
       "a": "ptbrasil",
       "seg": 1900000,
       "ver": true,
-      "vph": 55881
+      "vph": 55872
      },
      {
       "a": "guilhermeboulos",
       "seg": 1100000,
       "ver": true,
-      "vph": 29202
+      "vph": 29227
      },
      {
       "a": "ptsaopaulo",
-      "seg": 809500,
+      "seg": 795500,
       "ver": true,
-      "vph": 9447
-     },
-     {
-      "a": "nossa.vita1",
-      "seg": 142300,
-      "ver": false,
-      "vph": 1161
+      "vph": 13361
      }
     ],
     "videos": [
@@ -2267,7 +2159,7 @@
       "seg": 1900000,
       "views": 2800000,
       "sh": 35700,
-      "vph": 41764,
+      "vph": 41772,
       "imp": false,
       "titulo": "Lula: 33 milhões não votaram, venha votar",
       "frase": "gente nós tivemos trinta e três milhões de pessoas que não compareceram pra votar é importante nesse 2º turno",
@@ -2282,7 +2174,7 @@
       "seg": 1100000,
       "views": 1900000,
       "sh": 19500,
-      "vph": 29202,
+      "vph": 29227,
       "imp": false,
       "titulo": "Boulos: a virada começou, caminhada no Rio",
       "frase": "A virada começou. Caminhada agora no Rio de Janeiro",
@@ -2291,13 +2183,28 @@
       "capa": "capas-n/7694048363343252757.jpg"
      },
      {
+      "id": "7694685402803850517",
+      "a": "centralfabiofelix",
+      "ver": false,
+      "seg": 13200,
+      "views": 226200,
+      "sh": 1565,
+      "vph": 20653,
+      "imp": false,
+      "titulo": "Lula chega para caminhada em Ceilândia",
+      "frase": "Agora: Lula chegando para a caminhada em Ceilândia.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@centralfabiofelix/video/7694685402803850517",
+      "capa": "capas-n/7694685402803850517.jpg"
+     },
+     {
       "id": "7694718545686465799",
       "a": "cristianoreads",
       "ver": false,
-      "seg": 56400,
-      "views": 361900,
-      "sh": 10400,
-      "vph": 16662,
+      "seg": 55500,
+      "views": 359900,
+      "sh": 10300,
+      "vph": 16568,
       "imp": false,
       "titulo": "Manifestação da esquerda e da direita: compare",
       "frase": "isso aqui é 1 manifestação da esquerda. agora, isso aqui é 1 manifestação da direita. só de ver a enorme",
@@ -2310,9 +2217,9 @@
       "a": "ptbrasil",
       "ver": true,
       "seg": 1900000,
-      "views": 333000,
-      "sh": 4590,
-      "vph": 14117,
+      "views": 332600,
+      "sh": 4583,
+      "vph": 14100,
       "imp": false,
       "titulo": "PT: “vamos pra cima” na caminhada de Lula",
       "frase": "",
@@ -2325,30 +2232,15 @@
       "a": "sbtnews",
       "ver": true,
       "seg": 4400000,
-      "views": 890400,
+      "views": 890000,
       "sh": 3374,
-      "vph": 12962,
+      "vph": 12959,
       "imp": true,
       "titulo": "Ana Elisa: Lula vai gravar vídeos no formato TikTok",
       "frase": "a comunicação do presidente não fazia esse formato de vídeo que ele fez hoje, e é um formato de vídeo que dá",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@sbtnews/video/7693992372908215572",
       "capa": ""
-     },
-     {
-      "id": "7694685402803850517",
-      "a": "centralfabiofelix",
-      "ver": false,
-      "seg": 13600,
-      "views": 251900,
-      "sh": 1716,
-      "vph": 10556,
-      "imp": false,
-      "titulo": "Lula chega para caminhada em Ceilândia",
-      "frase": "Agora: Lula chegando para a caminhada em Ceilândia.",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@centralfabiofelix/video/7694685402803850517",
-      "capa": "capas-n/7694685402803850517.jpg"
      }
     ]
    }
@@ -2369,41 +2261,41 @@
      }
     }
    ],
-   "redes_vph": 219498,
-   "imprensa_vph": 29769,
-   "compart": 113851,
-   "n_videos": 35,
-   "n_contas": 25,
+   "redes_vph": 286072,
+   "imprensa_vph": 56660,
+   "compart": 103340,
+   "n_videos": 32,
+   "n_contas": 22,
    "contas": [
     {
      "a": "ptbrasil",
      "seg": 1900000,
      "ver": true,
-     "vph": 38680
+     "vph": 38671
     },
     {
      "a": "plocsocial",
-     "seg": 171200,
+     "seg": 167600,
      "ver": false,
-     "vph": 10760
-    },
-    {
-     "a": "ptsaopaulo",
-     "seg": 809500,
-     "ver": true,
-     "vph": 9421
+     "vph": 15836
     },
     {
      "a": "25outubro2026",
-     "seg": 186000,
+     "seg": 171100,
      "ver": false,
-     "vph": 6987
+     "vph": 10655
+    },
+    {
+     "a": "ptsaopaulo",
+     "seg": 795400,
+     "ver": true,
+     "vph": 9419
     },
     {
      "a": "midianinja",
-     "seg": 280100,
+     "seg": 271600,
      "ver": false,
-     "vph": 4281
+     "vph": 5306
     }
    ],
    "videos": [
@@ -2411,10 +2303,10 @@
      "id": "7694274874444991762",
      "a": "annabacatte",
      "ver": false,
-     "seg": 1697,
-     "views": 2400000,
-     "sh": 19800,
-     "vph": 47606,
+     "seg": 1464,
+     "views": 2200000,
+     "sh": 17900,
+     "vph": 58579,
      "imp": false,
      "titulo": "UFRJ: o movimento estudantil unificado",
      "frase": "imagem do ato, sem fala",
@@ -2423,13 +2315,43 @@
      "capa": "capas-n/7694274874444991762.jpg"
     },
     {
+     "id": "7694823293525740821",
+     "a": "noticiasmaranhenses",
+     "ver": false,
+     "seg": 117600,
+     "views": 49400,
+     "sh": 237,
+     "vph": 24596,
+     "imp": true,
+     "titulo": "Ato na UEMA, em São Luís",
+     "frase": "trabalhador olha pra cá, eu tô na rua pro seu filho estudar",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@noticiasmaranhenses/video/7694823293525740821",
+     "capa": ""
+    },
+    {
+     "id": "7694830506134818100",
+     "a": "tropa.lula.2026",
+     "ver": false,
+     "seg": 78300,
+     "views": 34900,
+     "sh": 135,
+     "vph": 21584,
+     "imp": false,
+     "titulo": "Juventude em Maceió com Lula",
+     "frase": "Lula, Lula",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@tropa.lula.2026/video/7694830506134818100",
+     "capa": ""
+    },
+    {
      "id": "7694043277607111957",
      "a": "ptbrasil",
      "ver": true,
      "seg": 1900000,
      "views": 1400000,
-     "sh": 17000,
-     "vph": 21410,
+     "sh": 16900,
+     "vph": 21434,
      "imp": false,
      "titulo": "Estudantes lotam o centro do Rio",
      "frase": "Povo na rua e nas redes! 🇧🇷",
@@ -2442,9 +2364,9 @@
      "a": "ptbrasil",
      "ver": true,
      "seg": 1900000,
-     "views": 256100,
-     "sh": 2414,
-     "vph": 17270,
+     "views": 255700,
+     "sh": 2409,
+     "vph": 17237,
      "imp": false,
      "titulo": "Belo Horizonte vai às ruas: vamos virar",
      "frase": "Todo mundo foi pra rua dizer que é Lula presidente",
@@ -2456,84 +2378,54 @@
      "id": "7694358170483084552",
      "a": "plocsocial",
      "ver": false,
-     "seg": 171200,
-     "views": 484500,
-     "sh": 9789,
-     "vph": 10760,
+     "seg": 167600,
+     "views": 424900,
+     "sh": 8023,
+     "vph": 15836,
      "imp": false,
      "titulo": "Estudantes nas ruas contra Flávio rodam o mundo",
      "frase": "as imagens de estudantes aqui no Brasil estão ganhando o mundo olha isso mas tem um detalhe presta atenção",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@plocsocial/video/7694358170483084552",
      "capa": "capas-n/7694358170483084552.jpg"
-    },
-    {
-     "id": "7694823293525740821",
-     "a": "noticiasmaranhenses",
-     "ver": false,
-     "seg": 118700,
-     "views": 149300,
-     "sh": 650,
-     "vph": 9990,
-     "imp": true,
-     "titulo": "Ato na UEMA, em São Luís",
-     "frase": "trabalhador olha pra cá, eu tô na rua pro seu filho estudar",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@noticiasmaranhenses/video/7694823293525740821",
-     "capa": "capas-n/7694823293525740821.jpg"
-    },
-    {
-     "id": "7694015420012973313",
-     "a": "portalgalvao.com",
-     "ver": false,
-     "seg": 7199,
-     "views": 667500,
-     "sh": 8894,
-     "vph": 9934,
-     "imp": false,
-     "titulo": "Milhares em manifestação na Candelária",
-     "frase": "📰 milhares de pessoas participam de manifestação no centro do rio Milhares de manifestantes se reuniram nesta",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@portalgalvao.com/video/7694015420012973313",
-     "capa": "capas-n/7694015420012973313.jpg"
     }
    ],
    "tiktok": {
-    "redes_vph": 219498,
-    "imprensa_vph": 29769,
-    "compart": 113851,
-    "n_videos": 35,
-    "n_contas": 25,
+    "redes_vph": 286072,
+    "imprensa_vph": 56660,
+    "compart": 103340,
+    "n_videos": 32,
+    "n_contas": 22,
     "contas": [
      {
       "a": "ptbrasil",
       "seg": 1900000,
       "ver": true,
-      "vph": 38680
+      "vph": 38671
      },
      {
       "a": "plocsocial",
-      "seg": 171200,
+      "seg": 167600,
       "ver": false,
-      "vph": 10760
-     },
-     {
-      "a": "ptsaopaulo",
-      "seg": 809500,
-      "ver": true,
-      "vph": 9421
+      "vph": 15836
      },
      {
       "a": "25outubro2026",
-      "seg": 186000,
+      "seg": 171100,
       "ver": false,
-      "vph": 6987
+      "vph": 10655
+     },
+     {
+      "a": "ptsaopaulo",
+      "seg": 795400,
+      "ver": true,
+      "vph": 9419
      },
      {
       "a": "midianinja",
-      "seg": 280100,
+      "seg": 271600,
       "ver": false,
-      "vph": 4281
+      "vph": 5306
      }
     ],
     "videos": [
@@ -2541,10 +2433,10 @@
       "id": "7694274874444991762",
       "a": "annabacatte",
       "ver": false,
-      "seg": 1697,
-      "views": 2400000,
-      "sh": 19800,
-      "vph": 47606,
+      "seg": 1464,
+      "views": 2200000,
+      "sh": 17900,
+      "vph": 58579,
       "imp": false,
       "titulo": "UFRJ: o movimento estudantil unificado",
       "frase": "imagem do ato, sem fala",
@@ -2553,13 +2445,43 @@
       "capa": "capas-n/7694274874444991762.jpg"
      },
      {
+      "id": "7694823293525740821",
+      "a": "noticiasmaranhenses",
+      "ver": false,
+      "seg": 117600,
+      "views": 49400,
+      "sh": 237,
+      "vph": 24596,
+      "imp": true,
+      "titulo": "Ato na UEMA, em São Luís",
+      "frase": "trabalhador olha pra cá, eu tô na rua pro seu filho estudar",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@noticiasmaranhenses/video/7694823293525740821",
+      "capa": ""
+     },
+     {
+      "id": "7694830506134818100",
+      "a": "tropa.lula.2026",
+      "ver": false,
+      "seg": 78300,
+      "views": 34900,
+      "sh": 135,
+      "vph": 21584,
+      "imp": false,
+      "titulo": "Juventude em Maceió com Lula",
+      "frase": "Lula, Lula",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@tropa.lula.2026/video/7694830506134818100",
+      "capa": ""
+     },
+     {
       "id": "7694043277607111957",
       "a": "ptbrasil",
       "ver": true,
       "seg": 1900000,
       "views": 1400000,
-      "sh": 17000,
-      "vph": 21410,
+      "sh": 16900,
+      "vph": 21434,
       "imp": false,
       "titulo": "Estudantes lotam o centro do Rio",
       "frase": "Povo na rua e nas redes! 🇧🇷",
@@ -2572,9 +2494,9 @@
       "a": "ptbrasil",
       "ver": true,
       "seg": 1900000,
-      "views": 256100,
-      "sh": 2414,
-      "vph": 17270,
+      "views": 255700,
+      "sh": 2409,
+      "vph": 17237,
       "imp": false,
       "titulo": "Belo Horizonte vai às ruas: vamos virar",
       "frase": "Todo mundo foi pra rua dizer que é Lula presidente",
@@ -2586,46 +2508,16 @@
       "id": "7694358170483084552",
       "a": "plocsocial",
       "ver": false,
-      "seg": 171200,
-      "views": 484500,
-      "sh": 9789,
-      "vph": 10760,
+      "seg": 167600,
+      "views": 424900,
+      "sh": 8023,
+      "vph": 15836,
       "imp": false,
       "titulo": "Estudantes nas ruas contra Flávio rodam o mundo",
       "frase": "as imagens de estudantes aqui no Brasil estão ganhando o mundo olha isso mas tem um detalhe presta atenção",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@plocsocial/video/7694358170483084552",
       "capa": "capas-n/7694358170483084552.jpg"
-     },
-     {
-      "id": "7694823293525740821",
-      "a": "noticiasmaranhenses",
-      "ver": false,
-      "seg": 118700,
-      "views": 149300,
-      "sh": 650,
-      "vph": 9990,
-      "imp": true,
-      "titulo": "Ato na UEMA, em São Luís",
-      "frase": "trabalhador olha pra cá, eu tô na rua pro seu filho estudar",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@noticiasmaranhenses/video/7694823293525740821",
-      "capa": "capas-n/7694823293525740821.jpg"
-     },
-     {
-      "id": "7694015420012973313",
-      "a": "portalgalvao.com",
-      "ver": false,
-      "seg": 7199,
-      "views": 667500,
-      "sh": 8894,
-      "vph": 9934,
-      "imp": false,
-      "titulo": "Milhares em manifestação na Candelária",
-      "frase": "📰 milhares de pessoas participam de manifestação no centro do rio Milhares de manifestantes se reuniram nesta",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@portalgalvao.com/video/7694015420012973313",
-      "capa": "capas-n/7694015420012973313.jpg"
      }
     ]
    }
@@ -2646,9 +2538,9 @@
      }
     }
    ],
-   "redes_vph": 237948,
-   "imprensa_vph": 99988,
-   "compart": 217599,
+   "redes_vph": 267765,
+   "imprensa_vph": 134508,
+   "compart": 214704,
    "n_videos": 13,
    "n_contas": 8,
    "contas": [
@@ -2656,31 +2548,31 @@
      "a": "ptbrasil",
      "seg": 1900000,
      "ver": true,
-     "vph": 84145
+     "vph": 86907
     },
     {
      "a": "injayne",
      "seg": 1200000,
      "ver": false,
-     "vph": 70382
-    },
-    {
-     "a": "padilhando13",
-     "seg": 544300,
-     "ver": true,
-     "vph": 6713
-    },
-    {
-     "a": "ptsaopaulo",
-     "seg": 809500,
-     "ver": true,
-     "vph": 6151
+     "vph": 70387
     },
     {
      "a": "plnacional_",
-     "seg": 1200000,
+     "seg": 1100000,
      "ver": true,
-     "vph": 5809
+     "vph": 13112
+    },
+    {
+     "a": "padilhando13",
+     "seg": 541500,
+     "ver": true,
+     "vph": 7231
+    },
+    {
+     "a": "ptsaopaulo",
+     "seg": 795600,
+     "ver": true,
+     "vph": 6134
     }
    ],
    "videos": [
@@ -2688,10 +2580,10 @@
      "id": "7694310979944959253",
      "a": "metropolesoficial",
      "ver": true,
-     "seg": 17400000,
-     "views": 4600000,
-     "sh": 42900,
-     "vph": 95674,
+     "seg": 17500000,
+     "views": 4400000,
+     "sh": 41400,
+     "vph": 125249,
      "imp": true,
      "titulo": "Flávio nega que vá cortar aposentadoria e BPC",
      "frase": "Não vou fazer economia em cima de quem precisa, das pessoas mais carentes.",
@@ -2705,8 +2597,8 @@
      "ver": true,
      "seg": 1900000,
      "views": 3900000,
-     "sh": 48300,
-     "vph": 82000,
+     "sh": 48200,
+     "vph": 82010,
      "imp": false,
      "titulo": "Lula: o corte de R$ 250 bi atinge Pé-de-Meia e salário",
      "frase": "bem você já viu o meu adversário dizendo que vai cortar duzentos bilhões de reais de orçamento quando eles",
@@ -2715,13 +2607,28 @@
      "capa": "capas-n/7694319006316055815.jpg"
     },
     {
+     "id": "7694659000238886152",
+     "a": "governalismoemfoco",
+     "ver": false,
+     "seg": 44200,
+     "views": 1000000,
+     "sh": 3006,
+     "vph": 81458,
+     "imp": false,
+     "titulo": "Flávio: “ninguém vai tirar o Bolsa Família de você”",
+     "frase": "primeiro, sobre bolsa família. é mentira que eu acabaria com bolsa família, é óbvio é. foi o presidente",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@governalismoemfoco/video/7694659000238886152",
+     "capa": ""
+    },
+    {
      "id": "7694417265692888340",
      "a": "injayne",
      "ver": false,
      "seg": 1200000,
      "views": 2900000,
      "sh": 142500,
-     "vph": 70382,
+     "vph": 70387,
      "imp": false,
      "titulo": "Humor: “2025: gás do povo; 2027: gás no povo”",
      "frase": "2025: gás do povo / 2027: gás no povo",
@@ -2730,55 +2637,40 @@
      "capa": "capas-n/7694417265692888340.jpg"
     },
     {
-     "id": "7694659000238886152",
-     "a": "governalismoemfoco",
-     "ver": false,
-     "seg": 45000,
-     "views": 1600000,
-     "sh": 5363,
-     "vph": 62569,
-     "imp": false,
-     "titulo": "Flávio: “ninguém vai tirar o Bolsa Família de você”",
-     "frase": "primeiro, sobre bolsa família. é mentira que eu acabaria com bolsa família, é óbvio é. foi o presidente",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@governalismoemfoco/video/7694659000238886152",
-     "capa": "capas-n/7694659000238886152.jpg"
-    },
-    {
-     "id": "7694685122439761204",
-     "a": "ptsaopaulo",
-     "ver": true,
-     "seg": 809500,
-     "views": 146900,
-     "sh": 3883,
-     "vph": 6151,
-     "imp": false,
-     "titulo": "Lula: os cortes que encontrou no orçamento de Bolsonaro",
-     "frase": "eu vou dar o que significa tesouras pra essa gente corte de cinquenta e nove por cento no farmácia popular",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@ptsaopaulo/video/7694685122439761204",
-     "capa": "capas-n/7694685122439761204.jpg"
-    },
-    {
      "id": "7694699335048514837",
      "a": "plnacional_",
      "ver": true,
-     "seg": 1200000,
-     "views": 133400,
-     "sh": 1042,
-     "vph": 5809,
+     "seg": 1100000,
+     "views": 126100,
+     "sh": 972,
+     "vph": 13112,
      "imp": false,
      "titulo": "PL: “Flávio não vai acabar com o Bolsa Família”",
      "frase": "Flávio já reforçou diversas vezes que manterá o Bolsa Família.",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@plnacional_/video/7694699335048514837",
      "capa": "capas-n/7694699335048514837.jpg"
+    },
+    {
+     "id": "7694685122439761204",
+     "a": "ptsaopaulo",
+     "ver": true,
+     "seg": 795600,
+     "views": 146500,
+     "sh": 3870,
+     "vph": 6134,
+     "imp": false,
+     "titulo": "Lula: os cortes que encontrou no orçamento de Bolsonaro",
+     "frase": "eu vou dar o que significa tesouras pra essa gente corte de cinquenta e nove por cento no farmácia popular",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@ptsaopaulo/video/7694685122439761204",
+     "capa": ""
     }
    ],
    "tiktok": {
-    "redes_vph": 237948,
-    "imprensa_vph": 99988,
-    "compart": 217599,
+    "redes_vph": 267765,
+    "imprensa_vph": 134508,
+    "compart": 214704,
     "n_videos": 13,
     "n_contas": 8,
     "contas": [
@@ -2786,31 +2678,31 @@
       "a": "ptbrasil",
       "seg": 1900000,
       "ver": true,
-      "vph": 84145
+      "vph": 86907
      },
      {
       "a": "injayne",
       "seg": 1200000,
       "ver": false,
-      "vph": 70382
-     },
-     {
-      "a": "padilhando13",
-      "seg": 544300,
-      "ver": true,
-      "vph": 6713
-     },
-     {
-      "a": "ptsaopaulo",
-      "seg": 809500,
-      "ver": true,
-      "vph": 6151
+      "vph": 70387
      },
      {
       "a": "plnacional_",
-      "seg": 1200000,
+      "seg": 1100000,
       "ver": true,
-      "vph": 5809
+      "vph": 13112
+     },
+     {
+      "a": "padilhando13",
+      "seg": 541500,
+      "ver": true,
+      "vph": 7231
+     },
+     {
+      "a": "ptsaopaulo",
+      "seg": 795600,
+      "ver": true,
+      "vph": 6134
      }
     ],
     "videos": [
@@ -2818,10 +2710,10 @@
       "id": "7694310979944959253",
       "a": "metropolesoficial",
       "ver": true,
-      "seg": 17400000,
-      "views": 4600000,
-      "sh": 42900,
-      "vph": 95674,
+      "seg": 17500000,
+      "views": 4400000,
+      "sh": 41400,
+      "vph": 125249,
       "imp": true,
       "titulo": "Flávio nega que vá cortar aposentadoria e BPC",
       "frase": "Não vou fazer economia em cima de quem precisa, das pessoas mais carentes.",
@@ -2835,8 +2727,8 @@
       "ver": true,
       "seg": 1900000,
       "views": 3900000,
-      "sh": 48300,
-      "vph": 82000,
+      "sh": 48200,
+      "vph": 82010,
       "imp": false,
       "titulo": "Lula: o corte de R$ 250 bi atinge Pé-de-Meia e salário",
       "frase": "bem você já viu o meu adversário dizendo que vai cortar duzentos bilhões de reais de orçamento quando eles",
@@ -2845,13 +2737,28 @@
       "capa": "capas-n/7694319006316055815.jpg"
      },
      {
+      "id": "7694659000238886152",
+      "a": "governalismoemfoco",
+      "ver": false,
+      "seg": 44200,
+      "views": 1000000,
+      "sh": 3006,
+      "vph": 81458,
+      "imp": false,
+      "titulo": "Flávio: “ninguém vai tirar o Bolsa Família de você”",
+      "frase": "primeiro, sobre bolsa família. é mentira que eu acabaria com bolsa família, é óbvio é. foi o presidente",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@governalismoemfoco/video/7694659000238886152",
+      "capa": ""
+     },
+     {
       "id": "7694417265692888340",
       "a": "injayne",
       "ver": false,
       "seg": 1200000,
       "views": 2900000,
       "sh": 142500,
-      "vph": 70382,
+      "vph": 70387,
       "imp": false,
       "titulo": "Humor: “2025: gás do povo; 2027: gás no povo”",
       "frase": "2025: gás do povo / 2027: gás no povo",
@@ -2860,49 +2767,34 @@
       "capa": "capas-n/7694417265692888340.jpg"
      },
      {
-      "id": "7694659000238886152",
-      "a": "governalismoemfoco",
-      "ver": false,
-      "seg": 45000,
-      "views": 1600000,
-      "sh": 5363,
-      "vph": 62569,
-      "imp": false,
-      "titulo": "Flávio: “ninguém vai tirar o Bolsa Família de você”",
-      "frase": "primeiro, sobre bolsa família. é mentira que eu acabaria com bolsa família, é óbvio é. foi o presidente",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@governalismoemfoco/video/7694659000238886152",
-      "capa": "capas-n/7694659000238886152.jpg"
-     },
-     {
-      "id": "7694685122439761204",
-      "a": "ptsaopaulo",
-      "ver": true,
-      "seg": 809500,
-      "views": 146900,
-      "sh": 3883,
-      "vph": 6151,
-      "imp": false,
-      "titulo": "Lula: os cortes que encontrou no orçamento de Bolsonaro",
-      "frase": "eu vou dar o que significa tesouras pra essa gente corte de cinquenta e nove por cento no farmácia popular",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@ptsaopaulo/video/7694685122439761204",
-      "capa": "capas-n/7694685122439761204.jpg"
-     },
-     {
       "id": "7694699335048514837",
       "a": "plnacional_",
       "ver": true,
-      "seg": 1200000,
-      "views": 133400,
-      "sh": 1042,
-      "vph": 5809,
+      "seg": 1100000,
+      "views": 126100,
+      "sh": 972,
+      "vph": 13112,
       "imp": false,
       "titulo": "PL: “Flávio não vai acabar com o Bolsa Família”",
       "frase": "Flávio já reforçou diversas vezes que manterá o Bolsa Família.",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@plnacional_/video/7694699335048514837",
       "capa": "capas-n/7694699335048514837.jpg"
+     },
+     {
+      "id": "7694685122439761204",
+      "a": "ptsaopaulo",
+      "ver": true,
+      "seg": 795600,
+      "views": 146500,
+      "sh": 3870,
+      "vph": 6134,
+      "imp": false,
+      "titulo": "Lula: os cortes que encontrou no orçamento de Bolsonaro",
+      "frase": "eu vou dar o que significa tesouras pra essa gente corte de cinquenta e nove por cento no farmácia popular",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@ptsaopaulo/video/7694685122439761204",
+      "capa": ""
      }
     ]
    }
@@ -2912,52 +2804,68 @@
    "nome": "Cuidado: a favor de Lula, mas sem fonte",
    "lado": "cuidado",
    "args": [],
-   "redes_vph": 205333,
+   "redes_vph": 413057,
    "imprensa_vph": 0,
-   "compart": 76356,
-   "n_videos": 31,
-   "n_contas": 30,
+   "compart": 70943,
+   "n_videos": 44,
+   "n_contas": 41,
    "contas": [
     {
      "a": "apolo.silva66",
-     "seg": 122300,
+     "seg": 104800,
      "ver": false,
-     "vph": 22006
-    },
-    {
-     "a": "carai.liviaa",
-     "seg": 147300,
-     "ver": false,
-     "vph": 4733
-    },
-    {
-     "a": "somostodosesquerdista",
-     "seg": 251500,
-     "ver": false,
-     "vph": 4360
+     "vph": 26910
     },
     {
      "a": "ninhobarreiramatuto2",
-     "seg": 260400,
+     "seg": 263100,
      "ver": false,
-     "vph": 3297
+     "vph": 7687
+    },
+    {
+     "a": "somostodosesquerdista",
+     "seg": 249000,
+     "ver": false,
+     "vph": 5420
     },
     {
      "a": "nossa.vita1",
-     "seg": 142300,
+     "seg": 129500,
      "ver": false,
-     "vph": 3075
+     "vph": 4377
+    },
+    {
+     "a": "alexsandrobeneyco",
+     "seg": 122600,
+     "ver": false,
+     "vph": 3952
     }
    ],
    "videos": [
+    {
+     "id": "7694812468828196103",
+     "a": "",
+     "ver": false,
+     "seg": null,
+     "views": 153900,
+     "sh": 3626,
+     "vph": 55223,
+     "imp": false,
+     "titulo": "Canto com palavrão contra Flávio em BH",
+     "frase": "oh chupetinha",
+     "rede": "TikTok",
+     "url": "",
+     "capa": "",
+     "motivo": "Canto com palavrão contra Flávio. Vira munição para dizer que a campanha é agressiva."
+    },
     {
      "id": "7693945895166971137",
      "a": "",
      "ver": false,
      "seg": null,
-     "views": 1900000,
-     "sh": 4270,
-     "vph": 26502,
+     "views": 1700000,
+     "sh": 3681,
+     "vph": 31817,
      "imp": false,
      "titulo": "“Notícia urgente: pesquisa aponta Lula na frente”",
      "frase": "notícia urgente, pesquisa aponta que Lula está na frente. aperte os botões ao lado somente se for votar 13",
@@ -2967,13 +2875,29 @@
      "motivo": "“Notícia urgente” de pesquisa sem instituto nem número, com pedido para apertar os botões."
     },
     {
+     "id": "7694762600818642196",
+     "a": "",
+     "ver": false,
+     "seg": null,
+     "views": 141500,
+     "sh": 1074,
+     "vph": 23563,
+     "imp": false,
+     "titulo": "Vox Populi “já mostra virada de Lula”",
+     "frase": "essa pesquisa que foi divulgada hoje do Vox Populi ela já mostra uma virada do presidente Lula mas ela é",
+     "rede": "TikTok",
+     "url": "",
+     "capa": "",
+     "motivo": "Apresenta pesquisa Vox Populi como “virada” de Lula sem mostrar registro nem números: confira antes de compartilhar."
+    },
+    {
      "id": "7694149621001669906",
      "a": "apolo.silva66",
      "ver": false,
-     "seg": 122300,
-     "views": 739700,
-     "sh": 2104,
-     "vph": 14220,
+     "seg": 104800,
+     "views": 716000,
+     "sh": 2051,
+     "vph": 18311,
      "imp": false,
      "titulo": "“Aperta a cruz vermelha e comenta 13”",
      "frase": "ó segundo turno, agora quem tá com a gente segue o perfil, aperta a cruz vermelha embaixo da foto e comenta,",
@@ -2987,9 +2911,9 @@
      "a": "",
      "ver": false,
      "seg": null,
-     "views": 465400,
-     "sh": 854,
-     "vph": 11970,
+     "views": 432500,
+     "sh": 774,
+     "vph": 16657,
      "imp": false,
      "titulo": "Narrado como se fosse Ana Paula Renault, pede cliques",
      "frase": "bom dia Brasil aqui é a Ana Paula Renô se você é direita pode sair desse vídeo agora se você é treze clica em",
@@ -2999,101 +2923,85 @@
      "motivo": "Narrado como se fosse Ana Paula Renault, pede para “clicar em todos os botões”. A fala não é dela."
     },
     {
-     "id": "7694791515285212436",
+     "id": "7694782707791957249",
      "a": "",
      "ver": false,
      "seg": null,
-     "views": 172300,
-     "sh": 3904,
-     "vph": 10135,
+     "views": 75500,
+     "sh": 308,
+     "vph": 16091,
      "imp": false,
-     "titulo": "“Estão tentando nos silenciar?”",
-     "frase": "só os conteúdos relacionados à esquerda",
+     "titulo": "Previsão de taróloga sobre a virada",
+     "frase": "mais uma previsão acertada sobre as eleições",
      "rede": "TikTok",
      "url": "",
      "capa": "",
-     "motivo": "Sugere censura a conteúdos de esquerda sem prova apresentada."
-    },
-    {
-     "id": "7694405607230639393",
-     "a": "",
-     "ver": false,
-     "seg": null,
-     "views": 415900,
-     "sh": 1368,
-     "vph": 9912,
-     "imp": false,
-     "titulo": "Pedido de curtir, seguir e comentar",
-     "frase": "",
-     "rede": "TikTok",
-     "url": "",
-     "capa": "",
-     "motivo": "Isca de engajamento (cobra curtida, seguida e comentário). Não traz argumento."
-    },
-    {
-     "id": "7694762600818642196",
-     "a": "",
-     "ver": false,
-     "seg": null,
-     "views": 185600,
-     "sh": 1410,
-     "vph": 9835,
-     "imp": false,
-     "titulo": "Vox Populi “já mostra virada de Lula”",
-     "frase": "essa pesquisa que foi divulgada hoje do Vox Populi ela já mostra uma virada do presidente Lula mas ela é",
-     "rede": "TikTok",
-     "url": "",
-     "capa": "",
-     "motivo": "Apresenta pesquisa Vox Populi como “virada” de Lula sem mostrar registro nem números: confira antes de compartilhar."
+     "motivo": "Previsão de taróloga sobre o resultado. Não é informação e pode ser usada para ridicularizar a campanha."
     }
    ],
    "tiktok": {
-    "redes_vph": 205333,
+    "redes_vph": 413057,
     "imprensa_vph": 0,
-    "compart": 76356,
-    "n_videos": 31,
-    "n_contas": 30,
+    "compart": 70943,
+    "n_videos": 44,
+    "n_contas": 41,
     "contas": [
      {
       "a": "apolo.silva66",
-      "seg": 122300,
+      "seg": 104800,
       "ver": false,
-      "vph": 22006
-     },
-     {
-      "a": "carai.liviaa",
-      "seg": 147300,
-      "ver": false,
-      "vph": 4733
-     },
-     {
-      "a": "somostodosesquerdista",
-      "seg": 251500,
-      "ver": false,
-      "vph": 4360
+      "vph": 26910
      },
      {
       "a": "ninhobarreiramatuto2",
-      "seg": 260400,
+      "seg": 263100,
       "ver": false,
-      "vph": 3297
+      "vph": 7687
+     },
+     {
+      "a": "somostodosesquerdista",
+      "seg": 249000,
+      "ver": false,
+      "vph": 5420
      },
      {
       "a": "nossa.vita1",
-      "seg": 142300,
+      "seg": 129500,
       "ver": false,
-      "vph": 3075
+      "vph": 4377
+     },
+     {
+      "a": "alexsandrobeneyco",
+      "seg": 122600,
+      "ver": false,
+      "vph": 3952
      }
     ],
     "videos": [
+     {
+      "id": "7694812468828196103",
+      "a": "",
+      "ver": false,
+      "seg": null,
+      "views": 153900,
+      "sh": 3626,
+      "vph": 55223,
+      "imp": false,
+      "titulo": "Canto com palavrão contra Flávio em BH",
+      "frase": "oh chupetinha",
+      "rede": "TikTok",
+      "url": "",
+      "capa": "",
+      "motivo": "Canto com palavrão contra Flávio. Vira munição para dizer que a campanha é agressiva."
+     },
      {
       "id": "7693945895166971137",
       "a": "",
       "ver": false,
       "seg": null,
-      "views": 1900000,
-      "sh": 4270,
-      "vph": 26502,
+      "views": 1700000,
+      "sh": 3681,
+      "vph": 31817,
       "imp": false,
       "titulo": "“Notícia urgente: pesquisa aponta Lula na frente”",
       "frase": "notícia urgente, pesquisa aponta que Lula está na frente. aperte os botões ao lado somente se for votar 13",
@@ -3103,13 +3011,29 @@
       "motivo": "“Notícia urgente” de pesquisa sem instituto nem número, com pedido para apertar os botões."
      },
      {
+      "id": "7694762600818642196",
+      "a": "",
+      "ver": false,
+      "seg": null,
+      "views": 141500,
+      "sh": 1074,
+      "vph": 23563,
+      "imp": false,
+      "titulo": "Vox Populi “já mostra virada de Lula”",
+      "frase": "essa pesquisa que foi divulgada hoje do Vox Populi ela já mostra uma virada do presidente Lula mas ela é",
+      "rede": "TikTok",
+      "url": "",
+      "capa": "",
+      "motivo": "Apresenta pesquisa Vox Populi como “virada” de Lula sem mostrar registro nem números: confira antes de compartilhar."
+     },
+     {
       "id": "7694149621001669906",
       "a": "apolo.silva66",
       "ver": false,
-      "seg": 122300,
-      "views": 739700,
-      "sh": 2104,
-      "vph": 14220,
+      "seg": 104800,
+      "views": 716000,
+      "sh": 2051,
+      "vph": 18311,
       "imp": false,
       "titulo": "“Aperta a cruz vermelha e comenta 13”",
       "frase": "ó segundo turno, agora quem tá com a gente segue o perfil, aperta a cruz vermelha embaixo da foto e comenta,",
@@ -3123,9 +3047,9 @@
       "a": "",
       "ver": false,
       "seg": null,
-      "views": 465400,
-      "sh": 854,
-      "vph": 11970,
+      "views": 432500,
+      "sh": 774,
+      "vph": 16657,
       "imp": false,
       "titulo": "Narrado como se fosse Ana Paula Renault, pede cliques",
       "frase": "bom dia Brasil aqui é a Ana Paula Renô se você é direita pode sair desse vídeo agora se você é treze clica em",
@@ -3135,52 +3059,20 @@
       "motivo": "Narrado como se fosse Ana Paula Renault, pede para “clicar em todos os botões”. A fala não é dela."
      },
      {
-      "id": "7694791515285212436",
+      "id": "7694782707791957249",
       "a": "",
       "ver": false,
       "seg": null,
-      "views": 172300,
-      "sh": 3904,
-      "vph": 10135,
+      "views": 75500,
+      "sh": 308,
+      "vph": 16091,
       "imp": false,
-      "titulo": "“Estão tentando nos silenciar?”",
-      "frase": "só os conteúdos relacionados à esquerda",
+      "titulo": "Previsão de taróloga sobre a virada",
+      "frase": "mais uma previsão acertada sobre as eleições",
       "rede": "TikTok",
       "url": "",
       "capa": "",
-      "motivo": "Sugere censura a conteúdos de esquerda sem prova apresentada."
-     },
-     {
-      "id": "7694405607230639393",
-      "a": "",
-      "ver": false,
-      "seg": null,
-      "views": 415900,
-      "sh": 1368,
-      "vph": 9912,
-      "imp": false,
-      "titulo": "Pedido de curtir, seguir e comentar",
-      "frase": "",
-      "rede": "TikTok",
-      "url": "",
-      "capa": "",
-      "motivo": "Isca de engajamento (cobra curtida, seguida e comentário). Não traz argumento."
-     },
-     {
-      "id": "7694762600818642196",
-      "a": "",
-      "ver": false,
-      "seg": null,
-      "views": 185600,
-      "sh": 1410,
-      "vph": 9835,
-      "imp": false,
-      "titulo": "Vox Populi “já mostra virada de Lula”",
-      "frase": "essa pesquisa que foi divulgada hoje do Vox Populi ela já mostra uma virada do presidente Lula mas ela é",
-      "rede": "TikTok",
-      "url": "",
-      "capa": "",
-      "motivo": "Apresenta pesquisa Vox Populi como “virada” de Lula sem mostrar registro nem números: confira antes de compartilhar."
+      "motivo": "Previsão de taróloga sobre o resultado. Não é informação e pode ser usada para ridicularizar a campanha."
      }
     ]
    }
@@ -3191,41 +3083,41 @@
    "lado": "nossa",
    "diz": "Anitta, Ana Paula Renault, Pabllo Vittar e outros artistas e influenciadores gravam vídeos declarando voto em Lula no 2º turno e explicando o motivo.",
    "args": [],
-   "redes_vph": 107608,
-   "imprensa_vph": 40662,
-   "compart": 23165,
-   "n_videos": 10,
-   "n_contas": 6,
+   "redes_vph": 158954,
+   "imprensa_vph": 64021,
+   "compart": 21633,
+   "n_videos": 13,
+   "n_contas": 8,
    "contas": [
     {
      "a": "olazaroramosmesmo",
      "seg": 2800000,
      "ver": true,
-     "vph": 56667
+     "vph": 56654
     },
     {
      "a": "popzone.brr",
-     "seg": 243500,
+     "seg": 242600,
      "ver": false,
-     "vph": 30004
-    },
-    {
-     "a": "poptimebra",
-     "seg": 100100,
-     "ver": false,
-     "vph": 3306
+     "vph": 30084
     },
     {
      "a": "midianinja",
-     "seg": 280100,
+     "seg": 271600,
      "ver": false,
-     "vph": 1730
+     "vph": 6227
     },
     {
      "a": "25outubro2026",
-     "seg": 186000,
+     "seg": 171100,
      "ver": false,
-     "vph": 1170
+     "vph": 3116
+    },
+    {
+     "a": "anapaularenaultvideos",
+     "seg": 123300,
+     "ver": false,
+     "vph": 2824
     }
    ],
    "videos": [
@@ -3235,8 +3127,8 @@
      "ver": true,
      "seg": 2800000,
      "views": 1000000,
-     "sh": 14400,
-     "vph": 56667,
+     "sh": 14300,
+     "vph": 56654,
      "imp": false,
      "titulo": "Lázaro Ramos explica o voto em Lula",
      "frase": "EU criei um canal pra explicar porque que EU voto em Lula no 2º turno",
@@ -3245,43 +3137,13 @@
      "capa": "capas-n/7694781494107180309.jpg"
     },
     {
-     "id": "7694737415285689621",
-     "a": "popzone.brr",
-     "ver": false,
-     "seg": 243500,
-     "views": 615100,
-     "sh": 4094,
-     "vph": 30004,
-     "imp": false,
-     "titulo": "Anitta: bolsonarismo não é a direita",
-     "frase": "isso que eu não chamo o bolsonarismo de direita",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@popzone.brr/video/7694737415285689621",
-     "capa": "capas-n/7694737415285689621.jpg"
-    },
-    {
-     "id": "7694742298449677589",
-     "a": "metropolesoficial",
-     "ver": true,
-     "seg": 17400000,
-     "views": 365800,
-     "sh": 660,
-     "vph": 18124,
-     "imp": true,
-     "titulo": "Anitta declara voto em Lula no 2º turno",
-     "frase": "no dia 25 EU vou votar 13 pra presidente EU vou votar no Lula como vocês já sabem os motivos eles já foram",
-     "rede": "TikTok",
-     "url": "https://www.tiktok.com/@metropolesoficial/video/7694742298449677589",
-     "capa": "capas-n/7694742298449677589.jpg"
-    },
-    {
      "id": "7694692590196706580",
      "a": "maisquefandom",
      "ver": false,
-     "seg": 3608,
-     "views": 344700,
-     "sh": 2489,
-     "vph": 14731,
+     "seg": 1442,
+     "views": 189400,
+     "sh": 1209,
+     "vph": 37211,
      "imp": false,
      "titulo": "Anitta: bolsonarismo não é a direita",
      "frase": "mas quem começou isso foi o bolsonarismo por isso que eu não chamo o bolsonarismo de direita não chamo chamo",
@@ -3290,72 +3152,102 @@
      "capa": "capas-n/7694692590196706580.jpg"
     },
     {
-     "id": "7694380895578377524",
-     "a": "popline",
-     "ver": true,
-     "seg": 2600000,
-     "views": 359100,
-     "sh": 3335,
-     "vph": 8754,
-     "imp": true,
-     "titulo": "Francisco Gil relembra ataque de Bolsonaro a Preta Gil",
-     "frase": "fala família tô postando aqui pra gente conversar um pouco mas eu já vou direto ao ponto eu queria lembrar",
+     "id": "7694737415285689621",
+     "a": "popzone.brr",
+     "ver": false,
+     "seg": 242600,
+     "views": 614100,
+     "sh": 4085,
+     "vph": 30084,
+     "imp": false,
+     "titulo": "Anitta: bolsonarismo não é a direita",
+     "frase": "isso que eu não chamo o bolsonarismo de direita",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@popline/video/7694380895578377524",
-     "capa": "capas-n/7694380895578377524.jpg"
+     "url": "https://www.tiktok.com/@popzone.brr/video/7694737415285689621",
+     "capa": "capas-n/7694737415285689621.jpg"
     },
     {
-     "id": "7694703063570959634",
-     "a": "bnewsoficial",
+     "id": "7695030429501459733",
+     "a": "tmcnewsbr",
      "ver": true,
-     "seg": 2600000,
-     "views": 169600,
-     "sh": 351,
-     "vph": 7464,
+     "seg": 714600,
+     "views": 35700,
+     "sh": 58,
+     "vph": 23455,
      "imp": true,
-     "titulo": "Anitta: no dia 25 eu vou votar no Lula",
+     "titulo": "José de Abreu cobra colegas artistas",
+     "frase": "tô perplexo com alguns colegas que ainda tão relutando",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@tmcnewsbr/video/7695030429501459733",
+     "capa": ""
+    },
+    {
+     "id": "7694742298449677589",
+     "a": "metropolesoficial",
+     "ver": true,
+     "seg": 17500000,
+     "views": 364500,
+     "sh": 657,
+     "vph": 18060,
+     "imp": true,
+     "titulo": "Anitta declara voto em Lula no 2º turno",
+     "frase": "no dia 25 EU vou votar 13 pra presidente EU vou votar no Lula como vocês já sabem os motivos eles já foram",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@metropolesoficial/video/7694742298449677589",
+     "capa": "capas-n/7694742298449677589.jpg"
+    },
+    {
+     "id": "7694686262703312136",
+     "a": "poptimebra",
+     "ver": false,
+     "seg": 99100,
+     "views": 74100,
+     "sh": 594,
+     "vph": 13288,
+     "imp": false,
+     "titulo": "Anitta declara voto em Lula",
      "frase": "no dia 25 EU vou votar crise pra presidente EU vou votar no Lula como vocês já sabem os motivos eles já foram",
      "rede": "TikTok",
-     "url": "https://www.tiktok.com/@bnewsoficial/video/7694703063570959634",
-     "capa": "capas-n/7694703063570959634.jpg"
+     "url": "https://www.tiktok.com/@poptimebra/video/7694686262703312136",
+     "capa": ""
     }
    ],
    "tiktok": {
-    "redes_vph": 107608,
-    "imprensa_vph": 40662,
-    "compart": 23165,
-    "n_videos": 10,
-    "n_contas": 6,
+    "redes_vph": 158954,
+    "imprensa_vph": 64021,
+    "compart": 21633,
+    "n_videos": 13,
+    "n_contas": 8,
     "contas": [
      {
       "a": "olazaroramosmesmo",
       "seg": 2800000,
       "ver": true,
-      "vph": 56667
+      "vph": 56654
      },
      {
       "a": "popzone.brr",
-      "seg": 243500,
+      "seg": 242600,
       "ver": false,
-      "vph": 30004
-     },
-     {
-      "a": "poptimebra",
-      "seg": 100100,
-      "ver": false,
-      "vph": 3306
+      "vph": 30084
      },
      {
       "a": "midianinja",
-      "seg": 280100,
+      "seg": 271600,
       "ver": false,
-      "vph": 1730
+      "vph": 6227
      },
      {
       "a": "25outubro2026",
-      "seg": 186000,
+      "seg": 171100,
       "ver": false,
-      "vph": 1170
+      "vph": 3116
+     },
+     {
+      "a": "anapaularenaultvideos",
+      "seg": 123300,
+      "ver": false,
+      "vph": 2824
      }
     ],
     "videos": [
@@ -3365,8 +3257,8 @@
       "ver": true,
       "seg": 2800000,
       "views": 1000000,
-      "sh": 14400,
-      "vph": 56667,
+      "sh": 14300,
+      "vph": 56654,
       "imp": false,
       "titulo": "Lázaro Ramos explica o voto em Lula",
       "frase": "EU criei um canal pra explicar porque que EU voto em Lula no 2º turno",
@@ -3375,43 +3267,13 @@
       "capa": "capas-n/7694781494107180309.jpg"
      },
      {
-      "id": "7694737415285689621",
-      "a": "popzone.brr",
-      "ver": false,
-      "seg": 243500,
-      "views": 615100,
-      "sh": 4094,
-      "vph": 30004,
-      "imp": false,
-      "titulo": "Anitta: bolsonarismo não é a direita",
-      "frase": "isso que eu não chamo o bolsonarismo de direita",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@popzone.brr/video/7694737415285689621",
-      "capa": "capas-n/7694737415285689621.jpg"
-     },
-     {
-      "id": "7694742298449677589",
-      "a": "metropolesoficial",
-      "ver": true,
-      "seg": 17400000,
-      "views": 365800,
-      "sh": 660,
-      "vph": 18124,
-      "imp": true,
-      "titulo": "Anitta declara voto em Lula no 2º turno",
-      "frase": "no dia 25 EU vou votar 13 pra presidente EU vou votar no Lula como vocês já sabem os motivos eles já foram",
-      "rede": "TikTok",
-      "url": "https://www.tiktok.com/@metropolesoficial/video/7694742298449677589",
-      "capa": "capas-n/7694742298449677589.jpg"
-     },
-     {
       "id": "7694692590196706580",
       "a": "maisquefandom",
       "ver": false,
-      "seg": 3608,
-      "views": 344700,
-      "sh": 2489,
-      "vph": 14731,
+      "seg": 1442,
+      "views": 189400,
+      "sh": 1209,
+      "vph": 37211,
       "imp": false,
       "titulo": "Anitta: bolsonarismo não é a direita",
       "frase": "mas quem começou isso foi o bolsonarismo por isso que eu não chamo o bolsonarismo de direita não chamo chamo",
@@ -3420,34 +3282,64 @@
       "capa": "capas-n/7694692590196706580.jpg"
      },
      {
-      "id": "7694380895578377524",
-      "a": "popline",
-      "ver": true,
-      "seg": 2600000,
-      "views": 359100,
-      "sh": 3335,
-      "vph": 8754,
-      "imp": true,
-      "titulo": "Francisco Gil relembra ataque de Bolsonaro a Preta Gil",
-      "frase": "fala família tô postando aqui pra gente conversar um pouco mas eu já vou direto ao ponto eu queria lembrar",
+      "id": "7694737415285689621",
+      "a": "popzone.brr",
+      "ver": false,
+      "seg": 242600,
+      "views": 614100,
+      "sh": 4085,
+      "vph": 30084,
+      "imp": false,
+      "titulo": "Anitta: bolsonarismo não é a direita",
+      "frase": "isso que eu não chamo o bolsonarismo de direita",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@popline/video/7694380895578377524",
-      "capa": "capas-n/7694380895578377524.jpg"
+      "url": "https://www.tiktok.com/@popzone.brr/video/7694737415285689621",
+      "capa": "capas-n/7694737415285689621.jpg"
      },
      {
-      "id": "7694703063570959634",
-      "a": "bnewsoficial",
+      "id": "7695030429501459733",
+      "a": "tmcnewsbr",
       "ver": true,
-      "seg": 2600000,
-      "views": 169600,
-      "sh": 351,
-      "vph": 7464,
+      "seg": 714600,
+      "views": 35700,
+      "sh": 58,
+      "vph": 23455,
       "imp": true,
-      "titulo": "Anitta: no dia 25 eu vou votar no Lula",
+      "titulo": "José de Abreu cobra colegas artistas",
+      "frase": "tô perplexo com alguns colegas que ainda tão relutando",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@tmcnewsbr/video/7695030429501459733",
+      "capa": ""
+     },
+     {
+      "id": "7694742298449677589",
+      "a": "metropolesoficial",
+      "ver": true,
+      "seg": 17500000,
+      "views": 364500,
+      "sh": 657,
+      "vph": 18060,
+      "imp": true,
+      "titulo": "Anitta declara voto em Lula no 2º turno",
+      "frase": "no dia 25 EU vou votar 13 pra presidente EU vou votar no Lula como vocês já sabem os motivos eles já foram",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@metropolesoficial/video/7694742298449677589",
+      "capa": "capas-n/7694742298449677589.jpg"
+     },
+     {
+      "id": "7694686262703312136",
+      "a": "poptimebra",
+      "ver": false,
+      "seg": 99100,
+      "views": 74100,
+      "sh": 594,
+      "vph": 13288,
+      "imp": false,
+      "titulo": "Anitta declara voto em Lula",
       "frase": "no dia 25 EU vou votar crise pra presidente EU vou votar no Lula como vocês já sabem os motivos eles já foram",
       "rede": "TikTok",
-      "url": "https://www.tiktok.com/@bnewsoficial/video/7694703063570959634",
-      "capa": "capas-n/7694703063570959634.jpg"
+      "url": "https://www.tiktok.com/@poptimebra/video/7694686262703312136",
+      "capa": ""
      }
     ]
    }
@@ -3458,27 +3350,27 @@
    "lado": "nossa",
    "diz": "Vídeos falam diretamente com o eleitor dos candidatos eliminados no 1º turno e com quem votou 22, propondo comparar os dois cenários do 2º turno.",
    "args": [],
-   "redes_vph": 158667,
-   "imprensa_vph": 23284,
-   "compart": 81406,
-   "n_videos": 8,
-   "n_contas": 7,
+   "redes_vph": 166061,
+   "imprensa_vph": 23286,
+   "compart": 79870,
+   "n_videos": 10,
+   "n_contas": 9,
    "contas": [
     {
      "a": "anapaularenault",
-     "seg": 935700,
+     "seg": 934300,
      "ver": true,
-     "vph": 89686
+     "vph": 89693
     },
     {
      "a": "b1acamboim",
-     "seg": 111800,
+     "seg": 107400,
      "ver": false,
-     "vph": 33659
+     "vph": 33387
     },
     {
      "a": "25outubro2026",
-     "seg": 186000,
+     "seg": 171100,
      "ver": false,
      "vph": 10235
     },
@@ -3486,7 +3378,13 @@
      "a": "saiufofoca",
      "seg": 4600000,
      "ver": false,
-     "vph": 6042
+     "vph": 7833
+    },
+    {
+     "a": "najuscaa",
+     "seg": 101100,
+     "ver": false,
+     "vph": 3324
     }
    ],
    "videos": [
@@ -3494,10 +3392,10 @@
      "id": "7694416471933340948",
      "a": "anapaularenault",
      "ver": true,
-     "seg": 935700,
+     "seg": 934300,
      "views": 3700000,
      "sh": 63100,
-     "vph": 89686,
+     "vph": 89693,
      "imp": false,
      "titulo": "Ana Paula Renault a quem votou em Cury, Renan ou Caiado",
      "frase": "você votou no Augusto cure no Relan Santos OU no Caiado e EU te respeito muito você não gosta nem do Lula nem",
@@ -3509,10 +3407,10 @@
      "id": "7694806315138354440",
      "a": "b1acamboim",
      "ver": false,
-     "seg": 111800,
-     "views": 540000,
-     "sh": 3905,
-     "vph": 33659,
+     "seg": 107400,
+     "views": 535800,
+     "sh": 3881,
+     "vph": 33387,
      "imp": false,
      "titulo": "Votei em Cury e me decepcionei com o apoio a Flávio",
      "frase": "votei em Augusto Cury no primeiro turno mas me decepcionei",
@@ -3524,10 +3422,10 @@
      "id": "7694323923504106758",
      "a": "metropolesoficial",
      "ver": true,
-     "seg": 17400000,
+     "seg": 17500000,
      "views": 1100000,
-     "sh": 13800,
-     "vph": 23284,
+     "sh": 13700,
+     "vph": 23286,
      "imp": true,
      "titulo": "Ana Elisa fala ao eleitor de direita que rejeita o bolsonarismo",
      "frase": "esse vídeo eu quero falar com você que é de direita não é você que é bolsonarista você que é de direita você",
@@ -3539,24 +3437,24 @@
      "id": "7694041912822500628",
      "a": "naralopesonnisk",
      "ver": false,
-     "seg": 2538,
-     "views": 762500,
-     "sh": 3210,
-     "vph": 11645,
+     "seg": 1951,
+     "views": 762100,
+     "sh": 3208,
+     "vph": 11640,
      "imp": false,
      "titulo": "Votei 22 no 1º turno; no 2º turno é Lula",
      "frase": "EU votei 22 no 1º turno, mas agora EU li, EU pesquisei, entendi melhor e tudo bem mudar de opinião, porque EU",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@naralopesonnisk/video/7694041912822500628",
-     "capa": "capas-n/7694041912822500628.jpg"
+     "capa": ""
     },
     {
      "id": "7694636838027267349",
      "a": "25outubro2026",
      "ver": false,
-     "seg": 186000,
+     "seg": 171100,
      "views": 276400,
-     "sh": 2734,
+     "sh": 2733,
      "vph": 10235,
      "imp": false,
      "titulo": "No metrô, conversa com eleitor de Renan, Caiado e Zema",
@@ -3570,39 +3468,39 @@
      "a": "saiufofoca",
      "ver": false,
      "seg": 4600000,
-     "views": 242600,
-     "sh": 1976,
-     "vph": 6042,
+     "views": 171000,
+     "sh": 1283,
+     "vph": 7833,
      "imp": false,
      "titulo": "Ana Paula Renault a quem votou em Cury ou Renan",
      "frase": "você votou no Augusto cure no Relan Santos OU no Caiado e EU te respeito muito você não gosta nem do Lula nem",
      "rede": "TikTok",
      "url": "https://www.tiktok.com/@saiufofoca/video/7694433534378790151",
-     "capa": "capas-n/7694433534378790151.jpg"
+     "capa": ""
     }
    ],
    "tiktok": {
-    "redes_vph": 158667,
-    "imprensa_vph": 23284,
-    "compart": 81406,
-    "n_videos": 8,
-    "n_contas": 7,
+    "redes_vph": 166061,
+    "imprensa_vph": 23286,
+    "compart": 79870,
+    "n_videos": 10,
+    "n_contas": 9,
     "contas": [
      {
       "a": "anapaularenault",
-      "seg": 935700,
+      "seg": 934300,
       "ver": true,
-      "vph": 89686
+      "vph": 89693
      },
      {
       "a": "b1acamboim",
-      "seg": 111800,
+      "seg": 107400,
       "ver": false,
-      "vph": 33659
+      "vph": 33387
      },
      {
       "a": "25outubro2026",
-      "seg": 186000,
+      "seg": 171100,
       "ver": false,
       "vph": 10235
      },
@@ -3610,7 +3508,13 @@
       "a": "saiufofoca",
       "seg": 4600000,
       "ver": false,
-      "vph": 6042
+      "vph": 7833
+     },
+     {
+      "a": "najuscaa",
+      "seg": 101100,
+      "ver": false,
+      "vph": 3324
      }
     ],
     "videos": [
@@ -3618,10 +3522,10 @@
       "id": "7694416471933340948",
       "a": "anapaularenault",
       "ver": true,
-      "seg": 935700,
+      "seg": 934300,
       "views": 3700000,
       "sh": 63100,
-      "vph": 89686,
+      "vph": 89693,
       "imp": false,
       "titulo": "Ana Paula Renault a quem votou em Cury, Renan ou Caiado",
       "frase": "você votou no Augusto cure no Relan Santos OU no Caiado e EU te respeito muito você não gosta nem do Lula nem",
@@ -3633,10 +3537,10 @@
       "id": "7694806315138354440",
       "a": "b1acamboim",
       "ver": false,
-      "seg": 111800,
-      "views": 540000,
-      "sh": 3905,
-      "vph": 33659,
+      "seg": 107400,
+      "views": 535800,
+      "sh": 3881,
+      "vph": 33387,
       "imp": false,
       "titulo": "Votei em Cury e me decepcionei com o apoio a Flávio",
       "frase": "votei em Augusto Cury no primeiro turno mas me decepcionei",
@@ -3648,10 +3552,10 @@
       "id": "7694323923504106758",
       "a": "metropolesoficial",
       "ver": true,
-      "seg": 17400000,
+      "seg": 17500000,
       "views": 1100000,
-      "sh": 13800,
-      "vph": 23284,
+      "sh": 13700,
+      "vph": 23286,
       "imp": true,
       "titulo": "Ana Elisa fala ao eleitor de direita que rejeita o bolsonarismo",
       "frase": "esse vídeo eu quero falar com você que é de direita não é você que é bolsonarista você que é de direita você",
@@ -3663,24 +3567,24 @@
       "id": "7694041912822500628",
       "a": "naralopesonnisk",
       "ver": false,
-      "seg": 2538,
-      "views": 762500,
-      "sh": 3210,
-      "vph": 11645,
+      "seg": 1951,
+      "views": 762100,
+      "sh": 3208,
+      "vph": 11640,
       "imp": false,
       "titulo": "Votei 22 no 1º turno; no 2º turno é Lula",
       "frase": "EU votei 22 no 1º turno, mas agora EU li, EU pesquisei, entendi melhor e tudo bem mudar de opinião, porque EU",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@naralopesonnisk/video/7694041912822500628",
-      "capa": "capas-n/7694041912822500628.jpg"
+      "capa": ""
      },
      {
       "id": "7694636838027267349",
       "a": "25outubro2026",
       "ver": false,
-      "seg": 186000,
+      "seg": 171100,
       "views": 276400,
-      "sh": 2734,
+      "sh": 2733,
       "vph": 10235,
       "imp": false,
       "titulo": "No metrô, conversa com eleitor de Renan, Caiado e Zema",
@@ -3694,15 +3598,234 @@
       "a": "saiufofoca",
       "ver": false,
       "seg": 4600000,
-      "views": 242600,
-      "sh": 1976,
-      "vph": 6042,
+      "views": 171000,
+      "sh": 1283,
+      "vph": 7833,
       "imp": false,
       "titulo": "Ana Paula Renault a quem votou em Cury ou Renan",
       "frase": "você votou no Augusto cure no Relan Santos OU no Caiado e EU te respeito muito você não gosta nem do Lula nem",
       "rede": "TikTok",
       "url": "https://www.tiktok.com/@saiufofoca/video/7694433534378790151",
-      "capa": "capas-n/7694433534378790151.jpg"
+      "capa": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "porhora",
+   "nome": "Trabalho por hora: a conta não fecha",
+   "lado": "nossa",
+   "diz": "Contas e humor mostram quanto o trabalhador receberia no pagamento por hora proposto por Flávio.",
+   "args": [],
+   "redes_vph": 69906,
+   "imprensa_vph": 0,
+   "compart": 19922,
+   "n_videos": 7,
+   "n_contas": 7,
+   "contas": [
+    {
+     "a": "blogdamandspeixoto",
+     "seg": 673100,
+     "ver": false,
+     "vph": 13891
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694742751270784277",
+     "a": "leticia.carvalho.adv",
+     "ver": false,
+     "seg": 10800,
+     "views": 473300,
+     "sh": 4348,
+     "vph": 23501,
+     "imp": false,
+     "titulo": "R$ 810,50 por mês: o trabalho por hora para uma mãe",
+     "frase": "R$ 810,50 para uma mãe sustentar sua família?",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@leticia.carvalho.adv/video/7694742751270784277",
+     "capa": "capas-n/7694742751270784277.jpg"
+    },
+    {
+     "id": "7694396082670882100",
+     "a": "blogdamandspeixoto",
+     "ver": false,
+     "seg": 673100,
+     "views": 590500,
+     "sh": 7277,
+     "vph": 13891,
+     "imp": false,
+     "titulo": "Brasileira nos EUA mostra como é trabalhar por hora",
+     "frase": "Como é trabalhar por hora igual aqui nos Estados Unidos",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@blogdamandspeixoto/video/7694396082670882100",
+     "capa": "capas-n/7694396082670882100.jpg"
+    },
+    {
+     "id": "7694733462703541524",
+     "a": "euleonardolopesz",
+     "ver": false,
+     "seg": 13000,
+     "views": 261400,
+     "sh": 3806,
+     "vph": 12604,
+     "imp": false,
+     "titulo": "Humor: o chefe e o pagamento por hora",
+     "frase": "Trabalhador agora só recebe por hora trabalhada. Meu chefe:",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@euleonardolopesz/video/7694733462703541524",
+     "capa": "capas-n/7694733462703541524.jpg"
+    },
+    {
+     "id": "7694778063212547329",
+     "a": "fcraydaresenha_",
+     "ver": false,
+     "seg": 51400,
+     "views": 188800,
+     "sh": 1521,
+     "vph": 10572,
+     "imp": false,
+     "titulo": "Humor: quis trabalhar por hora e se arrependeu",
+     "frase": "vou querer trabalhar por hora",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@fcraydaresenha_/video/7694778063212547329",
+     "capa": ""
+    },
+    {
+     "id": "7694298084142091526",
+     "a": "lazarolucio1",
+     "ver": false,
+     "seg": 56200,
+     "views": 340900,
+     "sh": 1825,
+     "vph": 6972,
+     "imp": false,
+     "titulo": "A conta do trabalho por hora para o CLT",
+     "frase": "quer dizer que o CLT brasileiro agora vai trabalhar por hora",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@lazarolucio1/video/7694298084142091526",
+     "capa": ""
+    },
+    {
+     "id": "7694363076858023175",
+     "a": "batistasantos098",
+     "ver": false,
+     "seg": 10900,
+     "views": 54400,
+     "sh": 372,
+     "vph": 1217,
+     "imp": false,
+     "titulo": "Humor: o restaurante e o trabalho por hora",
+     "frase": "agora tá bom, vamo trabalhar por hora",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@batistasantos098/video/7694363076858023175",
+     "capa": ""
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 69906,
+    "imprensa_vph": 0,
+    "compart": 19922,
+    "n_videos": 7,
+    "n_contas": 7,
+    "contas": [
+     {
+      "a": "blogdamandspeixoto",
+      "seg": 673100,
+      "ver": false,
+      "vph": 13891
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694742751270784277",
+      "a": "leticia.carvalho.adv",
+      "ver": false,
+      "seg": 10800,
+      "views": 473300,
+      "sh": 4348,
+      "vph": 23501,
+      "imp": false,
+      "titulo": "R$ 810,50 por mês: o trabalho por hora para uma mãe",
+      "frase": "R$ 810,50 para uma mãe sustentar sua família?",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@leticia.carvalho.adv/video/7694742751270784277",
+      "capa": "capas-n/7694742751270784277.jpg"
+     },
+     {
+      "id": "7694396082670882100",
+      "a": "blogdamandspeixoto",
+      "ver": false,
+      "seg": 673100,
+      "views": 590500,
+      "sh": 7277,
+      "vph": 13891,
+      "imp": false,
+      "titulo": "Brasileira nos EUA mostra como é trabalhar por hora",
+      "frase": "Como é trabalhar por hora igual aqui nos Estados Unidos",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@blogdamandspeixoto/video/7694396082670882100",
+      "capa": "capas-n/7694396082670882100.jpg"
+     },
+     {
+      "id": "7694733462703541524",
+      "a": "euleonardolopesz",
+      "ver": false,
+      "seg": 13000,
+      "views": 261400,
+      "sh": 3806,
+      "vph": 12604,
+      "imp": false,
+      "titulo": "Humor: o chefe e o pagamento por hora",
+      "frase": "Trabalhador agora só recebe por hora trabalhada. Meu chefe:",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@euleonardolopesz/video/7694733462703541524",
+      "capa": "capas-n/7694733462703541524.jpg"
+     },
+     {
+      "id": "7694778063212547329",
+      "a": "fcraydaresenha_",
+      "ver": false,
+      "seg": 51400,
+      "views": 188800,
+      "sh": 1521,
+      "vph": 10572,
+      "imp": false,
+      "titulo": "Humor: quis trabalhar por hora e se arrependeu",
+      "frase": "vou querer trabalhar por hora",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@fcraydaresenha_/video/7694778063212547329",
+      "capa": ""
+     },
+     {
+      "id": "7694298084142091526",
+      "a": "lazarolucio1",
+      "ver": false,
+      "seg": 56200,
+      "views": 340900,
+      "sh": 1825,
+      "vph": 6972,
+      "imp": false,
+      "titulo": "A conta do trabalho por hora para o CLT",
+      "frase": "quer dizer que o CLT brasileiro agora vai trabalhar por hora",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@lazarolucio1/video/7694298084142091526",
+      "capa": ""
+     },
+     {
+      "id": "7694363076858023175",
+      "a": "batistasantos098",
+      "ver": false,
+      "seg": 10900,
+      "views": 54400,
+      "sh": 372,
+      "vph": 1217,
+      "imp": false,
+      "titulo": "Humor: o restaurante e o trabalho por hora",
+      "frase": "agora tá bom, vamo trabalhar por hora",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@batistasantos098/video/7694363076858023175",
+      "capa": ""
      }
     ]
    }
