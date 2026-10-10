@@ -9,7 +9,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Agora · Radar da Virada">
 <meta property="og:description" content="O que está pegando agora no X, Google, TikTok e YouTube, dos dois lados, e o que fazer com isso. Ao vivo até o 2º turno.">
-<meta property="og:image" content="https://radardavirada.pages.dev/og-monitor.png?v=4"><meta property="og:image:alt" content="Painel com o título Agora, barras do que cada lado fala e uma fita de cotações com X, Google, TikTok e YouTube">
+<meta property="og:image" content="https://radardavirada.pages.dev/og-monitor.png?v=5"><meta property="og:image:alt" content="Painel com o título Agora, barras do que cada lado fala e uma fita de cotações com X, Google, TikTok e YouTube">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:url" content="https://radardavirada.pages.dev/narrativas">
 <meta name="twitter:card" content="summary_large_image">
@@ -24,9 +24,10 @@
 :root {
   --azul: #1800D8; --azul-esc: #10009C; --amarelo: #FFF14A; --tinta: #17171A; --tx-2: #5C5C64; --tx-3: #8A8A92;
   --fundo: #F5F4F1; --card: #FFFFFF; --card-2: #F3F2EE; --linha: #E7E5E0; --linha-2: #D3D0C9;
-  --nossa: #2E8F5B; --nossa-esc: #1F6B43; --nossa-cl: #E6F2EA; --deles: #B8660F; --deles-esc: #8A4A08; --deles-cl: #FBEFE2;
+  /* lados (10/10/2026): Lula em vermelho e Flávio em azul acinzentado, as cores das campanhas, longe do azul forte da marca */
+  --nossa: #C8102E; --nossa-esc: #9A0C23; --nossa-cl: #FBE8EB; --deles: #3B6E9E; --deles-esc: #2A5079; --deles-cl: #E6EEF6;
   --disputa: #5C5C64; --disputa-cl: #ECEBE7; --alerta: #C1121F; --alerta-cl: #FDE8E8; --coral: #FF8C78;
-  --verde: var(--nossa); --verde-esc: var(--nossa-esc); --verde-cl: var(--nossa-cl);
+  --verde: #2E8F5B; --verde-esc: #1F6B43; --verde-cl: #E6F2EA;  /* verde da seção de vídeos e do WhatsApp, separado da cor de lado */
   --f-display: "Big Shoulders Display", Impact, sans-serif; --f-corpo: "Instrument Sans", system-ui, sans-serif;
   --f-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
@@ -284,7 +285,7 @@ section[id], #videos { scroll-margin-top: 92px; }  /* altura do topo fixo */
 .lin span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
 .lin b { font-variant-numeric: tabular-nums; font-weight: 700; }
 .lin em { font-style: normal; font: 800 12px/1 var(--f-corpo); font-variant-numeric: tabular-nums; min-width: 46px; text-align: right; }
-.lin em.up { color: var(--nossa); } .lin em.dn { color: var(--alerta); } .lin em.nv { color: var(--deles); } .lin em.eq { color: var(--tx-3); }
+.lin em.up { color: var(--verde-esc); } .lin em.dn { color: #8A8A92; } .lin em.nv { color: #8A5A00; } .lin em.eq { color: var(--tx-3); }  /* sobe/cai/novo sem cor de lado */
 .duas { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .duas h5 { margin: 0 0 2px; font: 800 10px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .07em; }
 .duas .lin { grid-template-columns: minmax(0, 1fr) auto; font-size: 13px; }
@@ -346,10 +347,8 @@ a.dp-t:hover { text-decoration: underline; }
 .tom-ver { display: inline-block; margin-top: 6px; padding: 4px 9px; border-radius: 6px; font: 800 12px/1.2 var(--f-corpo); }
 .tom-ver.ruim { background: #FF4D4D; color: #FFF; } .tom-ver.bom { background: #2EE07A; color: #0B2A17; } .tom-ver.eq { background: rgb(255 255 255 / .18); color: #FFF; }
 .tom-ver + .tom-leg { margin-top: 4px; }
-/* vermelho em quem leva mais pancada; o outro lado fica neutro (Lula na frente mantém o verde) */
-.visor-escuro .tom.perde-l .tom-num b:first-child::before, .visor-escuro .tom.perde-l .tom-barra i:first-child,
-.visor-escuro .tom.perde-f .tom-num b:last-child::after, .visor-escuro .tom.perde-f .tom-barra i:last-child { background: #FF4D4D !important; }
-.visor-escuro .tom.perde-l .tom-num b:last-child::after, .visor-escuro .tom.perde-l .tom-barra i:last-child { background: #CFCBE8 !important; }
+/* a barra do medidor usa a cor de cada lado; quem leva pancada aparece no selo do veredito (antes era um vermelho de alerta,
+   que com Lula em vermelho virou ambíguo) */
 .pn-lex { margin-top: 10px; padding: 10px 14px; }
 .pn-lex h4 { margin-bottom: 6px; }
 .lx-linha { display: flex; gap: 18px; align-items: flex-start; }
@@ -534,7 +533,7 @@ details.cuidado[open] .cuid-n { background: var(--alerta); color: #FFF; }
 .args p { margin: 2px 0 0; font-size: 16px; font-weight: 600; line-height: 1.4; }
 .args a { font-size: 13px; color: var(--tx-3); text-decoration: none; } .args a:hover { text-decoration: underline; color: var(--tinta); }
 .bt { display: inline-flex; align-items: center; justify-content: center; gap: 6px; font: 700 15px/1 var(--f-corpo); text-decoration: none; padding: 13px 18px; border-radius: 999px; border: 0; cursor: pointer; }
-.bt.zap { background: var(--nossa); color: #FFF; } .bt.s { background: var(--card); box-shadow: inset 0 0 0 1.5px var(--linha-2); }
+.bt.zap { background: var(--verde); color: #FFF; }  /* botão de WhatsApp fica verde, não na cor de lado */ .bt.s { background: var(--card); box-shadow: inset 0 0 0 1.5px var(--linha-2); }
 .bts { display: flex; gap: 8px; flex-wrap: wrap; }
 
 .metodo { font-size: 13px; color: var(--tx-3); margin: 26px 0 0; line-height: 1.55; max-width: 860px; }
@@ -652,7 +651,7 @@ details.cuidado[open] .cuid-n { background: var(--alerta); color: #FFF; }
 .eco-mapa .t-fr2 { font: 700 14px var(--f-corpo); fill: var(--azul); }
 .eco-mapa .no { cursor: pointer; outline: none; }
 .eco-mapa .no .anel { fill: var(--linha); transition: r .15s; }
-.eco-mapa .no.on .anel { fill: var(--nossa); } .eco-mapa .no.morno .anel { fill: #9CCFB1; }
+.eco-mapa .no.on .anel { fill: var(--nossa); } .eco-mapa .no.morno .anel { fill: #EFA3AE; }
 .eco-mapa .no.parado image { filter: grayscale(1); opacity: .65; }
 .eco-mapa .no:hover .anel, .eco-mapa .no:focus .anel, .eco-mapa .no.sel .anel { fill: var(--amarelo); }
 .eco-mapa .no.sel .anel { stroke: var(--tinta); stroke-width: 2; }
@@ -783,7 +782,7 @@ footer { margin-top: 36px; }
   <p class="nota-met" id="como"><b>Limites.</b> Mede atenção em perfis públicos, lidos sem login; intenção de voto é das pesquisas registradas. Fontes: trends24.in (X), Google Trends, Google Notícias, YouTube, TikTok e Kwai.</p>
   <section id="rede-sec">
     <div class="secao-h"><h2>Conecte-se com a mídia independente progressista</h2><div class="leg" id="leg-rede"></div></div>
-    <div class="eco-leg"><span><i style="background:var(--nossa)"></i>postou nas últimas 24 h</span><span><i style="background:#9CCFB1"></i>nas últimas 72 h</span><span><i style="background:var(--linha)"></i>sem vídeo novo</span></div>
+    <div class="eco-leg"><span><i style="background:var(--nossa)"></i>postou nas últimas 24 h</span><span><i style="background:#EFA3AE"></i>nas últimas 72 h</span><span><i style="background:var(--linha)"></i>sem vídeo novo</span></div>
     <div class="eco-mapa" id="eco"></div>
     <details class="eco-lista"><summary>Ver todos os canais em lista</summary><div id="eco-lista"></div></details>
     <div class="eco-info" id="eco-info" hidden></div>
