@@ -1,8 +1,8 @@
 {
- "gerado": "2026-10-10T01:53:52Z",
+ "gerado": "2026-10-10T01:58:19Z",
  "horas": {
   "x": "2026-10-07T17:40:10Z",
-  "google": "2026-10-10T01:53:59Z"
+  "google": "2026-10-10T01:58:22Z"
  },
  "fita": [
   {
@@ -194,114 +194,114 @@
    "veiculo": "Google Trends"
   },
   {
-   "t": "Moraes",
-   "k": "Moraes",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "26,0%",
-   "var": "-3,0 pp",
-   "dir": "cai",
-   "peso": 26.034485041916238,
-   "fatia": 26.0
-  },
-  {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "20,8%",
-   "var": "+3,3 pp",
+   "valor": "24,8%",
+   "var": "-2,1 pp",
+   "dir": "cai",
+   "peso": 24.80938709629238,
+   "fatia": 24.8
+  },
+  {
+   "t": "Moraes",
+   "k": "Moraes",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "24,8%",
+   "var": "+1,9 pp",
    "dir": "sobe",
-   "peso": 20.804835861671535,
-   "fatia": 20.8
+   "peso": 24.76232661961394,
+   "fatia": 24.8
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "9,9%",
-   "var": "-3,8 pp",
-   "dir": "cai",
-   "peso": 9.925877762275228,
-   "fatia": 9.9
+   "valor": "11,3%",
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 11.270509593104041,
+   "fatia": 11.3
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "8,9%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 8.92538252467865,
-   "fatia": 8.9
+   "valor": "10,2%",
+   "var": "+8,0 pp",
+   "dir": "sobe",
+   "peso": 10.185221460506783,
+   "fatia": 10.2
   },
   {
-   "t": "Pesquisas",
-   "k": "Pesquisas",
+   "t": "Nikolas",
+   "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "8,7%",
-   "var": "+3,7 pp",
+   "valor": "6,8%",
+   "var": "+4,1 pp",
    "dir": "sobe",
-   "peso": 8.675716117759585,
-   "fatia": 8.7
+   "peso": 6.779633075945527,
+   "fatia": 6.8
   },
   {
    "t": "Estudantes e ruas",
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "29,5%",
-   "var": "+11,8 pp",
+   "valor": "25,1%",
+   "var": "+5,6 pp",
    "dir": "sobe",
-   "peso": 29.536342674960842,
-   "fatia": 29.5
+   "peso": 25.089494170353106,
+   "fatia": 25.1
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "14,9%",
-   "var": "+5,9 pp",
+   "valor": "16,3%",
+   "var": "+2,0 pp",
    "dir": "sobe",
-   "peso": 14.926745233703468,
-   "fatia": 14.9
+   "peso": 16.331960987571634,
+   "fatia": 16.3
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "12,5%",
-   "var": "-4,5 pp",
+   "valor": "13,7%",
+   "var": "-1,5 pp",
    "dir": "cai",
-   "peso": 12.47922769736378,
-   "fatia": 12.5
+   "peso": 13.696568403331064,
+   "fatia": 13.7
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "9,8%",
-   "var": "-3,2 pp",
+   "valor": "10,7%",
+   "var": "-1,4 pp",
    "dir": "cai",
-   "peso": 9.778458702352243,
-   "fatia": 9.8
+   "peso": 10.696989183890606,
+   "fatia": 10.7
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "6,9%",
-   "var": "-3,1 pp",
+   "valor": "5,1%",
+   "var": "-0,6 pp",
    "dir": "cai",
-   "peso": 6.908020326664101,
-   "fatia": 6.9
+   "peso": 5.144414959123403,
+   "fatia": 5.1
   }
  ],
  "x": [
@@ -524,309 +524,301 @@
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "29,5%",
-   "var": "+11,8 pp",
+   "valor": "25,1%",
+   "var": "+5,6 pp",
    "dir": "sobe",
-   "peso": 29.536342674960842,
-   "fatia": 29.5
+   "peso": 25.089494170353106,
+   "fatia": 25.1
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "14,9%",
-   "var": "+5,9 pp",
+   "valor": "16,3%",
+   "var": "+2,0 pp",
    "dir": "sobe",
-   "peso": 14.926745233703468,
-   "fatia": 14.9
+   "peso": 16.331960987571634,
+   "fatia": 16.3
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "12,5%",
-   "var": "-4,5 pp",
+   "valor": "13,7%",
+   "var": "-1,5 pp",
    "dir": "cai",
-   "peso": 12.47922769736378,
-   "fatia": 12.5
+   "peso": 13.696568403331064,
+   "fatia": 13.7
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "9,8%",
-   "var": "-3,2 pp",
+   "valor": "10,7%",
+   "var": "-1,4 pp",
    "dir": "cai",
-   "peso": 9.778458702352243,
-   "fatia": 9.8
+   "peso": 10.696989183890606,
+   "fatia": 10.7
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "6,9%",
-   "var": "-3,1 pp",
+   "valor": "5,1%",
+   "var": "-0,6 pp",
    "dir": "cai",
-   "peso": 6.908020326664101,
-   "fatia": 6.9
+   "peso": 5.144414959123403,
+   "fatia": 5.1
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "3,9%",
-   "var": "+1,7 pp",
+   "valor": "4,2%",
+   "var": "+1,8 pp",
    "dir": "sobe",
-   "peso": 3.857748278903509,
-   "fatia": 3.9
+   "peso": 4.214878125996687,
+   "fatia": 4.2
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "3,9%",
-   "var": "+0,1 pp",
+   "valor": "4,2%",
+   "var": "+0,0 pp",
    "dir": "igual",
-   "peso": 3.8520255601297717,
-   "fatia": 3.9
+   "peso": 4.211881972141304,
+   "fatia": 4.2
   },
   {
    "t": "Segurança e crime",
    "k": "Segurança e crime",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,8%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 2.84515426271595,
-   "fatia": 2.8
-  },
-  {
-   "t": "Salário mínimo",
-   "k": "Salário mínimo",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "2,4%",
-   "var": "-0,8 pp",
-   "dir": "cai",
-   "peso": 2.4005148035367987,
-   "fatia": 2.4
+   "valor": "3,2%",
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 3.1869307482931033,
+   "fatia": 3.2
   },
   {
    "t": "Constituição",
    "k": "Constituição",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,3%",
-   "var": "-2,9 pp",
-   "dir": "cai",
-   "peso": 2.2885284913702884,
-   "fatia": 2.3
+   "valor": "3,0%",
+   "var": "-0,1 pp",
+   "dir": "igual",
+   "peso": 2.9513993761009503,
+   "fatia": 3.0
+  },
+  {
+   "t": "Salário mínimo",
+   "k": "Salário mínimo",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "2,6%",
+   "var": "+0,2 pp",
+   "dir": "igual",
+   "peso": 2.6183139177714225,
+   "fatia": 2.6
   },
   {
    "t": "Centrão e apoios",
    "k": "Centrão e apoios",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,2%",
+   "valor": "2,5%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 2.2464927972861517,
-   "fatia": 2.2
+   "peso": 2.4634705749656978,
+   "fatia": 2.5
   },
   {
    "t": "Exército de Lula",
    "k": "Exército de Lula",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "1,9%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 1.9241427433517482,
-   "fatia": 1.9
-  },
-  {
-   "t": "Moraes",
-   "k": "Moraes",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "26,0%",
-   "var": "-3,0 pp",
+   "valor": "2,1%",
+   "var": "-1,4 pp",
    "dir": "cai",
-   "peso": 26.034485041916238,
-   "fatia": 26.0
+   "peso": 2.1056816521369144,
+   "fatia": 2.1
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "20,8%",
-   "var": "+3,3 pp",
+   "valor": "24,8%",
+   "var": "-2,1 pp",
+   "dir": "cai",
+   "peso": 24.80938709629238,
+   "fatia": 24.8
+  },
+  {
+   "t": "Moraes",
+   "k": "Moraes",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "24,8%",
+   "var": "+1,9 pp",
    "dir": "sobe",
-   "peso": 20.804835861671535,
-   "fatia": 20.8
+   "peso": 24.76232661961394,
+   "fatia": 24.8
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "9,9%",
-   "var": "-3,8 pp",
-   "dir": "cai",
-   "peso": 9.925877762275228,
-   "fatia": 9.9
+   "valor": "11,3%",
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 11.270509593104041,
+   "fatia": 11.3
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "8,9%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 8.92538252467865,
-   "fatia": 8.9
-  },
-  {
-   "t": "Pesquisas",
-   "k": "Pesquisas",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "8,7%",
-   "var": "+3,7 pp",
+   "valor": "10,2%",
+   "var": "+8,0 pp",
    "dir": "sobe",
-   "peso": 8.675716117759585,
-   "fatia": 8.7
-  },
-  {
-   "t": "Janja",
-   "k": "Janja",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "5,9%",
-   "var": "-4,0 pp",
-   "dir": "cai",
-   "peso": 5.904471758037784,
-   "fatia": 5.9
+   "peso": 10.185221460506783,
+   "fatia": 10.2
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "5,7%",
-   "var": "+1,4 pp",
+   "valor": "6,8%",
+   "var": "+4,1 pp",
    "dir": "sobe",
-   "peso": 5.742268688614854,
-   "fatia": 5.7
+   "peso": 6.779633075945527,
+   "fatia": 6.8
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "4,3%",
-   "var": "+1,9 pp",
+   "valor": "4,8%",
+   "var": "+2,4 pp",
    "dir": "sobe",
-   "peso": 4.264974780992269,
-   "fatia": 4.3
+   "peso": 4.815135138663573,
+   "fatia": 4.8
+  },
+  {
+   "t": "Janja",
+   "k": "Janja",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "4,7%",
+   "var": "-4,5 pp",
+   "dir": "cai",
+   "peso": 4.657115782637934,
+   "fatia": 4.7
   },
   {
    "t": "EUA e Trump",
    "k": "EUA e Trump",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "2,3%",
-   "var": "-1,6 pp",
+   "valor": "2,8%",
+   "var": "-0,6 pp",
    "dir": "cai",
-   "peso": 2.2620228939608507,
-   "fatia": 2.3
+   "peso": 2.7573022277007957,
+   "fatia": 2.8
   },
   {
    "t": "Salário mínimo",
    "k": "Salário mínimo",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "2,2%",
+   "valor": "2,4%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 2.2465097973626373,
-   "fatia": 2.2
+   "peso": 2.434719036832162,
+   "fatia": 2.4
+  },
+  {
+   "t": "Pesquisas",
+   "k": "Pesquisas",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "1,7%",
+   "var": "+0,4 pp",
+   "dir": "sobe",
+   "peso": 1.7459785367284943,
+   "fatia": 1.7
   },
   {
    "t": "Bolsa Família",
    "k": "Bolsa Família",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "1,5%",
+   "valor": "1,6%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.5122332594427752,
-   "fatia": 1.5
+   "peso": 1.600084678044257,
+   "fatia": 1.6
   },
   {
    "t": "Exército de Lula",
    "k": "Exército de Lula",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "1,4%",
+   "valor": "1,6%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.4116513219447584,
-   "fatia": 1.4
+   "peso": 1.5962403180694844,
+   "fatia": 1.6
   }
  ],
- "historico": 2,
+ "historico": 8,
  "base_tiktok": {
   "nossa": {
    "Constituição": [
-    179.117,
+    210.981,
+    2
+   ],
+   "Escala 6x1": [
+    109.053,
     2
    ],
    "Tortura e ditadura": [
-    34.059,
-    1
-   ],
-   "Estudantes e ruas": [
-    525.228,
-    5
-   ],
-   "Escala 6x1": [
-    282.371,
-    4
-   ],
-   "Janja": [
-    56.027,
+    9.95,
     1
    ]
   },
   "deles": {
    "Janja": [
-    252.107,
+    158.36,
     4
    ],
    "Escala 6x1": [
-    111.104,
+    110.977,
     1
    ],
    "Moraes": [
-    270.843,
-    2
+    52.64,
+    1
    ],
-   "Pesquisas": [
-    374.676,
-    3
+   "Caso Master": [
+    51.245,
+    1
    ],
-   "Vitória e virada": [
-    92.79,
+   "Centrão e apoios": [
+    4.0,
     1
    ]
   }

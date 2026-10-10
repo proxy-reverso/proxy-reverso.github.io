@@ -1240,9 +1240,11 @@ function doMonitor() {
 // ordem do "Pra mandar agora": alcance (views/h) que perde força aos poucos com a idade, com peso para o que muda voto.
 // Antes, todo vídeo de menos de 24 h passava na frente: um de 24 mil/h ficava acima do hit do dia com 138 mil/h e 3 mi de views.
 // Pauta e crítica a Flávio convencem quem está em dúvida; ato de rua e famoso mobilizam quem já é nosso.
-const CONVERTE = { pautas: 1.25, bolsonaro: 1.2, lula: 1, famosos: 0.85, ruas: 0.75 };
+const CONVERTE = { pautas: 1.25, bolsonaro: 1.2, lula: 1, famosos: 0.7, ruas: 0.75 };  // famosos 0,7: com alcance parecido, a pauta fica na frente (09/10/2026)
 const forcaIdade = v => { const h = idade(v); return h <= 12 ? 1 : Math.max(0.4, 1 - (h - 12) / 60); };
-const nota = v => (v.ordem ?? v.vph ?? 0) * forcaIdade(v) * (CONVERTE[v.cat] ?? 1);
+// famosa que fala com o eleitor de direita (Anitta, 09/10/2026): fica nos hits com o peso de pauta, a pedido
+const HIT_FIXO = /\banitta\b/i;
+const nota = v => (v.ordem ?? v.vph ?? 0) * forcaIdade(v) * (HIT_FIXO.test(v.titulo || "") ? CONVERTE.pautas : CONVERTE[v.cat] ?? 1);
 const atuais = (ref = false) => videos.concat(doMonitor()).filter(v => !IMPRENSA.test(v.fonte || "") && !doOutroLado(v.fonte, v.titulo) && idade(v) <= 48 && refFixo(v) === ref)
   .sort((a, b) => nota(b) - nota(a));
 const medidoH = v => { const t = Date.parse(v.coletado || ""); return isNaN(t) ? null : Math.max(0, (Date.now() - t) / 36e5); };
