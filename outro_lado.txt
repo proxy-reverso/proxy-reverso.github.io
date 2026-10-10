@@ -1,0 +1,27 @@
+# Contas do outro lado (TikTok, Kwai, Instagram, YouTube): nunca entram nas listas "a favor de Lula" (ranking e Pra mandar
+# agora). Continuam no monitor de narrativas, onde mostram o que o lado de lá diz. Uma conta por linha, sem @, em minúsculas;
+# o que vem depois de # é comentário. Para tirar um vídeo de tudo, use fora.txt.
+# Emergência: a linha "fura-bolha.com" (sem #) tira do ar todos os vídeos do parceiro Fura Bolha.
+plnacional_  # PL nacional; entrou em "Pra mandar agora" pela narrativa do corte (09/10)
+plnacional
+partidoliberal
+apoiodireita22  # já barrado em fora.txt (09/10)
+flaviobolsonaro
+jairmessiasbolsonaro
+jairbolsonaro
+michellebolsonaro
+nikolasferreira
+nikolasferreirao
+eduardobolsonaro
+eduardobolsonarosp
+carlosbolsonaro
+brasilparalelo
+revistaoeste
+jovempannews
+gazetadopovo
+gustavogayer
+biakicis
+damaresalves
+carlazambelli
+marcelvanhattem
+bolsonarotv

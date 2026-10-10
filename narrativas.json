@@ -1,0 +1,2826 @@
+{
+ "gerado": "2026-10-09T23:59:37Z",
+ "coleta": "2026-10-09T23",
+ "coletado": "2026-10-09T23:59:22Z",
+ "amostra": {
+  "videos": 138,
+  "contas": 109,
+  "buscas": 12,
+  "janela_h": 72,
+  "kwai": {
+   "videos": 7,
+   "contas": 4,
+   "perfis_lidos": 30,
+   "medidos": 57,
+   "contas_medidas": 10,
+   "gerado": "2026-10-09T23:59:22Z"
+  }
+ },
+ "placar": {
+  "deles": 366086,
+  "nossa": 304329
+ },
+ "narrativas": [
+  {
+   "id": "fraude",
+   "nome": "“A apuração parou e virou”",
+   "lado": "deles",
+   "alerta": true,
+   "diz": "Flávio abria sete pontos, a apuração “parou por quase uma hora” e, quando voltou, o resultado tinha mudado.",
+   "tecnica": "Insinuação sem prova: o ritmo normal de divulgação vira suspeita de fraude.",
+   "nao": "Não reencaminhe, nem para desmentir. Se chegar no grupo, responda com o fato e o link do TSE.",
+   "status": "Sem checagem publicada até agora.",
+   "args": [
+    {
+     "txt": "O TSE divulga o resultado conforme os boletins de urna chegam. Cada boletim é público, fica afixado na seção e pode ser conferido no app Boletim na Mão.",
+     "fonte": {
+      "t": "É possível acompanhar em tempo real a totalização dos votos",
+      "f": "TSE",
+      "u": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/faltam-4-dias-e-possivel-acompanhar-em-tempo-real-a-totalizacao-dos-votos",
+      "id": "da3466"
+     }
+    }
+   ],
+   "redes_vph": 0,
+   "imprensa_vph": 0,
+   "compart": 0,
+   "n_videos": 0,
+   "n_contas": 0,
+   "contas": [],
+   "videos": [],
+   "tiktok": {
+    "redes_vph": 0,
+    "imprensa_vph": 0,
+    "compart": 0,
+    "n_videos": 0,
+    "n_contas": 0,
+    "contas": [],
+    "videos": []
+   }
+  },
+  {
+   "id": "liberdade6x1",
+   "nome": "“Liberdade para escolher a jornada”",
+   "lado": "deles",
+   "diz": "Flávio diz ter uma proposta “infinitamente melhor” que o fim da 6x1: o trabalhador escolheria a própria carga horária.",
+   "tecnica": "Troca de nome: chama de liberdade a negociação de cada trabalhador sozinho com o patrão.",
+   "args": [
+    {
+     "txt": "A PEC em votação reduz a jornada para 40 horas semanais, sem diminuir salário, com dois dias de descanso.",
+     "fonte": {
+      "t": "Plenário do Senado começa a discutir a PEC do fim da escala 6x1",
+      "f": "g1 (vídeo)",
+      "u": "https://www.tiktok.com/@g1/video/7693722127727414549",
+      "id": "9261a3"
+     }
+    },
+    {
+     "txt": "Questionado, Flávio respondeu que mais folga “não adianta” com trabalhador endividado.",
+     "fonte": {
+      "t": "Escala 6x1: Lula cobra posição de Flávio, e candidato do PL diz que mais folga 'não adianta' com trabalhador endividado",
+      "f": "O GLOBO",
+      "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRjhwUVVnRFYyMGxLRjNLbF95VnJEby1WU2VlMk12R3hkank0OFZpZm1ZNVFuY2VpdkRLRkpwSDdkdk5MdzBFVjJvUm9teDEyWHI0T1Rxd3Fvc0o0ZnctWTUtdDN6WFlaTVFqcF83aEw2bkplTjltMWtsblU2VUhsSkYtWjVvdXh6Tjk2OVMxaUdwbEh5NUhiM1NfaFFnNnFNb2NYWGtzaklFTXdSVmd3cGFMS21jdmV2OWh4Y3FWWi1YMWRzUmdTY3FGOVdnVHBsN0tHR2Z4QmlleTlkSllxclUtcVBKT0ZUOWZOSW9RWEJoZkszSV9J0gGGAkFVX3lxTFBURGVhNWdoeXBCTjlSMV9PSkVkNVNvdDY5eVVBS2x6SThqWEpnWmN5MEZNNmJ5WEQ1V2xGTFRjeEx3eElNcEdFcEpGN0FlRzZtblVMdEZrbkZ5SVlVM285NnQzRjhteEZOdThsbGxjdTFYc054OGltMkNST2p6SW1GX01qaFAySnlpYWJGMmNuWENiVm1pZXAwVV92M0FKU1JSeGFqOHd0MTMtNnpqbjBOMTViSGg1Z2c0UXozSlRfVFNGb040M3p4d1NFeGJDajNEV1dZckVwWTBvSk5nc0hOQXd6dGFVZnc0dVZGTnhMNDQzM0xMUXJKMENqWXVncVVacVVmc0E?oc=5",
+      "id": "a0ab2b"
+     }
+    }
+   ],
+   "redes_vph": 13140,
+   "imprensa_vph": 0,
+   "compart": 3186,
+   "n_videos": 1,
+   "n_contas": 1,
+   "contas": [],
+   "videos": [
+    {
+     "id": "7694625540023569672",
+     "a": "daianeluizetti",
+     "ver": false,
+     "seg": 19800,
+     "views": 165400,
+     "sh": 3186,
+     "vph": 13140,
+     "imp": false,
+     "titulo": "Comemora sessão da 6x1 esvaziada por Flávio",
+     "frase": "Flávio Bolsonaro conseguiu esvaziar a sessão que ia votar.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@daianeluizetti/video/7694625540023569672",
+     "capa": "capas-n/7694625540023569672.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 13140,
+    "imprensa_vph": 0,
+    "compart": 3186,
+    "n_videos": 1,
+    "n_contas": 1,
+    "contas": [],
+    "videos": [
+     {
+      "id": "7694625540023569672",
+      "a": "daianeluizetti",
+      "ver": false,
+      "seg": 19800,
+      "views": 165400,
+      "sh": 3186,
+      "vph": 13140,
+      "imp": false,
+      "titulo": "Comemora sessão da 6x1 esvaziada por Flávio",
+      "frase": "Flávio Bolsonaro conseguiu esvaziar a sessão que ia votar.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@daianeluizetti/video/7694625540023569672",
+      "capa": "capas-n/7694625540023569672.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "id": "onda22",
+   "nome": "“Já ganhou”: Fora Lula, 22",
+   "lado": "deles",
+   "diz": "Memes, edits e “tropa do 01” vendendo vitória certa de Flávio e “Lula ladrão”.",
+   "tecnica": "Efeito manada: parecer que todo mundo já decidiu, para desanimar quem ainda vai votar.",
+   "args": [
+    {
+     "txt": "Até aliados de Flávio alertam para o clima de “já ganhou”.",
+     "fonte": {
+      "t": "Aliados de Flávio Bolsonaro alertam para risco de discurso sobre mudança na Constituição e clima de 'já ganhou'",
+      "f": "G1",
+      "u": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPMXVQMzFmdmJOX1B4WFQxUm5TM2QwZnI2MWpGQlJVYXppRGIxbl9GV3doSjh5Q1pYV25nRTNXTFZVS0ktZjJGaDVsWnRpeElOZVBXNG5ONEltSDd0Um56dTFwWUhxa2RZNmwxWll2QjZZMk14T1BoeE93Q1RoUDItX2ZhX3ZIelo3V2JYX3BRanh1OXllU3RicHB1bVk4Ti1YNGd6cG1SQlBoOVJUaWozZFVHNEk4UDVNVmRuNjNPOGI5RVRPeFZjRUc0Zkx1N1JIcGxXV082MU5lTl82NHA1WjVaT091UzdBVGpGQTIxaHBON0FmaFRkZC1EMjgtOXY3RmllXzJyYmPSAZcCQVVfeXFMUEVLZ01xSFpocE1UdUR1RkZPR0dlS3JvOHpydlBKLTBrTGwzZ1F4dU9kcEVsSjJLeGRTMVB3cFE3OVBxYlpjbGN1RDZqcDhBYmpmSlU4UWxObUJkMUFZc0p3Um4xdkc2V1VoT0pQRjlmcnV4SnRtX1FDQkVhcUQtelNnNU40RDdpM1ljZURHNnI4bmRObXpacFlFNzUySzM1RVNSb3ZLbEpHYlZTNWg5Uk85M2VaUzhqSFN4aklQMEJJRkN4b3ljaE1PVy1sanBHWjhDOHJJQkw5LUhDSHg1SlhuaUZZVXdpTkJjZVZma1A0WmFwejNwN3BIQ01ZV1ZrMnFpeDAzeTlQcEhSLXNCRTZXQ1hjM1lz?oc=5",
+      "id": "c4beb4"
+     }
+    },
+    {
+     "txt": "Pesquisa AtlasIntel mostra empate: Lula 50,1% e Flávio 49,9%, dentro da margem de erro.",
+     "fonte": {
+      "t": "Segundo turno: Lula tem 50,1% contra 49,9% de Flávio, aponta AtlasIntel",
+      "f": "RedeTV (vídeo)",
+      "u": "https://www.tiktok.com/@noticiasredetv/video/7693942005377797428",
+      "id": "d6b7b3"
+     }
+    }
+   ],
+   "redes_vph": 204938,
+   "imprensa_vph": 64824,
+   "compart": 75644,
+   "n_videos": 52,
+   "n_contas": 48,
+   "contas": [
+    {
+     "a": "novo_brasil6",
+     "seg": 190600,
+     "ver": false,
+     "vph": 28174
+    },
+    {
+     "a": "ednacristina776",
+     "seg": 184700,
+     "ver": false,
+     "vph": 2117
+    },
+    {
+     "a": "eduardoespina22",
+     "seg": 193800,
+     "ver": false,
+     "vph": 1881
+    },
+    {
+     "a": "claudia_monteiro71",
+     "seg": 345000,
+     "ver": false,
+     "vph": 373
+    },
+    {
+     "a": "diversidadenerd",
+     "seg": 486300,
+     "ver": false,
+     "vph": 180
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694462379404299527",
+     "a": "glauconetobr",
+     "ver": false,
+     "seg": 14300,
+     "views": 2500000,
+     "sh": 50300,
+     "vph": 108047,
+     "imp": false,
+     "titulo": "“O povo não aguenta mais o Lula”",
+     "frase": "Se depender do rico, o Lula nunca ganha uma eleição.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@glauconetobr/video/7694462379404299527",
+     "capa": "capas-n/7694462379404299527.jpg"
+    },
+    {
+     "id": "7694424225351765269",
+     "a": "g1",
+     "ver": true,
+     "seg": 13400000,
+     "views": 1400000,
+     "sh": 8344,
+     "vph": 54676,
+     "imp": true,
+     "titulo": "Augusto Cury declara apoio a Flávio",
+     "frase": "O apoio dele não é um cheque em branco.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@g1/video/7694424225351765269",
+     "capa": "capas-n/7694424225351765269.jpg"
+    },
+    {
+     "id": "7694633700935372050",
+     "a": "novo_brasil6",
+     "ver": false,
+     "seg": 190600,
+     "views": 339800,
+     "sh": 6060,
+     "vph": 28174,
+     "imp": false,
+     "titulo": "TSE manda retirar posts do PT contra Flávio",
+     "frase": "Determinaram a retirada de publicações.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@novo_brasil6/video/7694633700935372050",
+     "capa": "capas-n/7694633700935372050.jpg"
+    },
+    {
+     "id": "7694120134394367250",
+     "a": "faelftbll",
+     "ver": false,
+     "seg": 5227,
+     "views": 920800,
+     "sh": 8587,
+     "vph": 20338,
+     "imp": false,
+     "titulo": "Flávio: liderar o 1º turno já reduziu os juros",
+     "frase": "O simples fato de a gente ter passado na frente já reduziu o juro.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@faelftbll/video/7694120134394367250",
+     "capa": ""
+    },
+    {
+     "id": "7694322410169928967",
+     "a": "_luquinhas.06",
+     "ver": false,
+     "seg": 3824,
+     "views": 419000,
+     "sh": 5098,
+     "vph": 13015,
+     "imp": false,
+     "titulo": "Edit “Lula ladrão”",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@_luquinhas.06/video/7694322410169928967",
+     "capa": ""
+    },
+    {
+     "id": "7694451301937204501",
+     "a": "g1",
+     "ver": true,
+     "seg": 13400000,
+     "views": 242100,
+     "sh": 382,
+     "vph": 10148,
+     "imp": true,
+     "titulo": "Podemos oficializa apoio a Flávio",
+     "frase": "Não é uma carta em branco.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@g1/video/7694451301937204501",
+     "capa": ""
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 204802,
+    "imprensa_vph": 64824,
+    "compart": 75447,
+    "n_videos": 49,
+    "n_contas": 46,
+    "contas": [
+     {
+      "a": "novo_brasil6",
+      "seg": 190600,
+      "ver": false,
+      "vph": 28174
+     },
+     {
+      "a": "ednacristina776",
+      "seg": 184700,
+      "ver": false,
+      "vph": 2117
+     },
+     {
+      "a": "eduardoespina22",
+      "seg": 193800,
+      "ver": false,
+      "vph": 1881
+     },
+     {
+      "a": "claudia_monteiro71",
+      "seg": 345000,
+      "ver": false,
+      "vph": 373
+     },
+     {
+      "a": "diversidadenerd",
+      "seg": 486300,
+      "ver": false,
+      "vph": 180
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694462379404299527",
+      "a": "glauconetobr",
+      "ver": false,
+      "seg": 14300,
+      "views": 2500000,
+      "sh": 50300,
+      "vph": 108047,
+      "imp": false,
+      "titulo": "“O povo não aguenta mais o Lula”",
+      "frase": "Se depender do rico, o Lula nunca ganha uma eleição.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@glauconetobr/video/7694462379404299527",
+      "capa": "capas-n/7694462379404299527.jpg"
+     },
+     {
+      "id": "7694424225351765269",
+      "a": "g1",
+      "ver": true,
+      "seg": 13400000,
+      "views": 1400000,
+      "sh": 8344,
+      "vph": 54676,
+      "imp": true,
+      "titulo": "Augusto Cury declara apoio a Flávio",
+      "frase": "O apoio dele não é um cheque em branco.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@g1/video/7694424225351765269",
+      "capa": "capas-n/7694424225351765269.jpg"
+     },
+     {
+      "id": "7694633700935372050",
+      "a": "novo_brasil6",
+      "ver": false,
+      "seg": 190600,
+      "views": 339800,
+      "sh": 6060,
+      "vph": 28174,
+      "imp": false,
+      "titulo": "TSE manda retirar posts do PT contra Flávio",
+      "frase": "Determinaram a retirada de publicações.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@novo_brasil6/video/7694633700935372050",
+      "capa": "capas-n/7694633700935372050.jpg"
+     },
+     {
+      "id": "7694120134394367250",
+      "a": "faelftbll",
+      "ver": false,
+      "seg": 5227,
+      "views": 920800,
+      "sh": 8587,
+      "vph": 20338,
+      "imp": false,
+      "titulo": "Flávio: liderar o 1º turno já reduziu os juros",
+      "frase": "O simples fato de a gente ter passado na frente já reduziu o juro.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@faelftbll/video/7694120134394367250",
+      "capa": ""
+     },
+     {
+      "id": "7694322410169928967",
+      "a": "_luquinhas.06",
+      "ver": false,
+      "seg": 3824,
+      "views": 419000,
+      "sh": 5098,
+      "vph": 13015,
+      "imp": false,
+      "titulo": "Edit “Lula ladrão”",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@_luquinhas.06/video/7694322410169928967",
+      "capa": ""
+     },
+     {
+      "id": "7694451301937204501",
+      "a": "g1",
+      "ver": true,
+      "seg": 13400000,
+      "views": 242100,
+      "sh": 382,
+      "vph": 10148,
+      "imp": true,
+      "titulo": "Podemos oficializa apoio a Flávio",
+      "frase": "Não é uma carta em branco.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@g1/video/7694451301937204501",
+      "capa": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "janja",
+   "nome": "“Janja atrapalha Lula”",
+   "lado": "deles",
+   "diz": "Cada vez que Janja fala, a direita cresce. Vídeos dela viram munição.",
+   "tecnica": "Ataque ao mensageiro: trocar o tema da eleição pela pessoa.",
+   "como": "Não defenda nem ataque Janja. Puxe o assunto de volta para a 6x1 e a Constituição.",
+   "args": [],
+   "redes_vph": 48092,
+   "imprensa_vph": 5716,
+   "compart": 21689,
+   "n_videos": 10,
+   "n_contas": 8,
+   "contas": [
+    {
+     "a": "foconaverdade14",
+     "seg": 119700,
+     "ver": false,
+     "vph": 6063
+    },
+    {
+     "a": "jornalrazao",
+     "seg": 362900,
+     "ver": false,
+     "vph": 4366
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694358585869896981",
+     "a": "aninha._ferreira",
+     "ver": false,
+     "seg": 85300,
+     "views": 332300,
+     "sh": 12700,
+     "vph": 11131,
+     "imp": false,
+     "titulo": "“As mentiras de Janja”",
+     "frase": "Vamo desmascarar a Janja juntos.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@aninha._ferreira/video/7694358585869896981",
+     "capa": "capas-n/7694358585869896981.jpg"
+    },
+    {
+     "id": "7694065587965791495",
+     "a": "habibvinicius",
+     "ver": false,
+     "seg": 2211,
+     "views": 446200,
+     "sh": 4683,
+     "vph": 9143,
+     "imp": false,
+     "titulo": "“Piá de BH”: edit sobre Janja e Nikolas",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@habibvinicius/video/7694065587965791495",
+     "capa": "capas-n/7694065587965791495.jpg"
+    },
+    {
+     "id": "7694255980330159393",
+     "a": "politicabrasileira09",
+     "ver": false,
+     "seg": 56900,
+     "views": 293600,
+     "sh": 1817,
+     "vph": 8046,
+     "imp": false,
+     "titulo": "“Quero ver a Janja me chamar de piá”",
+     "frase": "Quero ver a Janja me chamar de piá de novo.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@politicabrasileira09/video/7694255980330159393",
+     "capa": "capas-n/7694255980330159393.jpg"
+    },
+    {
+     "id": "7694674553162714375",
+     "a": "foconaverdade14",
+     "ver": false,
+     "seg": 119700,
+     "views": 57100,
+     "sh": 151,
+     "vph": 6063,
+     "imp": false,
+     "titulo": "“Janja é culpada pela campanha fraca”",
+     "frase": "Agora o alvo é a Janja.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@foconaverdade14/video/7694674553162714375",
+     "capa": "capas-n/7694674553162714375.jpg"
+    },
+    {
+     "id": "7694111018372386049",
+     "a": "marine.oliveira33",
+     "ver": false,
+     "seg": 2139,
+     "views": 224400,
+     "sh": 952,
+     "vph": 4893,
+     "imp": false,
+     "titulo": "Edit com fala de Janja sobre “mais 4 anos”",
+     "frase": "Depois eu quero realmente viver minha vida de mulher casada.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@marine.oliveira33/video/7694111018372386049",
+     "capa": ""
+    },
+    {
+     "id": "7693753253871258886",
+     "a": "jornalrazao",
+     "ver": false,
+     "seg": 362900,
+     "views": 301300,
+     "sh": 537,
+     "vph": 4366,
+     "imp": false,
+     "titulo": "Janja alerta para nova pandemia; vídeo ataca",
+     "frase": "E se acontecer uma nova pandemia, teremos novamente covas abertas.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@jornalrazao/video/7693753253871258886",
+     "capa": ""
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 48092,
+    "imprensa_vph": 5716,
+    "compart": 21689,
+    "n_videos": 10,
+    "n_contas": 8,
+    "contas": [
+     {
+      "a": "foconaverdade14",
+      "seg": 119700,
+      "ver": false,
+      "vph": 6063
+     },
+     {
+      "a": "jornalrazao",
+      "seg": 362900,
+      "ver": false,
+      "vph": 4366
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694358585869896981",
+      "a": "aninha._ferreira",
+      "ver": false,
+      "seg": 85300,
+      "views": 332300,
+      "sh": 12700,
+      "vph": 11131,
+      "imp": false,
+      "titulo": "“As mentiras de Janja”",
+      "frase": "Vamo desmascarar a Janja juntos.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@aninha._ferreira/video/7694358585869896981",
+      "capa": "capas-n/7694358585869896981.jpg"
+     },
+     {
+      "id": "7694065587965791495",
+      "a": "habibvinicius",
+      "ver": false,
+      "seg": 2211,
+      "views": 446200,
+      "sh": 4683,
+      "vph": 9143,
+      "imp": false,
+      "titulo": "“Piá de BH”: edit sobre Janja e Nikolas",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@habibvinicius/video/7694065587965791495",
+      "capa": "capas-n/7694065587965791495.jpg"
+     },
+     {
+      "id": "7694255980330159393",
+      "a": "politicabrasileira09",
+      "ver": false,
+      "seg": 56900,
+      "views": 293600,
+      "sh": 1817,
+      "vph": 8046,
+      "imp": false,
+      "titulo": "“Quero ver a Janja me chamar de piá”",
+      "frase": "Quero ver a Janja me chamar de piá de novo.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@politicabrasileira09/video/7694255980330159393",
+      "capa": "capas-n/7694255980330159393.jpg"
+     },
+     {
+      "id": "7694674553162714375",
+      "a": "foconaverdade14",
+      "ver": false,
+      "seg": 119700,
+      "views": 57100,
+      "sh": 151,
+      "vph": 6063,
+      "imp": false,
+      "titulo": "“Janja é culpada pela campanha fraca”",
+      "frase": "Agora o alvo é a Janja.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@foconaverdade14/video/7694674553162714375",
+      "capa": "capas-n/7694674553162714375.jpg"
+     },
+     {
+      "id": "7694111018372386049",
+      "a": "marine.oliveira33",
+      "ver": false,
+      "seg": 2139,
+      "views": 224400,
+      "sh": 952,
+      "vph": 4893,
+      "imp": false,
+      "titulo": "Edit com fala de Janja sobre “mais 4 anos”",
+      "frase": "Depois eu quero realmente viver minha vida de mulher casada.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@marine.oliveira33/video/7694111018372386049",
+      "capa": ""
+     },
+     {
+      "id": "7693753253871258886",
+      "a": "jornalrazao",
+      "ver": false,
+      "seg": 362900,
+      "views": 301300,
+      "sh": 537,
+      "vph": 4366,
+      "imp": false,
+      "titulo": "Janja alerta para nova pandemia; vídeo ataca",
+      "frase": "E se acontecer uma nova pandemia, teremos novamente covas abertas.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@jornalrazao/video/7693753253871258886",
+      "capa": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "moraes",
+   "nome": "“Moraes ajuda Lula”",
+   "lado": "deles",
+   "diz": "Lula e Moraes seriam a mesma coisa; uma “mansidão” de Moraes agora ajudaria Lula.",
+   "tecnica": "Culpa por associação: aproximar nomes para sugerir uma ligação.",
+   "args": [
+    {
+     "txt": "A Justiça negou o pedido de Flávio para apagar o vídeo que o liga à rachadinha e ao Caso Master.",
+     "fonte": {
+      "t": "Juíza nega pedido de Flávio Bolsonaro para apagar vídeo que o liga a rachadinha e Caso Master",
+      "f": "CartaCapital",
+      "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMHpQbmpzUWYxVlQxcjROdWI4NzVoUEhvakwwSnR2ZGY0UWl6M0RHUDIxU1E5UmNEaW1OMjM3MGdwRVlGbzVscEdfMmxWTXpoTzY0UzRvdmtvZHV4aHIyT2YxZDBCcXE3U2pHeUowQXNkZ1gyUU5aQm9TTmo2UDh0LTJCMUpVRHB6OVlzREdXbkRVcEJWYkFKelRTZXVvZUhGYjgtOUN2RFFJTThDY3ZnXy03SmY2S0VFdFU4eVI4Wnhzb1BkRXpIQTdQUk5nVVk?oc=5",
+      "id": "145353"
+     }
+    }
+   ],
+   "redes_vph": 34866,
+   "imprensa_vph": 20853,
+   "compart": 8253,
+   "n_videos": 14,
+   "n_contas": 7,
+   "contas": [],
+   "videos": [
+    {
+     "id": "7694173556439043349",
+     "a": "antiotario_oficial",
+     "ver": false,
+     "seg": 23700,
+     "views": 1300000,
+     "sh": 8229,
+     "vph": 31085,
+     "imp": false,
+     "titulo": "STF arquiva casos de aliados após o 1º turno",
+     "frase": "Foi só Flávio terminar o primeiro turno na frente que uma sequência de decisões do STF chamou atenção.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@antiotario_oficial/video/7694173556439043349",
+     "capa": "capas-n/7694173556439043349.jpg"
+    },
+    {
+     "id": "7694432528329002260",
+     "a": "metropolesoficial",
+     "ver": true,
+     "seg": 17400000,
+     "views": 522800,
+     "sh": 1534,
+     "vph": 20853,
+     "imp": true,
+     "titulo": "Flávio ataca Moraes: “violador de direitos humanos”",
+     "frase": "Ele é um violador de direitos humanos internacional.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@metropolesoficial/video/7694432528329002260",
+     "capa": "capas-n/7694432528329002260.jpg"
+    },
+    {
+     "id": "7694592114117643538",
+     "a": "alerta.viral07",
+     "ver": false,
+     "seg": 45100,
+     "views": 46100,
+     "sh": 24,
+     "vph": 3126,
+     "imp": false,
+     "titulo": "A reação de Moraes à liderança de Flávio",
+     "frase": "Olha só qual foi a reação do ministro Alexandre de Moraes.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@alerta.viral07/video/7694592114117643538",
+     "capa": "capas-n/7694592114117643538.jpg"
+    },
+    {
+     "id": "7694798971423771912",
+     "a": "vanderleivargas56",
+     "ver": false,
+     "seg": 27700,
+     "views": 340,
+     "sh": 0,
+     "vph": 248,
+     "imp": false,
+     "titulo": "@007-@1318-virtual007 @007-@1318-virtual007 @007-@1318-virtual007",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@vanderleivargas56/video/7694798971423771912",
+     "capa": ""
+    },
+    {
+     "id": "7694777124145696020",
+     "a": "joaofrangoofc01",
+     "ver": false,
+     "seg": 22,
+     "views": 199,
+     "sh": 0,
+     "vph": 71,
+     "imp": false,
+     "titulo": "#FORAMORAES #ACORDABRASIL #FORALULA #eleiçoes2026",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@joaofrangoofc01/video/7694777124145696020",
+     "capa": ""
+    },
+    {
+     "id": "7694780253306113300",
+     "a": "joaofrangoofc01",
+     "ver": false,
+     "seg": 22,
+     "views": 153,
+     "sh": 0,
+     "vph": 59,
+     "imp": false,
+     "titulo": "#direita #eleiçoes2026 #ACORDABRASIL #FORALULA",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@joaofrangoofc01/video/7694780253306113300",
+     "capa": ""
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 34866,
+    "imprensa_vph": 20853,
+    "compart": 8253,
+    "n_videos": 14,
+    "n_contas": 7,
+    "contas": [],
+    "videos": [
+     {
+      "id": "7694173556439043349",
+      "a": "antiotario_oficial",
+      "ver": false,
+      "seg": 23700,
+      "views": 1300000,
+      "sh": 8229,
+      "vph": 31085,
+      "imp": false,
+      "titulo": "STF arquiva casos de aliados após o 1º turno",
+      "frase": "Foi só Flávio terminar o primeiro turno na frente que uma sequência de decisões do STF chamou atenção.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@antiotario_oficial/video/7694173556439043349",
+      "capa": "capas-n/7694173556439043349.jpg"
+     },
+     {
+      "id": "7694432528329002260",
+      "a": "metropolesoficial",
+      "ver": true,
+      "seg": 17400000,
+      "views": 522800,
+      "sh": 1534,
+      "vph": 20853,
+      "imp": true,
+      "titulo": "Flávio ataca Moraes: “violador de direitos humanos”",
+      "frase": "Ele é um violador de direitos humanos internacional.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@metropolesoficial/video/7694432528329002260",
+      "capa": "capas-n/7694432528329002260.jpg"
+     },
+     {
+      "id": "7694592114117643538",
+      "a": "alerta.viral07",
+      "ver": false,
+      "seg": 45100,
+      "views": 46100,
+      "sh": 24,
+      "vph": 3126,
+      "imp": false,
+      "titulo": "A reação de Moraes à liderança de Flávio",
+      "frase": "Olha só qual foi a reação do ministro Alexandre de Moraes.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@alerta.viral07/video/7694592114117643538",
+      "capa": "capas-n/7694592114117643538.jpg"
+     },
+     {
+      "id": "7694798971423771912",
+      "a": "vanderleivargas56",
+      "ver": false,
+      "seg": 27700,
+      "views": 340,
+      "sh": 0,
+      "vph": 248,
+      "imp": false,
+      "titulo": "@007-@1318-virtual007 @007-@1318-virtual007 @007-@1318-virtual007",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@vanderleivargas56/video/7694798971423771912",
+      "capa": ""
+     },
+     {
+      "id": "7694777124145696020",
+      "a": "joaofrangoofc01",
+      "ver": false,
+      "seg": 22,
+      "views": 199,
+      "sh": 0,
+      "vph": 71,
+      "imp": false,
+      "titulo": "#FORAMORAES #ACORDABRASIL #FORALULA #eleiçoes2026",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@joaofrangoofc01/video/7694777124145696020",
+      "capa": ""
+     },
+     {
+      "id": "7694780253306113300",
+      "a": "joaofrangoofc01",
+      "ver": false,
+      "seg": 22,
+      "views": 153,
+      "sh": 0,
+      "vph": 59,
+      "imp": false,
+      "titulo": "#direita #eleiçoes2026 #ACORDABRASIL #FORALULA",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@joaofrangoofc01/video/7694780253306113300",
+      "capa": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "vorcaro",
+   "nome": "“Vorcaro pagou o filme de Lula”",
+   "lado": "deles",
+   "diz": "Vídeos afirmam que Daniel Vorcaro, do Banco Master, pagou R$ 30 milhões em dinheiro vivo por um documentário sobre Lula.",
+   "tecnica": "Trecho de áudio sem contexto apresentado como prova de pagamento.",
+   "args": [
+    {
+     "txt": "A PGR nega que exista “depoimento oral” de Vorcaro no processo de delação.",
+     "fonte": {
+      "t": "PGR nega \"depoimento oral\" de Vorcaro em processo de delação",
+      "f": "CNN Brasil",
+      "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaDRsZXM0MWlMaWpNU1FKdWNBM2F5MkEwNjRuTWJueERqTUhGTlBoNEt2a0ZCM0dYZDlKdGgwX2NubzFpX3RUS3RwcWY1b19ib0RQVC14cGhKZzJkN2syMFcxaC1Ga2h2Nl9nQ21SZlRaSFNUZWlBVVE2UENGcFhPSXM3aVRvSDl5VGRDVGE5ZHhPXzkzQm5PU1lSNkZUdw?oc=5",
+      "id": "340e5b"
+     }
+    }
+   ],
+   "redes_vph": 35919,
+   "imprensa_vph": 40715,
+   "compart": 5045,
+   "n_videos": 3,
+   "n_contas": 1,
+   "contas": [
+    {
+     "a": "plnacional_",
+     "seg": 1100000,
+     "ver": true,
+     "vph": 35919
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694632718960823558",
+     "a": "plnacional_",
+     "ver": true,
+     "seg": 1100000,
+     "views": 435500,
+     "sh": 5045,
+     "vph": 35919,
+     "imp": false,
+     "titulo": "PL: “filme sobre Lula e negócios obscuros”",
+     "frase": "Mais um escândalo envolvendo Lula e o PT.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@plnacional_/video/7694632718960823558",
+     "capa": "capas-n/7694632718960823558.jpg"
+    },
+    {
+     "id": "7694678310021909778",
+     "a": "portalndmais",
+     "ver": true,
+     "seg": 1300000,
+     "views": 211700,
+     "sh": 352,
+     "vph": 23072,
+     "imp": true,
+     "titulo": "Oposição reage ao áudio de Vorcaro sobre o filme",
+     "frase": "Isso tudo daí não merece investigação?",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@portalndmais/video/7694678310021909778",
+     "capa": "capas-n/7694678310021909778.jpg"
+    },
+    {
+     "id": "7694637108215942406",
+     "a": "portalndmais",
+     "ver": true,
+     "seg": 1300000,
+     "views": 208900,
+     "sh": 2400,
+     "vph": 17643,
+     "imp": true,
+     "titulo": "Áudio de Vorcaro sobre pagamento a filme de Lula",
+     "frase": "Só que o do Lula foi por fora.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@portalndmais/video/7694637108215942406",
+     "capa": "capas-n/7694637108215942406.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 35919,
+    "imprensa_vph": 40715,
+    "compart": 5045,
+    "n_videos": 3,
+    "n_contas": 1,
+    "contas": [
+     {
+      "a": "plnacional_",
+      "seg": 1100000,
+      "ver": true,
+      "vph": 35919
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694632718960823558",
+      "a": "plnacional_",
+      "ver": true,
+      "seg": 1100000,
+      "views": 435500,
+      "sh": 5045,
+      "vph": 35919,
+      "imp": false,
+      "titulo": "PL: “filme sobre Lula e negócios obscuros”",
+      "frase": "Mais um escândalo envolvendo Lula e o PT.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@plnacional_/video/7694632718960823558",
+      "capa": "capas-n/7694632718960823558.jpg"
+     },
+     {
+      "id": "7694678310021909778",
+      "a": "portalndmais",
+      "ver": true,
+      "seg": 1300000,
+      "views": 211700,
+      "sh": 352,
+      "vph": 23072,
+      "imp": true,
+      "titulo": "Oposição reage ao áudio de Vorcaro sobre o filme",
+      "frase": "Isso tudo daí não merece investigação?",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@portalndmais/video/7694678310021909778",
+      "capa": "capas-n/7694678310021909778.jpg"
+     },
+     {
+      "id": "7694637108215942406",
+      "a": "portalndmais",
+      "ver": true,
+      "seg": 1300000,
+      "views": 208900,
+      "sh": 2400,
+      "vph": 17643,
+      "imp": true,
+      "titulo": "Áudio de Vorcaro sobre pagamento a filme de Lula",
+      "frase": "Só que o do Lula foi por fora.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@portalndmais/video/7694637108215942406",
+      "capa": "capas-n/7694637108215942406.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "id": "pesquisas",
+   "nome": "Guerra de pesquisas",
+   "lado": "disputa",
+   "diz": "Perfis pró-Flávio espalham um “Instituto Veritá” com Flávio a 51,56%. A AtlasIntel mostra empate técnico.",
+   "tecnica": "Pesquisa de origem duvidosa vendida como “urgente”.",
+   "como": "Só compartilhe pesquisa com nome do instituto e registro. Empate quer dizer que cada voto decide.",
+   "args": [],
+   "redes_vph": 36132,
+   "imprensa_vph": 80723,
+   "compart": 837,
+   "n_videos": 6,
+   "n_contas": 2,
+   "contas": [],
+   "videos": [
+    {
+     "id": "7694418565448961301",
+     "a": "g1",
+     "ver": true,
+     "seg": 13400000,
+     "views": 1500000,
+     "sh": 4990,
+     "vph": 57752,
+     "imp": true,
+     "titulo": "Datafolha: Flávio 49%, Lula 45% no 2º turno",
+     "frase": "Flávio tem, segundo o Datafolha, 49% das intenções de voto.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@g1/video/7694418565448961301",
+     "capa": "capas-n/7694418565448961301.jpg"
+    },
+    {
+     "id": "7694762600818642196",
+     "a": "weslleypaz8",
+     "ver": false,
+     "seg": 28400,
+     "views": 108000,
+     "sh": 801,
+     "vph": 29007,
+     "imp": false,
+     "titulo": "Vamos continuar lutando para salvar nossa democracia. 🌟",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@weslleypaz8/video/7694762600818642196",
+     "capa": "capas-n/7694762600818642196.jpg"
+    },
+    {
+     "id": "7694436564604046644",
+     "a": "bandjornalismo",
+     "ver": true,
+     "seg": 3100000,
+     "views": 524000,
+     "sh": 801,
+     "vph": 21119,
+     "imp": true,
+     "titulo": "PoderData: Flávio 53% dos válidos no 2º turno",
+     "frase": "Considerando os votos válidos, Flávio Bolsonaro lidera com 53%.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@bandjornalismo/video/7694436564604046644",
+     "capa": "capas-n/7694436564604046644.jpg"
+    },
+    {
+     "id": "7694798026002517256",
+     "a": "revistatimeline",
+     "ver": false,
+     "seg": 43500,
+     "views": 10200,
+     "sh": 36,
+     "vph": 7125,
+     "imp": false,
+     "titulo": "09/10/2026 CONVERSA TIMELINE",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@revistatimeline/video/7694798026002517256",
+     "capa": ""
+    },
+    {
+     "id": "7694277722650021128",
+     "a": "metropolesoficial",
+     "ver": true,
+     "seg": 17400000,
+     "views": 63800,
+     "sh": 80,
+     "vph": 1818,
+     "imp": true,
+     "titulo": "As chances de Lula virar no 2º turno",
+     "frase": "Quais as chances de o Lula virar no segundo turno?",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@metropolesoficial/video/7694277722650021128",
+     "capa": "capas-n/7694277722650021128.jpg"
+    },
+    {
+     "id": "5217851753532210724",
+     "a": "Metropolesoficial",
+     "ver": true,
+     "seg": 2428457,
+     "views": 53,
+     "sh": 0,
+     "vph": 34,
+     "imp": true,
+     "titulo": "Matheus Leitão sobre pesquisas eleitorais: \"Não vejo mais desculpas de método para se erra…",
+     "frase": "",
+     "rede": "Kwai",
+     "url": "https://www.kwai.com/@Metropolesoficial/video/5217851753532210724",
+     "capa": "capas-n/5217851753532210724.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 36132,
+    "imprensa_vph": 80689,
+    "compart": 837,
+    "n_videos": 5,
+    "n_contas": 2,
+    "contas": [],
+    "videos": [
+     {
+      "id": "7694418565448961301",
+      "a": "g1",
+      "ver": true,
+      "seg": 13400000,
+      "views": 1500000,
+      "sh": 4990,
+      "vph": 57752,
+      "imp": true,
+      "titulo": "Datafolha: Flávio 49%, Lula 45% no 2º turno",
+      "frase": "Flávio tem, segundo o Datafolha, 49% das intenções de voto.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@g1/video/7694418565448961301",
+      "capa": "capas-n/7694418565448961301.jpg"
+     },
+     {
+      "id": "7694762600818642196",
+      "a": "weslleypaz8",
+      "ver": false,
+      "seg": 28400,
+      "views": 108000,
+      "sh": 801,
+      "vph": 29007,
+      "imp": false,
+      "titulo": "Vamos continuar lutando para salvar nossa democracia. 🌟",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@weslleypaz8/video/7694762600818642196",
+      "capa": "capas-n/7694762600818642196.jpg"
+     },
+     {
+      "id": "7694436564604046644",
+      "a": "bandjornalismo",
+      "ver": true,
+      "seg": 3100000,
+      "views": 524000,
+      "sh": 801,
+      "vph": 21119,
+      "imp": true,
+      "titulo": "PoderData: Flávio 53% dos válidos no 2º turno",
+      "frase": "Considerando os votos válidos, Flávio Bolsonaro lidera com 53%.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@bandjornalismo/video/7694436564604046644",
+      "capa": "capas-n/7694436564604046644.jpg"
+     },
+     {
+      "id": "7694798026002517256",
+      "a": "revistatimeline",
+      "ver": false,
+      "seg": 43500,
+      "views": 10200,
+      "sh": 36,
+      "vph": 7125,
+      "imp": false,
+      "titulo": "09/10/2026 CONVERSA TIMELINE",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@revistatimeline/video/7694798026002517256",
+      "capa": ""
+     },
+     {
+      "id": "7694277722650021128",
+      "a": "metropolesoficial",
+      "ver": true,
+      "seg": 17400000,
+      "views": 63800,
+      "sh": 80,
+      "vph": 1818,
+      "imp": true,
+      "titulo": "As chances de Lula virar no 2º turno",
+      "frase": "Quais as chances de o Lula virar no segundo turno?",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@metropolesoficial/video/7694277722650021128",
+      "capa": "capas-n/7694277722650021128.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fim6x1",
+   "nome": "Fim da 6x1: Flávio contra o trabalhador",
+   "lado": "nossa",
+   "diz": "O candidato que ganhou o 1º turno é contra dar dois dias de descanso a quem trabalha.",
+   "args": [
+    {
+     "txt": "Lula cobra publicamente como Flávio vai votar na PEC do fim da 6x1.",
+     "fonte": {
+      "t": "‘Eu quero ver como Flávio Bolsonaro vai votar na PEC do fim da escala 6x1′, diz Lula",
+      "f": "Estadão",
+      "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeFhLb2JQZ2Y1QUxTUlBWWThQYnBNV2FwMmhPNGU4clFHaTcwX3VueTl2NWxqdzhudEZWblpSb2hza1ZuOHlzWUpZa3JvOE5IZGRVeHRDeWM2M18zUUZsNXJ1enp0S29QQjVabzRWZGRwbVlBcVpOUTYwOEdfU3FrZ0otY2tMYzBPU1VQQlZhQmxzVGdVWnlZc0xlc1ZIcm5MUWFibUNHVGREbGMtWUtIMk9COFRnTW5fbmfSAb8BQVVfeXFMTXJOVTlydWhJRjE0bDNTanhyajRQcS1yUVRkQ3paTzNMTFRvNTdCWDFUZl9seFpBOXFEN2dLb19ZVXlrVkQyX2RRSGkxZnVFY2J1M2xTX1BoYjRqSlFvajVFNmVrUWpJOXg3eXNNZ3dkZUktMlJwMkozSEhHSWtoZlprUE9NYVBGbTM4VjgybW9VZVV3blJOQV80eDhPeC1tTUlvZDZxTG9SLTljb0ViWERkb1VCUmM5R0wxWDNSMEE?oc=5",
+      "id": "12fc93"
+     }
+    },
+    {
+     "txt": "Flávio respondeu que mais folga “não adianta” com trabalhador endividado.",
+     "fonte": {
+      "t": "Escala 6x1: Lula cobra posição de Flávio, e candidato do PL diz que mais folga 'não adianta' com trabalhador endividado",
+      "f": "O GLOBO",
+      "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRjhwUVVnRFYyMGxLRjNLbF95VnJEby1WU2VlMk12R3hkank0OFZpZm1ZNVFuY2VpdkRLRkpwSDdkdk5MdzBFVjJvUm9teDEyWHI0T1Rxd3Fvc0o0ZnctWTUtdDN6WFlaTVFqcF83aEw2bkplTjltMWtsblU2VUhsSkYtWjVvdXh6Tjk2OVMxaUdwbEh5NUhiM1NfaFFnNnFNb2NYWGtzaklFTXdSVmd3cGFMS21jdmV2OWh4Y3FWWi1YMWRzUmdTY3FGOVdnVHBsN0tHR2Z4QmlleTlkSllxclUtcVBKT0ZUOWZOSW9RWEJoZkszSV9J0gGGAkFVX3lxTFBURGVhNWdoeXBCTjlSMV9PSkVkNVNvdDY5eVVBS2x6SThqWEpnWmN5MEZNNmJ5WEQ1V2xGTFRjeEx3eElNcEdFcEpGN0FlRzZtblVMdEZrbkZ5SVlVM285NnQzRjhteEZOdThsbGxjdTFYc054OGltMkNST2p6SW1GX01qaFAySnlpYWJGMmNuWENiVm1pZXAwVV92M0FKU1JSeGFqOHd0MTMtNnpqbjBOMTViSGg1Z2c0UXozSlRfVFNGb040M3p4d1NFeGJDajNEV1dZckVwWTBvSk5nc0hOQXd6dGFVZnc0dVZGTnhMNDQzM0xMUXJKMENqWXVncVVacVVmc0E?oc=5",
+      "id": "a0ab2b"
+     }
+    }
+   ],
+   "redes_vph": 159840,
+   "imprensa_vph": 85518,
+   "compart": 47412,
+   "n_videos": 19,
+   "n_contas": 8,
+   "contas": [
+    {
+     "a": "ptbrasil",
+     "seg": 1900000,
+     "ver": true,
+     "vph": 85110
+    },
+    {
+     "a": "Lulaoficial",
+     "seg": 7393247,
+     "ver": true,
+     "vph": 26604
+    },
+    {
+     "a": "lulaoficial",
+     "seg": 6100000,
+     "ver": true,
+     "vph": 4342
+    },
+    {
+     "a": "erikahiltonsp",
+     "seg": 1900000,
+     "ver": true,
+     "vph": 1267
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694420487555845394",
+     "a": "ptbrasil",
+     "ver": true,
+     "seg": 1900000,
+     "views": 2200000,
+     "sh": 25400,
+     "vph": 85110,
+     "imp": false,
+     "titulo": "Lula a Flávio: coloque a bancada para votar o fim da 6x1",
+     "frase": "Vai ou não vai votar o fim da escala seis por um?",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@ptbrasil/video/7694420487555845394",
+     "capa": "capas-n/7694420487555845394.jpg"
+    },
+    {
+     "id": "7694775002175966484",
+     "a": "metropolesoficial",
+     "ver": true,
+     "seg": 17400000,
+     "views": 101100,
+     "sh": 1399,
+     "vph": 34608,
+     "imp": true,
+     "titulo": "➡️ ELEIÇÕES 2026 A “campanha do medo” com a qual e o pretendem vencer e a direita é uma in…",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@metropolesoficial/video/7694775002175966484",
+     "capa": "capas-n/7694775002175966484.jpg"
+    },
+    {
+     "id": "7694413617525001492",
+     "a": "metropolesoficial",
+     "ver": true,
+     "seg": 17400000,
+     "views": 740700,
+     "sh": 1039,
+     "vph": 28171,
+     "imp": true,
+     "titulo": "Lula volta a cobrar Flávio sobre a 6x1",
+     "frase": "Bota a sua bancada pra votar.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@metropolesoficial/video/7694413617525001492",
+     "capa": "capas-n/7694413617525001492.jpg"
+    },
+    {
+     "id": "5223762731144897034",
+     "a": "Lulaoficial",
+     "ver": true,
+     "seg": 7393247,
+     "views": 746738,
+     "sh": 3690,
+     "vph": 26519,
+     "imp": false,
+     "titulo": "Eu já cobrei mais de uma vez, e cobro novamente. Sem enrolação. Vamos votar o fim da escal…",
+     "frase": "",
+     "rede": "Kwai",
+     "url": "https://www.kwai.com/@Lulaoficial/video/5223762731144897034",
+     "capa": "capas-n/5223762731144897034.jpg"
+    },
+    {
+     "id": "7694366460809874708",
+     "a": "leticia.carvalho.adv",
+     "ver": false,
+     "seg": 8453,
+     "views": 686300,
+     "sh": 8113,
+     "vph": 23388,
+     "imp": false,
+     "titulo": "Advogada: “liberdade para negociar” com o patrão não é real",
+     "frase": "Na teoria, trabalhar por hora com liberdade pra negociar parece boa demais.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@leticia.carvalho.adv/video/7694366460809874708",
+     "capa": "capas-n/7694366460809874708.jpg"
+    },
+    {
+     "id": "7694679944839843078",
+     "a": "mezzini.s",
+     "ver": false,
+     "seg": 7558,
+     "views": 106400,
+     "sh": 1613,
+     "vph": 11731,
+     "imp": false,
+     "titulo": "“A 6x1 só é boa para o patrão”",
+     "frase": "Trabalhador, presta atenção: a 6x1 só é boa pro patrão.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@mezzini.s/video/7694679944839843078",
+     "capa": "capas-n/7694679944839843078.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 133236,
+    "imprensa_vph": 85518,
+    "compart": 43487,
+    "n_videos": 17,
+    "n_contas": 7,
+    "contas": [
+     {
+      "a": "ptbrasil",
+      "seg": 1900000,
+      "ver": true,
+      "vph": 85110
+     },
+     {
+      "a": "lulaoficial",
+      "seg": 6100000,
+      "ver": true,
+      "vph": 4342
+     },
+     {
+      "a": "erikahiltonsp",
+      "seg": 1900000,
+      "ver": true,
+      "vph": 1267
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694420487555845394",
+      "a": "ptbrasil",
+      "ver": true,
+      "seg": 1900000,
+      "views": 2200000,
+      "sh": 25400,
+      "vph": 85110,
+      "imp": false,
+      "titulo": "Lula a Flávio: coloque a bancada para votar o fim da 6x1",
+      "frase": "Vai ou não vai votar o fim da escala seis por um?",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@ptbrasil/video/7694420487555845394",
+      "capa": "capas-n/7694420487555845394.jpg"
+     },
+     {
+      "id": "7694775002175966484",
+      "a": "metropolesoficial",
+      "ver": true,
+      "seg": 17400000,
+      "views": 101100,
+      "sh": 1399,
+      "vph": 34608,
+      "imp": true,
+      "titulo": "➡️ ELEIÇÕES 2026 A “campanha do medo” com a qual e o pretendem vencer e a direita é uma in…",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@metropolesoficial/video/7694775002175966484",
+      "capa": "capas-n/7694775002175966484.jpg"
+     },
+     {
+      "id": "7694413617525001492",
+      "a": "metropolesoficial",
+      "ver": true,
+      "seg": 17400000,
+      "views": 740700,
+      "sh": 1039,
+      "vph": 28171,
+      "imp": true,
+      "titulo": "Lula volta a cobrar Flávio sobre a 6x1",
+      "frase": "Bota a sua bancada pra votar.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@metropolesoficial/video/7694413617525001492",
+      "capa": "capas-n/7694413617525001492.jpg"
+     },
+     {
+      "id": "7694366460809874708",
+      "a": "leticia.carvalho.adv",
+      "ver": false,
+      "seg": 8453,
+      "views": 686300,
+      "sh": 8113,
+      "vph": 23388,
+      "imp": false,
+      "titulo": "Advogada: “liberdade para negociar” com o patrão não é real",
+      "frase": "Na teoria, trabalhar por hora com liberdade pra negociar parece boa demais.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@leticia.carvalho.adv/video/7694366460809874708",
+      "capa": "capas-n/7694366460809874708.jpg"
+     },
+     {
+      "id": "7694679944839843078",
+      "a": "mezzini.s",
+      "ver": false,
+      "seg": 7558,
+      "views": 106400,
+      "sh": 1613,
+      "vph": 11731,
+      "imp": false,
+      "titulo": "“A 6x1 só é boa para o patrão”",
+      "frase": "Trabalhador, presta atenção: a 6x1 só é boa pro patrão.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@mezzini.s/video/7694679944839843078",
+      "capa": "capas-n/7694679944839843078.jpg"
+     },
+     {
+      "id": "7694088965908909333",
+      "a": "g1",
+      "ver": true,
+      "seg": 13400000,
+      "views": 421000,
+      "sh": 542,
+      "vph": 8902,
+      "imp": true,
+      "titulo": "Senado começa a analisar o fim da 6x1",
+      "frase": "O Senado começou a analisar o fim da escala seis por um.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@g1/video/7694088965908909333",
+      "capa": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "constituicao",
+   "nome": "Flávio quer mudar a Constituição",
+   "lado": "nossa",
+   "diz": "Flávio disse que vai usar a maioria no Congresso para mudar a Constituição e “redemocratizar” o país.",
+   "args": [
+    {
+     "txt": "Ele disse que vai usar a maioria do PL no Congresso para isso.",
+     "fonte": {
+      "t": "Flávio Bolsonaro diz que usará maioria no Congresso para mudar a Constituição Federal",
+      "f": "Valor Econômico",
+      "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVVhxZlFqTUQ5TEpNZTJhcUFtYTF6ZFNPZDNBTTFsUEpGTERuNFlTY1lkSUhxSTBoN0RYZW5IM3FPZkdLTFA0Q3dwVE9HTHNsTVdTeHlySktCTDVMbkF2RWRfdVQwWUJCSmpvOHc0OEJsM2ZNcVVmc3B3dHU1NVRuLS1HMFR5VTRabGlFd1pieHFNMkdKQlhydl9MdjlkQ1dHMi12U0ZmaXI0T01aZk4zbHZCY2UzMFd3RXZtZXB3dWFHUThtNTB6SkU4S2IxTXdRN2szX1VVRTNybmVucThTMmY4Tm1PSlJNcl9kZEdB0gH8AUFVX3lxTE9ZODRsMEVvaUtDY19wcDM0NHBKS0JLa09RdjV6cjV4cXlRXzNpQlllUlNVcDJ4WExpX2M0VjZGTkh4QUx2RUZVLXVqNGl4Z2Qta2c4Y2FtRzVCZXo3dWpmTnlBNlRCTkI2UlJpcTIwcjlsY3g4QlB4bk0zQjNmZ1lkMGQ2NjBieWNQMGFTcHVxcUFxSVJHeUVqNTZiajVaQ3BxdHBlTTRkWVhxaTRkLXlHZHRxc0M5SGhPdVFPNE1jaG9rUnk0LVgtOVBkOWc4UlUtUDlQQnZ1VVRaUEdPLVFmOGdKT2R0bWgyLUo3Rno4TDNWcmRyQXlOMDRkNg?oc=5",
+      "id": "9e2704"
+     }
+    },
+    {
+     "txt": "Deixou em aberto a ampliação de mandato.",
+     "fonte": {
+      "t": "Flávio diz querer mudar Constituição para reformar lei penal e Judiciário e deixa em aberto ampliar mandato",
+      "f": "Folha de S.Paulo",
+      "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOVJuM1ZyeWdyX0k4RGFtM25CV1pzaVRTNWVZZmpkWnM3ck95S2VZZHdiVmJLai1GTDIwVmZnSmh0RHotV0t1Q01UR29LdTlkQjFfZzNwNTJaNFYxLW5QUVNPTTB0Zk9rVUdCZThvekRKLTZCQnQtSncxRUFoX2UxNlhvc0RFU3Y2UmxOQkJESTVwejJDVXNFU0hKUGpSb3Btb2lLNGJWZks3VHMyZkdnZEJ2OXdYOXNtSkVHMy1nZjFsc1IydzE4TUJ3TVF4dUxFUzZJbUJNUUlNSjkx?oc=5",
+      "id": "2ea737"
+     }
+    },
+    {
+     "txt": "Celso de Mello: “Reformar a Constituição não autoriza o vencedor das eleições a destruí-la”.",
+     "fonte": {
+      "t": "Celso de Mello rebate Flávio Bolsonaro: ‘Reformar a Constituição não autoriza o vencedor das eleições a destruí-la’",
+      "f": "O GLOBO",
+      "u": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYnJiYzBaN1ZOdWxTV2c1d1h5ZFJtTVRCSzFKa3A3bXJ2ZWNyN3lKaTJWTGlmQUZQQ1NNTkUzX3duMExnVTYtX3VSdnVXQ1lxTlYyM1hqbTJqdzFBZWdRZEpOOVlrSHhVNEMzVzgySmE5bEdDT1lpcktTVWFCOW5WZUdBdWItc3ZZb3AyakRTTDlaemFxclBtQUI0YmZvUDIxeENRUEx0dFYtOElvWWQteEN3SVpEaWlFNERiUjRMLWNrMTVEVTJBY0E0SFQyb054ajJRUUVHb0pkeVF5TTRSdVhQSUd6YzJFd3VOX3pHNld3dzBYZG1MSnRRNW5WaTRhRTZPNNIBkwJBVV95cUxOMXhDZFAwTi1fTWdlaG5fVVJxQkZtbEtVVENSdHFQb0FRR1BwRDF1OUxqSzktZ2N5VHc1NmxYMmU0UGI5NTBiVkEwTHpneU5TLWRqQ2UxM3ZLVVhnT200MjVDN0diRDU3dG44MkxNN2tKT0N6SjVCbV9QMjZKeHA4TlNWYy1hV2JMWXVHTVNGM3R0aXhfUmJndXlteURNUHhEZk5fWlc5dXJmWlNCQ2d2NHZsdjBUaDZSSnFXSXZPVzlzQ1NDRjE1V2d4bV9yRTZtcWNmeUpkMFhwOS1NY3hFRXZvTnVLb0Qta2FySjlNTS1femw0WkhINDdwaENVVUM1bzk4TExxdW9Sc1g2TERjMHBBYw?oc=5",
+      "id": "277286"
+     }
+    }
+   ],
+   "redes_vph": 53477,
+   "imprensa_vph": 54217,
+   "compart": 25277,
+   "n_videos": 9,
+   "n_contas": 3,
+   "contas": [
+    {
+     "a": "guilhermeboulos",
+     "seg": 1100000,
+     "ver": true,
+     "vph": 24299
+    },
+    {
+     "a": "iclnoticias",
+     "seg": 538600,
+     "ver": false,
+     "vph": 17237
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694662838198996276",
+     "a": "guilhermeboulos",
+     "ver": true,
+     "seg": 1100000,
+     "views": 226100,
+     "sh": 6278,
+     "vph": 22213,
+     "imp": false,
+     "titulo": "Boulos: Flávio quer mudar a Constituição",
+     "frase": "Ele pode mexer até nos direitos sociais e trabalhistas.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@guilhermeboulos/video/7694662838198996276",
+     "capa": "capas-n/7694662838198996276.jpg"
+    },
+    {
+     "id": "7694043420679015687",
+     "a": "g1",
+     "ver": true,
+     "seg": 13400000,
+     "views": 1100000,
+     "sh": 22000,
+     "vph": 21897,
+     "imp": true,
+     "titulo": "Análise: a fala de Flávio sobre mudar a Constituição",
+     "frase": "Ele falou que já tem maioria pra fazer mudança na Constituição.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@g1/video/7694043420679015687",
+     "capa": "capas-n/7694043420679015687.jpg"
+    },
+    {
+     "id": "7693931405645991175",
+     "a": "g1",
+     "ver": true,
+     "seg": 13400000,
+     "views": 1100000,
+     "sh": 4850,
+     "vph": 19136,
+     "imp": true,
+     "titulo": "Flávio defende reforma do Judiciário",
+     "frase": "Tem que haver, sim, uma reforma do Judiciário.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@g1/video/7693931405645991175",
+     "capa": "capas-n/7693931405645991175.jpg"
+    },
+    {
+     "id": "7694302386109598982",
+     "a": "iclnoticias",
+     "ver": false,
+     "seg": 538600,
+     "views": 577200,
+     "sh": 15500,
+     "vph": 17237,
+     "imp": false,
+     "titulo": "ICL: a “redemocratização” de Flávio e a Constituição",
+     "frase": "Essa fala gerou preocupação inclusive nos aliados do Flávio.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@iclnoticias/video/7694302386109598982",
+     "capa": "capas-n/7694302386109598982.jpg"
+    },
+    {
+     "id": "7694382897448455445",
+     "a": "detudoumpouco.oficial._",
+     "ver": false,
+     "seg": 16200,
+     "views": 337700,
+     "sh": 841,
+     "vph": 11941,
+     "imp": false,
+     "titulo": "Igão (Podpah): um lado fala em mudar a Constituição",
+     "frase": "De um lado, um lado totalmente democrático; do outro, um lado antidemocrático.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@detudoumpouco.oficial._/video/7694382897448455445",
+     "capa": "capas-n/7694382897448455445.jpg"
+    },
+    {
+     "id": "7693918160478571794",
+     "a": "metropolesoficial",
+     "ver": true,
+     "seg": 17400000,
+     "views": 642400,
+     "sh": 6042,
+     "vph": 11011,
+     "imp": true,
+     "titulo": "Flávio fala sobre a polêmica da Constituição",
+     "frase": "É assim que a gente vai reconstruir o nosso Brasil.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@metropolesoficial/video/7693918160478571794",
+     "capa": ""
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 53477,
+    "imprensa_vph": 54217,
+    "compart": 25277,
+    "n_videos": 9,
+    "n_contas": 3,
+    "contas": [
+     {
+      "a": "guilhermeboulos",
+      "seg": 1100000,
+      "ver": true,
+      "vph": 24299
+     },
+     {
+      "a": "iclnoticias",
+      "seg": 538600,
+      "ver": false,
+      "vph": 17237
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694662838198996276",
+      "a": "guilhermeboulos",
+      "ver": true,
+      "seg": 1100000,
+      "views": 226100,
+      "sh": 6278,
+      "vph": 22213,
+      "imp": false,
+      "titulo": "Boulos: Flávio quer mudar a Constituição",
+      "frase": "Ele pode mexer até nos direitos sociais e trabalhistas.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@guilhermeboulos/video/7694662838198996276",
+      "capa": "capas-n/7694662838198996276.jpg"
+     },
+     {
+      "id": "7694043420679015687",
+      "a": "g1",
+      "ver": true,
+      "seg": 13400000,
+      "views": 1100000,
+      "sh": 22000,
+      "vph": 21897,
+      "imp": true,
+      "titulo": "Análise: a fala de Flávio sobre mudar a Constituição",
+      "frase": "Ele falou que já tem maioria pra fazer mudança na Constituição.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@g1/video/7694043420679015687",
+      "capa": "capas-n/7694043420679015687.jpg"
+     },
+     {
+      "id": "7693931405645991175",
+      "a": "g1",
+      "ver": true,
+      "seg": 13400000,
+      "views": 1100000,
+      "sh": 4850,
+      "vph": 19136,
+      "imp": true,
+      "titulo": "Flávio defende reforma do Judiciário",
+      "frase": "Tem que haver, sim, uma reforma do Judiciário.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@g1/video/7693931405645991175",
+      "capa": "capas-n/7693931405645991175.jpg"
+     },
+     {
+      "id": "7694302386109598982",
+      "a": "iclnoticias",
+      "ver": false,
+      "seg": 538600,
+      "views": 577200,
+      "sh": 15500,
+      "vph": 17237,
+      "imp": false,
+      "titulo": "ICL: a “redemocratização” de Flávio e a Constituição",
+      "frase": "Essa fala gerou preocupação inclusive nos aliados do Flávio.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@iclnoticias/video/7694302386109598982",
+      "capa": "capas-n/7694302386109598982.jpg"
+     },
+     {
+      "id": "7694382897448455445",
+      "a": "detudoumpouco.oficial._",
+      "ver": false,
+      "seg": 16200,
+      "views": 337700,
+      "sh": 841,
+      "vph": 11941,
+      "imp": false,
+      "titulo": "Igão (Podpah): um lado fala em mudar a Constituição",
+      "frase": "De um lado, um lado totalmente democrático; do outro, um lado antidemocrático.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@detudoumpouco.oficial._/video/7694382897448455445",
+      "capa": "capas-n/7694382897448455445.jpg"
+     },
+     {
+      "id": "7693918160478571794",
+      "a": "metropolesoficial",
+      "ver": true,
+      "seg": 17400000,
+      "views": 642400,
+      "sh": 6042,
+      "vph": 11011,
+      "imp": true,
+      "titulo": "Flávio fala sobre a polêmica da Constituição",
+      "frase": "É assim que a gente vai reconstruir o nosso Brasil.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@metropolesoficial/video/7693918160478571794",
+      "capa": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "constituicao_fake",
+   "nome": "“É fake que Flávio quer mudar a Constituição”",
+   "lado": "deles",
+   "diz": "Vídeos dizem que a mudança na Constituição é invenção da esquerda e que a fala de Flávio foi distorcida.",
+   "tecnica": "Inversão: chamar de fake news uma declaração gravada do próprio candidato.",
+   "args": [
+    {
+     "txt": "Flávio disse que vai usar a maioria do PL no Congresso para mudar a Constituição.",
+     "fonte": {
+      "t": "Flávio Bolsonaro diz que usará maioria no Congresso para mudar a Constituição Federal",
+      "f": "Valor Econômico",
+      "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVVhxZlFqTUQ5TEpNZTJhcUFtYTF6ZFNPZDNBTTFsUEpGTERuNFlTY1lkSUhxSTBoN0RYZW5IM3FPZkdLTFA0Q3dwVE9HTHNsTVdTeHlySktCTDVMbkF2RWRfdVQwWUJCSmpvOHc0OEJsM2ZNcVVmc3B3dHU1NVRuLS1HMFR5VTRabGlFd1pieHFNMkdKQlhydl9MdjlkQ1dHMi12U0ZmaXI0T01aZk4zbHZCY2UzMFd3RXZtZXB3dWFHUThtNTB6SkU4S2IxTXdRN2szX1VVRTNybmVucThTMmY4Tm1PSlJNcl9kZEdB0gH8AUFVX3lxTE9ZODRsMEVvaUtDY19wcDM0NHBKS0JLa09RdjV6cjV4cXlRXzNpQlllUlNVcDJ4WExpX2M0VjZGTkh4QUx2RUZVLXVqNGl4Z2Qta2c4Y2FtRzVCZXo3dWpmTnlBNlRCTkI2UlJpcTIwcjlsY3g4QlB4bk0zQjNmZ1lkMGQ2NjBieWNQMGFTcHVxcUFxSVJHeUVqNTZiajVaQ3BxdHBlTTRkWVhxaTRkLXlHZHRxc0M5SGhPdVFPNE1jaG9rUnk0LVgtOVBkOWc4UlUtUDlQQnZ1VVRaUEdPLVFmOGdKT2R0bWgyLUo3Rno4TDNWcmRyQXlOMDRkNg?oc=5",
+      "id": "9e2704"
+     }
+    }
+   ],
+   "redes_vph": 29131,
+   "imprensa_vph": 0,
+   "compart": 19802,
+   "n_videos": 3,
+   "n_contas": 3,
+   "contas": [
+    {
+     "a": "lauschultz",
+     "seg": 580300,
+     "ver": false,
+     "vph": 14731
+    },
+    {
+     "a": "omexicanoo",
+     "seg": 241000,
+     "ver": false,
+     "vph": 11224
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694282265194401044",
+     "a": "lauschultz",
+     "ver": false,
+     "seg": 580300,
+     "views": 512500,
+     "sh": 6606,
+     "vph": 14731,
+     "imp": false,
+     "titulo": "“Estão distorcendo” a fala de Flávio sobre a Constituição",
+     "frase": "Tem muita gente que tá distorcendo o que o Flávio disse.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@lauschultz/video/7694282265194401044",
+     "capa": "capas-n/7694282265194401044.jpg"
+    },
+    {
+     "id": "7693907410372627732",
+     "a": "omexicanoo",
+     "ver": false,
+     "seg": 241000,
+     "views": 662600,
+     "sh": 10500,
+     "vph": 11224,
+     "imp": false,
+     "titulo": "React chama de invenção a mudança na Constituição",
+     "frase": "É essa nova fake news que a esquerda tá falando.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@omexicanoo/video/7693907410372627732",
+     "capa": "capas-n/7693907410372627732.jpg"
+    },
+    {
+     "id": "7694021201571630337",
+     "a": "contaoutra.invest",
+     "ver": false,
+     "seg": 47100,
+     "views": 164100,
+     "sh": 2696,
+     "vph": 3176,
+     "imp": false,
+     "titulo": "“O PT já mudou a Constituição mais de 60 vezes”",
+     "frase": "Que história é essa que o Flávio quer acabar com a Constituição?",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@contaoutra.invest/video/7694021201571630337",
+     "capa": "capas-n/7694021201571630337.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 29131,
+    "imprensa_vph": 0,
+    "compart": 19802,
+    "n_videos": 3,
+    "n_contas": 3,
+    "contas": [
+     {
+      "a": "lauschultz",
+      "seg": 580300,
+      "ver": false,
+      "vph": 14731
+     },
+     {
+      "a": "omexicanoo",
+      "seg": 241000,
+      "ver": false,
+      "vph": 11224
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694282265194401044",
+      "a": "lauschultz",
+      "ver": false,
+      "seg": 580300,
+      "views": 512500,
+      "sh": 6606,
+      "vph": 14731,
+      "imp": false,
+      "titulo": "“Estão distorcendo” a fala de Flávio sobre a Constituição",
+      "frase": "Tem muita gente que tá distorcendo o que o Flávio disse.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@lauschultz/video/7694282265194401044",
+      "capa": "capas-n/7694282265194401044.jpg"
+     },
+     {
+      "id": "7693907410372627732",
+      "a": "omexicanoo",
+      "ver": false,
+      "seg": 241000,
+      "views": 662600,
+      "sh": 10500,
+      "vph": 11224,
+      "imp": false,
+      "titulo": "React chama de invenção a mudança na Constituição",
+      "frase": "É essa nova fake news que a esquerda tá falando.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@omexicanoo/video/7693907410372627732",
+      "capa": "capas-n/7693907410372627732.jpg"
+     },
+     {
+      "id": "7694021201571630337",
+      "a": "contaoutra.invest",
+      "ver": false,
+      "seg": 47100,
+      "views": 164100,
+      "sh": 2696,
+      "vph": 3176,
+      "imp": false,
+      "titulo": "“O PT já mudou a Constituição mais de 60 vezes”",
+      "frase": "Que história é essa que o Flávio quer acabar com a Constituição?",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@contaoutra.invest/video/7694021201571630337",
+      "capa": "capas-n/7694021201571630337.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tortura",
+   "nome": "Bolsonaro e a tortura: “repense seu voto”",
+   "lado": "nossa",
+   "diz": "Vídeo lembra a frase de Bolsonaro de que “o erro da ditadura foi torturar e não matar”.",
+   "args": [
+    {
+     "txt": "Bolsonaro confirmou a frase em 2016, no programa Pânico, da Jovem Pan.",
+     "fonte": {
+      "t": "Sete vezes em que Bolsonaro ganhou atenção ao defender a ditadura",
+      "f": "Congresso em Foco",
+      "u": "https://www.congressoemfoco.com.br/especial/sete-vezes-em-que-bolsonaro-ganhou-atencao-ao-defender-a-ditadura/",
+      "id": "3fdf2c"
+     }
+    }
+   ],
+   "redes_vph": 337,
+   "imprensa_vph": 0,
+   "compart": 1,
+   "n_videos": 2,
+   "n_contas": 2,
+   "contas": [],
+   "videos": [
+    {
+     "id": "7694797843504074005",
+     "a": "fallengl",
+     "ver": false,
+     "seg": 2033,
+     "views": 306,
+     "sh": 0,
+     "vph": 212,
+     "imp": false,
+     "titulo": "dito isso: é 13 ! ⭐️⭐️⭐️⭐️",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@fallengl/video/7694797843504074005",
+     "capa": "capas-n/7694797843504074005.jpg"
+    },
+    {
+     "id": "7694791420032404743",
+     "a": "luqndromedwa",
+     "ver": false,
+     "seg": 10,
+     "views": 232,
+     "sh": 1,
+     "vph": 125,
+     "imp": false,
+     "titulo": "NÃO Á DITADURA",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@luqndromedwa/video/7694791420032404743",
+     "capa": "capas-n/7694791420032404743.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 337,
+    "imprensa_vph": 0,
+    "compart": 1,
+    "n_videos": 2,
+    "n_contas": 2,
+    "contas": [],
+    "videos": [
+     {
+      "id": "7694797843504074005",
+      "a": "fallengl",
+      "ver": false,
+      "seg": 2033,
+      "views": 306,
+      "sh": 0,
+      "vph": 212,
+      "imp": false,
+      "titulo": "dito isso: é 13 ! ⭐️⭐️⭐️⭐️",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@fallengl/video/7694797843504074005",
+      "capa": "capas-n/7694797843504074005.jpg"
+     },
+     {
+      "id": "7694791420032404743",
+      "a": "luqndromedwa",
+      "ver": false,
+      "seg": 10,
+      "views": 232,
+      "sh": 1,
+      "vph": 125,
+      "imp": false,
+      "titulo": "NÃO Á DITADURA",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@luqndromedwa/video/7694791420032404743",
+      "capa": "capas-n/7694791420032404743.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rua",
+   "nome": "Lula chama para a rua",
+   "lado": "nossa",
+   "diz": "Em vídeo selfie, Lula convoca a militância: “bora gente, pra rua, vamo conversar com as pessoas”.",
+   "args": [
+    {
+     "txt": "Lula convocou apoiadores a irem às ruas contra o retrocesso.",
+     "fonte": {
+      "t": "Nas redes sociais, Lula convoca apoiadores a irem às ruas impedir 'retrocesso' no país",
+      "f": "G1",
+      "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWUpJYnFFLWZuaDJvREFMRzRaX25NdE9IaDlXQ3dNcVlLSGExTEYzYjUxbGNROEFJMG12aDl6UEwwNWJVc3dSRWxja3p2cHIwU0h5ZFc0cjhRQ0ZNVXBFd0lWU0RlYnM5R29tLV9QbG1BUnA4N0lWc2t5YThpQmc3bXR6S3lEeGZrRFVMS2xtajFyaE90MzBKejZ6TzJWT3BsNGJmSTZobE9oQTdRalpzVTVDSGNJcFdHdUNtUHJ4ZFhXT0ljaENfUk1jendpeUN0UkdaZENsRzhIU2Z3TTdYNEhTaDhxTUXSAfYBQVVfeXFMT3NYZ2RLMlpSYTd4cW9NR3B0UlpndjVUT0pnU0NHcXJrWm9Ha3RmY2lSajZENk1GMUVNeFY2bmJnZWlPVmNCZDRBcXM0Vjg5a0V0ZmlOS1NDaGw1MUlDQmNlMk9SbnE1V2NLQUV2VExiWlctcHR0cjJNcEVpc3ZoWFlaTHVvc2NjejduSGVBdDROc3FTeFNPM195eFByLUd5X3lFY1V3WGxFbm1oUTZnaGI1WnVwM3lGMFFTV1pmWTFOejQ3NW43Uk4xVzlxUnN1RlNDZVZfNnRxMHpDaHVGM2QwVzZvNnJkSkp1c1hfeGhrVXQtbUZR?oc=5",
+      "id": "cd250c"
+     }
+    }
+   ],
+   "redes_vph": 55741,
+   "imprensa_vph": 34401,
+   "compart": 6398,
+   "n_videos": 7,
+   "n_contas": 4,
+   "contas": [
+    {
+     "a": "ptbrasil",
+     "seg": 1900000,
+     "ver": true,
+     "vph": 30827
+    },
+    {
+     "a": "Lulaoficial",
+     "seg": 7393247,
+     "ver": true,
+     "vph": 1298
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694689676497521928",
+     "a": "ptbrasil",
+     "ver": true,
+     "seg": 1900000,
+     "views": 260200,
+     "sh": 3389,
+     "vph": 30827,
+     "imp": false,
+     "titulo": "PT: “vamos pra cima” na caminhada de Lula",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@ptbrasil/video/7694689676497521928",
+     "capa": "capas-n/7694689676497521928.jpg"
+    },
+    {
+     "id": "7694685402803850517",
+     "a": "centralfabiofelix",
+     "ver": false,
+     "seg": 13000,
+     "views": 205300,
+     "sh": 1422,
+     "vph": 23554,
+     "imp": false,
+     "titulo": "Lula chega para caminhada em Ceilândia",
+     "frase": "Agora: Lula chegando para a caminhada em Ceilândia.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@centralfabiofelix/video/7694685402803850517",
+     "capa": "capas-n/7694685402803850517.jpg"
+    },
+    {
+     "id": "7693939805528476948",
+     "a": "bandjornalismo",
+     "ver": true,
+     "seg": 3100000,
+     "views": 1200000,
+     "sh": 6623,
+     "vph": 21074,
+     "imp": true,
+     "titulo": "Lula: bora pra rua conversar com as pessoas",
+     "frase": "Bora gente, pra rua, vamo conversar com as pessoas.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@bandjornalismo/video/7693939805528476948",
+     "capa": "capas-n/7693939805528476948.jpg"
+    },
+    {
+     "id": "7694695503300168981",
+     "a": "uol",
+     "ver": true,
+     "seg": 2800000,
+     "views": 60700,
+     "sh": 182,
+     "vph": 7524,
+     "imp": true,
+     "titulo": "Lula retoma a campanha nas ruas em Brasília",
+     "frase": "Essa é a passeata que quer reduzir a jornada de trabalho.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@uol/video/7694695503300168981",
+     "capa": ""
+    },
+    {
+     "id": "7694646741391494407",
+     "a": "baccinoticiasofc",
+     "ver": true,
+     "seg": 596600,
+     "views": 65100,
+     "sh": 79,
+     "vph": 5803,
+     "imp": true,
+     "titulo": "Lula: “o único jeito de ganhar eleição é ganhar voto”",
+     "frase": "Eu estou convencido que eu vou ganhar as eleições.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@baccinoticiasofc/video/7694646741391494407",
+     "capa": "capas-n/7694646741391494407.jpg"
+    },
+    {
+     "id": "5250221376187247600",
+     "a": "Lulaoficial",
+     "ver": true,
+     "seg": 7393247,
+     "views": 75032,
+     "sh": 1587,
+     "vph": 1298,
+     "imp": false,
+     "titulo": "Energia lá em cima pra ganhar essas eleições! Bora, gente! 👊🏽⭐️ Brasil pra frente, sem ret…",
+     "frase": "",
+     "rede": "Kwai",
+     "url": "https://www.kwai.com/@Lulaoficial/video/5250221376187247600",
+     "capa": "capas-n/5250221376187247600.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 54443,
+    "imprensa_vph": 34401,
+    "compart": 4811,
+    "n_videos": 6,
+    "n_contas": 3,
+    "contas": [
+     {
+      "a": "ptbrasil",
+      "seg": 1900000,
+      "ver": true,
+      "vph": 30827
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694689676497521928",
+      "a": "ptbrasil",
+      "ver": true,
+      "seg": 1900000,
+      "views": 260200,
+      "sh": 3389,
+      "vph": 30827,
+      "imp": false,
+      "titulo": "PT: “vamos pra cima” na caminhada de Lula",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@ptbrasil/video/7694689676497521928",
+      "capa": "capas-n/7694689676497521928.jpg"
+     },
+     {
+      "id": "7694685402803850517",
+      "a": "centralfabiofelix",
+      "ver": false,
+      "seg": 13000,
+      "views": 205300,
+      "sh": 1422,
+      "vph": 23554,
+      "imp": false,
+      "titulo": "Lula chega para caminhada em Ceilândia",
+      "frase": "Agora: Lula chegando para a caminhada em Ceilândia.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@centralfabiofelix/video/7694685402803850517",
+      "capa": "capas-n/7694685402803850517.jpg"
+     },
+     {
+      "id": "7693939805528476948",
+      "a": "bandjornalismo",
+      "ver": true,
+      "seg": 3100000,
+      "views": 1200000,
+      "sh": 6623,
+      "vph": 21074,
+      "imp": true,
+      "titulo": "Lula: bora pra rua conversar com as pessoas",
+      "frase": "Bora gente, pra rua, vamo conversar com as pessoas.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@bandjornalismo/video/7693939805528476948",
+      "capa": "capas-n/7693939805528476948.jpg"
+     },
+     {
+      "id": "7694695503300168981",
+      "a": "uol",
+      "ver": true,
+      "seg": 2800000,
+      "views": 60700,
+      "sh": 182,
+      "vph": 7524,
+      "imp": true,
+      "titulo": "Lula retoma a campanha nas ruas em Brasília",
+      "frase": "Essa é a passeata que quer reduzir a jornada de trabalho.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@uol/video/7694695503300168981",
+      "capa": ""
+     },
+     {
+      "id": "7694646741391494407",
+      "a": "baccinoticiasofc",
+      "ver": true,
+      "seg": 596600,
+      "views": 65100,
+      "sh": 79,
+      "vph": 5803,
+      "imp": true,
+      "titulo": "Lula: “o único jeito de ganhar eleição é ganhar voto”",
+      "frase": "Eu estou convencido que eu vou ganhar as eleições.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@baccinoticiasofc/video/7694646741391494407",
+      "capa": "capas-n/7694646741391494407.jpg"
+     },
+     {
+      "id": "7694761678180781330",
+      "a": "itsluiza.ofc",
+      "ver": false,
+      "seg": 1132,
+      "views": 234,
+      "sh": 0,
+      "vph": 62,
+      "imp": false,
+      "titulo": "#educacao #forabolsonaro #lulapresidente #lula",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@itsluiza.ofc/video/7694761678180781330",
+      "capa": "capas-n/7694761678180781330.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "id": "estudantes",
+   "nome": "Estudantes nas ruas",
+   "lado": "nossa",
+   "diz": "Atos de estudantes no Rio e em universidades pelo país.",
+   "args": [
+    {
+     "txt": "Estudantes iniciaram uma maratona de atos contra as pautas de Flávio.",
+     "fonte": {
+      "t": "Estudantes de todo Brasil iniciam maratona de atos contra pautas de Flávio Bolsonaro",
+      "f": "ICL Notícias",
+      "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MMS1RWGxhZlVjT1pSaUhtQlhNOHBEemZTeVEweTdvM3hLVWNwdzBvb0FIeTFNOHQzOVVNUFVUMDdKM2drQl9VRjlkTnRROF9LTzlBblctay0ySTFXODJQOEU3dkhrSUVrYmxVMDQ2NTFYQW5QWFZtTzFMZHo?oc=5",
+      "id": "7b4737"
+     }
+    }
+   ],
+   "redes_vph": 17846,
+   "imprensa_vph": 5538,
+   "compart": 7527,
+   "n_videos": 8,
+   "n_contas": 6,
+   "contas": [],
+   "videos": [
+    {
+     "id": "7694432472595041544",
+     "a": "tropa.lula.2026",
+     "ver": false,
+     "seg": 77300,
+     "views": 166400,
+     "sh": 1545,
+     "vph": 6636,
+     "imp": false,
+     "titulo": "São Luís nas ruas por Lula",
+     "frase": "São Luís, Maranhão, nas ruas em apoio ao Lula.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@tropa.lula.2026/video/7694432472595041544",
+     "capa": "capas-n/7694432472595041544.jpg"
+    },
+    {
+     "id": "7694042264238050580",
+     "a": "revista_veja",
+     "ver": true,
+     "seg": 1300000,
+     "views": 278600,
+     "sh": 2930,
+     "vph": 5538,
+     "imp": true,
+     "titulo": "Ato pró-Lula reúne milhares no Rio",
+     "frase": "Eu tô na rua pro seu filho estudar.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@revista_veja/video/7694042264238050580",
+     "capa": "capas-n/7694042264238050580.jpg"
+    },
+    {
+     "id": "7694431833982881031",
+     "a": "tropa.lula.2026",
+     "ver": false,
+     "seg": 77300,
+     "views": 130500,
+     "sh": 616,
+     "vph": 5196,
+     "imp": false,
+     "titulo": "São Luís: “tô na rua pro seu filho estudar”",
+     "frase": "Eu tô na rua pro seu filho estudar.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@tropa.lula.2026/video/7694431833982881031",
+     "capa": "capas-n/7694431833982881031.jpg"
+    },
+    {
+     "id": "7694042228452232468",
+     "a": "_karynne__",
+     "ver": false,
+     "seg": 1239,
+     "views": 150400,
+     "sh": 1298,
+     "vph": 2989,
+     "imp": false,
+     "titulo": "Estudantes da UFPA nas ruas",
+     "frase": "Os estudantes vão mudar o segundo turno.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@_karynne__/video/7694042228452232468",
+     "capa": "capas-n/7694042228452232468.jpg"
+    },
+    {
+     "id": "7694276368040742150",
+     "a": "arielzitinho",
+     "ver": false,
+     "seg": 708,
+     "views": 62300,
+     "sh": 2687,
+     "vph": 1771,
+     "imp": false,
+     "titulo": "Ato de estudantes: “é Lula no 2º turno”",
+     "frase": "Quem aqui tá pronto pra reeleger o presidente Lula?",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@arielzitinho/video/7694276368040742150",
+     "capa": "capas-n/7694276368040742150.jpg"
+    },
+    {
+     "id": "7694033379901197576",
+     "a": "lucianaboiteux",
+     "ver": false,
+     "seg": 23500,
+     "views": 41800,
+     "sh": 1369,
+     "vph": 821,
+     "imp": false,
+     "titulo": "“A virada começou no RJ”",
+     "frase": "Dá pra sentir que a gente já começou a virada do segundo turno.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@lucianaboiteux/video/7694033379901197576",
+     "capa": "capas-n/7694033379901197576.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 17846,
+    "imprensa_vph": 5538,
+    "compart": 7527,
+    "n_videos": 8,
+    "n_contas": 6,
+    "contas": [],
+    "videos": [
+     {
+      "id": "7694432472595041544",
+      "a": "tropa.lula.2026",
+      "ver": false,
+      "seg": 77300,
+      "views": 166400,
+      "sh": 1545,
+      "vph": 6636,
+      "imp": false,
+      "titulo": "São Luís nas ruas por Lula",
+      "frase": "São Luís, Maranhão, nas ruas em apoio ao Lula.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@tropa.lula.2026/video/7694432472595041544",
+      "capa": "capas-n/7694432472595041544.jpg"
+     },
+     {
+      "id": "7694042264238050580",
+      "a": "revista_veja",
+      "ver": true,
+      "seg": 1300000,
+      "views": 278600,
+      "sh": 2930,
+      "vph": 5538,
+      "imp": true,
+      "titulo": "Ato pró-Lula reúne milhares no Rio",
+      "frase": "Eu tô na rua pro seu filho estudar.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@revista_veja/video/7694042264238050580",
+      "capa": "capas-n/7694042264238050580.jpg"
+     },
+     {
+      "id": "7694431833982881031",
+      "a": "tropa.lula.2026",
+      "ver": false,
+      "seg": 77300,
+      "views": 130500,
+      "sh": 616,
+      "vph": 5196,
+      "imp": false,
+      "titulo": "São Luís: “tô na rua pro seu filho estudar”",
+      "frase": "Eu tô na rua pro seu filho estudar.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@tropa.lula.2026/video/7694431833982881031",
+      "capa": "capas-n/7694431833982881031.jpg"
+     },
+     {
+      "id": "7694042228452232468",
+      "a": "_karynne__",
+      "ver": false,
+      "seg": 1239,
+      "views": 150400,
+      "sh": 1298,
+      "vph": 2989,
+      "imp": false,
+      "titulo": "Estudantes da UFPA nas ruas",
+      "frase": "Os estudantes vão mudar o segundo turno.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@_karynne__/video/7694042228452232468",
+      "capa": "capas-n/7694042228452232468.jpg"
+     },
+     {
+      "id": "7694276368040742150",
+      "a": "arielzitinho",
+      "ver": false,
+      "seg": 708,
+      "views": 62300,
+      "sh": 2687,
+      "vph": 1771,
+      "imp": false,
+      "titulo": "Ato de estudantes: “é Lula no 2º turno”",
+      "frase": "Quem aqui tá pronto pra reeleger o presidente Lula?",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@arielzitinho/video/7694276368040742150",
+      "capa": "capas-n/7694276368040742150.jpg"
+     },
+     {
+      "id": "7694033379901197576",
+      "a": "lucianaboiteux",
+      "ver": false,
+      "seg": 23500,
+      "views": 41800,
+      "sh": 1369,
+      "vph": 821,
+      "imp": false,
+      "titulo": "“A virada começou no RJ”",
+      "frase": "Dá pra sentir que a gente já começou a virada do segundo turno.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@lucianaboiteux/video/7694033379901197576",
+      "capa": "capas-n/7694033379901197576.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cortes",
+   "nome": "O corte de R$ 200 bi de Flávio",
+   "lado": "nossa",
+   "diz": "Assessor de Flávio propôs mudar a Constituição para cortar até R$ 200 bi; a campanha de Lula diz que o corte atinge Pé-de-Meia, Farmácia Popular, aposentadoria e BPC. Flávio nega.",
+   "args": [
+    {
+     "txt": "Assessor de Flávio propôs mudanças na Constituição para cortes de até R$ 200 bi.",
+     "fonte": {
+      "t": "Assessor de Flávio propõe mudanças na Constituição para cortes de até R$ 200 bi e causa ruído na campanha",
+      "f": "Folha de S.Paulo",
+      "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQbEhZNTViRGVETVJLYk9rbXpETE5DbkQzakcyeDZ3UkVZeHVaczVIdkd1bXAzM3Bpd2NnNGc2Ym1UcHVCbDVXLXhBclFZa0x1Y1M3c0pkY0lFQVN0MTA4TEpsVVhDckgxQV9xN21tNGk2LUpUbm1vZEJnNkpITnBFSUEwNFJUN0lIUTQtX2pPaUZObGdadDNock1VcFZzOXpFUkJMUk93MmF2dlVHRE9LS1dkVjRiZGtscWZDVXlQc29CUzdySTI3a055ZWJtZy05aVZkcGhyRTRnVTFHbFltUjB6VUNhMk44OURYcmVpR0s3QXFZRDlBUFhFRlMwVFk?oc=5",
+      "id": "07e795"
+     }
+    }
+   ],
+   "redes_vph": 17088,
+   "imprensa_vph": 136580,
+   "compart": 2163,
+   "n_videos": 4,
+   "n_contas": 2,
+   "contas": [
+    {
+     "a": "plnacional_",
+     "seg": 1100000,
+     "ver": true,
+     "vph": 15546
+    },
+    {
+     "a": "lulaoficial",
+     "seg": 6100000,
+     "ver": true,
+     "vph": 1542
+    }
+   ],
+   "videos": [
+    {
+     "id": "7694310979944959253",
+     "a": "metropolesoficial",
+     "ver": true,
+     "seg": 17400000,
+     "views": 4300000,
+     "sh": 40900,
+     "vph": 130570,
+     "imp": true,
+     "titulo": "Flávio nega que vá cortar aposentadoria e BPC",
+     "frase": "Não vou fazer economia em cima de quem precisa, das pessoas mais carentes.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@metropolesoficial/video/7694310979944959253",
+     "capa": "capas-n/7694310979944959253.jpg"
+    },
+    {
+     "id": "7694699335048514837",
+     "a": "plnacional_",
+     "ver": true,
+     "seg": 1100000,
+     "views": 121500,
+     "sh": 921,
+     "vph": 15546,
+     "imp": false,
+     "titulo": "PL: “Flávio não vai acabar com o Bolsa Família”",
+     "frase": "Flávio já reforçou diversas vezes que manterá o Bolsa Família.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@plnacional_/video/7694699335048514837",
+     "capa": "capas-n/7694699335048514837.jpg"
+    },
+    {
+     "id": "7694716293399727368",
+     "a": "tmcnewsbr",
+     "ver": true,
+     "seg": 711900,
+     "views": 40400,
+     "sh": 59,
+     "vph": 6010,
+     "imp": true,
+     "titulo": "Flávio: “mentira” que acabaria com o Bolsa Família",
+     "frase": "Uma delas, de que eu acabaria com o Bolsa Família. Isso é mentira.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@tmcnewsbr/video/7694716293399727368",
+     "capa": "capas-n/7694716293399727368.jpg"
+    },
+    {
+     "id": "7694318875151764788",
+     "a": "lulaoficial",
+     "ver": true,
+     "seg": 6100000,
+     "views": 50000,
+     "sh": 1242,
+     "vph": 1542,
+     "imp": false,
+     "titulo": "Lula: Flávio vai cortar R$ 250 bi em saúde e educação",
+     "frase": "Quando eles falam em cortar duzentos bilhões, você sabe onde vão cortar.",
+     "rede": "TikTok",
+     "url": "https://www.tiktok.com/@lulaoficial/video/7694318875151764788",
+     "capa": "capas-n/7694318875151764788.jpg"
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 17088,
+    "imprensa_vph": 136580,
+    "compart": 2163,
+    "n_videos": 4,
+    "n_contas": 2,
+    "contas": [
+     {
+      "a": "plnacional_",
+      "seg": 1100000,
+      "ver": true,
+      "vph": 15546
+     },
+     {
+      "a": "lulaoficial",
+      "seg": 6100000,
+      "ver": true,
+      "vph": 1542
+     }
+    ],
+    "videos": [
+     {
+      "id": "7694310979944959253",
+      "a": "metropolesoficial",
+      "ver": true,
+      "seg": 17400000,
+      "views": 4300000,
+      "sh": 40900,
+      "vph": 130570,
+      "imp": true,
+      "titulo": "Flávio nega que vá cortar aposentadoria e BPC",
+      "frase": "Não vou fazer economia em cima de quem precisa, das pessoas mais carentes.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@metropolesoficial/video/7694310979944959253",
+      "capa": "capas-n/7694310979944959253.jpg"
+     },
+     {
+      "id": "7694699335048514837",
+      "a": "plnacional_",
+      "ver": true,
+      "seg": 1100000,
+      "views": 121500,
+      "sh": 921,
+      "vph": 15546,
+      "imp": false,
+      "titulo": "PL: “Flávio não vai acabar com o Bolsa Família”",
+      "frase": "Flávio já reforçou diversas vezes que manterá o Bolsa Família.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@plnacional_/video/7694699335048514837",
+      "capa": "capas-n/7694699335048514837.jpg"
+     },
+     {
+      "id": "7694716293399727368",
+      "a": "tmcnewsbr",
+      "ver": true,
+      "seg": 711900,
+      "views": 40400,
+      "sh": 59,
+      "vph": 6010,
+      "imp": true,
+      "titulo": "Flávio: “mentira” que acabaria com o Bolsa Família",
+      "frase": "Uma delas, de que eu acabaria com o Bolsa Família. Isso é mentira.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@tmcnewsbr/video/7694716293399727368",
+      "capa": "capas-n/7694716293399727368.jpg"
+     },
+     {
+      "id": "7694318875151764788",
+      "a": "lulaoficial",
+      "ver": true,
+      "seg": 6100000,
+      "views": 50000,
+      "sh": 1242,
+      "vph": 1542,
+      "imp": false,
+      "titulo": "Lula: Flávio vai cortar R$ 250 bi em saúde e educação",
+      "frase": "Quando eles falam em cortar duzentos bilhões, você sabe onde vão cortar.",
+      "rede": "TikTok",
+      "url": "https://www.tiktok.com/@lulaoficial/video/7694318875151764788",
+      "capa": "capas-n/7694318875151764788.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cuidado",
+   "nome": "Cuidado: a favor de Lula, mas sem fonte",
+   "lado": "cuidado",
+   "args": [],
+   "redes_vph": 41872,
+   "imprensa_vph": 0,
+   "compart": 10989,
+   "n_videos": 7,
+   "n_contas": 7,
+   "contas": [],
+   "videos": [
+    {
+     "id": "7694405607230639393",
+     "a": "",
+     "ver": false,
+     "seg": null,
+     "views": 395300,
+     "sh": 1253,
+     "vph": 14743,
+     "imp": false,
+     "titulo": "Pedido de curtir, seguir e comentar",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "",
+     "capa": "",
+     "motivo": "Isca de engajamento (cobra curtida, seguida e comentário). Não traz argumento."
+    },
+    {
+     "id": "7694316767111286034",
+     "a": "",
+     "ver": false,
+     "seg": null,
+     "views": 292500,
+     "sh": 3832,
+     "vph": 8984,
+     "imp": false,
+     "titulo": "Comemora o fim da 6x1 como já aprovado",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "",
+     "capa": "",
+     "motivo": "Comemora o fim da 6x1 como vitória já obtida; a PEC ainda estava em discussão no Senado."
+    },
+    {
+     "id": "7694158503690161440",
+     "a": "",
+     "ver": false,
+     "seg": null,
+     "views": 222800,
+     "sh": 1260,
+     "vph": 7012,
+     "imp": false,
+     "titulo": "“Aperta na cruz e siga o perfil”",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "",
+     "capa": "",
+     "motivo": "Isca de engajamento (“aperte a cruz, siga o perfil”)."
+    },
+    {
+     "id": "7694072612984458517",
+     "a": "",
+     "ver": false,
+     "seg": null,
+     "views": 221700,
+     "sh": 1594,
+     "vph": 4585,
+     "imp": false,
+     "titulo": "“Novo levantamento” sem instituto",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "",
+     "capa": "",
+     "motivo": "Cita “novo levantamento” sem instituto nem número. Pesquisa sem fonte vira munição."
+    },
+    {
+     "id": "7693861236705873172",
+     "a": "",
+     "ver": false,
+     "seg": null,
+     "views": 279500,
+     "sh": 2441,
+     "vph": 4507,
+     "imp": false,
+     "titulo": "“Datafolha mostra Lula ganhando”",
+     "frase": "",
+     "rede": "TikTok",
+     "url": "",
+     "capa": "",
+     "motivo": "Diz que o Datafolha mostra Lula ganhando; a primeira rodada do Datafolha de 2º turno, de 08/10, mostra Flávio à frente (49% a 45%)."
+    },
+    {
+     "id": "7694670995331943698",
+     "a": "",
+     "ver": false,
+     "seg": null,
+     "views": 12900,
+     "sh": 272,
+     "vph": 1337,
+     "imp": false,
+     "titulo": "“Lula já na frente” em pesquisa pouco conhecida",
+     "frase": "Olha a notícia que acabou de sair.",
+     "rede": "TikTok",
+     "url": "",
+     "capa": "",
+     "motivo": "Anuncia “Lula já na frente” com base em pesquisa de instituto pouco conhecido, sem número conferido. Pesquisa sem fonte vira munição."
+    }
+   ],
+   "tiktok": {
+    "redes_vph": 41872,
+    "imprensa_vph": 0,
+    "compart": 10989,
+    "n_videos": 7,
+    "n_contas": 7,
+    "contas": [],
+    "videos": [
+     {
+      "id": "7694405607230639393",
+      "a": "",
+      "ver": false,
+      "seg": null,
+      "views": 395300,
+      "sh": 1253,
+      "vph": 14743,
+      "imp": false,
+      "titulo": "Pedido de curtir, seguir e comentar",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "",
+      "capa": "",
+      "motivo": "Isca de engajamento (cobra curtida, seguida e comentário). Não traz argumento."
+     },
+     {
+      "id": "7694316767111286034",
+      "a": "",
+      "ver": false,
+      "seg": null,
+      "views": 292500,
+      "sh": 3832,
+      "vph": 8984,
+      "imp": false,
+      "titulo": "Comemora o fim da 6x1 como já aprovado",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "",
+      "capa": "",
+      "motivo": "Comemora o fim da 6x1 como vitória já obtida; a PEC ainda estava em discussão no Senado."
+     },
+     {
+      "id": "7694158503690161440",
+      "a": "",
+      "ver": false,
+      "seg": null,
+      "views": 222800,
+      "sh": 1260,
+      "vph": 7012,
+      "imp": false,
+      "titulo": "“Aperta na cruz e siga o perfil”",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "",
+      "capa": "",
+      "motivo": "Isca de engajamento (“aperte a cruz, siga o perfil”)."
+     },
+     {
+      "id": "7694072612984458517",
+      "a": "",
+      "ver": false,
+      "seg": null,
+      "views": 221700,
+      "sh": 1594,
+      "vph": 4585,
+      "imp": false,
+      "titulo": "“Novo levantamento” sem instituto",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "",
+      "capa": "",
+      "motivo": "Cita “novo levantamento” sem instituto nem número. Pesquisa sem fonte vira munição."
+     },
+     {
+      "id": "7693861236705873172",
+      "a": "",
+      "ver": false,
+      "seg": null,
+      "views": 279500,
+      "sh": 2441,
+      "vph": 4507,
+      "imp": false,
+      "titulo": "“Datafolha mostra Lula ganhando”",
+      "frase": "",
+      "rede": "TikTok",
+      "url": "",
+      "capa": "",
+      "motivo": "Diz que o Datafolha mostra Lula ganhando; a primeira rodada do Datafolha de 2º turno, de 08/10, mostra Flávio à frente (49% a 45%)."
+     },
+     {
+      "id": "7694670995331943698",
+      "a": "",
+      "ver": false,
+      "seg": null,
+      "views": 12900,
+      "sh": 272,
+      "vph": 1337,
+      "imp": false,
+      "titulo": "“Lula já na frente” em pesquisa pouco conhecida",
+      "frase": "Olha a notícia que acabou de sair.",
+      "rede": "TikTok",
+      "url": "",
+      "capa": "",
+      "motivo": "Anuncia “Lula já na frente” com base em pesquisa de instituto pouco conhecido, sem número conferido. Pesquisa sem fonte vira munição."
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+# Radar da Virada
+
+> Monitor voluntário de narrativas da eleição presidencial de 2026 no Brasil (2º turno em 25 de outubro de 2026): o que está pegando agora no X, no Google, no TikTok, no YouTube e no Kwai, dos dois lados, atualizado várias vezes por dia.
+
+Responsável: Comunidade Tech contra Flávio Bolsonaro (https://x.com/techcontra_dev). Iniciativa voluntária de apoio a Lula, sem vínculo com a campanha. Lê só conteúdo público, sem login, e nomeia só figuras públicas.
+
+## Seções
+
+- [Agora](https://radardavirada.pages.dev/#agora): assuntos do momento no X e buscas em alta no Google, palavras que dispararam nas últimas horas e menções a Lula e a Flávio Bolsonaro.
+- [Temas que viram voto](https://radardavirada.pages.dev/#contra-sec): temas com efeito medido em pesquisa de intenção de voto registrada, cada um com instituto, data e link.
+- [Vídeos](https://radardavirada.pages.dev/#videos): vídeos que estão bombando, para compartilhar.
+- [Ecossistema](https://radardavirada.pages.dev/#rede-sec): canais da mídia independente progressista e o que publicaram nas últimas horas.
+- [Mapa](https://radardavirada.pages.dev/mapa): votos por município no 1º turno, com dados do TSE.
+
+## Fontes e limites
+
+- Fontes: trends24.in (X), Google Trends, Google Notícias, YouTube, TikTok e Kwai, lidos em perfis públicos e sem login; resultados eleitorais do TSE.
+- Mede atenção, não intenção de voto. Intenção de voto vem só das pesquisas registradas.
+
+## Código e dados
+
+- Método: explicado no próprio painel ("Como medimos"). O código é fechado.
+- Dados do monitor em JSON: https://radardavirada.pages.dev/narrativas.json, https://radardavirada.pages.dev/palavras.json, https://radardavirada.pages.dev/videos.json

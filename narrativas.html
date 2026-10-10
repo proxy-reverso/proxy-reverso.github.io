@@ -1,0 +1,1448 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Radar da Virada</title>
+<meta name="description" content="O que está pegando agora no X, Google, TikTok e YouTube, dos dois lados, e o que fazer com isso. Ao vivo até o 2º turno.">
+<meta name="theme-color" content="#E3141F">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Agora · Radar da Virada">
+<meta property="og:description" content="O que está pegando agora no X, Google, TikTok e YouTube, dos dois lados, e o que fazer com isso. Ao vivo até o 2º turno.">
+<meta property="og:image" content="https://radardavirada.pages.dev/og-monitor.png?v=4"><meta property="og:image:alt" content="Painel com o título Agora, barras do que cada lado fala e uma fita de cotações com X, Google, TikTok e YouTube">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:url" content="https://radardavirada.pages.dev/narrativas">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon.png"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta name="theme-color" content="#1800D8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Geist+Mono:wght@500;600&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+<style>
+[hidden] { display: none !important; }
+:root {
+  --azul: #1800D8; --azul-esc: #10009C; --amarelo: #FFF14A; --tinta: #17171A; --tx-2: #5C5C64; --tx-3: #8A8A92;
+  --fundo: #F5F4F1; --card: #FFFFFF; --card-2: #F3F2EE; --linha: #E7E5E0; --linha-2: #D3D0C9;
+  --nossa: #2E8F5B; --nossa-esc: #1F6B43; --nossa-cl: #E6F2EA; --deles: #B8660F; --deles-esc: #8A4A08; --deles-cl: #FBEFE2;
+  --disputa: #5C5C64; --disputa-cl: #ECEBE7; --alerta: #C1121F; --alerta-cl: #FDE8E8; --coral: #FF8C78;
+  --verde: var(--nossa); --verde-esc: var(--nossa-esc); --verde-cl: var(--nossa-cl);
+  --f-display: "Big Shoulders Display", Impact, sans-serif; --f-corpo: "Instrument Sans", system-ui, sans-serif;
+  --f-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--fundo); color: var(--tinta); font: 400 16px/1.45 var(--f-corpo); }
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+
+.topo { background: var(--azul); color: #FFF; }
+.topo .wrap { display: flex; align-items: center; gap: 12px; padding-top: 12px; padding-bottom: 12px; }
+.marca { font: 900 26px/1 var(--f-display); text-transform: uppercase; text-decoration: none; color: #FFF; white-space: nowrap; }
+.dias { background: var(--tinta); color: var(--amarelo); font: 900 20px/1 var(--f-display); padding: 6px 10px; border-radius: 4px; margin-left: auto; white-space: nowrap; }
+.dias small { font: 700 11px/1 var(--f-corpo); letter-spacing: .1em; margin-left: 4px; }
+
+/* abertura e cabo de guerra */
+.abre { padding: 18px 0 6px; }
+.selo-vol { font: 700 12px/1 var(--f-corpo); letter-spacing: .06em; text-transform: uppercase; color: var(--azul); }
+h1 { font: 900 clamp(22px, 2.6vw, 30px)/.95 var(--f-display); text-transform: uppercase; margin: 6px 0 4px; }
+.lead { font-size: 14px; color: var(--tx-3); margin: 0; }
+.lead b { color: var(--tinta); }
+.lead { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.fontes summary { cursor: pointer; font-size: 12px; color: var(--tx-3); list-style: none; }
+.fontes summary::-webkit-details-marker { display: none; }
+.fontes summary::after { content: " ▾"; } .fontes[open] summary::after { content: " ▴"; }
+.fontes .atraso { color: #8A5A00; }
+.fontes[open] { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; } .fontes[open] summary { flex-basis: 100%; margin-bottom: 2px; }
+.x-antes summary { cursor: pointer; list-style: none; } .x-antes summary::-webkit-details-marker { display: none; }
+.x-antes summary::after { content: " ▾"; } .x-antes[open] summary::after { content: " ▴"; }
+.lead .src-cab { font: 700 11px/1 var(--f-corpo); letter-spacing: .06em; text-transform: uppercase; color: var(--tx-3); margin-right: 2px; }
+.lead .src { display: inline-flex; align-items: center; gap: 6px; padding: 4px 9px 4px 4px; border-radius: 999px; background: var(--card); border: 1px solid var(--linha); font-size: 12px; white-space: nowrap; }
+.lead .src .logo { width: 20px; height: 20px; }
+.lead .src b { color: var(--tinta); font-weight: 600; }
+.lead .src em { font-style: normal; color: var(--tx-3); }
+.lead .src.velho { border-color: #E9B44C; } .lead .src.velho em { color: #8A5A00; font-weight: 600; }
+.cabo { margin-top: 14px; background: var(--card); border: 1px solid var(--linha); border-radius: 20px; padding: 20px 22px; box-shadow: 0 2px 10px rgb(0 0 0 / .04); }
+.cabo-cab { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; font-size: 14px; color: var(--tx-2); }
+.cabo-cab b { color: var(--tinta); font-size: 16px; }
+.cabo-num { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 12px; gap: 12px; }
+.cabo-num div { display: grid; gap: 2px; }
+.cabo-num div:last-child { text-align: right; }
+.cabo-num b { font: 900 clamp(40px, 6vw, 68px)/.9 var(--f-display); }
+.cabo-num span { font: 700 13px/1.2 var(--f-corpo); text-transform: uppercase; letter-spacing: .06em; }
+.c-nossa b, .c-nossa span { color: var(--nossa); } .c-deles b, .c-deles span { color: var(--deles); }
+.barra-cabo { display: flex; height: 18px; border-radius: 9px; overflow: hidden; margin-top: 10px; gap: 3px; }
+.barra-cabo i { display: block; height: 100%; }
+.cabo-nota { font-size: 13px; color: var(--tx-3); margin: 10px 0 0; }
+
+/* placar */
+.secao-h { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 34px 0 12px; }
+.secao-h h2 { font: 900 clamp(30px, 4vw, 44px)/.95 var(--f-display); text-transform: uppercase; margin: 0; }
+.leg { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--tx-2); }
+.leg i { display: inline-block; width: 22px; height: 10px; border-radius: 3px; vertical-align: -1px; margin-right: 6px; }
+.placar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+.col h3 { font: 800 13px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 10px; display: flex; align-items: center; gap: 8px; }
+.col.deles h3 { color: var(--deles); } .col.nossa h3 { color: var(--nossa); }
+.col h3::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: currentColor; }
+.lista { display: grid; gap: 10px; }
+.narr { text-align: left; width: 100%; cursor: pointer; background: var(--card); border: 1.5px solid var(--linha); border-radius: 16px; padding: 14px 16px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 14px; transition: border-color .15s, box-shadow .15s, transform .15s; }
+.narr:hover { border-color: var(--tinta); box-shadow: 0 6px 18px rgb(0 0 0 / .07); transform: translateY(-1px); }
+.narr b.nm { font: 700 18px/1.2 var(--f-corpo); letter-spacing: -.01em; }
+.narr .tag-al { display: inline-block; font: 800 10px/1 var(--f-corpo); letter-spacing: .07em; text-transform: uppercase; background: var(--alerta); color: #FFF; padding: 4px 6px; border-radius: 4px; margin-left: 6px; vertical-align: 3px; }
+.narr .thumbs { display: flex; grid-row: span 3; align-self: center; }
+.narr .thumbs img { width: 40px; height: 54px; object-fit: cover; border-radius: 7px; border: 2px solid var(--card); margin-left: -12px; box-shadow: 0 2px 6px rgb(0 0 0 / .15); }
+.narr .thumbs img:first-child { margin-left: 0; }
+.trilho { height: 12px; border-radius: 6px; background: var(--card-2); display: flex; overflow: hidden; }
+.trilho i { display: block; height: 100%; }
+.trilho .imp { opacity: .28; }
+.nums { font-size: 13px; color: var(--tx-2); }
+.nums b { color: var(--tinta); font-variant-numeric: tabular-nums; }
+.col.deles .trilho .r, .col.deles .trilho .imp { background: var(--deles); }
+.col.nossa .trilho .r, .col.nossa .trilho .imp { background: var(--nossa); }
+.disputa .trilho .r, .disputa .trilho .imp { background: var(--disputa) !important; }
+
+/* guerra de canais */
+.redes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.rede { background: var(--card); border: 1px solid var(--linha); border-radius: 18px; padding: 16px 18px; border-top: 5px solid var(--c); }
+.rede h3 { margin: 0; font: 800 13px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .08em; color: var(--c); }
+.rede .big { font: 900 44px/1 var(--f-display); margin: 8px 0 2px; }
+.rede .sub { font-size: 13px; color: var(--tx-2); }
+.rede .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.rede .chips span { font-size: 12px; font-weight: 600; background: var(--card-2); border-radius: 999px; padding: 5px 9px; }
+.rede .chips em { font-style: normal; color: var(--tx-3); font-weight: 500; margin-left: 4px; }
+.leitura { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 14px 0; }
+.leitura div { border-radius: 16px; padding: 16px 18px; display: grid; gap: 6px; align-content: start; }
+.leitura .k { font: 800 12px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .08em; }
+.leitura b.t { font: 900 26px/1 var(--f-display); text-transform: uppercase; }
+.leitura p { margin: 0; font-size: 14px; line-height: 1.45; }
+.l-deles { background: var(--deles-cl); } .l-deles .k { color: var(--deles-esc); }
+.l-nossa { background: var(--nossa-cl); } .l-nossa .k { color: var(--nossa-esc); }
+.l-alerta { background: var(--alerta-cl); } .l-alerta .k { color: var(--alerta); }
+.borboleta { background: var(--card); border: 1px solid var(--linha); border-radius: 18px; padding: 14px 18px; }
+.bb-cab, .bb-linha { display: grid; grid-template-columns: minmax(0, 1fr) minmax(150px, 220px) minmax(0, 1fr); gap: 12px; align-items: center; }
+.bb-cab { font: 800 12px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .08em; padding: 4px 0 10px; border-bottom: 1px solid var(--linha); }
+.bb-cab span:first-child { text-align: right; color: var(--deles); } .bb-cab span:nth-child(2) { text-align: center; color: var(--tx-3); } .bb-cab span:last-child { color: var(--nossa); }
+.bb-linha { padding: 8px 0; border-bottom: 1px solid var(--linha); cursor: pointer; width: 100%; background: none; border-left: 0; border-right: 0; border-top: 0; text-align: inherit; }
+.bb-linha:last-child { border-bottom: 0; }
+.bb-linha:hover { background: var(--card-2); }
+.bb-l { display: flex; justify-content: flex-end; align-items: center; gap: 8px; }
+.bb-r { display: flex; align-items: center; gap: 8px; }
+.bb-l i, .bb-r i { display: block; height: 16px; border-radius: 4px; min-width: 2px; }
+.bb-l i { background: var(--deles); } .bb-r i { background: var(--nossa); }
+.bb-l em, .bb-r em { font-style: normal; font: 700 13px/1 var(--f-corpo); font-variant-numeric: tabular-nums; min-width: 40px; }
+.bb-l em { text-align: right; }
+.bb-m { text-align: center; font-size: 14px; font-weight: 600; line-height: 1.2; }
+.bb-m small { display: block; font: 800 10px/1.3 var(--f-corpo); text-transform: uppercase; letter-spacing: .06em; margin-top: 3px; }
+.bb-m small.d { color: var(--deles-esc); } .bb-m small.n { color: var(--nossa-esc); }
+/* detalhe do tema: cartão sob a linha, uma coluna por lado, e um jeito claro de fechar */
+.bb-linha.on { background: var(--card-2); border-bottom-color: transparent; border-radius: 10px 10px 0 0; }
+.bb-seta { font-size: 11px; margin-left: 6px; color: var(--tx-3); }
+.bb-det { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 0 0 8px; padding: 8px 14px 14px; background: var(--card-2); border-radius: 0 0 12px 12px; border-bottom: 1px solid var(--linha); }
+.bb-col { background: var(--card); border: 2px solid var(--tinta); border-top: 8px solid var(--c); border-radius: 6px; box-shadow: 4px 4px 0 var(--tinta); padding: 10px 14px 6px; min-width: 0; }
+.bb-col.d { --c: var(--deles); } .bb-col.n { --c: var(--nossa); }
+.bb-col h4 { display: flex; align-items: center; gap: 6px; margin: 0 0 6px; font: 600 11px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--c); }
+.bb-col h4::before { content: "■"; }
+.bb-col h4 small { margin-left: auto; font: 500 10px/1 var(--f-mono); color: var(--tx-3); text-transform: none; letter-spacing: 0; }
+.bb-it { display: block; margin: 0; padding: 8px 0; border-top: 1px solid var(--linha); color: var(--tinta); text-decoration: none; }
+.bb-col h4 + .bb-it { border-top: 0; }
+.bb-it span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font: 600 14px/1.3 var(--f-corpo); }
+a.bb-it span::after { content: " ↗"; color: var(--nossa); }
+a.bb-it:hover span { text-decoration: underline; }
+.bb-it small { display: block; margin-top: 3px; font-size: 11px; color: var(--tx-3); }
+.bb-det .bb-caca { display: block; margin-top: 6px; font-size: 11px; color: var(--tx-3); }
+.bb-fecha { grid-column: 1 / -1; justify-self: end; min-height: 40px; padding: 6px 14px; border: 2px solid var(--tinta); border-radius: 6px; background: var(--card); box-shadow: 2px 2px 0 var(--tinta); cursor: pointer; font: 600 11px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .05em; }
+.nota-g { font-size: 13px; color: var(--tx-3); margin: 10px 0 0; }
+@media (max-width: 900px) {
+  .redes, .leitura { grid-template-columns: minmax(0, 1fr); }
+  .bb-det { grid-template-columns: minmax(0, 1fr); }
+}
+/* no celular o nome do tema vai numa linha inteira e as duas barras ficam embaixo, cada uma com metade da largura */
+@media (max-width: 640px) {
+  .borboleta { padding: 10px 14px; }
+  .bb-cab, .bb-linha { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "m m" "l r"; gap: 6px 10px; }
+  .bb-cab { grid-template-areas: "l r"; }
+  .bb-cab span:nth-child(2) { display: none; }
+  .bb-cab span:first-child { grid-area: l; } .bb-cab span:last-child { grid-area: r; }
+  .bb-l { grid-area: l; } .bb-r { grid-area: r; }
+  .bb-m { grid-area: m; text-align: left; font-size: 14px; padding-top: 4px; }
+  .bb-m small { display: inline; margin: 0 0 0 6px; }
+  .bb-linha { padding: 10px 0; min-height: 44px; }
+}
+
+/* navegação entre seções */
+/* um topo só: marca, seções e contagem na faixa azul, fixa ao rolar */
+.topo { position: sticky; top: 0; z-index: 15; }
+.secs { display: flex; gap: 22px; margin-left: 28px; }
+.secs a { text-decoration: none; color: rgb(255 255 255 / .72); font: 700 14px/1 var(--f-corpo); padding: 6px 0; border-bottom: 2px solid transparent; white-space: nowrap; }
+.secs a:hover { color: #FFF; }
+.secs a.on { color: #FFF; border-bottom-color: var(--amarelo); }
+@media (max-width: 720px) {
+  .topo .wrap { flex-wrap: wrap; row-gap: 8px; padding-top: 10px; padding-bottom: 8px; }
+  .secs { order: 3; width: 100%; margin-left: 0; gap: 18px; overflow-x: auto; scrollbar-width: none; }
+  .secs::-webkit-scrollbar { display: none; }
+  .secs a { font-size: 14px; padding: 10px 0 9px; }  /* área de toque de ~36 px */
+  .topo .wrap { padding-bottom: 0; }
+}
+section[id], #videos { scroll-margin-top: 92px; }  /* altura do topo fixo */
+.abas3 { display: none; }
+
+
+/* logos das fontes */
+.logo { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 5px; flex: none; vertical-align: middle; }
+.logo svg { width: 12px; height: 12px; display: block; }
+.logo.x, .logo.tt { background: #000; } .logo.x svg, .logo.tt svg { fill: #FFF; }
+.logo.g, .logo.yt, .logo.im { background: #FFF; box-shadow: inset 0 0 0 1px var(--linha); }
+.logo.yt svg { width: 15px; } .logo.im svg { fill: var(--tx-2); }
+.logo.kw { background: #FF7300; } .logo.kw svg { fill: #FFF; }
+.logos { display: inline-flex; gap: 4px; align-items: center; }
+.fonte-tag { display: inline-flex; gap: 6px; align-items: center; font: 500 11px/1 var(--f-corpo); color: var(--tx-3); text-transform: none; letter-spacing: 0; }
+
+/* palavras do dia */
+#palavras-sec { margin-top: 24px; }
+.pal { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 1fr); gap: 10px; align-items: stretch; }
+.pal-abas { display: none; }
+.pal > .pn { display: flex; flex-direction: column; min-width: 0; }
+.pal .pn-leg { min-height: 30px; }
+.pal .nuvem { flex: 1; align-content: center; }
+.pal .pal-busca { margin-top: auto; }
+#picos { flex: 1; display: flex; flex-direction: column; }
+#mencoes { flex: 1; display: flex; flex-direction: column; }
+.men-caixa { flex: 1; min-height: 150px; position: relative; }
+.men-caixa svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.men-fim { position: absolute; right: -4px; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%; box-shadow: 0 0 0 2px var(--card); }
+.men-eixo { display: flex; justify-content: space-between; margin-top: 4px; font: 500 10px/1 var(--f-corpo); color: var(--tx-3); font-variant-numeric: tabular-nums; }
+.men-num { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
+.men-num div { border-left: 4px solid; padding-left: 8px; }
+.men-num b { display: block; font: 900 30px/1 var(--f-display); font-variant-numeric: tabular-nums; color: var(--tinta); }
+/* camada de leitura: linha vertical que acha a hora mais perto, pontos nas duas séries e a leitura das duas */
+.men-hit { position: absolute; inset: -6px -6px 0; cursor: crosshair; touch-action: pan-y; outline: none; }
+.men-hit:focus-visible { box-shadow: 0 0 0 2px var(--azul); border-radius: 6px; }
+.men-cruz { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--tx-3); pointer-events: none; }
+.men-pt { position: absolute; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; box-shadow: 0 0 0 2px var(--card); pointer-events: none; }
+.men-tip { position: absolute; top: 4px; pointer-events: none; background: var(--tinta); color: #FFF; border-radius: 8px; padding: 7px 9px; font-size: 12px; line-height: 1.35; white-space: nowrap; box-shadow: 0 4px 14px rgb(0 0 0 / .18); z-index: 2; }
+.men-tip .h { color: #B9B9C2; font-size: 11px; margin-bottom: 2px; }
+.men-tip .r { display: flex; align-items: center; gap: 6px; } .men-tip .r b { font-variant-numeric: tabular-nums; min-width: 22px; text-align: right; }
+.men-tip .r i { width: 12px; height: 2px; border-radius: 1px; }
+.men-num span { font-size: 12px; color: var(--tx-2); }
+.men-quem { margin: 10px 0 0; padding-top: 10px; border-top: 1px dashed var(--linha-2); font-size: 12px; line-height: 1.4; color: var(--tx-2); }
+.men-quem b { font-weight: 700; }
+.nuvem { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 4px 12px; padding: 6px 2px 12px; }
+.nuvem span { font-weight: 700; line-height: 1.1; cursor: default; overflow-wrap: anywhere; }
+.nuvem span.nossa { color: var(--nossa); } .nuvem span.deles { color: var(--deles); } .nuvem span.disputa { color: var(--disputa); }
+.pal-busca { display: flex; gap: 6px; padding-top: 10px; border-top: 1px dashed var(--linha-2); }
+.pal-busca input { flex: 1; min-width: 0; min-height: 44px; border: 1px solid var(--linha-2); border-radius: 10px; padding: 0 12px; font: 500 15px var(--f-corpo); background: var(--card-2); }
+.pal-res { margin: 0 0 8px; font-size: 13px; color: var(--tx-2); }
+.pal-res:empty { display: none; }
+.pico { display: grid; grid-template-columns: minmax(0, 1fr) 64px; gap: 2px 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--linha); }
+.pico:first-of-type { border-top: 0; padding-top: 0; }
+.pico-t { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.pico-t b { font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.pico-t em { flex: none; font: 700 11px/1 var(--f-corpo); font-style: normal; padding: 3px 5px; border-radius: 4px; background: var(--card-2); color: var(--tx-2); }
+.serie { display: flex; align-items: flex-end; gap: 1px; height: 16px; }
+.serie i { flex: 1; background: var(--linha-2); border-radius: 1px; min-height: 1px; }
+.serie i.on { background: currentColor; }
+.pico-q { grid-column: 1 / -1; display: flex; align-items: center; gap: 6px; min-width: 0; font-size: 12px; color: var(--tx-3); }
+.pico-q .logo { width: 14px; height: 14px; border-radius: 3px; } .pico-q .logo svg { width: 9px; height: 9px; }
+.pico-q a { flex: 1; min-width: 0; color: var(--tinta); font-weight: 600; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pico-q a:hover { text-decoration: underline; }
+.pico-q time { flex: none; font-variant-numeric: tabular-nums; }
+@media (max-width: 1180px) and (min-width: 901px) { .pal { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .pal > .pn:first-child { grid-column: 1 / -1; } }
+/* no celular as três partes viram abas: a faixa inteira empilhada passava de 1.200 px */
+@media (max-width: 900px) {
+  .pal { grid-template-columns: minmax(0, 1fr); gap: 8px; } .men-caixa { min-height: 190px; } .pal .pn-leg { min-height: 0; } .nuvem span:nth-child(n+21) { display: none; }
+  .pal-abas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 10px; border: 2px solid var(--tinta); border-radius: 6px; overflow: hidden; box-shadow: 3px 3px 0 var(--tinta); background: var(--card); }
+  .pal-abas button { min-height: 44px; border: 0; background: none; cursor: pointer; font: 600 11px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .04em; color: var(--tx-2); }
+  .pal-abas button + button { border-left: 2px solid var(--tinta); }
+  .pal-abas button[aria-selected="true"] { background: var(--azul); color: #FFF; }
+  .pal[data-aba="0"] > .pn:not(:nth-child(1)), .pal[data-aba="1"] > .pn:not(:nth-child(2)), .pal[data-aba="2"] > .pn:not(:nth-child(3)) { display: none; }
+  .pico-q a { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.3; }
+  .pico-q { align-items: flex-start; }
+  .pico .serie { height: 20px; }
+}
+
+/* visor de bolsa */
+.up { color: #5FD08F; } .dn { color: #FF8A73; } .nv { color: var(--amarelo); } .eq { color: #8A8A92; }
+.painel3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 10px; }
+.pn { background: var(--card); border: 1px solid var(--linha); border-radius: 14px; padding: 12px 14px; }
+.pn h4 { margin: 0 0 8px; display: flex; gap: 8px; align-items: center; font: 800 12px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .07em; }
+/* faixa do título dos cartões do topo (X, Google, vídeos): um azulado bem leve da comunidade, para separar o rótulo do conteúdo */
+.painel3 .pn h4 { margin: -12px -14px 10px; padding: 11px 14px 10px; background: #F1F2FC; border-bottom: 1px solid #E3E5F5; border-radius: 14px 14px 0 0; }
+.pn h4 > span:last-child { margin-left: auto; font: 500 11px/1 var(--f-corpo); text-transform: none; letter-spacing: 0; color: var(--tx-3); }
+.lin { display: grid; grid-template-columns: 8px minmax(0, 1fr) auto auto; gap: 8px; align-items: baseline; padding: 6px 0; border-top: 1px solid var(--linha); font-size: 14px; }
+.lin:first-of-type { border-top: 0; }
+.lin i { width: 8px; height: 8px; border-radius: 50%; align-self: center; }
+.g-pauta { margin: 0; } .g-pauta::before { content: "Pauta: "; font-weight: 700; color: var(--tx-2); }
+.g-nota { grid-column: 2 / -1; font-size: 12px; color: var(--tx-3); text-decoration: none; line-height: 1.3; margin-top: -2px; }
+.g-nota:hover { text-decoration: underline; }
+.pn-sub { margin: 10px 0 0; padding-top: 8px; border-top: 1px dashed var(--linha-2); font: 700 11px/1 var(--f-corpo); letter-spacing: .06em; text-transform: uppercase; color: var(--tx-3); }
+.lin-x.antes { opacity: .45; transition: opacity .15s; } .lin-x.antes:hover, .lin-x.antes:focus-visible { opacity: 1; }
+.pn-sub { opacity: .7; }
+.lin-x.antes span { font-weight: 500; color: var(--tx-2); } .lin-x.antes b { font-weight: 600; font-size: 12px; color: var(--tx-2); }
+.lin-x { color: inherit; text-decoration: none; }
+.lin-x:hover span { color: var(--azul); text-decoration: underline; }
+.lin span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+.lin b { font-variant-numeric: tabular-nums; font-weight: 700; }
+.lin em { font-style: normal; font: 800 12px/1 var(--f-corpo); font-variant-numeric: tabular-nums; min-width: 46px; text-align: right; }
+.lin em.up { color: var(--nossa); } .lin em.dn { color: var(--alerta); } .lin em.nv { color: var(--deles); } .lin em.eq { color: var(--tx-3); }
+.duas { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.duas h5 { margin: 0 0 2px; font: 800 10px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .07em; }
+.duas .lin { grid-template-columns: minmax(0, 1fr) auto; font-size: 13px; }
+.barrinha { height: 4px; border-radius: 2px; margin-top: 3px; grid-column: 1 / -1; }
+.alerta-fixo { margin-top: 10px; background: var(--alerta-cl); color: #8E1016; border-radius: 10px; padding: 9px 12px; font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.alerta-fixo b { background: var(--alerta); color: #FFF; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; padding: 3px 6px; border-radius: 4px; }
+.alerta-fixo button { margin-left: auto; border: 0; background: #FFF; color: var(--alerta); font-weight: 700; border-radius: 999px; padding: 11px 16px; cursor: pointer; }
+.fita { margin-top: 14px; background: #17171A; color: #F2EFEA; border-radius: 12px; overflow: hidden; position: relative; }
+.fita-trilho { display: flex; width: max-content; animation: rolar 70s linear infinite; }
+/* pausa só enquanto o mouse está em cima (desktop) ou o dedo está apertado (celular): no toque, o :hover ficava preso e a fita não voltava */
+@media (hover: hover) { .fita:hover .fita-trilho { animation-play-state: paused; } }
+.fita.segura .fita-trilho { animation-play-state: paused; }
+@keyframes rolar { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .fita-trilho { animation: none; } .fita { overflow-x: auto; } }
+.tk { display: inline-flex; align-items: baseline; gap: 7px; padding: 11px 18px; white-space: nowrap; border-right: 1px solid #2E2E34; font: 600 14px/1 var(--f-corpo); }
+.tk i { width: 7px; height: 7px; border-radius: 50%; display: inline-block; align-self: center; }
+.tk small { display: none; }
+.tk .logo { width: 18px; height: 18px; border-radius: 4px; align-self: center; } .tk .logo.x, .tk .logo.tt { background: #000; box-shadow: inset 0 0 0 1px #3A3A41; }
+.tk em { font-style: normal; font-weight: 800; font-variant-numeric: tabular-nums; }
+/* topo em duas camadas de contraste: a fita preta rolando e, embaixo, o painel da imprensa no azul e amarelo da
+   comunidade (rótulos e medidor); os cartões brancos de X, Google e vídeos vêm depois */
+.visor-escuro { margin-top: 14px; border-radius: 12px; overflow-x: clip; }  /* só no eixo x: o cartão do "Como medimos" passa da borda de baixo */
+.visor-escuro > :first-child { border-radius: 12px 12px 0 0; } .visor-escuro > :last-child { border-radius: 0 0 12px 12px; }
+.visor-escuro .fita { margin: 0; border-radius: 0; }
+.visor-escuro .pn-lex { background: var(--azul); border: 0; border-radius: 0; margin: 0; color: #FFF; padding: 10px 14px 12px; }
+/* hora e fontes colados no título, não na ponta direita */
+.pn.pn-lex h4 .lx-meta { margin-left: 4px; font: 500 11px/1 var(--f-corpo); text-transform: none; letter-spacing: 0; }
+.visor-escuro .pn.pn-lex h4 .lx-meta { color: rgb(255 255 255 / .6); }
+.visor-escuro .pn-lex h4 { color: var(--amarelo); } .visor-escuro .pn-lex h4 > span:last-child { color: rgb(255 255 255 / .65); }
+.visor-escuro .lx { background: var(--amarelo); color: var(--tinta); }
+.visor-escuro .lx:hover { background: #FFF; text-decoration: none; }
+.visor-escuro .lx-x { background: transparent; color: #FFF; }
+.visor-escuro .lx-x:hover { background: rgb(255 255 255 / .14); color: #FFF; }
+/* o medidor fica numa caixa grafite (o preto da fita): verde e coral sobre o azul brigavam */
+.visor-escuro .tom { border-left: 0; background: #1C1C22; border-radius: 10px; padding: 8px 11px 9px; }
+.visor-escuro .tom-cab { color: var(--amarelo); } .visor-escuro .tom-leg, .visor-escuro .tom-num span { color: rgb(255 255 255 / .7); }
+/* números em branco (contraste no azul); a cor do lado fica no ponto ao lado do nome e na barra */
+.visor-escuro .tom-num b { color: #FFF !important; display: inline-flex; align-items: center; gap: 6px; }
+.visor-escuro .tom-num b:first-child::before, .visor-escuro .tom-num b:last-child::after { content: ""; width: 10px; height: 10px; border-radius: 50%; }
+.visor-escuro .tom-num b:first-child::before { background: #2EE07A; } .visor-escuro .tom-num b:last-child::after { background: #FF6B3D; }
+.visor-escuro .tom-barra { background: rgb(255 255 255 / .2); }
+.visor-escuro .tom-barra i:first-child { background: #2EE07A !important; } .visor-escuro .tom-barra i:last-child { background: #FF6B3D !important; }
+/* veredito: o que é bom ou ruim para o nosso lado, sem precisar ler os números */
+.tom-ver { display: inline-block; margin-top: 6px; padding: 4px 9px; border-radius: 6px; font: 800 12px/1.2 var(--f-corpo); }
+.tom-ver.ruim { background: #FF4D4D; color: #FFF; } .tom-ver.bom { background: #2EE07A; color: #0B2A17; } .tom-ver.eq { background: rgb(255 255 255 / .18); color: #FFF; }
+.tom-ver + .tom-leg { margin-top: 4px; }
+/* vermelho em quem leva mais pancada; o outro lado fica neutro (Lula na frente mantém o verde) */
+.visor-escuro .tom.perde-l .tom-num b:first-child::before, .visor-escuro .tom.perde-l .tom-barra i:first-child,
+.visor-escuro .tom.perde-f .tom-num b:last-child::after, .visor-escuro .tom.perde-f .tom-barra i:last-child { background: #FF4D4D !important; }
+.visor-escuro .tom.perde-l .tom-num b:last-child::after, .visor-escuro .tom.perde-l .tom-barra i:last-child { background: #CFCBE8 !important; }
+.pn-lex { margin-top: 10px; padding: 10px 14px; }
+.pn-lex h4 { margin-bottom: 6px; }
+.lx-linha { display: flex; gap: 18px; align-items: flex-start; }
+.lx-linha .lx-esq { flex: 1; min-width: 0; }
+.tom { flex: 0 0 240px; padding-left: 16px; border-left: 1px solid var(--linha); }
+.tom-cab { white-space: nowrap; font: 800 11px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .07em; color: var(--tx-3); }
+.tom-cab span { font-weight: 500; text-transform: none; letter-spacing: 0; }
+.tom-num { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; margin: 4px 0; font: 800 18px/1 var(--f-display); text-transform: uppercase; }
+.tom-num span { color: var(--tx-3); font-size: 16px; }
+.tom-barra { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--card-2); }
+.tom-leg { margin-top: 4px; font-size: 11px; color: var(--tx-3); }
+.tom-met { margin-top: 6px; font-size: 12px; line-height: 1.45; cursor: default; position: relative; }
+.tom { position: relative; }
+/* no computador a explicação abre como um cartão por cima, sem esticar o painel; no celular, dentro do medidor */
+.tom-met-txt { position: absolute; z-index: 30; right: -11px; top: calc(100% + 8px); width: min(360px, 80vw); max-height: 60vh; overflow: auto; padding: 4px 14px 12px; border-radius: 10px; background: #1C1C22; box-shadow: 0 12px 32px rgb(0 0 0 / .35); }
+@media (max-width: 720px) { .tom-met-txt { position: static; width: auto; max-height: none; padding: 0; box-shadow: none; background: none; } }
+.tom-met summary:focus { outline: none; } .tom-met summary:focus-visible { outline: 2px solid var(--amarelo); outline-offset: 2px; border-radius: 3px; }
+.tom-met summary { cursor: pointer; font-weight: 700; color: var(--azul); list-style: none; } .visor-escuro .tom-met summary { color: var(--amarelo); }
+.tom-met summary::-webkit-details-marker { display: none; }
+.tom-met summary::after { content: " ▾"; } .tom-met[open] summary::after { content: " ▴"; }
+.tom-met p { margin: 6px 0 0; color: var(--tx-2); } .visor-escuro .tom-met p { color: rgb(255 255 255 / .82); }
+.tom-met b { color: var(--tinta); } .visor-escuro .tom-met b { color: #FFF; }
+@media (max-width: 720px) { .lx-linha { flex-direction: column; align-items: stretch; gap: 10px; } .tom { flex: none; padding: 10px 0 0; border-left: 0; border-top: 1px solid var(--linha); } .visor-escuro .tom { padding: 10px 12px; border-top: 0; } }
+.lx-hl { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.lx-hl li { display: grid; grid-template-columns: 26px 1fr; column-gap: 10px; align-items: start; }
+.lx-hl li > b { grid-row: span 2; display: grid; place-items: center; height: 26px; border-radius: 6px; background: var(--card-2); font: 800 13px/1 var(--f-corpo); }
+.lx-hl a { color: inherit; text-decoration: none; font: 700 16px/1.3 var(--f-corpo); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.lx-hl a:hover { text-decoration: underline; }
+.lx-hl li > span { font-size: 12px; opacity: .7; }
+.lx-hl li > span em { font-style: normal; font-weight: 700; }
+.visor-escuro .lx-hl li > span em { color: var(--amarelo); }
+.lx-hl .hl1 a { font-weight: 600; font-size: 15px; }
+.visor-escuro .lx-hl { color: #FFF; }
+.visor-escuro .lx-hl li > b { background: var(--amarelo); color: var(--tinta); }
+.visor-escuro .lx-hl .hl1 > b { background: rgb(255 255 255 / .2); color: #FFF; }
+.lx-esq .lx-fila { margin-top: 10px; }
+.lx-fila { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: baseline; }
+.lx { text-decoration: none; color: var(--tinta); font: 600 15px/1.2 var(--f-corpo); padding: 3px 9px; border-radius: 8px; background: var(--card-2); }
+.lx:hover { text-decoration: underline; }
+.lx-x { background: transparent; padding: 3px 4px; color: var(--tx-2); font: 500 14px/1.2 var(--f-corpo); }
+.lx-x::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--c); margin-right: 6px; vertical-align: 1px; }
+@media (max-width: 520px) {
+  /* a fita do visor fica no celular: de ponta a ponta, mais compacta, a vibe de painel de bolsa */
+  .fita { margin: 12px -16px 0; border-radius: 0; }
+  .visor-escuro { margin: 12px -16px 0; border-radius: 0; }
+  .fita-trilho { animation-duration: 55s; }
+  .tk { padding: 9px 14px; gap: 6px; font-size: 13px; }
+  .tk .logo { width: 16px; height: 16px; }
+  /* celular: nada abaixo de 11,5 px de letra e alvo de toque com pelo menos 32 px de altura */
+  .duas h5, .bb-m small, .bb-col h4 small, .men-eixo, .x-alerta a em, .cuid-k, .cuid .rede-k, .vid .imp, .narr .tag-al, body .ferr a small,
+  .ca .vid-ca a small { font-size: 11.5px; }
+  .lx { min-height: 32px; display: inline-flex; align-items: center; } .lx-x { min-height: 26px; }
+  .lx-fila { gap: 5px 6px; } .lx-hl a { font-size: 15px; } .visor-escuro .pn-lex { padding: 10px 12px 12px; }
+  .lx { font-size: 14px; padding: 2px 7px; } .lx-cont { display: none; }
+  .lx-x { font-size: 12px; }
+}
+.pn-leg { margin: -2px 0 6px; font-size: 11px; line-height: 1.35; color: var(--tx-3); }
+.lin b.cid { font-weight: 600; font-size: 12px; color: var(--tx-2); }
+.nota-b { font-size: 12px; color: var(--tx-3); margin: 6px 0 0; }
+@media (max-width: 900px) {
+  .painel3 { grid-template-columns: minmax(0, 1fr); }
+  .abas3 { display: flex; gap: 4px; margin-top: 10px; background: var(--card); border: 1px solid var(--linha); border-radius: 999px; padding: 3px; }
+  .abas3 button { flex: 1; border: 0; background: none; border-radius: 999px; padding: 13px 6px; font: 700 13px/1 var(--f-corpo); color: var(--tx-2); cursor: pointer; }
+  .abas3 button.on { background: var(--tinta); color: #FFF; }
+  .cabo-num b { font-size: 34px; white-space: nowrap; }
+  .lead, .nota-v, #contra-sec .secao-h .leg { display: none; }
+  .abre { padding-top: 12px; }
+  .abre h1 { margin-bottom: 0; }
+  .painel3 { margin-top: 12px; gap: 8px; }
+  .pn { padding: 10px 12px; }
+  .lin { padding: 5px 0; font-size: 14px; }
+  .contra { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: 84%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; scrollbar-width: none; }
+  .contra::-webkit-scrollbar { display: none; }
+  .ca { scroll-snap-align: start; }
+  .bt, .wa { min-height: 44px; }
+  .narr { padding: 12px 14px; }
+  .cabo { padding: 14px 16px; }
+  .secao-h { margin: 26px 0 10px; }
+  .secao-h .leg { font-size: 12px; }
+}
+
+/* temas que viram voto */
+.criterio { margin: -4px 0 10px; font-size: 13px; color: var(--tx-2); }
+.ca .prova { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; align-items: baseline; background: var(--card-2); border-radius: 10px; padding: 8px 10px; text-decoration: none; }
+.ca .prova b { font: 900 22px/1 var(--f-display); color: var(--nossa-esc); white-space: nowrap; }
+.ca .prova span { font-size: 12px; line-height: 1.35; }
+.ca .prova small { grid-column: 1 / -1; font-size: 11px; color: var(--tx-3); }
+.ca .vids-ca { display: grid; gap: 6px; }
+.ca .vid-ca { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; gap: 8px; align-items: center; font-size: 12px; }
+.ca .vid-ca img { width: 40px; height: 52px; object-fit: cover; border-radius: 6px; }
+.ca .vid-ca a { text-decoration: none; font-weight: 600; line-height: 1.25; }
+.ca .vid-ca a small { display: block; font-weight: 500; color: var(--tx-3); }
+.ca .sem-vid { font-size: 12px; color: var(--deles-esc); background: var(--deles-cl); border-radius: 8px; padding: 7px 9px; margin: 0; }
+.ca .sem-vid a { font-weight: 700; }
+.nota-v { font-size: 12px; color: var(--nossa-esc); margin: 10px 0 0; }
+.x-alerta { margin: 0 0 10px; padding: 8px 10px; border: 2px solid var(--tinta); border-radius: 8px; background: var(--amarelo); box-shadow: 3px 3px 0 var(--tinta); }
+.x-alerta a em { font: 600 10px/1 var(--f-mono); font-style: normal; text-transform: uppercase; letter-spacing: .05em; background: var(--tinta); color: var(--amarelo); padding: 3px 6px; border-radius: 3px; align-self: center; }
+.x-alerta a { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; text-decoration: none; padding: 3px 0; }
+.x-alerta a span { font-weight: 700; }
+.x-alerta a small { font-size: 11px; color: var(--tx-2); }
+.x-alerta p { margin: 4px 0 0; font-size: 11px; color: var(--tx-2); }
+.medido { margin: -6px 0 12px; font: 600 12px/1.3 var(--f-mono); color: var(--nossa-esc); }
+/* limites, em uma nota discreta */
+.nota-met { margin: 28px 0 8px; padding-top: 12px; border-top: 1px solid var(--linha); max-width: 820px; font-size: 12px; line-height: 1.5; color: var(--tx-3); }
+.nota-met b { color: var(--tx-2); font-weight: 700; }
+
+/* contra-ataque */
+.contra { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.ca { background: var(--card); border: 1px solid var(--linha); border-radius: 14px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; border-top: 4px solid var(--nossa); }
+.ca-cab { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.ca h3 { margin: 0; font: 900 19px/1 var(--f-display); text-transform: uppercase; }
+.ca .gancho { font-size: 12px; font-weight: 700; color: var(--nossa-esc); margin: 3px 0 0; }
+.ca .silencio { flex: none; text-align: right; font-size: 9px; color: var(--deles-esc); background: var(--deles-cl); border-radius: 8px; padding: 4px 6px; line-height: 1.15; }
+.ca .silencio b { display: block; font: 900 16px/1 var(--f-display); }
+.ca .fato { margin: 6px 0 0; font-size: 13px; line-height: 1.4; }
+.ca details summary { cursor: pointer; padding: 10px 0; font-size: 12px; color: var(--tx-3); }
+.ca .perg { margin: 0; font: 700 14px/1.3 var(--f-corpo); padding: 8px 10px; background: var(--nossa-cl); border-radius: 10px; }
+.ca .perg::before { content: "Pergunte: "; color: var(--nossa-esc); }
+.ca .fts a { display: block; font-size: 12px; color: var(--tx-3); text-decoration: none; line-height: 1.35; margin-top: 3px; }
+.ca .fts a:hover { text-decoration: underline; color: var(--tinta); }
+.ca .vidm { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 10px; align-items: center; text-decoration: none; font-size: 13px; font-weight: 600; }
+.ca .vidm img { width: 44px; height: 58px; object-fit: cover; border-radius: 6px; }
+.ca .bts { margin-top: auto; }
+.ca .bt { padding: 9px 12px; font-size: 13px; }
+/* cuidado: o alerta é sobre o conteúdo, nunca sobre quem postou (sem capa; perfil só se for figura pública) */
+details.cuidado { margin-top: 20px; background: var(--card); border: 2px solid var(--tinta); border-left: 8px solid var(--alerta); border-radius: 8px; box-shadow: 4px 4px 0 var(--tinta); padding: 0 16px; }
+details.cuidado summary { cursor: pointer; list-style: none; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: center; padding: 14px 0; min-height: 44px; }
+details.cuidado summary::-webkit-details-marker { display: none; }
+.cuid-k { font: 600 10px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--alerta); }
+.cuid-t { grid-column: 1; font: 900 24px/.95 var(--f-display); text-transform: uppercase; }
+.cuid-s { grid-column: 1; font-size: 13px; color: var(--tx-2); line-height: 1.35; }
+.cuid-n { grid-column: 2; grid-row: 1 / span 3; width: 44px; height: 44px; display: grid; place-items: center; border: 2px solid var(--tinta); border-radius: 4px; background: var(--alerta-cl); color: var(--alerta); font: 900 22px/1 var(--f-display); }
+details.cuidado[open] .cuid-n { background: var(--alerta); color: #FFF; }
+.cuid-lista { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; border-top: 1px solid var(--linha); }
+.cuid { padding: 12px 0; border-bottom: 1px solid var(--linha); }
+.cuid .rede-k { font: 600 10px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--tx-3); }
+.cuid b { display: block; font-size: 15px; line-height: 1.3; margin: 5px 0 3px; }
+.cuid p { margin: 0; font-size: 14px; line-height: 1.4; }
+.cuid .g-nota { display: inline-block; margin-top: 4px; font-size: 12px; color: var(--tx-2); }
+.cuid-fim { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding: 14px 0 16px; font-size: 14px; }
+.cuid-fim .bt { background: var(--amarelo); color: var(--tinta); text-decoration: none; font-weight: 700; padding: 10px 14px; min-height: 44px; display: inline-flex; align-items: center; }
+@media (min-width: 900px) { .cuid-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; } .cuid-t { font-size: 28px; } }
+
+/* painel de detalhe */
+.veu { position: fixed; inset: 0; background: rgb(23 23 26 / .45); z-index: 20; opacity: 0; pointer-events: none; transition: opacity .2s; }
+.veu.on { opacity: 1; pointer-events: auto; }
+.gaveta { position: fixed; top: 0; right: 0; bottom: 0; width: min(620px, 100%); background: var(--fundo); z-index: 21; overflow-y: auto; transform: translateX(100%); transition: transform .25s ease; box-shadow: -10px 0 40px rgb(0 0 0 / .15); }
+.gaveta.on { transform: none; }
+.g-cab { position: sticky; top: 0; background: var(--fundo); padding: 16px 22px 12px; display: flex; justify-content: space-between; align-items: center; gap: 10px; border-bottom: 1px solid var(--linha); z-index: 1; }
+.g-cab .lado { font: 800 12px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .07em; padding: 6px 10px; border-radius: 999px; }
+.lado.deles { background: var(--deles-cl); color: var(--deles-esc); } .lado.nossa { background: var(--nossa-cl); color: var(--nossa-esc); } .lado.disputa { background: var(--disputa-cl); color: var(--disputa); }
+.fechar { border: 0; background: var(--card); width: 38px; height: 38px; border-radius: 50%; font-size: 22px; cursor: pointer; box-shadow: inset 0 0 0 1px var(--linha-2); }
+.g-corpo { padding: 18px 22px 40px; display: grid; gap: 18px; }
+.g-corpo h2 { font: 900 clamp(34px, 6vw, 52px)/.92 var(--f-display); text-transform: uppercase; margin: 0; }
+.diz { font-size: 18px; line-height: 1.45; margin: 0; padding-left: 14px; border-left: 4px solid var(--cor, var(--tinta)); }
+.caixa { border-radius: 12px; padding: 12px 14px; font-size: 15px; margin: 0; }
+.caixa.tec { background: var(--deles-cl); } .caixa.tec b { color: var(--deles-esc); }
+.caixa.nao { background: var(--alerta-cl); color: #8E1016; font-weight: 600; }
+.caixa.como { background: var(--nossa-cl); } .caixa.como b { color: var(--nossa-esc); }
+.caixa.status { background: var(--card-2); color: var(--tx-2); }
+.metricas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.metricas div { background: var(--card); border: 1px solid var(--linha); border-radius: 12px; padding: 10px 12px; }
+.metricas b { display: block; font: 900 28px/1 var(--f-display); }
+.metricas span { font-size: 12px; color: var(--tx-2); }
+.g-h { font: 800 12px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .08em; color: var(--tx-3); margin: 6px 0 -6px; }
+.contas { display: grid; gap: 6px; }
+.conta { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; background: var(--card); border: 1px solid var(--linha); border-radius: 10px; padding: 9px 12px; font-size: 14px; }
+.conta b { font-weight: 700; } .conta small { color: var(--tx-3); margin-left: 6px; }
+.conta em { font-style: normal; font-weight: 700; font-variant-numeric: tabular-nums; }
+.vids { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.vid { display: grid; text-decoration: none; background: var(--card); border: 1px solid var(--linha); border-radius: 12px; overflow: hidden; }
+.vid .th { position: relative; aspect-ratio: 3 / 4; background: var(--card-2); }
+.vid img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.vid .vph { position: absolute; left: 6px; bottom: 6px; background: var(--amarelo); color: var(--tinta); font: 800 11px/1 var(--f-corpo); padding: 4px 6px; border-radius: 999px; }
+.vid .imp { position: absolute; right: 6px; top: 6px; background: rgb(23 23 26 / .75); color: #FFF; font: 700 10px/1 var(--f-corpo); padding: 4px 6px; border-radius: 4px; text-transform: uppercase; letter-spacing: .05em; }
+.vid .tx { padding: 8px 9px 10px; font-size: 12px; line-height: 1.3; }
+.vid .tx b { display: block; font-size: 13px; margin-bottom: 3px; }
+.vid .tx q { color: var(--tx-2); font-style: italic; }
+.args { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; counter-reset: a; }
+.args li { counter-increment: a; display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 10px; }
+.args li::before { content: counter(a); width: 28px; height: 28px; border-radius: 50%; background: var(--tinta); color: #FFF; font: 900 17px/28px var(--f-display); text-align: center; }
+.args p { margin: 2px 0 0; font-size: 16px; font-weight: 600; line-height: 1.4; }
+.args a { font-size: 13px; color: var(--tx-3); text-decoration: none; } .args a:hover { text-decoration: underline; color: var(--tinta); }
+.bt { display: inline-flex; align-items: center; justify-content: center; gap: 6px; font: 700 15px/1 var(--f-corpo); text-decoration: none; padding: 13px 18px; border-radius: 999px; border: 0; cursor: pointer; }
+.bt.zap { background: var(--nossa); color: #FFF; } .bt.s { background: var(--card); box-shadow: inset 0 0 0 1.5px var(--linha-2); }
+.bts { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.metodo { font-size: 13px; color: var(--tx-3); margin: 26px 0 0; line-height: 1.55; max-width: 860px; }
+/* vídeos */
+.wrap-larga { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+.videos { padding: 34px 0 6px; }
+.vid-bloco { background: var(--verde-cl); border-radius: 24px; padding: 30px 26px; }
+.eyebrow-vivo { display: inline-flex; align-items: center; gap: 8px; background: var(--verde); color: #FFF; font: 700 12px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .08em; padding: 7px 12px 7px 10px; border-radius: 999px; }
+.vivo { width: 7px; height: 7px; border-radius: 50%; background: #FFF; box-shadow: 0 0 0 3px rgb(255 255 255 / .3); animation: pulso 2.4s infinite; }
+@keyframes pulso { 50% { box-shadow: 0 0 0 6px rgb(255 255 255 / 0); } }
+@media (prefers-reduced-motion: reduce) { .vivo { animation: none; } }
+.videos h2 { font: 900 clamp(38px, 6vw, 64px)/.92 var(--f-display); text-transform: uppercase; color: var(--verde-esc); margin: 12px 0 18px; }
+.sub-vid { font: 700 18px/1.2 var(--f-corpo); color: var(--verde-esc); margin: 28px 0 12px; }
+.destaque { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 24px; background: var(--card); border-radius: 18px; padding: 16px; box-shadow: 0 2px 0 rgb(46 143 91 / .25); }
+.destaque .th { position: relative; display: block; border-radius: 12px; overflow: hidden; aspect-ratio: 4 / 5; background: var(--card-2); }
+.destaque .th img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.destaque .info-d { display: flex; flex-direction: column; gap: 10px; padding: 6px 4px; min-width: 0; }
+.destaque .info-d b { font: 700 clamp(22px, 3vw, 32px)/1.15 var(--f-corpo); letter-spacing: -.01em; }
+.destaque .info-d small { font-size: 14px; color: var(--tx-2); }
+.destaque .acoes-d { margin-top: auto; display: flex; gap: 10px; flex-wrap: wrap; }
+.destaque .acoes-d .bt.zap { font-size: 17px; padding: 16px 24px; }
+.vel { position: absolute; left: 10px; bottom: 10px; background: var(--amarelo); color: var(--tinta); font: 800 13px/1 var(--f-corpo); padding: 6px 9px; border-radius: 999px; }
+.pos { position: absolute; left: 10px; top: 4px; font: 900 64px/1 var(--f-display); color: var(--amarelo); -webkit-text-stroke: 1px rgb(0 0 0 / .25); text-shadow: 0 3px 0 rgb(0 0 0 / .35); }
+.grade { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.card { background: var(--card); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 2px 0 rgb(46 143 91 / .25); }
+/* a imagem fica presa na caixa: sem isso a capa vertical do TikTok (9:16) esticava a caixa além da proporção e os cards
+   da mesma linha saíam com alturas diferentes e um vão branco embaixo do texto */
+.thumb { position: relative; display: block; aspect-ratio: 9 / 12; background: var(--card-2); overflow: hidden; }
+.thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.info { padding: 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.info b { font-size: 15px; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.info .quem { font-size: 12px; color: var(--tx-2); }
+.wa { margin-top: auto; text-align: center; font: 700 14px/1 var(--f-corpo); text-decoration: none; padding: 12px; border-radius: 999px; background: var(--verde); color: #FFF; }
+.wa:hover { background: #267A4D; }
+/* ações do card, no padrão do Fura Bolha: copiar e baixar, WhatsApp, e uma fileira para Instagram, TikTok, X e Facebook */
+.acoes { margin-top: auto; display: grid; gap: 6px; }
+.acoes .dupla { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.acoes .dupla.so { grid-template-columns: 1fr; }
+.ac-copiar, .ac-baixar, .ac-rede { display: flex; align-items: center; justify-content: center; gap: 6px; background: #FFF; color: var(--tinta); border: 2px solid var(--tinta); border-radius: 12px; font: 700 12px/1.1 var(--f-corpo); text-decoration: none; cursor: pointer; min-height: 40px; padding: 6px; }
+.ac-baixar small { display: block; font-weight: 500; font-size: 11px; }
+.ac-copiar svg, .ac-baixar svg { width: 18px; height: 18px; flex: none; }
+.acoes .wa { margin-top: 0; display: flex; align-items: center; justify-content: center; gap: 8px; border-radius: 12px; }
+.acoes .wa svg { width: 20px; height: 20px; flex: none; }
+.redes-ic { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.ac-rede svg { width: 20px; height: 20px; }
+.ac-copiar:hover, .ac-baixar:hover, .ac-rede:hover { background: var(--verde-cl); }
+.acoes, .acoes .dupla > *, .redes-ic > * { min-width: 0; }
+@media (max-width: 520px) {
+  .redes-ic, .acoes .dupla { gap: 4px; }
+  .ac-rede { padding: 4px 0; border-radius: 10px; min-height: 36px; }
+  .ac-rede svg { width: 17px; height: 17px; }
+  .ac-copiar, .ac-baixar { font-size: 12px; padding: 8px 6px; gap: 6px; border-radius: 10px; min-height: 38px; }
+  .acoes .dupla { grid-template-columns: 1fr; }
+  .ac-baixar small { display: inline; margin-left: 4px; }
+  .acoes .wa { font-size: 12px; padding: 8px 4px; gap: 5px; }
+  .acoes .wa svg { width: 17px; height: 17px; }
+}
+.vel.fbv { background: #FFF; color: var(--tinta); }
+.dur { position: absolute; right: 8px; bottom: 8px; background: rgb(0 0 0 / .7); color: #FFF; font: 700 11px/1 var(--f-corpo); padding: 5px 7px; border-radius: 8px; }
+#prepara { border: 0; border-radius: 16px; padding: 20px; max-width: 320px; width: calc(100% - 32px); }
+#prepara::backdrop { background: rgb(0 0 0 / .5); }
+#prepara p { margin: 0 0 12px; font-size: 14px; }
+#prepara .fechar { float: right; background: none; border: 0; font-size: 22px; line-height: 1; cursor: pointer; }
+.mais { margin-top: 14px; }
+.fixos { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x mandatory; scrollbar-width: thin; }
+.fixos .card { flex: 0 0 150px; scroll-snap-align: start; }
+.fixos .card .info b { font-size: 13px; }
+.link-mapa { margin: 16px 0 0; } .link-mapa a { color: var(--verde-esc); font-weight: 700; }
+.vazio { color: var(--tx-2); }
+.topo-bt { background: var(--amarelo); color: var(--tinta); font: 700 14px/1 var(--f-corpo); text-decoration: none; padding: 10px 14px; border-radius: 999px; white-space: nowrap; }
+.so-desk { display: inline; }
+@media (max-width: 900px) { .grade { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 640px) {
+  .grade { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .destaque { grid-template-columns: minmax(0, 1fr); }
+  .destaque .th { aspect-ratio: 16 / 11; }
+  .vid-bloco { padding: 20px 14px; border-radius: 18px; }
+  .pos { font-size: 48px; }
+  .so-desk { display: none; }
+}
+
+.videos { padding: 26px 0 4px; }
+.vid-bloco { padding: 18px 18px 20px; border-radius: 18px; }
+.videos h2 { font-size: clamp(26px, 3.2vw, 38px); margin: 8px 0 12px; }
+.grade { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+.grade .thumb { aspect-ratio: 3 / 4; }
+.grade .pos { font-size: 40px; }
+.grade .vel { font-size: 11px; padding: 4px 7px; left: 6px; bottom: 6px; }
+.novo { position: absolute; right: 8px; top: 8px; background: #FFF; color: var(--tinta); font: 800 11px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .06em; padding: 5px 8px; border-radius: 999px; }
+.grade .info { padding: 8px 9px 10px; gap: 4px; }
+.grade .info b { font-size: 13px; -webkit-line-clamp: 2; }
+.grade .info .quem { font-size: 11px; }
+.grade .wa { padding: 9px; font-size: 13px; }
+.grade > .card:first-child { grid-column: auto !important; grid-row: auto !important; }
+.grade > .card:first-child .thumb { flex: none; min-height: 0; aspect-ratio: 3 / 4; }
+.grade > .card:first-child .pos { font-size: 40px; }
+.grade > .card:first-child .info b { font-size: 13px; }
+@media (max-width: 520px) { .grade { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.sub-vid { margin: 16px 0 8px; font-size: 15px; }
+/* mídia independente do campo progressista: mapa do ecossistema */
+.eco-lead { font-size: 14px; color: var(--tx-2); margin: -4px 0 14px; max-width: 720px; }
+.eco-leg { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: var(--tx-2); margin-bottom: 8px; }
+.eco-leg i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: -2px; margin-right: 6px; }
+.eco-mapa { background: radial-gradient(circle at 50% 50%, #EEF1FF 0, var(--card) 70%); border: 1px solid var(--linha); border-radius: 20px; padding: 8px; }
+.eco-mapa svg { display: block; width: 100%; height: auto; max-width: 1100px; margin: 0 auto; }
+.eco-mapa .orb { fill: none; stroke: var(--azul); stroke-opacity: .35; stroke-width: 2; stroke-dasharray: 2 8; stroke-linecap: round; }
+.eco-mapa .lig { stroke: var(--azul); stroke-opacity: .5; stroke-width: 2; stroke-dasharray: 2 6; stroke-linecap: round; }
+.eco-mapa .pt { fill: var(--azul); }
+.eco-mapa .cl-bg { fill: #FFF; stroke: var(--azul); stroke-width: 3; }
+.eco-mapa .hub { fill: var(--azul); }
+.eco-mapa .hub-anel { fill: none; stroke: var(--amarelo); stroke-width: 4; }
+.eco-mapa .t-hub { font: 900 34px var(--f-display); fill: var(--amarelo); text-transform: uppercase; }
+.eco-mapa .t-hub2 { font: 700 15px var(--f-corpo); fill: #FFF; }
+.eco-mapa .t-fr { font: 900 26px var(--f-display); fill: var(--tinta); text-transform: uppercase; }
+.eco-mapa .t-fr2 { font: 700 14px var(--f-corpo); fill: var(--azul); }
+.eco-mapa .no { cursor: pointer; outline: none; }
+.eco-mapa .no .anel { fill: var(--linha); transition: r .15s; }
+.eco-mapa .no.on .anel { fill: var(--nossa); } .eco-mapa .no.morno .anel { fill: #9CCFB1; }
+.eco-mapa .no.parado image { filter: grayscale(1); opacity: .65; }
+.eco-mapa .no:hover .anel, .eco-mapa .no:focus .anel, .eco-mapa .no.sel .anel { fill: var(--amarelo); }
+.eco-mapa .no.sel .anel { stroke: var(--tinta); stroke-width: 2; }
+.eco-mapa { position: relative; }
+.eco-tip { position: absolute; z-index: 5; pointer-events: none; transform: translate(-50%, calc(-100% - 12px)); background: var(--tinta); color: #FFF; padding: 7px 10px; border-radius: 8px; font: 700 13px/1.2 var(--f-corpo); white-space: nowrap; box-shadow: 0 4px 14px rgb(0 0 0 / .25); }
+.eco-tip small { display: block; font: 500 11px/1.3 var(--f-corpo); color: #B8B8C0; }
+.eco-tip::after { content: ""; position: absolute; left: 50%; bottom: -5px; width: 10px; height: 10px; background: var(--tinta); transform: translateX(-50%) rotate(45deg); }
+.eco-info { position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%); z-index: 60; width: min(440px, calc(100% - 24px)); background: var(--tinta); color: #FFF; border-radius: 18px; padding: 14px; display: grid; grid-template-columns: 56px minmax(0, 1fr) auto; gap: 4px 12px; align-items: start; box-shadow: 0 10px 30px rgb(0 0 0 / .3); }
+.eco-info img { width: 56px; height: 56px; border-radius: 50%; grid-row: span 3; }
+.eco-info b { font-size: 16px; line-height: 1.2; }
+.eco-info small { font-size: 12px; color: #B8B8C0; }
+.eco-info .x { background: none; border: 0; color: #B8B8C0; font-size: 22px; line-height: 1; padding: 0 4px; cursor: pointer; grid-row: span 2; }
+.eco-info .ult { grid-column: 2 / 4; font-size: 13px; color: #E2E2E8; text-decoration: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.eco-info .ult:hover { color: var(--amarelo); }
+.eco-info .acoes { grid-column: 2 / 4; display: flex; gap: 8px; margin-top: 6px; }
+.eco-info .acoes a { display: inline-flex; align-items: center; gap: 6px; min-height: 38px; padding: 8px 14px; border-radius: 999px; font: 700 13px/1 var(--f-corpo); text-decoration: none; }
+.eco-info .acoes .ins { background: var(--amarelo); color: var(--tinta); }
+.eco-info .acoes .ver { background: rgb(255 255 255 / .12); color: #FFF; }
+.eco-lista { margin-top: 12px; }
+.eco-lista summary { cursor: pointer; font-weight: 700; font-size: 14px; color: var(--azul); padding: 8px 0; }
+.eco-lista h4 { font: 900 18px var(--f-display); text-transform: uppercase; margin: 14px 0 6px; }
+.eco-lista ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.eco-lista a { display: inline-flex; padding: 7px 10px; border-radius: 999px; background: var(--card); border: 1px solid var(--linha); text-decoration: none; font-size: 13px; font-weight: 600; color: var(--tinta); }
+.eco-lista a:hover { border-color: var(--azul); color: var(--azul); }
+/* rodapé (marca Vira Voto, celular primeiro): ferramentas em blocos de ícone e nome, créditos numa linha, base mono */
+footer { margin-top: 36px; }
+.ft-band { background: var(--azul); color: #FFF; border-top: 2px solid var(--tinta); padding: 26px 0 28px; }
+.ferr h2 { font: 600 11px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--amarelo); margin: 0 0 14px; }
+.ferr h2::before { content: "■"; margin-right: 6px; }
+.ferr ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.ferr a { position: relative; display: flex; flex-direction: column; justify-content: space-between; gap: 18px; min-height: 128px; padding: 12px;
+  background: var(--c, #FFF); color: var(--tinta); text-decoration: none; border: 2px solid var(--tinta); border-radius: 6px;
+  box-shadow: 4px 4px 0 var(--tinta); transition: transform .08s, box-shadow .08s; }
+.ferr a:hover { transform: translate(-1px, -1px); box-shadow: 6px 6px 0 var(--tinta); }
+.ferr a:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--tinta); }
+.ferr a:focus-visible { outline: 3px solid var(--amarelo); outline-offset: 3px; }
+.ferr a::after { content: "↗"; position: absolute; top: 10px; right: 12px; font: 800 18px/1 var(--f-corpo); }
+.ferr svg { width: 30px; height: 30px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ferr a b { display: block; font: 900 24px/.92 var(--f-display); text-transform: uppercase; }
+.ferr a small { display: block; margin-top: 5px; font: 600 10px/1.2 var(--f-mono); text-transform: uppercase; letter-spacing: .05em; }
+.c-am { --c: var(--amarelo); } .c-co { --c: var(--coral); } .c-br { --c: #FFF; }
+@media (min-width: 1000px) { .ferr ul { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; } .ferr a { min-height: 150px; padding: 14px 16px; } .ferr a b { font-size: 30px; } }
+.cred { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 14px; margin-top: 26px; padding-top: 20px; border-top: 2px solid rgb(255 255 255 / .25); }
+.cred img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; flex: none; border: 3px solid var(--amarelo); }
+.cred p { margin: 0; flex: 1 1 200px; font: 900 20px/1 var(--f-display); text-transform: uppercase; }
+.cred p em { font-style: normal; color: var(--amarelo); }
+.redes { display: flex; gap: 8px; }
+.redes a { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: rgb(255 255 255 / .14); color: #FFF; text-decoration: none; font: 800 13px/1 var(--f-display); }
+.redes a:hover { background: var(--amarelo); color: var(--tinta); }
+.redes svg { width: 18px; height: 18px; fill: currentColor; }
+.ft-base { background: #FFF; border-top: 2px solid var(--tinta); padding: 16px 0 calc(20px + env(safe-area-inset-bottom)); }
+.resp { margin: 0; max-width: 720px; font: 400 12px/1.55 var(--f-corpo); color: var(--tx-3); }
+.resp b { color: var(--tx-2); font-weight: 600; }
+.resp a { color: var(--tx-2); text-underline-offset: 2px; }
+.priv { display: grid; gap: 4px 32px; margin: 0 0 14px; padding-bottom: 12px; border-bottom: 1px solid #E4E4E8; font: 400 13px/1.55 var(--f-corpo); color: var(--tx-2); }
+.priv h2 { grid-column: 1 / -1; font: 800 13px/1.2 var(--f-corpo); letter-spacing: .08em; text-transform: uppercase; color: var(--tinta); margin: 0 0 8px; }
+@media (min-width: 640px) { .priv { grid-template-columns: 1fr 1fr; } .priv-dir { grid-column: 1 / -1; } }
+@media (min-width: 980px) { .priv { grid-template-columns: 1fr 1fr 1.35fr; } .priv-dir { grid-column: auto; } }
+.priv p { margin: 0 0 6px; } .priv b { color: var(--tinta); font-weight: 600; } .priv a { color: var(--tinta); text-underline-offset: 2px; }
+@media (max-width: 900px) {
+  .placar { grid-template-columns: minmax(0, 1fr); }
+  .marca { font-size: 21px; }
+  .vids { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* marca da comunidade (Vira Voto): etiqueta mono com ■, borda e sombra dura de tinta nos botões e cards de ação */
+.selo-vol, .lead .src-cab, .pn-sub, .eyebrow-vivo, .assina { font-family: var(--f-mono); font-weight: 600; letter-spacing: .04em; }
+.selo-vol::before, .assina::before { content: "■"; margin-right: 6px; font-size: .9em; }
+.bt { border-radius: 6px; border: 2px solid var(--tinta); box-shadow: 3px 3px 0 var(--tinta); transition: transform .08s, box-shadow .08s; }
+.bt:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--tinta); }
+.bt:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--tinta); }
+.bt.s { box-shadow: 3px 3px 0 var(--tinta); }
+.ca { border: 2px solid var(--tinta); border-top: 6px solid var(--nossa); border-radius: 10px; box-shadow: 5px 5px 0 var(--tinta); }
+.dias { box-shadow: 3px 3px 0 var(--amarelo); }
+.assina { display: block; margin: 0 0 14px; font-size: 11px; text-transform: uppercase; color: var(--azul); }
+</style>
+</head>
+<body>
+<header class="topo"><div class="wrap">
+  <a class="marca" href="./">Radar da Virada</a>
+  <nav class="secs" aria-label="Seções"><a href="#agora">Agora</a><a href="#contra-sec">Viram voto</a><a href="#videos">Vídeos</a><a href="#rede-sec">Ecossistema</a></nav>
+  <span class="dias" id="dias"></span>
+</div></header>
+
+<main class="wrap">
+  <section class="abre" id="agora">
+    <span class="selo-vol">Monitor da conversa da eleição</span>
+    <h1>Agora</h1>
+    <p class="lead" id="lead">Carregando…</p>
+    <div class="bolsa" id="bolsa"></div>
+  </section>
+
+  <section id="palavras-sec" hidden>
+    <div class="pal-abas" role="tablist" aria-label="Palavras do dia"><button role="tab" aria-selected="true" data-aba="0">Mais ditas</button><button role="tab" aria-selected="false" data-aba="1">Picos</button><button role="tab" aria-selected="false" data-aba="2">Menções</button></div>
+    <div class="pal" data-aba="0">
+      <div class="pn"><h4>Mais ditas nas últimas 24 h <span id="pal-hora"></span></h4><p class="pn-leg">Tamanho = alcance (views por hora). Cor = quem mais fala: <b style="color:var(--nossa)">pró-Lula</b>, <b style="color:var(--deles)">pró-Flávio</b>, <b style="color:var(--disputa)">os dois</b>.</p><div class="nuvem" id="nuvem"></div>
+        <p class="pal-res" id="pal-res" aria-live="polite"></p><form class="pal-busca" id="pal-busca"><input id="pal-q" type="search" placeholder="Buscar uma palavra" aria-label="Procurar palavra" autocomplete="off"><button class="bt s" type="submit">Ver</button></form></div>
+      <div class="pn"><h4>Picos do dia <span>janela de 3 h</span></h4><p class="pn-leg">Palavras que dispararam nas últimas 3 h.</p><div id="picos"></div></div>
+      <div class="pn"><h4>Menções <span>últimas 24 h</span></h4><p class="pn-leg">Citações de Lula e de Flávio, hora a hora.</p><div id="mencoes"></div></div>
+    </div>
+  </section>
+
+
+  <section id="contra-sec">
+    <div class="secao-h"><h2>Temas que viram voto</h2></div>
+    <p class="criterio">Só temas com efeito comprovado em pesquisa.</p>
+    <div class="contra" id="contra"></div>
+  </section>
+</main>
+
+<section class="videos" id="videos"><div class="wrap"><div class="vid-bloco">
+  <span class="eyebrow-vivo"><span class="vivo"></span>Explodindo agora</span>
+  <h2>Pra mandar agora</h2>
+  <p class="medido" id="medido"></p>
+  <div id="destaque" hidden></div>
+  <ol class="grade" id="grade"></ol>
+  <button class="bt s mais" id="mais" hidden>Ver mais vídeos</button>
+  <p class="nota-v" id="nota-v"></p>
+</div></div></section>
+
+<main class="wrap">
+  <!-- desativada em 08/10/2026 a pedido do dono; o código (guerra()) continua, é só tirar o hidden -->
+  <section id="canais-sec" hidden>
+    <div class="secao-h"><h2>Do que cada lado fala</h2><div class="leg" id="leg-canais"></div></div>
+    <div class="guerra" id="guerra"></div>
+  </section>
+
+  <p class="nota-met" id="como"><b>Limites.</b> Mede atenção em perfis públicos, lidos sem login; intenção de voto é das pesquisas registradas. Fontes: trends24.in (X), Google Trends, Google Notícias, YouTube, TikTok e Kwai.</p>
+  <section id="rede-sec">
+    <div class="secao-h"><h2>Conecte-se com a mídia independente progressista</h2><div class="leg" id="leg-rede"></div></div>
+    <div class="eco-leg"><span><i style="background:var(--nossa)"></i>postou nas últimas 24 h</span><span><i style="background:#9CCFB1"></i>nas últimas 72 h</span><span><i style="background:var(--linha)"></i>sem vídeo novo</span></div>
+    <div class="eco-mapa" id="eco"></div>
+    <details class="eco-lista"><summary>Ver todos os canais em lista</summary><div id="eco-lista"></div></details>
+    <div class="eco-info" id="eco-info" hidden></div>
+  </section>
+</main>
+
+<div class="veu" id="veu"></div>
+<aside class="gaveta" id="gaveta" aria-hidden="true"></aside>
+
+<footer>
+<div class="ft-band"><div class="wrap">
+  <section class="ferr" aria-labelledby="acoes-h">
+    <h2 id="acoes-h">Ferramentas da comunidade</h2>
+    <ul>
+      <li><a class="c-am" href="https://fura-bolha.com" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5z"/></svg><span><b>Fura Bolha</b><small>Vídeos pro zap</small></span></a></li>
+      <li><a class="c-co" href="https://em-frente.com/calendario" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h3"/></svg><span><b>Em Frente</b><small>Atos na rua</small></span></a></li>
+      <li><a class="c-br" href="https://quemcomparavotalula13.netlify.app/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span><b>Quem compara</b><small>Cards com fonte</small></span></a></li>
+      <li><a class="c-am" href="https://techcontraflaviobolsonaro.dev/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.2 5.3L20 6l-2.6 5.2L22 15l-5.6.6L15 21l-3-4.6L9 21l-1.4-5.4L2 15l4.6-3.8L4 6l5.8 1.3z"/></svg><span><b>Vira Voto</b><small>Hub da comunidade</small></span></a></li>
+    </ul>
+  </section>
+  <div class="cred">
+    <img src="gato.png" alt="Gato de óculos vermelhos lendo O Catpital" width="52" height="52">
+    <p>Feito pela <em>Comunidade Tech</em> contra Flávio Bolsonaro</p>
+    <nav class="redes" aria-label="Redes da comunidade"><a href="https://x.com/techcontra_dev" target="_blank" rel="noopener" aria-label="@techcontra_dev"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a href="https://www.instagram.com/techcontrabolsonaro.dev" target="_blank" rel="noopener" aria-label="@techcontrabolsonaro.dev"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg></a><a href="https://www.tiktok.com/@techcontraflavio" target="_blank" rel="noopener" aria-label="@techcontraflavio"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg></a><a href="https://k.kwai.com/u/@techcontraflavio/BUOCAPC4" target="_blank" rel="noopener" aria-label="Kwai">K</a></nav>
+  </div>
+</div></div>
+<div class="ft-base"><div class="wrap">
+  <div class="priv" id="privacidade">
+    <h2>Privacidade e direitos</h2>
+    <div class="priv-col"><p><b>Iniciativa voluntária da comunidade</b>, sem vínculo com campanha ou partido.</p><p><b>Só dados públicos.</b> Lemos posts, vídeos e buscas abertos no X, Google, TikTok, Kwai e YouTube, manchetes da imprensa e números do TSE e do IBGE. Nomeamos só figuras públicas.</p></div>
+    <div class="priv-col"><p><b>Nada sobre quem visita.</b> Sem cadastro, sem login, sem anúncio, sem cookie de rastreio e sem IP guardado. Contamos só totais por dia (acessos, site de onde veio o link, estado e tipo de aparelho), sem identificar ninguém.</p></div>
+    <div class="priv-col priv-dir"><p><b>Seus direitos.</b> Quem aparece aqui pode pedir confirmação, correção ou retirada do que mostramos e se opor ao uso (LGPD, Lei 13.709/2018, art. 18 e art. 7º, §4º). Cada pedido é analisado: erro a gente corrige; conteúdo público, de figura pública e de interesse da eleição fica no ar, porque o eleitor tem direito à informação (Constituição, art. 5º, IV, IX e XIV, e art. 220). Pedidos em <a href="https://x.com/techcontra_dev" target="_blank" rel="noopener">x.com/techcontra_dev</a>.</p></div>
+  </div>
+  <p class="resp">Responsável: <b>Comunidade Tech contra Flávio Bolsonaro</b> · x.com/techcontra_dev.</p>
+</div></div>
+</footer>
+
+<script>
+const MODO_SITE = true;
+// as funções (/api/*) só existem no Cloudflare; no espelho do GitHub Pages a página roda só com os arquivos estáticos
+const CLOUDFLARE = MODO_SITE && location.hostname.endsWith("pages.dev");
+function ev(e, k) {
+  if (!CLOUDFLARE || !navigator.sendBeacon) return;
+  try {
+    const chave = "ev:" + e + ":" + (k || "");
+    if (e === "visita" || e === "pagina") { try { if (sessionStorage.getItem(chave)) return; sessionStorage.setItem(chave, "1"); } catch {} }
+    let r; if (e === "visita") { try { r = document.referrer ? new URL(document.referrer).hostname : ""; } catch { r = ""; } }
+    navigator.sendBeacon("/api/evento", new Blob([JSON.stringify({ e, k, r })], { type: "application/json" }));
+  } catch {}
+}
+ev("visita");
+ev("pagina", "monitor");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const mil = n => n >= 1e6 ? (n / 1e6).toFixed(1).replace(".", ",") + " mi" : n >= 1e3 ? Math.round(n / 1e3) + " mil" : String(n);
+(() => { const d = Math.ceil((new Date("2026-10-25T08:00:00-03:00") - new Date()) / 864e5);
+  document.getElementById("dias").innerHTML = d > 1 ? `${d}<small>DIAS</small>` : d === 1 ? "AMANHÃ" : d === 0 ? "HOJE" : ""; })();
+
+let D = null, B = null, ALERTA = "", ABA = 0;
+const LOGO = {
+  X: `<span class="logo x" title="X"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span>`,
+  Google: `<span class="logo g" title="Google"><svg viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg></span>`,
+  YouTube: `<span class="logo yt" title="YouTube"><svg viewBox="0 0 28 20"><rect width="28" height="20" rx="5" fill="#FF0000"/><path d="M11 5.5l7.5 4.5-7.5 4.5z" fill="#FFF"/></svg></span>`,
+  TikTok: `<span class="logo tt" title="TikTok"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg></span>`,
+  Kwai: `<span class="logo kw" title="Kwai"><svg viewBox="0 0 24 24"><path d="M5 3h4v7.2L15.6 3h5L13 11.2 21 21h-5.1l-5.6-7.1L9 15.3V21H5z"/></svg></span>`,
+  Imprensa: `<span class="logo im" title="Imprensa"><svg viewBox="0 0 24 24"><path d="M4 4h13v14a2 2 0 0 0 2 2H6a2 2 0 0 1-2-2V4zm2 3v2h9V7H6zm0 4v2h9v-2H6zm0 4v2h6v-2H6zm13-7h2v10a2 2 0 0 1-2 2V8z"/></svg></span>`,
+};
+LOGO["Vídeos"] = `<span class="logos">${LOGO.TikTok}${LOGO.Kwai}${LOGO.YouTube}</span>`;
+// endereço base de onde a página foi aberta (Cloudflare na raiz, espelho do GitHub Pages numa subpasta)
+const BASE = MODO_SITE ? location.host + location.pathname.replace(/[^/]*$/, "") : "radardavirada.pages.dev/";
+const fl = f => f.id ? `${BASE}f/${f.id}` : f.u;  // link curto do Radar para a fonte
+function copiar(txt, btn) {
+  const ok = () => { const t = btn.textContent; btn.textContent = "Copiado"; setTimeout(() => btn.textContent = t, 1600); };
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(txt).then(ok).catch(() => prompt("Copie o texto:", txt));
+  else prompt("Copie o texto:", txt);
+}
+const ROT = { deles: "Pró-Flávio", nossa: "Pró-Lula", disputa: "Em disputa" };
+const COR = { deles: "var(--deles)", nossa: "var(--nossa)", disputa: "var(--disputa)" };
+
+function cabo() {
+  const fr = D.narrativas.find(x => x.alerta && x.n_videos > 0), vf = fr?.videos[0];
+  ALERTA = vf ? `<div class="alerta-fixo"><b>Alerta ativo</b> ${esc(fr.nome)} · ${mil(vf.sh)} compartilhamentos${fr.status ? " · " + esc(fr.status.replace(/\.$/, "").toLowerCase()) : ""} <button data-al="${fr.id}">ver</button></div>` : "";
+  if (B) bolsa();
+  atualizaLead();
+}
+
+function lista() {
+  // bloco "cuidado" fora do ar; os dados seguem sendo gerados
+  if (!document.getElementById("cuidado")) return;
+  const c = D.narrativas.find(x => x.lado === "cuidado");
+  // o alerta é sobre o conteúdo: sem capa e sem perfil, salvo figura pública (mesma regra do rodapé e de "quem empurra")
+  const pub = v => v.a && (v.ver || v.imp || (v.seg || 0) >= 100000);
+  const item = (k, t, m, extra = "") => `<div class="cuid"><span class="rede-k">${k}</span><b>${esc(t)}</b><p>${esc(m)}</p>${extra}</div>`;
+  document.getElementById("cuidado").innerHTML = (c?.videos || []).map(v => item(`${esc(v.rede || "TikTok")}${pub(v) ? " · @" + esc(v.a) : ""} · ${mil(v.vph)} views/h`, v.titulo, v.motivo)).join("")
+    + item("Circula em vídeos e posts", "“Flávio vai acabar com a Farmácia Popular”", "Não há declaração nem trecho do plano de Flávio que diga isso. Prefira temas com fonte, como a 6x1 e o salário mínimo.");
+  contaCuidado();
+}
+
+function atualizaLead() {
+  // uma etiqueta por fonte: logo, tamanho da amostra e idade do dado (fica âmbar quando passa de 4 h)
+  const idade = iso => { if (!iso) return ["…", false]; const m = Math.max(0, (Date.now() - Date.parse(iso)) / 6e4);
+    return [m < 60 ? `há ${Math.round(m)} min` : `há ${Math.floor(m / 60)} h${m % 60 >= 10 ? " " + Math.round(m % 60) + " min" : ""}`, m > 240]; };
+  const chip = (logo, txt, iso) => { const [q, velho] = idade(iso); return `<span class="src${velho ? " velho" : ""}">${logo}<b>${txt}</b><em>${q}</em></span>`; };
+  const p = [];
+  if (D) p.push(chip(LOGO.TikTok, `${D.amostra.videos} vídeos · ${D.amostra.contas} perfis`, D.coletado || D.gerado));
+  const k = D?.amostra.kwai;
+  if (k) p.push(chip(LOGO.Kwai, `${k.medidos ?? k.videos} vídeos · ${k.contas_medidas ?? k.contas} perfis`, k.gerado));
+  if (G) p.push(chip(LOGO.YouTube, `${G.rede.nossa.canais + G.rede.deles.canais} canais`, G.gerado));
+  if (B) p.push(chip(LOGO.X, "Brasil + 15 cidades", B.horas.x));
+  if (B?.horas?.google) p.push(chip(LOGO.Google, "buscas em alta", B.horas.google));
+  // uma linha: a fonte mais nova e quantas estão atrasadas (mais de 4 h); o detalhe abre ao tocar
+  const datas = [D && (D.coletado || D.gerado), k?.gerado, G?.gerado, B?.horas?.x, B?.horas?.google].filter(Boolean);
+  const nova = datas.length ? datas.reduce((a, b) => Date.parse(a) > Date.parse(b) ? a : b) : null;
+  const atrasadas = datas.filter(d => (Date.now() - Date.parse(d)) / 6e4 > 240).length;
+  document.getElementById("lead").innerHTML = `<details class="fontes"><summary>Atualizado ${idade(nova)[0]} · ${p.length} fontes${atrasadas ? ` · <b class="atraso">${atrasadas} atrasada${atrasadas > 1 ? "s" : ""}</b>` : ""}</summary><span class="src-cab">Fontes · últimas 72 h</span>${p.join("")}</details>`;
+}
+
+/* ---------- visor de bolsa ---------- */
+const COR_L = { nossa: "var(--nossa)", deles: "var(--deles)", disputa: "var(--disputa)" };
+const seta = d => d === "sobe" ? "up" : d === "cai" ? "dn" : d === "novo" ? "nv" : "eq";
+const simb = (d, v) => d === "sobe" ? "▲ " + v.replace("+", "") : d === "cai" ? "▼ " + v.replace("-", "") : d === "novo" ? "NOVO" : v === "cidades" ? "" : "=";
+/* ---------- nas manchetes (RSS dos portais, /api/noticias de 15 em 15 min): o assunto do momento e o contexto do X e do Google ---------- */
+let N = null;
+const PARE_N = new Set("lula flavio bolsonaro brasil presidente segundo primeiro turno eleicao eleicoes 2026 contra sobre governo campanha diz disse apos para quem vote voto folha globo estadao metropoles poder360 cartacapital noticias jornal".split(" "));  // nome de portal não liga termo a manchete
+const palN = t => new Set(semAc(t).split(/[^a-z0-9]+/).filter(p => (p.length >= 4 || /\d/.test(p)) && !PARE_N.has(p)));
+// assunto das manchetes que mais divide palavras com o termo (empate: o que mais portais cobrem, que vem antes)
+function noticiaDe(t) {
+  if (!N?.assuntos) return null;
+  const p = palN(t); let melhor = null, nota = 0;
+  N.assuntos.forEach(a => { const s = new Set(a.palavras); const c = [...p].filter(x => s.has(x)).length; if (c > nota) { nota = c; melhor = a; } });
+  return melhor;
+}
+function comNoticias() {
+  if (!N || !B) return;
+  B.x.forEach(i => { if (!i.nota) { const a = noticiaDe(i.t); if (a) i.nota = a.t; } });
+  B.google.forEach(i => { if (!i.pauta) { const a = noticiaDe(i.t); if (a) { i.nota = a.t; i.pauta = true; } } });
+}
+// manchete curta: o que vem antes dos dois-pontos quando já diz o fato ("Lula diz que mudou a estratégia...: 'rei da
+// selfie'"); se antes dos dois-pontos só há a fonte ("Datafolha: 49%..."), fica a manchete inteira; corte em 95 caracteres
+const https = u => /^https:\/\//i.test(String(u || "")) ? u : "#";
+function curta(t) {
+  const i = t.search(/:\s/), antes = i > 0 ? t.slice(0, i) : "";
+  let c = antes.split(/\s+/).length >= 5 ? antes : t;
+  if (c.length > 95) c = c.slice(0, 95).replace(/\s+\S*$/, "") + "…";
+  return c;
+}
+// o que movimentou o dia: fato (polícia, Justiça, pesquisa, dinheiro) que também está em alta no X ou no Google pesa mais
+// que agenda de campanha ("veja fotos do ato", selfie, estreia da propaganda), mesmo que essa saia em mais portais
+const FATO = /\b(pf|stf|tse|pgr|tcu|moraes|pol[ií]cia|pris[aã]o|pres[oa]s?|prender|mandados?|opera[cç][aã]o|indicia\w*|den[uú]ncia|investiga\w*|inqu[eé]rito|dela[cç][aã]o|depoimento|delat\w*|pesquisa|datafolha|quaest|atlas|ipec|poderdata|decis[aã]o|decide|condena\w*|multa|suspende|anula|derruba|manda (retirar|prender|suspender)|financi\w*|fundos?|propina|r\$|milh[oõ]es|bilh[oõ]es|apoio a|declara voto|demit\w*|exonera\w*|renuncia\w*)\b/i;
+const MORNO = /veja (fotos|v[ií]deos|imagens)|\bao vivo\b|assista|\bagenda\b|caminhada|carreata|corpo a corpo|visita|percorre|participa d|faz campanha|\bato\b|com apoiadores|selfies?|bastidores|estreia|propaganda|hor[aá]rio eleitoral|entenda|o que (se )?sabe|recados/i;
+const FALA_N = /\b(diz|dizem|disse|afirma|promete|critica|rebate|reage|provoca)\b/i;
+function movimento(rep) {
+  return a => {
+    const fato = FATO.test(a.t), r = rep.get(a) || new Set();
+    // destaque nas principais do Google Notícias (quanto mais alto, mais pesa) e mais lida na Folha ou na UOL (leitura real)
+    const gn = a.g ? (a.g <= 5 ? 5 : a.g <= 15 ? 4 : 3) : 0, lidas = Math.min((a.lidas || []).length, 2) * 3;
+    return a.portais * 2 + Math.min(a.n, 6) / 2 + 4 * r.size + gn + lidas + (fato ? 3 : 0) - (MORNO.test(a.t) ? 6 : 0)
+      - (!fato && !r.size && FALA_N.test(a.t) ? 2 : 0) + (a.h < 6 ? 1 : 0);
+  };
+}
+// painel da imprensa: as manchetes do que movimentou o dia (um rótulo de uma palavra, como "TV", não diz o que
+// aconteceu) e, embaixo, as frases do X que estão subindo
+function manchetes(hh) {
+  if (!N?.assuntos?.length) return "";
+  // repercussão: o assunto das manchetes que casa com um termo em alta agora no X ou no Google
+  const rep = new Map();
+  [["X", B?.x || []], ["Google", B?.google || []]].forEach(([fonte, lista]) => lista.forEach(i => {
+    const a = noticiaDe(i.t); if (a) { if (!rep.has(a)) rep.set(a, new Set()); rep.get(a).add(fonte); } }));
+  const nota = movimento(rep), vistos = new Set(), itens = [];
+  // um assunto por vez: nomes do rótulo e nomes próprios da manchete ("Vorcaro", "Eduardo") não repetem entre as quatro
+  const chaves = a => { const k = semAc(a.r || "").split(/[^a-z0-9]+/).filter(w => w.length >= 3 && !/^\d+$/.test(w));
+    (a.t.match(/(?<=\S\s)[A-ZÀ-Ú][a-zà-ú]{3,}/g) || []).forEach(w => k.push(semAc(w)));
+    const f = k.filter(w => !PARE_N.has(w)); return f.length ? f : [semAc(a.t).split(/[^a-z0-9]+/).filter(Boolean)[0]]; };
+  [...N.assuntos].sort((x, y) => nota(y) - nota(x)).forEach(a => { const k = chaves(a); if (k.some(x => vistos.has(x)) || itens.length >= 4) return; k.forEach(x => vistos.add(x));
+    const fontes = [...(rep.get(a) || [])], lidas = a.lidas || [];
+    const alta = [fontes.length ? `em alta no ${fontes.join(" e no ")}` : "", a.g && a.g <= 15 ? "destaque no Google Notícias" : "",
+      lidas.length ? `mais lida na ${lidas.join(" e na ")}` : ""].filter(Boolean).join(" · ");
+    itens.push(`<li class="hl${Math.min(a.portais, 3)}"><b title="${a.portais} ${a.portais === 1 ? "veículo" : "veículos"}">${a.portais}</b><a href="${esc(https(a.u))}" target="_blank" rel="noopener" title="${esc(a.t)}">${esc(curta(a.t))}</a><span>${esc(a.fonte)}${a.portais > 1 ? ` e mais ${a.portais - 1}` : ""}${alta ? ` · <em>${alta}</em>` : ""}</span></li>`); });
+  const chips = [];
+  // do X, as frases de campanha em alta agora (3+ palavras), com a cor do lado
+  (B?.x || []).filter(i => i.var !== "antes" && i.var !== "cidades" && i.t.split(/\s+/).length >= 3 && i.lado !== "disputa").slice(0, 3).forEach(i =>
+    chips.push(`<a class="lx lx-x" style="--c:${COR_L[i.lado]}" href="https://x.com/search?q=${encodeURIComponent(i.t)}&f=live" target="_blank" rel="noopener" title="No X: ${esc(i.valor)} no Brasil">“${esc(i.t.charAt(0) + i.t.slice(1).toLowerCase())}”</a>`));
+  const destaques = `<ol class="lx-hl">${itens.join("")}</ol>`;
+  // tom das manchetes: entre as que têm lado claro, quantas são boas para cada um (estimativa por regras, na rota)
+  const T = N.tom, com = T ? T.lula + T.flavio : 0, MIN_TOM = 15;  // abaixo disso a proporção é ruído
+  // veredito do nosso lado: diferença de pelo menos 20% entre os dois para não chamar de tendência o que é empate
+  const veredito = !com ? "" : T.flavio > T.lula * 1.2 ? `<div class="tom-ver ruim">Ruim para Lula · pende para Flávio</div>`
+    : T.lula > T.flavio * 1.2 ? `<div class="tom-ver bom">Bom para Lula · pende para Lula</div>` : `<div class="tom-ver eq">Equilibrado</div>`;
+  // quem leva mais pancada fica em vermelho (mesma regra de 20% do veredito)
+  const perde = !com ? "" : T.flavio > T.lula * 1.2 ? " perde-l" : T.lula > T.flavio * 1.2 ? " perde-f" : "";
+  const tom = com >= MIN_TOM ? `<div class="tom${perde}">
+      <div class="tom-cab">A favor de quem? <span>· últimas ${N.janela_h} h</span></div>
+      <div class="tom-num"><b style="color:var(--nossa)">Lula ${T.lula}</b><span>×</span><b style="color:var(--deles)">${T.flavio} Flávio</b></div>
+      <div class="tom-barra"><i style="width:${T.lula / com * 100}%;background:var(--nossa)"></i><i style="width:${T.flavio / com * 100}%;background:var(--deles)"></i></div>
+      ${veredito}
+      <div class="tom-leg">${com} de ${com + T.neutro} manchetes têm lado${T.fontes ? ` · ${T.fontes} veículos` : ""}</div>
+      <details class="tom-met"><summary>Como medimos</summary><div class="tom-met-txt">
+      <p><b>Base.</b> Todas as manchetes da eleição das últimas ${N.janela_h} h em ${T.fontes || N.portais.length} veículos: ${N.portais.length} portais pelo RSS e os demais que aparecem nas principais do Google Notícias.</p>
+      <p><b>Regra.</b> Boa para Lula: pesquisa com ele à frente, apoio declarado a ele ou fato negativo ligado ao Flávio. Boa para Flávio: o inverso. Declarações e o resto são neutras.</p>
+      <p><b>Critério.</b> Só conta lado quando ele é claro, o mesmo princípio do Manchetômetro (LEMEP/UERJ). A classificação é automática e mede a tendência do noticiário.</p>
+      <p><b>Veredito.</b> Sai quando um lado supera o outro em 20% ou mais. Com menos de ${MIN_TOM} manchetes com lado, não há medição.</p></div></details></div>` : "";
+  return `<div class="pn pn-lex"><h4><span class="fonte-tag">${LOGO.Imprensa}${LOGO.X}</span>Painel da imprensa <span class="lx-meta"><span class="lx-cont">${N.portais.length} portais${N.sinais?.google_noticias ? " + Google Notícias" : ""} + X · </span>atualizado às ${hh(N.gerado)}</span></h4><div class="lx-linha"><div class="lx-esq">${destaques}${chips.length ? `<div class="lx-fila">${chips.join("")}</div>` : ""}</div>${tom}</div></div>`;
+}
+function bolsa() {
+  comNoticias();
+  const hh = iso => new Date(iso).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" });
+  const tk = i => `<span class="tk"><i style="background:${COR_L[i.lado]}"></i>${LOGO[i.fonte] || ""}${esc(i.t)} <em class="${seta(i.dir)}">${esc(i.valor)}${i.fonte === "X" && i.var !== "cidades" ? " " + simb(i.dir, i.var) : ""}</em></span>`;
+  const fita = B.fita.map(tk).join("");
+  const xs = [...B.x.filter(i => i.var !== "antes").sort((a, b) => b.peso - a.peso).slice(0, 7), ...B.x.filter(i => i.var === "antes").slice(0, 10)];
+  const tv = l => B.termos.filter(t => t.lado === l).slice(0, 7);
+  const mxT = Math.max(...B.termos.map(t => t.fatia));
+  const linT = t => `<div class="lin"><span>${esc(t.t)}</span><b>${esc(t.valor)}</b><span class="barrinha" style="background:${COR_L[t.lado]};width:${t.fatia / mxT * 100}%"></span></div>`;
+  document.getElementById("bolsa").innerHTML = `<div class="visor-escuro"><div class="fita" id="fita"><div class="fita-trilho">${fita}${fita}</div></div>${manchetes(hh)}</div>
+    <div class="painel3">
+      <div class="pn"><h4><span class="fonte-tag">${LOGO.X}</span>No X agora <span>atualizado às ${hh(B.horas.x)}</span></h4><p class="pn-leg">Posição no Brasil e variação em 1 h.</p>${alertaX()}${xs.map((i, n) => `${i.var === "antes" && (n === 0 || xs[n - 1].var !== "antes") ? `<details class="x-antes"><summary class="pn-sub">Temas do dia: ver ${xs.filter(x => x.var === "antes").length} que passaram pelo top 20 nas últimas 24 h</summary>` : ""}<a class="lin lin-x${i.var === "antes" ? " antes" : ""}" href="https://x.com/search?q=${encodeURIComponent(i.t)}&f=live" target="_blank" rel="noopener" title="${esc(i.nota ? i.nota + " · " : "")}Abrir no X"><i style="background:${COR_L[i.lado]}"></i><span>${esc(i.t)}</span><b class="${i.var === "cidades" ? "cid" : ""}">${esc(i.valor)}</b><em class="${seta(i.dir)}">${i.var === "antes" ? quando((Date.now() - Date.parse(i.visto)) / 36e5) : simb(i.dir, i.var)}</em></a>`).join("")}${xs.some(x => x.var === "antes") ? "</details>" : ""}</div>
+      <div class="pn"><h4><span class="fonte-tag">${LOGO.Google}</span>Em alta no Google <span>buscas · atualizado às ${hh(B.horas.google)}</span></h4>${B.google.slice(0, 6).map(i => `<div class="lin"><i style="background:${COR_L[i.lado]}"></i><span>${esc(i.t)}</span><b></b><em class="up">${esc(i.valor)}</em>${i.nota ? (i.pauta ? `<p class="g-nota g-pauta">${esc(i.nota)}</p>` : `<a class="g-nota" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.nota)}</a>`) : ""}</div>`).join("") || `<p class="nota-b">Nenhuma busca ligada à eleição entre as que mais sobem agora.</p>`}</div>
+      <div class="pn"><h4><span class="fonte-tag">${LOGO.TikTok}${LOGO.Kwai}${LOGO.YouTube}</span>Mais falados nos vídeos <span>postados em 24 h · atualizado às ${hh(B.gerado)}</span></h4><div class="duas"><div><h5 style="color:var(--deles)">Pró-Flávio</h5>${tv("deles").map(linT).join("")}</div><div><h5 style="color:var(--nossa)">Pró-Lula</h5>${tv("nossa").map(linT).join("")}</div></div></div>
+    </div>
+    <p class="nota-b"><span style="color:var(--nossa)">●</span> pró-Lula · <span style="color:var(--deles)">●</span> pró-Flávio · <span style="color:var(--disputa)">●</span> em disputa</p>`;
+  document.querySelector("[data-al]")?.addEventListener("click", e => abre(e.target.dataset.al));
+  const f = document.getElementById("fita");
+  if (f) { const on = () => f.classList.add("segura"), off = () => f.classList.remove("segura");
+    f.addEventListener("touchstart", on, { passive: true }); ["touchend", "touchcancel"].forEach(e => f.addEventListener(e, off)); }
+}
+let NOSSA = /el[eê] ?n[aã]o|vote ?13|lula ?13|fandomscomlula|6x1|fora ?bolsonaro|fora ?fl[aá]vio|sem ?anistia|constitui|t[oô] com lula|sou lula|vote lula/i;
+let DELES = /fora ?lula|lula ?ladr|fl[aá]vio ?22|elesim|lula ?nunca|pt ?nunca|anistia ?j[aá]|tropa do (fl[aá]vio|01)|patriotas? pelo brasil|n[aã]o fech\w* (a |minha |as |nossas )?igrejas?|fechar (as )?igrejas/i;
+let CTX_D = /nega apoi\w* (a )?lula|(declara|revela|anuncia) voto em fl[aá]vio|apoi\w* (a )?fl[aá]vio/i, CTX_N = /(declara|revela|anuncia) voto em lula|vota em lula|apoi\w* (a )?lula|ex[ée]rcito de lula/i;
+const semAc = t => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+const ladoX = (t, c) => DELES.test(t) || (c && CTX_D.test(c)) ? "deles" : NOSSA.test(t) || (c && CTX_N.test(c)) ? "nossa" : "disputa";
+// assunto que dispara no Brasil inteiro e não está na pauta eleitoral (sem marca política nem notícia de eleição ligada):
+// aparece como alerta, sem lado e sem afirmar nada, para a equipe olhar antes que vire pauta (caso UFPE, 07/10/2026).
+// Só entra termo com cara de assunto público (universidade, polícia, tribunal, governo, protesto, desastre); artista,
+// show, fandom e meme ficam fora mesmo no topo (caso Jennie, 08/10/2026: K-pop apareceu como alerta)
+const PUBLICO_X = /^UF[A-Z]{1,3}$|^U[ESN][A-Z]{1,4}$|universidad|faculdad|estudant|reitor|federal|greve|protesto|manifesta|\bato\b|pol[ií]cia|\bPM\b|\bPF\b|\bSTF\b|\bSTJ\b|\bTSE\b|\bTCU\b|\bCPI\b|minist|governo|governador|prefeit|senad|deputad|c[aâ]mara|congresso|planalto|elei[cç]|urna|\bvoto\b|vota[cç]|inc[eê]ndio|explos|enchente|desabamento|tiroteio|chacina|massacre|pres[ií]di|pris[aã]o|preso|morte de|assassin|ataque|apag[aã]o|\bINSS\b|\bSUS\b|bolsa fam|sal[aá]rio|imposto|\bIR\b|escala|6x1|anistia|golpe/i;
+const ESPORTE_X = /corinthians|flamengo|palmeiras|s[aã]o paulo|santos|vasco|botafogo|fluminense|gr[eê]mio|internacional|cruzeiro|atl[eé]tico|athletico|bahia|fortaleza|cear[aá]|vit[oó]ria|\bsport\b|n[aá]utico|coritiba|goi[aá]s|juventude|bragantino|mirassol|libertadores|brasileir[aã]o|sul-americana|copa do brasil|sele[cç][aã]o|\bgol\b|\bjogo\b|rodada|t[eé]cnico|diniz|ancelotti|\bbbb\b|fazend|novela|reality/i;
+function alertasX(X) {
+  const br = X.locais.find(l => l.uf === "BR"); if (!br) return [];
+  const de = X.locais.length - 1, em = {}, comCtx = new Set();
+  X.locais.forEach(l => l.itens.forEach(i => { const k = semAc(i.t); if (i.ctx) comCtx.add(k); if (l.uf !== "BR") em[k] = (em[k] || 0) + 1; }));
+  return br.itens.filter(i => !i.pol && !comCtx.has(semAc(i.t)) && i.pos <= 5 && (i.horas ?? 99) <= 8 && (em[semAc(i.t)] || 0) >= Math.ceil(de * 0.75) && !ESPORTE_X.test(i.t) && PUBLICO_X.test(i.t))
+    .slice(0, 1).map(i => ({ t: i.t, pos: i.pos, cid: em[semAc(i.t)], de, horas: i.horas }));
+}
+// assunto que acabou de explodir no país: só o fato (posição, cidades, horas), sem dizer se tem ou não a ver com a eleição
+const alertaX = () => (B.xalerta || []).length ? `<div class="x-alerta">${B.xalerta.map(a => `<a href="https://x.com/search?q=${encodeURIComponent(a.t)}&f=live" target="_blank" rel="noopener"><em>novo</em><span>${esc(a.t)}</span><small>${a.pos}º no Brasil · ${a.cid} de ${a.de} cidades · há ${a.horas} h no topo</small></a>`).join("")}</div>` : "";
+function xAoVivo(X) {  // mesma regra do scripts/17_bolsa.py, com o X de 30 em 30 min
+  const br = X.locais.find(l => l.uf === "BR"); if (!br) return null;
+  const ctx = {}, cid = {};
+  X.locais.forEach(l => l.itens.forEach(i => { const k = i.t.toLowerCase(); if (i.ctx) ctx[k] = i.ctx.manchete; if (l.uf !== "BR" && i.pol) cid[k] = (cid[k] || 0) + 1; }));
+  const out = br.itens.filter(i => i.pol || ctx[i.t.toLowerCase()]).map(i => { const v = i.h1 == null ? null : i.h1 - i.pos;
+    return { t: i.t, fonte: "X", lado: ladoX(i.t, ctx[i.t.toLowerCase()]), valor: i.pos + "º", var: v == null ? "NOVO" : (v > 0 ? "+" + v : String(v)), dir: v == null ? "novo" : v > 0 ? "sobe" : v < 0 ? "cai" : "igual", peso: 30 - i.pos + (v == null ? 5 : v * 2), nota: ctx[i.t.toLowerCase()] || "" }; });
+  const noBR = new Set(br.itens.map(i => semAc(i.t))), visto = new Set();
+  X.locais.filter(l => l.uf !== "BR").forEach(l => l.itens.forEach(i => { const k = i.t.toLowerCase(); if ((i.pol || ctx[k]) && !noBR.has(semAc(i.t)) && !visto.has(semAc(i.t)) && (cid[k] || 0) >= 2) { visto.add(semAc(i.t));
+    out.push({ t: i.t, fonte: "X", lado: ladoX(i.t, ctx[k]), valor: cid[k] + " de " + (X.locais.length - 1) + " cidades", var: "cidades", dir: "igual", peso: cid[k] * 1.5, nota: ctx[k] || "" }); } }));
+  // temas do dia: assuntos políticos que estiveram no top 20 do Brasil nas últimas 24 h e saíram
+  (br.recentes || []).forEach(r => { const k = semAc(r.t); if (noBR.has(k) || visto.has(k)) return; visto.add(k);
+    out.push({ t: r.t, fonte: "X", lado: ladoX(r.t, r.ctx?.manchete), valor: "pico " + r.pico + "º", var: "antes", dir: "igual", peso: (21 - r.pico) / 4, nota: r.ctx?.manchete || "", visto: r.visto }); });
+  return { itens: out, hora: br.atualizado };
+}
+// ---------- palavras do dia (scripts/26_palavras.py) ----------
+let P = null;
+function palavras() {
+  const hh = iso => new Date(iso).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" });
+  const hora = iso => new Date(iso).toLocaleTimeString("pt-BR", { hour: "numeric", timeZone: "America/Sao_Paulo" }).replace(/:00$/, "") + "h";
+  document.getElementById("palavras-sec").hidden = false;
+  document.getElementById("pal-hora").textContent = "atualizado às " + hh(P.gerado);
+  mencoes(hora);
+  // fria fica de fora (menos de 15% do peso nas últimas 6 h) e no máximo 40 palavras, para a nuvem não esticar a linha
+  document.getElementById("nuvem").innerHTML = P.nuvem.filter(n => n.quente == null || n.quente >= 15).slice(0, 40).map(n => `<span class="${n.lado}" style="font-size:${(13 + n.peso / 100 * 19).toFixed(1)}px" title="${esc(`${n.nossa}% nosso lado · ${n.deles}% deles · ${n.autores} perfis · ${n.redes.join(", ")}`)}">${esc(n.t)}</span>`).join("") || '<p class="pn-leg">Sem dados nesta rodada.</p>';
+  const frase = o => o.rede === "X" ? "Entrou no top 20 do X" : o.rede === "Google" ? "Em alta nas buscas: " + o.titulo.replace(/^também buscam: /, "") : o.titulo;
+  const linha = (o, rot, txt, h) => `<div class="pico-q">${rot}<a href="${esc(o.url)}" target="_blank" rel="noopener" title="${esc(txt)}">${esc(txt)}</a>${h ? `<time>${h}</time>` : ""}</div>`;
+  const picos = P.picos.slice(0, 5).map(p => { const mx = Math.max(...p.serie, 1), ini = 23 - Math.round((Math.floor(Date.parse(P.gerado) / 36e5) * 36e5 - Date.parse(p.de)) / 36e5);
+    const g = p.gatilho, hg = (g.rede === "TikTok" ? "~" : "") + hh(g.hora);
+    return `<div class="pico" style="color:${COR_L[p.lado]}"><div class="pico-t"><b>${esc(p.t)}</b><em>${p.novo ? "novo" : "×" + String(Math.round(p.razao))}</em><em>${hora(p.de).replace("h", "")}-${hora(p.ate)}</em></div>
+      <div class="serie" title="peso hora a hora nas últimas 24 h">${p.serie.map((v, i) => `<i class="${i >= ini && i < ini + P.pico_h ? "on" : ""}" style="height:${Math.max(6, v / mx * 100)}%"></i>`).join("")}</div>
+      ${linha(g, LOGO[g.rede] || "", (g.rede === "X" || g.rede === "Google" ? "" : g.autor + ": ") + frase(g), hg)}
+      ${p.noticia ? linha(p.noticia, LOGO.Imprensa, p.noticia.veiculo + ": " + p.noticia.titulo, "") : ""}</div>`; }).join("");
+  document.getElementById("picos").innerHTML = picos || '<p class="pn-leg">Nenhuma palavra disparou acima do normal nas últimas 24 h.</p>';
+}
+function mencoes(hora) {  // Lula x Flávio hora a hora, média móvel de 3 h (vídeo sai em rajada; a média mostra a tendência)
+  const M = P.mencoes, el = document.getElementById("mencoes"); if (!M) { el.closest(".pn").hidden = true; return; }
+  const suave = s => s.map((_, i) => (s[Math.max(0, i - 1)] + s[i] + s[Math.min(s.length - 1, i + 1)]) / 3);
+  const L = suave(M.lula.serie), F = suave(M.flavio.serie), mx = Math.max(...L, ...F, 1);
+  const linha = v => v.map((x, i) => `${(i / 23 * 100).toFixed(2)},${(100 - x / mx * 96).toFixed(2)}`).join(" ");
+  const t0 = Math.floor(Date.parse(P.gerado) / 36e5) * 36e5;
+  const eixo = [23, 17, 11, 5, 0].map(a => `<span>${a === 0 ? "agora" : hora(new Date(t0 - a * 36e5).toISOString())}</span>`).join("");
+  el.innerHTML = `<div class="men-num"><div style="border-color:var(--nossa)"><b>${String(M.lula.fatia).replace(".", ",")}%</b><span>Lula · ${M.lula.itens} itens</span></div><div style="border-color:var(--deles)"><b>${String(M.flavio.fatia).replace(".", ",")}%</b><span>Flávio · ${M.flavio.itens} itens</span></div></div>
+    <div class="men-caixa"><svg viewBox="0 0 100 100" preserveAspectRatio="none" role="img" aria-label="Menções a Lula e a Flávio hora a hora nas últimas 24 horas">
+      ${[25, 50, 75].map(y => `<line x1="0" x2="100" y1="${y}" y2="${y}" stroke="var(--linha)" stroke-dasharray="2 3" vector-effect="non-scaling-stroke"/>`).join("")}
+      <line x1="0" x2="100" y1="100" y2="100" stroke="var(--linha-2)" vector-effect="non-scaling-stroke"/>
+      <polyline points="${linha(F)}" fill="none" stroke="var(--deles)" stroke-width="2" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+      <polyline points="${linha(L)}" fill="none" stroke="var(--nossa)" stroke-width="2" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg>
+      ${[[F, "var(--deles)"], [L, "var(--nossa)"]].map(([v, c]) => `<i class="men-fim" style="background:${c};top:${(100 - v[23] / mx * 96).toFixed(1)}%"></i>`).join("")}</div>
+    <div class="men-eixo">${eixo}</div>
+    <p class="men-quem">Quem cita Lula: <b>${M.lula.nossa}%</b> pró-Lula, <b>${M.lula.deles}%</b> pró-Flávio. Quem cita Flávio: <b>${M.flavio.nossa}%</b> pró-Lula, <b>${M.flavio.deles}%</b> pró-Flávio; o resto é imprensa e assunto sem lado.</p>`;
+  // leitura hora a hora: o ponteiro (ou as setas do teclado) acha a hora mais perto; mostra as menções daquela hora
+  const caixa = el.querySelector(".men-caixa");
+  const hit = Object.assign(document.createElement("div"), { className: "men-hit", tabIndex: 0 });
+  hit.setAttribute("role", "slider"); hit.setAttribute("aria-label", "Menções por hora: use as setas para andar pelas horas");
+  hit.setAttribute("aria-valuemin", "0"); hit.setAttribute("aria-valuemax", "23");
+  const cruz = Object.assign(document.createElement("div"), { className: "men-cruz", hidden: true });
+  const pts = [["var(--nossa)", L], ["var(--deles)", F]].map(([c]) => { const d = Object.assign(document.createElement("div"), { className: "men-pt", hidden: true }); d.style.background = c; return d; });
+  const tip = Object.assign(document.createElement("div"), { className: "men-tip", hidden: true });
+  caixa.append(cruz, ...pts, tip, hit);
+  let atual = 23;
+  const mostra = i => {
+    atual = Math.max(0, Math.min(23, i));
+    const x = atual / 23 * 100, quando = atual === 23 ? "agora" : hora(new Date(t0 - (23 - atual) * 36e5).toISOString());
+    cruz.style.left = x + "%"; cruz.hidden = false;
+    [L, F].forEach((v, k) => { pts[k].style.left = x + "%"; pts[k].style.top = (100 - v[atual] / mx * 96) + "%"; pts[k].hidden = false; });
+    tip.replaceChildren();
+    const h = Object.assign(document.createElement("div"), { className: "h", textContent: `${quando} · menções na hora` });
+    tip.append(h, ...[["Lula", M.lula.serie[atual], "var(--nossa)"], ["Flávio", M.flavio.serie[atual], "var(--deles)"]].map(([nome, n, c]) => {
+      const r = document.createElement("div"); r.className = "r";
+      const i2 = document.createElement("i"); i2.style.background = c;
+      r.append(Object.assign(document.createElement("b"), { textContent: String(Math.round(n)) }), i2, document.createTextNode(nome)); return r; }));
+    tip.hidden = false;
+    // a leitura fica do lado oposto ao ponteiro, para não cobrir a linha
+    tip.style.left = x > 55 ? "auto" : `calc(${x}% + 10px)`; tip.style.right = x > 55 ? `calc(${100 - x}% + 10px)` : "auto";
+    hit.setAttribute("aria-valuenow", String(atual)); hit.setAttribute("aria-valuetext", `${quando}: Lula ${Math.round(M.lula.serie[atual])}, Flávio ${Math.round(M.flavio.serie[atual])} menções`);
+  };
+  const esconde = () => { [cruz, tip, ...pts].forEach(e => { e.hidden = true; }); };
+  hit.addEventListener("pointermove", e => { const r = hit.getBoundingClientRect(); mostra(Math.round((e.clientX - r.left - 6) / (r.width - 12) * 23)); });
+  hit.addEventListener("pointerdown", e => { const r = hit.getBoundingClientRect(); mostra(Math.round((e.clientX - r.left - 6) / (r.width - 12) * 23)); });
+  hit.addEventListener("pointerleave", e => { if (e.pointerType === "mouse") esconde(); });
+  hit.addEventListener("focus", () => mostra(atual)); hit.addEventListener("blur", esconde);
+  hit.addEventListener("keydown", e => { const d = { ArrowLeft: -1, ArrowRight: 1, Home: -99, End: 99 }[e.key]; if (d) { e.preventDefault(); mostra(atual + d); } });
+}
+document.getElementById("pal-busca").addEventListener("submit", e => { e.preventDefault(); if (!P) return;
+  const q = semAc(document.getElementById("pal-q").value.trim()).replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim(), res = document.getElementById("pal-res");
+  if (!q) { res.textContent = ""; return; }
+  const achou = Object.entries(P.busca).filter(([k]) => k === q || k.split(" ").some(w => w.startsWith(q))).slice(0, 4);
+  const pico = P.picos.find(p => p.k.includes(q));
+  res.innerHTML = pico ? `<b>${esc(pico.t)}</b> teve pico hoje (veja ao lado).` : achou.length
+    ? achou.map(([k, [f, a]]) => `<b>${esc(k)}</b>: ${String(f).replace(".", ",")}% do que foi dito, ${a} ${a === 1 ? "perfil" : "perfis"}`).join(" · ") + ". Sem pico acima do normal."
+    : `<b>${esc(q)}</b> não apareceu nas últimas 24 h.`; });
+document.querySelectorAll(".pal-abas button").forEach(b => b.onclick = () => {
+  document.querySelector(".pal").dataset.aba = b.dataset.aba;
+  document.querySelectorAll(".pal-abas button").forEach(x => x.setAttribute("aria-selected", x === b));
+});
+fetch("palavras.json", { cache: "no-store" }).then(r => r.json()).then(p => { P = p; palavras(); }).catch(() => {});
+fetch("bolsa.json", { cache: "no-store" }).then(r => r.json()).then(b => { B = b;   if (b.regras) { NOSSA = new RegExp(b.regras.nossa, "i"); DELES = new RegExp(b.regras.deles, "i"); CTX_D = new RegExp(b.regras.ctx_deles, "i"); CTX_N = new RegExp(b.regras.ctx_nossa, "i"); }  // mesmas regras do build
+  bolsa(); atualizaLead();
+  (CLOUDFLARE ? fetch("/api/x", { cache: "no-store" }) : Promise.reject()).then(r => r.ok ? r.json() : Promise.reject()).then(X => { B.xalerta = alertasX(X); const v = xAoVivo(X); if (!v || !v.itens.length) return;
+    B.x = v.itens; B.horas.x = v.hora; B.fita = [...v.itens.sort((a, b) => b.peso - a.peso).slice(0, 10), ...B.fita.filter(i => i.fonte !== "X")]; bolsa(); atualizaLead(); }).catch(() => {});
+  if (CLOUDFLARE) fetch("/api/noticias").then(r => r.ok ? r.json() : Promise.reject()).then(n => { N = n; bolsa(); atualizaLead(); }).catch(() => {});
+  // Google ao vivo (/api/google, de 30 em 30 min, mesmas regras do 17_bolsa.py): troca o Google da última rodada quando é mais novo
+  (CLOUDFLARE ? fetch("/api/google", { cache: "no-store" }) : Promise.reject()).then(r => r.ok ? r.json() : Promise.reject()).then(g => {
+    if (!g.itens || !g.itens.length || !(Date.parse(g.gerado) > Date.parse(B.horas.google || 0))) return;
+    B.google = g.itens; B.horas.google = g.gerado; B.fita = [...B.fita.filter(i => i.fonte === "X"), ...g.itens.slice(0, 6), ...B.fita.filter(i => i.fonte !== "X" && i.fonte !== "Google")]; bolsa(); atualizaLead(); }).catch(() => {});
+}).catch(() => {});
+
+/* menu de seções acompanha a rolagem */
+const secLinks = [...document.querySelectorAll(".secs a")];
+const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) secLinks.forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#" + e.target.id)); }), { rootMargin: "-45% 0px -50% 0px" });
+["agora", "contra-sec", "videos", "narr-sec", "canais-sec", "rede-sec"].forEach(id => { const el = document.getElementById(id); if (el) obs.observe(el); });
+
+/* ---------- vídeos ---------- */
+const SITE = "https://" + BASE.replace(/\/$/, "");
+const curto = n => n >= 1e6 ? (n / 1e6).toFixed(1).replace(".", ",") + " mi" : n >= 1e3 ? Math.round(n / 1e3) + " mil" : String(n);
+const msgZap = v => `${v.titulo}\n${v.link || v.url}\n\nOs vídeos da virada, atualizados a cada 3 h: ${SITE}`;
+const zapV = v => "https://wa.me/?text=" + encodeURIComponent(msgZap(v));
+let videos = [], limite = 12;
+const idade = v => { const t = Date.parse(v.postado || v.coletado || ""); return isNaN(t) ? 0 : Math.max(0, (Date.now() - t) / 36e5); };
+const quando = h => h < 1 ? "agora" : h < 24 ? `há ${Math.round(h)} h` : `há ${Math.round(h / 24)} d`;
+const ICO = {
+  link: `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`,
+  baixar: `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>`,
+  whatsapp: `<svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>`,
+  instagram: `<svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#FF0069" d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>`,
+  tiktok: `<svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#000000" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>`,
+  x: `<svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#000000" d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg>`,
+  facebook: `<svg aria-hidden="true" viewBox="0 0 24 24"><path fill="#0866FF" d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>`
+};
+// vídeos com botões na tela, pelo id (o clique acha o vídeo aqui)
+const ACOES = new Map();
+const legenda = v => `${v.titulo}\n${v.link || v.url}`;
+const acoes = v => {
+  ACOES.set(v.id, v);
+  const u = encodeURIComponent(v.link || v.url);
+  return `<div class="acoes" data-id="${esc(v.id)}">
+    <div class="dupla${v.mp4 ? "" : " so"}"><button type="button" class="ac-copiar">${ICO.link}<span>Copiar link</span></button>${v.mp4 ? `<a class="ac-baixar" href="${esc(v.mp4)}" download="video-${esc(v.id)}.mp4" data-rede="baixar">${ICO.baixar}<span>Baixar${v.tamanho ? `<small>${esc(v.tamanho)}</small>` : ""}</span></a>` : ""}</div>
+    <a class="wa" href="${zapV(v)}" target="_blank" rel="noopener" data-rede="whatsapp">${ICO.whatsapp}Mandar no WhatsApp</a>
+    <div class="redes-ic"><button type="button" class="ac-rede" data-rede="instagram" aria-label="Postar no Instagram">${ICO.instagram}</button><button type="button" class="ac-rede" data-rede="tiktok" aria-label="Postar no TikTok">${ICO.tiktok}</button><a class="ac-rede" data-rede="x" href="https://x.com/intent/post?text=${encodeURIComponent(v.titulo)}&url=${u}" target="_blank" rel="noopener" aria-label="Postar no X">${ICO.x}</a><a class="ac-rede" data-rede="facebook" href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener" aria-label="Postar no Facebook">${ICO.facebook}</a></div>
+  </div>`;
+};
+const rotulo = (b, txt, volta) => { const s = b.querySelector("span") || b; const antes = s.textContent; s.textContent = txt; setTimeout(() => { s.textContent = volta || antes; }, 2500); };
+// Instagram e TikTok não têm link de postar: com vídeo hospedado (Fura Bolha) e celular que aceita arquivo, prepara o
+// vídeo e abre a lista de apps num segundo toque (o primeiro gasta o tempo do download); sem isso, a lista de apps
+// com texto e link, ou copia texto e link para colar no app
+let PREP;
+const podeArquivo = () => { try { return !!(navigator.canShare && navigator.canShare({ files: [new File([""], "v.mp4", { type: "video/mp4" })] })); } catch { return false; } };
+async function postaRede(v, rede) {
+  const nome = rede === "instagram" ? "Instagram" : "TikTok";
+  if (v.mp4 && podeArquivo()) {
+    PREP ??= document.body.appendChild(Object.assign(document.createElement("dialog"), { id: "prepara" }));
+    PREP.innerHTML = `<button type="button" class="fechar" aria-label="Fechar">×</button><p><b>${esc(v.titulo)}</b></p><button type="button" class="wa" disabled>Preparando o vídeo…</button><p style="margin-top:10px">Na lista que abrir, escolha o ${nome}.</p>`;
+    PREP.querySelector(".fechar").onclick = () => PREP.close();
+    PREP.showModal();
+    const bt = PREP.querySelector(".wa");
+    try {
+      const arq = new File([await (await fetch(v.mp4)).blob()], "video.mp4", { type: "video/mp4" });
+      bt.disabled = false; bt.textContent = `Postar no ${nome}`;
+      bt.onclick = async () => { try { await navigator.share({ files: [arq], text: legenda(v) }); } catch {} PREP.close(); };
+    } catch { bt.textContent = "Não deu pra preparar. Use Baixar."; }
+    return;
+  }
+  if (navigator.share) { try { await navigator.share({ text: legenda(v) }); } catch {} return; }
+  return "copiar";
+}
+document.addEventListener("click", async e => {
+  const caixa = e.target.closest(".acoes"); if (!caixa) return;
+  const v = ACOES.get(caixa.dataset.id); if (!v) return;
+  const alvo = e.target.closest(".ac-copiar, .ac-rede, .wa, .ac-baixar"); if (!alvo) return;
+  const rede = alvo.classList.contains("ac-copiar") ? "copiar" : alvo.dataset.rede;
+  ev("zap", (v.fb ? "fb " : "") + rede);
+  if (rede === "instagram" || rede === "tiktok") {
+    if (await postaRede(v, rede) !== "copiar") return;
+    try { await navigator.clipboard.writeText(legenda(v)); alvo.setAttribute("aria-label", "Copiado"); } catch {}
+    return alert(`Texto e link copiados. Abra o ${rede === "instagram" ? "Instagram" : "TikTok"} e cole.`);
+  }
+  if (rede === "copiar") {
+    try { await navigator.clipboard.writeText(legenda(v)); rotulo(alvo, "Link copiado", "Copiar link"); } catch { rotulo(alvo, "Não deu pra copiar", "Copiar link"); }
+  }
+});
+const cardV = (v, pos) => `<li class="card"><a class="thumb" href="${esc(v.url)}" target="_blank" rel="noopener">${v.capa ? `<img src="${esc(v.capa)}" alt="" loading="lazy">` : ""}${pos ? `<span class="pos">${pos}</span>` : ""}${v.fb ? `<span class="vel fbv">Fura Bolha</span>${v.dur ? `<span class="dur">${minutos(v.dur)}</span>` : ""}` : `<span class="vel">▲ ${curto(v.vph || 0)}/h</span>`}${v.novo ? `<span class="novo" title="Achado agora pelo monitor; ainda não passou pela revisão do ranking">novo</span>` : ""}</a>
+  <div class="info"><b>${esc(v.titulo)}</b><span class="quem">${esc((v.fonte || "").replace("TikTok ", "").replace("Instagram ", ""))} · postado ${quando(idade(v))}${v.fb ? (fbCompart(v) ? ` · compartilhado ${fbCompart(v)} ${fbCompart(v) === 1 ? "vez" : "vezes"}` : "") : v.medidoOutro ? ` · medido ${quando(medidoH(v))}` : ""}</span>${acoes(v)}</div></li>`;
+const IMPRENSA = /@(metropolesoficial|g1|sbtnews|bandjornalismo|cnnbrasil|jovempannews|folha|estadao|uol|tvfama|noticiasredetv|portalotempo|copaibanoticias|jornaldebrasilia|tvjornalsbt|bandnewsfm|jornalismotvcultura|recordtvoficial|globonews|poder360|cartacapital)\b/i;
+// perfil fixo só entra no ranking se bater o piso de views/hora
+const VPH_PISO = 3000, refFixo = v => !!v.fixo && (v.vph || 0) < VPH_PISO;
+// vídeos pró-Lula da coleta do monitor (nuvem, mais frequente que o ranking do Mac) que o ranking ainda não tem:
+// mesma regra do ranking (07_site.py), com peso 1 por não ter a leitura de "serve para militar"; ato e multidão
+// ("Estudantes nas ruas") valem metade e dividem o limite de 4 com os atos do ranking. Lado e tema saem de regras de
+// palavras, sem a revisão do Mac: só entra o que já pega (piso de views/h), no máximo 3, com o selo "novo" no card
+const MON_PISO = 10000, MON_MAX = 3, MAX_RUAS = 4, tid = u => (String(u || "").match(/\/video\/(\d+)/) || [])[1];
+// narrativa boa para nós também traz a resposta do outro lado ("PL: Flávio não vai acabar com o Bolsa Família"): no monitor ela
+// mostra o debate, mas não é vídeo para mandar. Fica fora a conta do outro lado e o título que abre com a fala de alguém de lá
+const CONTA_DELES = /^(pl_?nacional|pl_?oficial|partidoliberal|plnacional_|pl22|flavio_?bolsonaro|jairbolsonaro|jair\.?bolsonaro|michelle|nikolas|eduardobolsonaro|carlosbolsonaro|bolsonar|brasilparalelo|revistaoeste|jovempan|gazetadopovo|gustavogayer|biakicis|damares|zambelli|vanhattem|tvbolsonaro|apoiodireita)/i;
+const FALA_DELES = /^(PL|Fl[aá]vio( Bolsonaro)?|Jair Bolsonaro|Bolsonaro|Michelle|Nikolas|Eduardo|Carlos Bolsonaro|Tarc[ií]sio)\s*[:“"]/;
+// lista de contas do outro lado (dados/narrativas/outro_lado.txt): vale para o ranking e para o Pra mandar agora
+let OUTRO = new Set();
+fetch("outro_lado.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").then(t => {
+  OUTRO = new Set(t.split("\n").map(l => l.split("#")[0].trim().toLowerCase().replace(/^@/, "")).filter(Boolean));
+  if (videos.length) desenhaVideos();
+}).catch(() => {});
+const doOutroLado = (conta, titulo) => { const c = (conta || "").toLowerCase().replace(/^.*@/, "").trim();
+  return OUTRO.has(c) || CONTA_DELES.test(c) || FALA_DELES.test(titulo || ""); };
+function doMonitor() {
+  if (!D || !videos.length) return [];
+  const tem = new Set(videos.map(v => tid(v.url))), out = [];
+  let ruas = videos.filter(v => v.cat === "ruas" && !v.util).length;
+  const cands = (D.narrativas || []).filter(n => n.lado === "nossa").flatMap(n => (n.videos || []).map(x => ({ x, ato: n.id === "estudantes" })))
+    .sort((a, b) => (b.x.vph || 0) - (a.x.vph || 0));
+  // vídeo do ranking que veio sem capa usa a do monitor, quando há
+  const capas = new Map(cands.filter(c => c.x.capa).map(c => [tid(c.x.url), c.x.capa]));
+  videos.forEach(v => { if (!v.capa && capas.has(tid(v.url))) v.capa = capas.get(tid(v.url)); });
+  for (const { x, ato } of cands) {
+    const id = tid(x.url);
+    if (out.length >= MON_MAX) break;
+    if (!id || !x.capa || x.imp || x.rede !== "TikTok" || doOutroLado(x.a, x.titulo) || (x.vph || 0) < MON_PISO || tem.has(id) || (ato && ruas >= MAX_RUAS)) continue;
+    tem.add(id); if (ato) ruas++;
+    // o id do TikTok traz a hora da postagem (id >> 32)
+    out.push({ url: x.url, titulo: x.titulo, vph: x.vph, capa: x.capa, fonte: x.a ? "TikTok @" + x.a : "TikTok", coletado: D.coletado,
+      postado: new Date(Number(BigInt(id) >> 32n) * 1000).toISOString(), ordem: Math.round((x.vph || 0) * (ato ? 0.5 : 1)), id: "tt-" + id, cat: ato ? "ruas" : "", novo: true });
+  }
+  return out;
+}
+// views/h é a média desde a postagem: o vídeo que estourou ontem segue com média alta mesmo parado. O que saiu nas
+// últimas 24 h vem na frente; o de 24 a 48 h continua na lista, depois deles
+const atuais = (ref = false) => videos.concat(doMonitor()).filter(v => !IMPRENSA.test(v.fonte || "") && !doOutroLado(v.fonte, v.titulo) && idade(v) <= 48 && refFixo(v) === ref)
+  .sort((a, b) => (idade(a) > 24) - (idade(b) > 24) || (b.ordem ?? b.vph ?? 0) - (a.ordem ?? a.vph ?? 0));
+const medidoH = v => { const t = Date.parse(v.coletado || ""); return isNaN(t) ? null : Math.max(0, (Date.now() - t) / 36e5); };
+// no máximo 2 vídeos por conta no ranking (o resto da mesma conta vai para o fim): sem isso a conta do partido ocupava o topo
+const MAX_CONTA = 2;
+function variado(l) {
+  const n = {}, frente = [], fim = [];
+  // vídeo sem capa também vai para o fim: card vazio no topo parece quebrado
+  l.forEach(v => { const k = (v.fonte || "").toLowerCase(); v.capa && (n[k] = (n[k] || 0) + 1) <= MAX_CONTA ? frente.push(v) : fim.push(v); });
+  return frente.concat(fim);
+}
+// vídeos do Fura Bolha (curadoria parceira, muitos criadores) no meio do ranking: a cada 3 posições, um deles, os mais
+// compartilhados lá nas últimas 24 h primeiro (eles não têm views/h, por isso não disputam a mesma ordem)
+const fbCompart = v => { const s = FB_STATS[v.id.replace(/^fb-/, "")] || {}; return (s.mandou || 0) + (s.baixou || 0); };
+// parceiro passa pela mesma barreira: link e vídeo só do domínio dele, título sem fala do outro lado, e no máximo MAX_FB
+// na lista. Botão de emergência: uma linha "fura-bolha.com" em dados/narrativas/outro_lado.txt tira todos do ar
+const MAX_FB = 6;
+const fbConfere = v => /^https:\/\/fura-bolha\.com\/v\//.test(v.link || "") && /^https:\/\/videos\.fura-bolha\.com\//.test(v.mp4 || "")
+  && (!v.capa || /^https:\/\/videos\.fura-bolha\.com\//.test(v.capa)) && !doOutroLado(v.fonte, v.titulo);
+function comFb(l) {
+  const fb = FB.filter(v => idade(v) <= 24 && fbConfere(v)).sort((a, b) => fbCompart(b) - fbCompart(a) || idade(a) - idade(b)).slice(0, MAX_FB);
+  const out = [];
+  l.forEach((v, i) => { out.push(v); if (i % 2 === 1 && fb.length) out.push(fb.shift()); });
+  return out;
+}
+function desenhaVideos() {
+  // só perfis e criadores, postados nas últimas 48 h, do que mais cresce para o que menos cresce
+  const l = comFb(variado(atuais()));
+  // a velocidade é medida na coleta: mostra a hora da medição uma vez, e no card só quando ele foi medido em outra rodada
+  const ult = Math.max(0, ...l.map(v => Date.parse(v.coletado || "") || 0));
+  l.forEach(v => { v.medidoOutro = !!v.coletado && ult - Date.parse(v.coletado) > 30 * 6e4; });
+  const mh = ult ? (Date.now() - ult) / 36e5 : null;
+  document.getElementById("medido").textContent = mh == null ? "" : `Medido ${quando(mh)}.`;
+  document.getElementById("grade").innerHTML = l.slice(0, limite).map((v, i) => cardV(v, i + 1)).join("") || '<li class="vazio">Nenhum vídeo novo nas últimas 48 h.</li>';
+  document.getElementById("mais").hidden = l.length <= limite;
+  const col = l.map(v => v.coletado).filter(Boolean).sort().pop();
+  document.getElementById("nota-v").textContent = `Vídeos a favor de Lula postados nas últimas 48 h. Atualizado ${col ? new Date(col).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" }) : ""}.`;
+  document.querySelectorAll("#videos [data-ev]").forEach(a => a.onclick = () => { const [e, k] = a.dataset.ev.split(":"); ev(e, k); });
+
+}
+document.getElementById("mais").onclick = () => { limite += 12; desenhaVideos(); };
+
+/* ---------- Fura Bolha (iniciativa parceira): entra em "Pra mandar agora"; /api/furabolha lê a lista, contagem e vídeo vêm direto de lá ---------- */
+let FB = [], FB_STATS = {};
+const minutos = s => s >= 60 ? `${Math.round(s / 60)} min` : `${s} s`;
+if (CLOUDFLARE) fetch("/api/furabolha").then(r => r.ok ? r.json() : Promise.reject()).then(d => {
+  // o link que circula é o da página do vídeo no Fura Bolha (?de=zap: lá conta como compartilhamento)
+  FB = (d.videos || []).map(v => ({ ...v, id: "fb-" + v.id, fb: true, postado: v.publicado, link: v.url + "?de=zap", fonte: "fura-bolha.com" }));
+  if (videos.length) desenhaVideos();
+  fetch("https://fura-bolha.com/api/stats").then(r => r.json()).then(s => { FB_STATS = s || {}; if (videos.length) desenhaVideos(); }).catch(() => {});
+}).catch(() => {});
+fetch("videos.json", { cache: "no-store" }).then(r => r.json()).then(d => { videos = d.videos || []; desenhaVideos(); if (C) contra(); }).catch(() => { document.getElementById("destaque").innerHTML = '<div class="vazio">Não carregou. Recarregue a página.</div>'; });
+
+
+
+/* ---------- guerra de canais (YouTube) ---------- */
+let G = null, aberto = null;
+function guerra() {
+  const r = G.rede, mx = Math.max(...G.temas.map(t => Math.max(t.nossa, t.deles)));
+  const lin = t => {
+    const tag = t.lacuna >= 10 ? `<small class="d">só a direita fala</small>` : (t.lacuna <= -3 && t.deles < 1) ? `<small class="n">só o campo progressista fala</small>` : "";
+    const ab = aberto === t.id;
+    const it = (v, link) => link ? `<a class="bb-it" href="${esc(v.url)}" target="_blank" rel="noopener"><span>${esc(v.titulo)}</span><small>${esc(v.canal)} · ${mil(v.vph)} views/h</small></a>`
+      : `<p class="bb-it"><span>${esc(v.titulo)}</span><small>${esc(v.canal)} · ${mil(v.vph)} views/h</small></p>`;
+    const caca = t.nossa_caca_clique ? `<small class="bb-caca">${t.nossa_caca_clique} ${t.nossa_caca_clique > 1 ? "títulos caça-clique ficaram" : "título caça-clique ficou"} de fora: repassado, vira munição.</small>` : "";
+    const det = `<div class="bb-det" id="det-${t.id}"><div class="bb-col d"><h4>Direita<small>sem link, para não dar alcance</small></h4>${t.top_deles.map(v => it(v, false)).join("") || "<small>nada nas últimas 72 h</small>"}</div>
+      <div class="bb-col n"><h4>Campo progressista<small>toque para assistir</small></h4>${t.top_nossa.map(v => it(v, true)).join("") || `<small>${t.nossa_caca_clique ? "só caça-clique neste tema" : "nada nas últimas 72 h"}</small>`}${caca}</div>
+      <button class="bb-fecha" data-t="${t.id}">Fechar ▴</button></div>`;
+    return `<button class="bb-linha${ab ? " on" : ""}" data-t="${t.id}" aria-expanded="${ab}" aria-controls="det-${t.id}"><span class="bb-l"><em>${t.deles.toFixed(0)}%</em><i style="width:${t.deles / mx * 100}%"></i></span><span class="bb-m">${esc(t.nome)}<b class="bb-seta" aria-hidden="true">${ab ? "▴" : "▾"}</b>${tag}</span><span class="bb-r"><i style="width:${t.nossa / mx * 100}%"></i><em>${t.nossa.toFixed(0)}%</em></span></button>${ab ? det : ""}`;
+  };
+  const hh = new Date(G.gerado).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" });
+  document.getElementById("leg-canais").innerHTML = `<span class="fonte-tag">${LOGO.YouTube} ${r.deles.canais} canais da direita · ${r.nossa.canais} do campo progressista · últimas ${G.janela_h} h · atualizado ${hh}</span>`;
+  document.getElementById("guerra").innerHTML = `<div class="borboleta"><div class="bb-cab"><span>Direita</span><span>Tema · fatia da atenção</span><span>Campo progressista</span></div>${G.temas.filter(t => t.id !== "outros").map(lin).join("")}</div>`;
+  document.querySelectorAll(".bb-linha").forEach(b => b.onclick = () => { aberto = aberto === b.dataset.t ? null : b.dataset.t; guerra(); });
+  document.querySelectorAll(".bb-fecha").forEach(b => b.onclick = () => { aberto = null; guerra(); document.querySelector(`.bb-linha[data-t="${b.dataset.t}"]`)?.focus({ preventScroll: true }); });
+}
+function contaCuidado() { const n = document.querySelectorAll("#cuidado .cuid").length; document.getElementById("n-cuid").textContent = n || ""; }
+function cuidadoYT() {
+  if (!G?.cuidado?.length || !D || !document.getElementById("cuidado")) return;
+  document.getElementById("cuidado").insertAdjacentHTML("beforeend", G.cuidado.map(v => `<div class="cuid"><span class="rede-k">YouTube · ${esc(v.canal)} · ${mil(v.vph)} views/h</span><b>${esc(v.titulo)}</b><p>${esc(v.motivo || "Alegação grave sem fonte verificável.")} Não compartilhe.</p>${v.fonte ? `<a class="g-nota" href="${esc(v.fonte.u)}" target="_blank" rel="noopener">${esc(v.fonte.f)} · ${esc(v.fonte.t)} ↗</a>` : ""}</div>`).join(""));
+  contaCuidado();
+}
+/* ---------- ecossistema do campo progressista (cluster circular por eixo) ---------- */
+const ecoMQ = matchMedia("(max-width: 700px)");
+function rede() {
+  const dir = G.diretorio || [], fr = (G.frentes || []).map(f => ({ ...f, l: dir.filter(c => c.frente === f.id) })).filter(f => f.l.length);
+  if (!dir.length) return;
+  const h = c => c.ultimo ? Math.max(0, (Date.now() - Date.parse(c.ultimo.pub)) / 36e5) : Infinity;
+  const cls = c => { const t = h(c); return t <= 24 ? "on" : t < Infinity ? "morno" : "parado"; };
+  const ativos = dir.filter(c => c.ultimo).length;
+  const hh = new Date(G.gerado).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" });
+  document.getElementById("leg-rede").innerHTML = `<span class="fonte-tag">${LOGO.YouTube} feeds públicos · atualizado ${hh}</span>`;
+  // empacotamento em girassol: o canal mais assistido no centro do cluster, os parados na borda
+  const AV = 22, PASSO = 31, raio = n => PASSO * Math.sqrt(Math.max(n, 1) - .5) + AV + 12;
+  const nodos = (l, cx, cy) => l.map((c, i) => {
+    const r = PASSO * Math.sqrt(i + .5), a = i * 2.39996, x = cx + r * Math.cos(a), y = cy + r * Math.sin(a);
+    return `<g class="no ${cls(c)}" data-h="${esc(c.handle)}" tabindex="0" role="button" aria-label="${esc(c.nome)}"><circle class="anel" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${AV + 3}"/><image href="avatares/${esc(c.id)}.jpg" x="${(x - AV).toFixed(1)}" y="${(y - AV).toFixed(1)}" width="${AV * 2}" height="${AV * 2}" clip-path="url(#eco-clip)" preserveAspectRatio="xMidYMid slice"/></g>`;
+  }).join("");
+  const rot = (f, x, y, baixo) => { const on = f.l.filter(c => c.ultimo).length;
+    return baixo ? `<text class="t-fr" x="${x}" y="${y + 26}" text-anchor="middle">${esc(f.nome)}</text><text class="t-fr2" x="${x}" y="${y + 46}" text-anchor="middle">${f.l.length} canais · ${on} ${on === 1 ? "ativo" : "ativos"}</text>`
+      : `<text class="t-fr" x="${x}" y="${y - 30}" text-anchor="middle">${esc(f.nome)}</text><text class="t-fr2" x="${x}" y="${y - 10}" text-anchor="middle">${f.l.length} canais · ${on} ${on === 1 ? "ativo" : "ativos"}</text>`; };
+  const hub = (x, y, r) => { const k = r / 110;
+    return `<circle class="hub-anel" cx="${x}" cy="${y}" r="${r + 8}"/><circle class="hub" cx="${x}" cy="${y}" r="${r}"/><text class="t-hub" x="${x}" y="${y - 14 * k}" text-anchor="middle" style="font-size:${21 * k}px">Campo progressista</text><text class="t-hub2" x="${x}" y="${y + 14 * k}" text-anchor="middle" style="font-size:${Math.max(12, 15 * k)}px">${dir.length} canais · ${fr.length} eixos</text><text class="t-hub2" x="${x}" y="${y + 34 * k}" text-anchor="middle" style="font-size:${Math.max(12, 15 * k)}px">${ativos} ativos em ${G.janela_h} h</text>`; };
+  const defs = `<defs><clipPath id="eco-clip" clipPathUnits="objectBoundingBox"><circle cx=".5" cy=".5" r=".5"/></clipPath></defs>`;
+  let svg;
+  if (!ecoMQ.matches) {
+    // tela larga: hub no centro, eixos em órbita; o menor eixo no topo
+    const W = 1100, H = 990, CX = 550, CY = 485, D = 330, ANG = [-90, -18, 54, 126, 198];
+    const ord = fr.slice().sort((a, b) => a.l.length - b.l.length);
+    const pos = [ord[0], ...fr.filter(f => f !== ord[0])].map((f, k) => { const a = ANG[k % 5] * Math.PI / 180; return { f, x: CX + D * Math.cos(a), y: CY + D * Math.sin(a), s: Math.sin(a) }; });
+    svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Mapa do ecossistema: ${dir.length} canais em ${fr.length} eixos">${defs}<circle class="orb" cx="${CX}" cy="${CY}" r="${D}"/>`
+      + pos.map(p => { const R = raio(p.f.l.length), a = Math.atan2(p.y - CY, p.x - CX), x1 = CX + 128 * Math.cos(a), y1 = CY + 128 * Math.sin(a), x2 = p.x - (R + 6) * Math.cos(a), y2 = p.y - (R + 6) * Math.sin(a);
+          return `<line class="lig" x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}"/><circle class="pt" cx="${x2.toFixed(1)}" cy="${y2.toFixed(1)}" r="5"/>`; }).join("")
+      + hub(CX, CY, 110)
+      + pos.map(p => { const R = raio(p.f.l.length); return `<circle class="cl-bg" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${R}"/>${nodos(p.f.l, p.x, p.y)}${p.s > .3 ? rot(p.f, p.x, p.y + R, true) : rot(p.f, p.x, p.y - R, false)}`; }).join("") + `</svg>`;
+  } else {
+    // celular: faixa com o total no topo e cada eixo como grade compacta de avatares (6 por linha, alvo de toque de ~44 px)
+    const W = 360, COL = 6, P = 58, AVm = 23, partes = [];
+    partes.push(`<rect class="hub" x="0" y="0" width="${W}" height="64" rx="16"/><text class="t-hub" x="16" y="40" style="font-size:19px">Campo progressista</text><text class="t-hub2" x="${W - 16}" y="28" text-anchor="end">${dir.length} canais · ${fr.length} eixos</text><text class="t-hub2" x="${W - 16}" y="47" text-anchor="end">${ativos} ativos em ${G.janela_h} h</text>`);
+    let y = 82;
+    fr.forEach(f => { const on = f.l.filter(c => c.ultimo).length, linhas = Math.ceil(f.l.length / COL), alt = 50 + linhas * P;
+      partes.push(`<rect class="cl-bg" x="1.5" y="${y}" width="${W - 3}" height="${alt}" rx="16"/><text class="t-fr" x="14" y="${y + 30}" style="font-size:21px">${esc(f.nome)}</text><text class="t-fr2" x="${W - 14}" y="${y + 29}" text-anchor="end" style="font-size:12px">${f.l.length} canais · ${on} ${on === 1 ? "ativo" : "ativos"}</text>`
+        + f.l.map((c, i) => { const x = 14 + (W - 28) / COL * (i % COL + .5), cy = y + 46 + P * (Math.floor(i / COL) + .5);
+          return `<g class="no ${cls(c)}" data-h="${esc(c.handle)}" tabindex="0" role="button" aria-label="${esc(c.nome)}"><circle class="anel" cx="${x.toFixed(1)}" cy="${cy.toFixed(1)}" r="${AVm + 3}"/><image href="avatares/${esc(c.id)}.jpg" x="${(x - AVm).toFixed(1)}" y="${(cy - AVm).toFixed(1)}" width="${AVm * 2}" height="${AVm * 2}" clip-path="url(#eco-clip)" preserveAspectRatio="xMidYMid slice"/></g>`; }).join(""));
+      y += alt + 12; });
+    svg = `<svg viewBox="0 0 ${W} ${y - 12}" role="img" aria-label="Mapa do ecossistema: ${dir.length} canais em ${fr.length} eixos">${defs}${partes.join("")}</svg>`;
+  }
+  const box = document.getElementById("eco");
+  box.innerHTML = svg;
+  const info = document.getElementById("eco-info"), porH = Object.fromEntries(dir.map(c => [c.handle, c])), nomeF = Object.fromEntries(fr.map(f => [f.id, f.nome]));
+  const abreInfo = g => {
+    const c = porH[g.dataset.h]; if (!c) return;
+    box.querySelectorAll(".no.sel").forEach(n => n.classList.remove("sel")); g.classList.add("sel");
+    const t = h(c), ins = `https://www.youtube.com/@${encodeURIComponent(c.handle)}?sub_confirmation=1`;
+    info.innerHTML = `<img src="avatares/${esc(c.id)}.jpg" alt=""><b>${esc(c.nome)}</b><button class="x" aria-label="Fechar">×</button><small>${esc(nomeF[c.frente] || "")} · ${c.ultimo ? `${c.videos} ${c.videos === 1 ? "vídeo" : "vídeos"} em ${G.janela_h} h · último ${quando(t)}` : `sem vídeo novo em ${G.janela_h} h`}</small>
+      ${c.ultimo ? `<a class="ult" href="${esc(c.ultimo.url)}" target="_blank" rel="noopener">▶ ${esc(c.ultimo.titulo)}</a>` : ""}<div class="acoes"><a class="ins" href="${ins}" target="_blank" rel="noopener" data-ev="rede:${esc(c.handle)}">Inscrever-se</a>${c.ultimo ? `<a class="ver" href="${esc(c.ultimo.url)}" target="_blank" rel="noopener">Ver último vídeo</a>` : ""}</div>`;
+    info.hidden = false;
+    info.querySelector(".x").onclick = () => { info.hidden = true; g.classList.remove("sel"); };
+    info.querySelector("[data-ev]").onclick = () => ev("rede", c.handle);
+  };
+  // nome por extenso ao passar o mouse (a <title> do SVG demora a aparecer)
+  const tip = document.createElement("div"); tip.className = "eco-tip"; tip.hidden = true; box.appendChild(tip);
+  box.querySelectorAll(".no").forEach(g => {
+    g.onmouseenter = () => { const c = porH[g.dataset.h]; if (!c) return; const a = g.querySelector(".anel").getBoundingClientRect(), b = box.getBoundingClientRect();
+      tip.innerHTML = `${esc(c.nome)}<small>${esc(nomeF[c.frente] || "")} · ${c.ultimo ? "último vídeo " + quando(h(c)) : "sem vídeo novo em " + G.janela_h + " h"}</small>`;
+      tip.style.left = (a.left + a.width / 2 - b.left) + "px"; tip.style.top = (a.top - b.top) + "px"; tip.hidden = false; };
+    g.onmouseleave = () => { tip.hidden = true; };
+  });
+  box.querySelectorAll(".no").forEach(g => { g.onclick = e => { e.stopPropagation(); tip.hidden = true; abreInfo(g); }; g.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); abreInfo(g); } }; });
+  document.getElementById("eco-lista").innerHTML = fr.map(f => `<h4>${esc(f.nome)}</h4><ul>${f.l.map(c => `<li><a href="https://www.youtube.com/@${encodeURIComponent(c.handle)}?sub_confirmation=1" target="_blank" rel="noopener" data-ev="rede:${esc(c.handle)}">${esc(c.nome)}</a></li>`).join("")}</ul>`).join("");
+  document.querySelectorAll("#eco-lista [data-ev]").forEach(a => a.onclick = () => { const [e, k] = a.dataset.ev.split(":"); ev(e, k); });
+}
+document.addEventListener("click", e => { const i = document.getElementById("eco-info"); if (i && !i.hidden && !i.contains(e.target)) { i.hidden = true; document.querySelectorAll("#eco .no.sel").forEach(n => n.classList.remove("sel")); } });
+ecoMQ.addEventListener("change", () => { if (G) rede(); });
+fetch("guerra.json", { cache: "no-store" }).then(r => r.json()).then(g => { G = g; guerra(); rede(); atualizaLead(); if (D) cuidadoYT(); if (C) contra(); }).catch(() => {});
+
+/* ---------- temas para contra-atacar ---------- */
+let C = null;
+function contra() {
+  document.getElementById("contra").innerHTML = C.temas.map((t, i) => {
+    let vs = [];
+    try { const rx = new RegExp(t.videos_rx, "i"); vs = atuais().filter(v => rx.test(v.titulo)).slice(0, 2); } catch {}
+    const msg = t.zap + "\n\nFonte: " + fl(t.fontes[0]) + (vs[0] ? "\nVídeo: " + vs[0].url : "");
+    return `<article class="ca"><div class="ca-cab"><div><h3>${esc(t.titulo)}</h3><p class="gancho">${esc(t.gancho)}</p></div></div>
+      <a class="prova" href="${esc(t.prova.u)}" target="_blank" rel="noopener"><b>${esc(t.prova.num)}</b><span>${esc(t.prova.txt)}</span><small>Pesquisa: ${esc(t.prova.f)} ↗</small></a>
+      <p class="perg">${esc(t.pergunta)}</p>
+      ${vs.length ? `<div class="vids-ca">${vs.map(v => `<div class="vid-ca">${v.capa ? `<img src="${esc(v.capa)}" alt="" loading="lazy">` : "<span></span>"}<a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.titulo)}<small>▲ ${curto(v.vph || 0)}/h · ${quando(idade(v))}</small></a></div>`).join("")}</div>`
+        : `<p class="sem-vid">Nenhum vídeo pró-Lula sobre isso nas últimas 48 h. Oportunidade: grave o seu.</p>`}
+      <details><summary>Fato e fontes</summary><p class="fato">${esc(t.fato)}</p><div class="fts">${t.fontes.map(f => `<a href="${esc(f.u)}" target="_blank" rel="noopener">${esc(f.f)} · ${esc(f.t)} ↗</a>`).join("")}</div></details>
+      <div class="bts"><a class="bt zap" target="_blank" rel="noopener" data-ca="${i}" href="https://wa.me/?text=${encodeURIComponent(msg)}">Mandar no zap</a><button class="bt s" data-cp="${i}">Copiar</button></div></article>`; }).join("");
+  document.querySelectorAll("[data-ca]").forEach(a => a.onclick = () => ev("zap", "tema " + C.temas[+a.dataset.ca].id));
+  document.querySelectorAll("[data-cp]").forEach(b => b.onclick = () => { const t = C.temas[+b.dataset.cp]; copiar(t.zap + "\n\nFonte: " + fl(t.fontes[0]), b); });
+}
+
+
+
+fetch("contra.json", { cache: "no-store" }).then(r => r.json()).then(c => { C = c; contra(); }).catch(() => {});
+
+function abre(id) {
+  const x = D.narrativas.find(n => n.id === id); if (!x) return;
+  ev("tema", "alerta " + id);
+  const g = document.getElementById("gaveta");
+  const argsTxt = `*${x.nome.replace(/[“”]/g, "")}*\n` + x.args.map(a => `• ${a.txt}${a.fonte ? ` (${a.fonte.f}: ${fl(a.fonte)})` : ""}`).join("\n");
+  g.innerHTML = `<div class="g-cab"><span class="lado ${x.lado}">${ROT[x.lado]}</span><button class="fechar" id="fechar" aria-label="Fechar">×</button></div>
+    <div class="g-corpo" style="--cor:${COR[x.lado]}">
+      <h2>${esc(x.nome)}</h2>
+      <p class="diz">${esc(x.diz)}</p>
+      <div class="metricas"><div><b>${mil(x.redes_vph)}</b><span>views/h nos perfis</span></div><div><b>${mil(x.imprensa_vph)}</b><span>views/h na imprensa</span></div><div><b>${mil(x.compart)}</b><span>compartilhamentos</span></div></div>
+      ${x.status ? `<p class="caixa status">${esc(x.status)}</p>` : ""}
+      ${x.tecnica ? `<p class="caixa tec"><b>Técnica:</b> ${esc(x.tecnica)}</p>` : ""}
+      ${x.nao ? `<p class="caixa nao">${esc(x.nao)}</p>` : ""}
+      <p class="g-h">Vídeos que mais pegam</p>
+      <div class="vids">${x.videos.slice(0, 6).map(v => `<a class="vid" href="${esc(v.url)}" target="_blank" rel="noopener"><span class="th">${v.capa ? `<img src="${esc(v.capa)}" alt="" loading="lazy">` : ""}<span class="vph">▲ ${mil(v.vph)}/h</span>${v.imp ? `<span class="imp">imprensa</span>` : ""}</span><span class="tx"><b>${esc(v.titulo)}</b>${v.frase ? `<q>${esc(v.frase)}</q>` : `@${esc(v.a)}`}</span></a>`).join("")}</div>
+      ${x.contas.length ? `<p class="g-h">Perfis públicos com mais alcance</p><div class="contas">${x.contas.map(c => `<div class="conta"><span><b>@${esc(c.a)}</b><small>${mil(c.seg)} seguidores${c.ver ? " · verificado" : ""}</small></span><em>${mil(c.vph)}/h</em></div>`).join("")}</div>` : ""}
+      ${x.como ? `<p class="caixa como"><b>Como responder:</b> ${esc(x.como)}</p>` : ""}
+      ${x.args.length ? `<p class="g-h">${x.lado === "nossa" ? "Argumentos para espalhar" : "Argumentos para responder"}</p>
+        <ol class="args">${x.args.map(a => `<li><div><p>${esc(a.txt)}</p>${a.fonte ? `<a href="${esc(a.fonte.u)}" target="_blank" rel="noopener">${esc(a.fonte.f)} · ${esc(a.fonte.t)} ↗</a>` : ""}</div></li>`).join("")}</ol>
+        <div class="bts"><a class="bt zap" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(argsTxt)}">Mandar os argumentos no zap</a><button class="bt s" id="copiaArgs">Copiar</button></div>` : ""}
+    </div>`;
+  document.getElementById("copiaArgs")?.addEventListener("click", e => copiar(argsTxt, e.target));
+  document.getElementById("fechar").onclick = fecha;
+  g.classList.add("on"); g.setAttribute("aria-hidden", "false"); document.getElementById("veu").classList.add("on"); g.scrollTop = 0; document.getElementById("fechar").focus({ preventScroll: true });
+}
+function fecha() { const g = document.getElementById("gaveta"); g.classList.remove("on"); g.setAttribute("aria-hidden", "true"); document.getElementById("veu").classList.remove("on"); }
+document.getElementById("veu").onclick = fecha;
+document.addEventListener("keydown", e => { if (e.key === "Escape") fecha(); });
+
+fetch("narrativas.json", { cache: "no-store" }).then(r => r.json()).then(d => { D = d; cabo(); lista(); if (G) cuidadoYT(); if (videos.length) desenhaVideos(); }).catch(() => { document.getElementById("lead").textContent = "Não carregou. Recarregue a página."; });
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /painel
+Disallow: /api/
+
+Sitemap: https://radardavirada.pages.dev/sitemap.xml

@@ -1,0 +1,111 @@
+{
+ "gerado": "2026-10-08T18:45:00Z",
+ "criterio": "Só entram temas com efeito comprovado em pesquisa (mudança de voto, maioria que inclui eleitor do adversário ou maior peso declarado na decisão do voto).",
+ "temas": [
+  {
+   "id": "6x1",
+   "titulo": "Escala 6x1",
+   "gancho": "Flávio diz que mais folga “não adianta”",
+   "dor": "6x1",
+   "prova": {
+    "num": "68%",
+    "txt": "querem o fim da 6x1. Entre eleitores de centro e direita não bolsonaristas, 55%.",
+    "f": "Quaest, maio/2026",
+    "u": "https://www.moneytimes.com.br/68-sao-a-favor-do-fim-da-escala-6x1-e-22-contra-mostra-pesquisa-genial-quaest-gaep/",
+    "id": "cd7be2"
+   },
+   "fato": "Questionado sobre o fim da 6x1, Flávio respondeu que mais folga “não adianta” com trabalhador endividado. A PEC em votação dá dois dias de descanso sem cortar salário.",
+   "pergunta": "Você trabalha seis dias por semana? Ele acha que folga não adianta.",
+   "fontes": [
+    {
+     "t": "Escala 6x1: Lula cobra posição de Flávio, e candidato do PL diz que mais folga 'não adianta' com trabalhador endividado",
+     "f": "O GLOBO",
+     "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRjhwUVVnRFYyMGxLRjNLbF95VnJEby1WU2VlMk12R3hkank0OFZpZm1ZNVFuY2VpdkRLRkpwSDdkdk5MdzBFVjJvUm9teDEyWHI0T1Rxd3Fvc0o0ZnctWTUtdDN6WFlaTVFqcF83aEw2bkplTjltMWtsblU2VUhsSkYtWjVvdXh6Tjk2OVMxaUdwbEh5NUhiM1NfaFFnNnFNb2NYWGtzaklFTXdSVmd3cGFMS21jdmV2OWh4Y3FWWi1YMWRzUmdTY3FGOVdnVHBsN0tHR2Z4QmlleTlkSllxclUtcVBKT0ZUOWZOSW9RWEJoZkszSV9J0gGGAkFVX3lxTFBURGVhNWdoeXBCTjlSMV9PSkVkNVNvdDY5eVVBS2x6SThqWEpnWmN5MEZNNmJ5WEQ1V2xGTFRjeEx3eElNcEdFcEpGN0FlRzZtblVMdEZrbkZ5SVlVM285NnQzRjhteEZOdThsbGxjdTFYc054OGltMkNST2p6SW1GX01qaFAySnlpYWJGMmNuWENiVm1pZXAwVV92M0FKU1JSeGFqOHd0MTMtNnpqbjBOMTViSGg1Z2c0UXozSlRfVFNGb040M3p4d1NFeGJDajNEV1dZckVwWTBvSk5nc0hOQXd6dGFVZnc0dVZGTnhMNDQzM0xMUXJKMENqWXVncVVacVVmc0E?oc=5",
+     "id": "a0ab2b"
+    },
+    {
+     "t": "Senado começa a discutir a PEC do fim da escala 6x1",
+     "f": "g1 (vídeo)",
+     "u": "https://www.tiktok.com/@g1/video/7693722127727414549",
+     "id": "9261a3"
+    }
+   ],
+   "videos_rx": "6\\s?x\\s?1|fim da escala|escala de trabalho",
+   "zap": "*Escala 6x1*\n68% dos brasileiros querem o fim da 6x1 (Quaest).\nPerguntaram ao Flávio. Resposta dele: mais folga \"não adianta\" com trabalhador endividado (O Globo).\nQuem trabalha 6 por 1 sabe de que lado ficar."
+  },
+  {
+   "id": "constituicao",
+   "titulo": "Constituição e democracia",
+   "gancho": "Flávio diz que o Brasil não vive uma democracia plena",
+   "dor": "democracia",
+   "prova": {
+    "num": "73%",
+    "txt": "dizem que a democracia é sempre a melhor forma de governo. Entre os eleitores de Flávio, 74%.",
+    "f": "Datafolha, out/2026",
+    "u": "https://www.poder360.com.br/poder-pesquisas/73-dos-brasileiros-dizem-preferir-a-democracia-diz-datafolha/",
+    "id": "09b7a9"
+   },
+   "fato": "Em Goiânia (6/10), Flávio falou em usar a maioria da direita no Congresso para mudar a Constituição e “redemocratizar” o país. No dia seguinte disse que o Brasil não vive uma democracia plena e deixou em aberto aumentar o mandato de presidente para 5 anos.",
+   "pergunta": "Ele diz que o Brasil não vive uma democracia plena e quer mudar a Constituição, até o tamanho do mandato. Você entrega isso a ele?",
+   "fontes": [
+    {
+     "t": "Flávio diz que Brasil não vive democracia plena e que Lula é incompatível com Congresso eleito",
+     "f": "Jornal de Brasília",
+     "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-que-brasil-nao-vive-democracia-plena-e-que-lula-e-incompativel-com-congresso-eleito",
+     "id": "753fc6"
+    },
+    {
+     "t": "Flávio diz querer mudar Constituição para reformar lei penal e Judiciário e deixa em aberto ampliar mandato",
+     "f": "Jornal de Brasília",
+     "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-querer-mudar-constituicao-para-reformar-lei-penal-e-judiciario-e-deixa-em-aberto-ampliar-mandato/",
+     "id": "016734"
+    },
+    {
+     "t": "73% dos brasileiros dizem preferir a democracia, diz Datafolha",
+     "f": "Poder360",
+     "u": "https://www.poder360.com.br/poder-pesquisas/73-dos-brasileiros-dizem-preferir-a-democracia-diz-datafolha/",
+     "id": "09b7a9"
+    }
+   ],
+   "videos_rx": "constitui|redemocratiz",
+   "zap": "*Constituição*\n73% dos brasileiros dizem que a democracia é sempre a melhor forma de governo. Entre os eleitores de Flávio, 74% (Datafolha).\nFlávio diz que o Brasil não vive uma democracia plena, quer usar a maioria no Congresso para mudar a Constituição e deixou em aberto mandato de 5 anos para presidente (Jornal de Brasília)."
+  },
+  {
+   "id": "bolso",
+   "titulo": "Salário, imposto e custo de vida",
+   "gancho": "Promete aumento ao aposentado, mas não diz se mantém a regra",
+   "dor": "economia",
+   "prova": {
+    "num": "29% · 28%",
+    "txt": "dizem que imposto e emprego são o que mais pesa no voto. É o tema número 1 do eleitor.",
+    "f": "Indexa/Broadcast, set/2026",
+    "u": "https://viva.com.br/politica/impostos-e-empregos-pesam-mais-para-o-eleitor-mostra-indexabroadcast.html",
+    "id": "126569"
+   },
+   "fato": "Em 8/10, perguntado se reajusta a aposentadoria acima da inflação, Flávio disse “sim”. Mas a Folha revelou plano da equipe dele para desligar o reajuste de aposentadoria e BPC do ganho real do salário mínimo, e ele não diz se mantém essa ligação. A campanha nega o plano.",
+   "pergunta": "Ele promete aumento ao aposentado. Mantém o reajuste ligado ao salário mínimo? Isso ele não diz.",
+   "fontes": [
+    {
+     "t": "Flávio nega corte em aposentadoria e cita reajuste acima da inflação",
+     "f": "Poder360",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-nega-corte-em-aposentadoria-e-cita-reajuste-acima-da-inflacao/",
+     "id": "140578"
+    },
+    {
+     "t": "Publicamente, Flávio Bolsonaro defende reajuste de aposentadorias acima da inflação",
+     "f": "Jornal do Comércio",
+     "u": "https://www.jornaldocomercio.com/politica/2026/10/1266272-publicamente-flavio-bolsonaro-defende-reajuste-de-aposentadorias-acima-da-inflacao.html",
+     "id": "fbccaa"
+    },
+    {
+     "t": "Daniella Marques diz que plano de Flávio Bolsonaro prevê corte de R$ 190 bi em gastos",
+     "f": "Gazeta do Povo",
+     "u": "https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-diz-que-plano-de-flavio-bolsonaro-preve-corte-de-r-190-bi-em-gastos/",
+     "id": "d3cc21"
+    }
+   ],
+   "videos_rx": "sal[áa]rio m[íi]nimo|aposentad|\\bbpc\\b|custo de vida|pre[çc]o d[ao]s? (comida|alimento)",
+   "zap": "*Aposentadoria e salário mínimo*\nFlávio prometeu reajustar a aposentadoria acima da inflação (Poder360).\nMas não diz se mantém o reajuste ligado ao salário mínimo, que é o que a equipe dele planejava desligar, segundo a Folha (Jornal do Comércio).\nE a campanha fala em cortar R$ 190 bilhões sem dizer de onde (Gazeta do Povo)."
+  }
+ ]
+}
