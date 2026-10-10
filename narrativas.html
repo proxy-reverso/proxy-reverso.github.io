@@ -992,8 +992,8 @@ function bolsa() {
   if (f) { const on = () => f.classList.add("segura"), off = () => f.classList.remove("segura");
     f.addEventListener("touchstart", on, { passive: true }); ["touchend", "touchcancel"].forEach(e => f.addEventListener(e, off)); }
 }
-let NOSSA = /el[eê] ?n[aã]o|vote ?13|lula ?13|fandomscomlula|6x1|fora ?bolsonaro|fora ?fl[aá]vio|sem ?anistia|constitui|t[oô] com lula|sou lula|vote lula/i;
-let DELES = /fora ?lula|lula ?ladr|fl[aá]vio ?22|elesim|lula ?nunca|pt ?nunca|anistia ?j[aá]|tropa do (fl[aá]vio|01)|patriotas? pelo brasil|n[aã]o fech\w* (a |minha |as |nossas )?igrejas?|fechar (as )?igrejas/i;
+let NOSSA = /el[eê] ?n[aã]o|vote ?13|lula ?13|fandomscomlula|6x1|fora ?bolsonaro|fora ?fl[aá]vio|sem ?anistia|constitui|t[oô] com lula|sou lula|vote lula|somos todos ana elisa|vamos virar|lula ?contra ?a? ?barb[aá]rie|se fl[aá]vio vence|fl[aá]vion[aã]o/i;
+let DELES = /fora ?lula|lula ?ladr|fl[aá]vio ?22|elesim|lula ?nunca|pt ?nunca|anistia ?j[aá]|tropa do (fl[aá]vio|01)|patriotas? pelo brasil|n[aã]o fech\w* (a |minha |as |nossas )?igrejas?|fechar (as )?igrejas|brasil acima de tudo|deus acima de todos|foi por fora/i;
 let CTX_D = /nega apoi\w* (a )?lula|(declara|revela|anuncia) voto em fl[aá]vio|apoi\w* (a )?fl[aá]vio/i, CTX_N = /(declara|revela|anuncia) voto em lula|vota em lula|apoi\w* (a )?lula|ex[ée]rcito de lula/i;
 const semAc = t => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const ladoX = (t, c) => DELES.test(t) || (c && CTX_D.test(c)) ? "deles" : NOSSA.test(t) || (c && CTX_N.test(c)) ? "nossa" : "disputa";
@@ -1265,7 +1265,8 @@ function desenhaVideos() {
   // só perfis e criadores, postados nas últimas 48 h, do que mais cresce para o que menos cresce
   const l = comFb(variado(atuais()));
   // a velocidade é medida na coleta: mostra a hora da medição uma vez, e no card só quando ele foi medido em outra rodada
-  const ult = Math.max(0, ...l.map(v => Date.parse(v.coletado || "") || 0));
+  // o Fura Bolha chega com a hora de agora e não é medido aqui: a hora da medição vem só dos vídeos medidos na coleta
+  const ult = Math.max(0, ...l.filter(v => !v.fb).map(v => Date.parse(v.coletado || "") || 0));
   l.forEach(v => { v.medidoOutro = !!v.coletado && ult - Date.parse(v.coletado) > 30 * 6e4; });
   const mh = ult ? (Date.now() - ult) / 36e5 : null;
   document.getElementById("medido").textContent = mh == null ? "" : `Medido ${quando(mh)}.`;
