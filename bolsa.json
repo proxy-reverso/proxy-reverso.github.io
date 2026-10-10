@@ -1,8 +1,8 @@
 {
- "gerado": "2026-10-10T14:40:53Z",
+ "gerado": "2026-10-10T14:59:09Z",
  "horas": {
   "x": "2026-10-07T17:40:10Z",
-  "google": "2026-10-10T14:40:57Z"
+  "google": "2026-10-10T14:59:12Z"
  },
  "fita": [
   {
@@ -123,7 +123,7 @@
    "var": "10 mil+",
    "dir": "sobe",
    "peso": 100.0,
-   "nota": "Encontro entre Moraes e cúpula da PF amplia tensão dentro do STF",
+   "nota": "O que Moraes tem dito sobre a votação recorde de senadores a favor de impeachment no STF",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=alexandre%20de%20moraes",
    "veiculo": "Google Trends"
@@ -181,127 +181,114 @@
    "veiculo": "Google Trends"
   },
   {
-   "t": "partido político",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "200+",
-   "var": "200+",
-   "dir": "sobe",
-   "peso": 2.0,
-   "nota": "Artigo: Lula pode virar o jogo no segundo turno? O que dizem as pesquisas eleitorais",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=partido%20pol%C3%ADtico",
-   "veiculo": "Google Trends"
-  },
-  {
    "t": "Moraes",
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "33,1%",
-   "var": "+7,1 pp",
+   "valor": "32,3%",
+   "var": "+3,0 pp",
    "dir": "sobe",
-   "peso": 33.14640030302191,
-   "fatia": 33.1
+   "peso": 32.34075251955966,
+   "fatia": 32.3
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "19,9%",
-   "var": "-0,9 pp",
+   "valor": "15,8%",
+   "var": "-6,5 pp",
    "dir": "cai",
-   "peso": 19.891176244463125,
-   "fatia": 19.9
+   "peso": 15.841988441399032,
+   "fatia": 15.8
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "15,0%",
-   "var": "+5,1 pp",
+   "valor": "15,3%",
+   "var": "+2,7 pp",
    "dir": "sobe",
-   "peso": 15.009713020807256,
-   "fatia": 15.0
-  },
-  {
-   "t": "Fake news",
-   "k": "Fake news",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "12,3%",
-   "var": "+3,4 pp",
-   "dir": "sobe",
-   "peso": 12.28825854314123,
-   "fatia": 12.3
+   "peso": 15.28553190106143,
+   "fatia": 15.3
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "11,5%",
-   "var": "+5,8 pp",
-   "dir": "sobe",
-   "peso": 11.497345452599172,
-   "fatia": 11.5
+   "valor": "12,7%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 12.653818937727133,
+   "fatia": 12.7
+  },
+  {
+   "t": "Fake news",
+   "k": "Fake news",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "12,5%",
+   "var": "-1,2 pp",
+   "dir": "cai",
+   "peso": 12.492894241618307,
+   "fatia": 12.5
   },
   {
    "t": "Estudantes e ruas",
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "31,5%",
-   "var": "+2,0 pp",
-   "dir": "sobe",
-   "peso": 31.5023577115693,
-   "fatia": 31.5
+   "valor": "28,9%",
+   "var": "-0,9 pp",
+   "dir": "cai",
+   "peso": 28.853351784317727,
+   "fatia": 28.9
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "13,2%",
-   "var": "-1,7 pp",
-   "dir": "cai",
-   "peso": 13.226764999573811,
-   "fatia": 13.2
+   "valor": "14,1%",
+   "var": "+2,2 pp",
+   "dir": "sobe",
+   "peso": 14.143538765553501,
+   "fatia": 14.1
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "12,6%",
-   "var": "+0,1 pp",
-   "dir": "igual",
-   "peso": 12.571294899301657,
-   "fatia": 12.6
+   "valor": "13,3%",
+   "var": "+1,4 pp",
+   "dir": "sobe",
+   "peso": 13.277299398680439,
+   "fatia": 13.3
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "11,2%",
-   "var": "+1,4 pp",
+   "valor": "11,9%",
+   "var": "+2,7 pp",
    "dir": "sobe",
-   "peso": 11.1971118492158,
-   "fatia": 11.2
+   "peso": 11.868024910706604,
+   "fatia": 11.9
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "9,2%",
-   "var": "+2,3 pp",
-   "dir": "sobe",
-   "peso": 9.178168090163455,
-   "fatia": 9.2
+   "valor": "7,5%",
+   "var": "+0,2 pp",
+   "dir": "igual",
+   "peso": 7.531618172257779,
+   "fatia": 7.5
   }
  ],
  "x": [
@@ -447,7 +434,7 @@
    "var": "10 mil+",
    "dir": "sobe",
    "peso": 100.0,
-   "nota": "Encontro entre Moraes e cúpula da PF amplia tensão dentro do STF",
+   "nota": "O que Moraes tem dito sobre a votação recorde de senadores a favor de impeachment no STF",
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=alexandre%20de%20moraes",
    "veiculo": "Google Trends"
@@ -503,19 +490,6 @@
    "pauta": true,
    "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=fernanda%20bolsonaro",
    "veiculo": "Google Trends"
-  },
-  {
-   "t": "partido político",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "200+",
-   "var": "200+",
-   "dir": "sobe",
-   "peso": 2.0,
-   "nota": "Artigo: Lula pode virar o jogo no segundo turno? O que dizem as pesquisas eleitorais",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=partido%20pol%C3%ADtico",
-   "veiculo": "Google Trends"
   }
  ],
  "termos": [
@@ -524,99 +498,110 @@
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "31,5%",
-   "var": "+2,0 pp",
-   "dir": "sobe",
-   "peso": 31.5023577115693,
-   "fatia": 31.5
+   "valor": "28,9%",
+   "var": "-0,9 pp",
+   "dir": "cai",
+   "peso": 28.853351784317727,
+   "fatia": 28.9
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "13,2%",
-   "var": "-1,7 pp",
-   "dir": "cai",
-   "peso": 13.226764999573811,
-   "fatia": 13.2
+   "valor": "14,1%",
+   "var": "+2,2 pp",
+   "dir": "sobe",
+   "peso": 14.143538765553501,
+   "fatia": 14.1
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "12,6%",
-   "var": "+0,1 pp",
-   "dir": "igual",
-   "peso": 12.571294899301657,
-   "fatia": 12.6
+   "valor": "13,3%",
+   "var": "+1,4 pp",
+   "dir": "sobe",
+   "peso": 13.277299398680439,
+   "fatia": 13.3
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "11,2%",
-   "var": "+1,4 pp",
+   "valor": "11,9%",
+   "var": "+2,7 pp",
    "dir": "sobe",
-   "peso": 11.1971118492158,
-   "fatia": 11.2
+   "peso": 11.868024910706604,
+   "fatia": 11.9
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "9,2%",
-   "var": "+2,3 pp",
-   "dir": "sobe",
-   "peso": 9.178168090163455,
-   "fatia": 9.2
+   "valor": "7,5%",
+   "var": "+0,2 pp",
+   "dir": "igual",
+   "peso": 7.531618172257779,
+   "fatia": 7.5
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "5,3%",
-   "var": "+1,4 pp",
+   "valor": "6,2%",
+   "var": "+0,9 pp",
    "dir": "sobe",
-   "peso": 5.309736070563247,
-   "fatia": 5.3
+   "peso": 6.239612913530233,
+   "fatia": 6.2
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "4,0%",
-   "var": "+0,1 pp",
+   "valor": "4,3%",
+   "var": "-0,1 pp",
    "dir": "igual",
-   "peso": 4.017456924489312,
-   "fatia": 4.0
+   "peso": 4.278212061254006,
+   "fatia": 4.3
   },
   {
    "t": "Salário mínimo",
    "k": "Salário mínimo",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "3,5%",
-   "var": "+1,1 pp",
+   "valor": "4,2%",
+   "var": "+1,5 pp",
    "dir": "sobe",
-   "peso": 3.5349019644495128,
-   "fatia": 3.5
+   "peso": 4.1978025780790444,
+   "fatia": 4.2
   },
   {
    "t": "Segurança e crime",
    "k": "Segurança e crime",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,0%",
-   "var": "-0,8 pp",
-   "dir": "cai",
-   "peso": 2.049963463955717,
-   "fatia": 2.0
+   "valor": "2,2%",
+   "var": "-0,2 pp",
+   "dir": "igual",
+   "peso": 2.1781377933897894,
+   "fatia": 2.2
+  },
+  {
+   "t": "Moraes",
+   "k": "Moraes",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "1,7%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.7429109506440599,
+   "fatia": 1.7
   },
   {
    "t": "Constituição",
@@ -624,9 +609,9 @@
    "fonte": "Vídeos",
    "lado": "nossa",
    "valor": "1,7%",
-   "var": "-0,6 pp",
+   "var": "-1,4 pp",
    "dir": "cai",
-   "peso": 1.7483317326326968,
+   "peso": 1.6658355757948207,
    "fatia": 1.7
   },
   {
@@ -634,21 +619,10 @@
    "k": "Tortura e ditadura",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "1,7%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 1.7301291701890926,
-   "fatia": 1.7
-  },
-  {
-   "t": "Moraes",
-   "k": "Moraes",
-   "fonte": "Vídeos",
-   "lado": "nossa",
    "valor": "1,6%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.635693205380536,
+   "peso": 1.5803191234319625,
    "fatia": 1.6
   },
   {
@@ -656,66 +630,66 @@
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "33,1%",
-   "var": "+7,1 pp",
+   "valor": "32,3%",
+   "var": "+3,0 pp",
    "dir": "sobe",
-   "peso": 33.14640030302191,
-   "fatia": 33.1
+   "peso": 32.34075251955966,
+   "fatia": 32.3
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "19,9%",
-   "var": "-0,9 pp",
+   "valor": "15,8%",
+   "var": "-6,5 pp",
    "dir": "cai",
-   "peso": 19.891176244463125,
-   "fatia": 19.9
+   "peso": 15.841988441399032,
+   "fatia": 15.8
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "15,0%",
-   "var": "+5,1 pp",
+   "valor": "15,3%",
+   "var": "+2,7 pp",
    "dir": "sobe",
-   "peso": 15.009713020807256,
-   "fatia": 15.0
-  },
-  {
-   "t": "Fake news",
-   "k": "Fake news",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "12,3%",
-   "var": "+3,4 pp",
-   "dir": "sobe",
-   "peso": 12.28825854314123,
-   "fatia": 12.3
+   "peso": 15.28553190106143,
+   "fatia": 15.3
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "11,5%",
-   "var": "+5,8 pp",
-   "dir": "sobe",
-   "peso": 11.497345452599172,
-   "fatia": 11.5
+   "valor": "12,7%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 12.653818937727133,
+   "fatia": 12.7
+  },
+  {
+   "t": "Fake news",
+   "k": "Fake news",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "12,5%",
+   "var": "-1,2 pp",
+   "dir": "cai",
+   "peso": 12.492894241618307,
+   "fatia": 12.5
   },
   {
    "t": "EUA e Trump",
    "k": "EUA e Trump",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "3,6%",
-   "var": "+1,3 pp",
+   "valor": "4,2%",
+   "var": "+1,1 pp",
    "dir": "sobe",
-   "peso": 3.643217673870136,
-   "fatia": 3.6
+   "peso": 4.234007087106131,
+   "fatia": 4.2
   },
   {
    "t": "Escala 6x1",
@@ -723,54 +697,81 @@
    "fonte": "Vídeos",
    "lado": "deles",
    "valor": "3,1%",
-   "var": "-1,2 pp",
+   "var": "-0,6 pp",
    "dir": "cai",
-   "peso": 3.0764931528867985,
+   "peso": 3.13328850132287,
    "fatia": 3.1
+  },
+  {
+   "t": "Pesquisas",
+   "k": "Pesquisas",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "2,5%",
+   "var": "-4,7 pp",
+   "dir": "cai",
+   "peso": 2.546248850535951,
+   "fatia": 2.5
   },
   {
    "t": "Impeachment de ministro",
    "k": "Impeachment de ministro",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "1,4%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 1.4473956092103708,
-   "fatia": 1.4
+   "valor": "1,5%",
+   "var": "-0,0 pp",
+   "dir": "igual",
+   "peso": 1.4714695196694856,
+   "fatia": 1.5
   }
  ],
- "historico": 3,
+ "historico": 22,
  "base_tiktok": {
   "nossa": {
    "Constituição": [
-    32.711,
+    17.493,
     1
    ],
    "Tortura e ditadura": [
-    32.711,
+    17.493,
     1
    ],
    "Estudantes e ruas": [
-    631.556,
-    5
+    397.81,
+    6
+   ],
+   "Pesquisas": [
+    35.623,
+    1
+   ],
+   "Nikolas": [
+    35.623,
+    1
    ],
    "Escala 6x1": [
-    292.014,
+    150.243,
     4
    ],
    "Janja": [
-    55.408,
+    39.887,
     1
    ]
   },
   "deles": {
    "Moraes": [
-    214.112,
+    142.615,
     1
    ],
    "Nikolas": [
-    163.97,
+    194.828,
+    1
+   ],
+   "EUA e Trump": [
+    17.916,
+    1
+   ],
+   "Pesquisas": [
+    44.396,
     1
    ]
   }
