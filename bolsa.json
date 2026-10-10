@@ -1,8 +1,8 @@
 {
- "gerado": "2026-10-10T04:00:57Z",
+ "gerado": "2026-10-10T14:40:53Z",
  "horas": {
   "x": "2026-10-07T17:40:10Z",
-  "google": "2026-10-10T04:01:00Z"
+  "google": "2026-10-10T14:40:57Z"
  },
  "fita": [
   {
@@ -116,59 +116,33 @@
    "cidades": 6
   },
   {
-   "t": "veja",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "200 mil+",
-   "var": "200 mil+",
-   "dir": "sobe",
-   "peso": 2000.0,
-   "nota": "Defesa de Daniel Vorcaro confirma que áudio sobre Lula é do banqueiro",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=veja",
-   "veiculo": "Google Trends"
-  },
-  {
-   "t": "pesquisas segundo turno 2026",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "100 mil+",
-   "var": "100 mil+",
-   "dir": "sobe",
-   "peso": 1000.0,
-   "nota": "Pesquisa com Lula e Flávio para segundo turno: veja últimos números recentes",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=pesquisas%20segundo%20turno%202026",
-   "veiculo": "Google Trends"
-  },
-  {
-   "t": "crédito",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "20 mil+",
-   "var": "20 mil+",
-   "dir": "sobe",
-   "peso": 200.0,
-   "nota": "também buscam: gasolina, lula zera imposto gasolina, governo zera imposto gasolina",
-   "pauta": false,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=cr%C3%A9dito",
-   "veiculo": "Google Trends"
-  },
-  {
-   "t": "ana elisa lula",
+   "t": "alexandre de moraes",
    "fonte": "Google",
    "lado": "disputa",
    "valor": "10 mil+",
    "var": "10 mil+",
    "dir": "sobe",
    "peso": 100.0,
-   "nota": "Nome forte de Lula para campanha online, deputada eleita Ana Elisa sofre ataques racistas nas redes",
+   "nota": "Encontro entre Moraes e cúpula da PF amplia tensão dentro do STF",
    "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=ana%20elisa%20lula",
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=alexandre%20de%20moraes",
    "veiculo": "Google Trends"
   },
   {
-   "t": "record cancela debate",
+   "t": "eleições 2026 pesquisa segundo turno",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "10 mil+",
+   "var": "10 mil+",
+   "dir": "sobe",
+   "peso": 100.0,
+   "nota": "Apuração RN eleições 2026: resultado para governador no 2º turno",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=elei%C3%A7%C3%B5es%202026%20pesquisa%20segundo%20turno",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "debate record",
    "fonte": "Google",
    "lado": "disputa",
    "valor": "10 mil+",
@@ -177,7 +151,46 @@
    "peso": 100.0,
    "nota": "Record cancela debate entre Flávio Bolsonaro e Lula",
    "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=record%20cancela%20debate",
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=debate%20record",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "defesa de vorcaro confirma audio",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "5 mil+",
+   "var": "5 mil+",
+   "dir": "sobe",
+   "peso": 50.0,
+   "nota": "Defesa de Daniel Vorcaro confirma que áudio sobre Lula é do banqueiro",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=defesa%20de%20vorcaro%20confirma%20audio",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "fernanda bolsonaro",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "1 mil+",
+   "var": "1 mil+",
+   "dir": "sobe",
+   "peso": 10.0,
+   "nota": "Mulher de Flávio diz que “inventar mentiras” é diferente de discordar",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=fernanda%20bolsonaro",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "partido político",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "200+",
+   "var": "200+",
+   "dir": "sobe",
+   "peso": 2.0,
+   "nota": "Artigo: Lula pode virar o jogo no segundo turno? O que dizem as pesquisas eleitorais",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=partido%20pol%C3%ADtico",
    "veiculo": "Google Trends"
   },
   {
@@ -185,110 +198,110 @@
    "k": "Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "26,3%",
-   "var": "-1,1 pp",
-   "dir": "cai",
-   "peso": 26.34421352616053,
-   "fatia": 26.3
+   "valor": "33,1%",
+   "var": "+7,1 pp",
+   "dir": "sobe",
+   "peso": 33.14640030302191,
+   "fatia": 33.1
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "21,6%",
-   "var": "-9,9 pp",
+   "valor": "19,9%",
+   "var": "-0,9 pp",
    "dir": "cai",
-   "peso": 21.552908151488207,
-   "fatia": 21.6
-  },
-  {
-   "t": "Fake news",
-   "k": "Fake news",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "12,0%",
-   "var": "+3,6 pp",
-   "dir": "sobe",
-   "peso": 12.019045379075001,
-   "fatia": 12.0
+   "peso": 19.891176244463125,
+   "fatia": 19.9
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "11,7%",
-   "var": "-1,1 pp",
-   "dir": "cai",
-   "peso": 11.660394096592592,
-   "fatia": 11.7
+   "valor": "15,0%",
+   "var": "+5,1 pp",
+   "dir": "sobe",
+   "peso": 15.009713020807256,
+   "fatia": 15.0
   },
   {
-   "t": "Pesquisas",
-   "k": "Pesquisas",
+   "t": "Fake news",
+   "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "9,7%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 9.733784096952204,
-   "fatia": 9.7
+   "valor": "12,3%",
+   "var": "+3,4 pp",
+   "dir": "sobe",
+   "peso": 12.28825854314123,
+   "fatia": 12.3
+  },
+  {
+   "t": "Nikolas",
+   "k": "Nikolas",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "11,5%",
+   "var": "+5,8 pp",
+   "dir": "sobe",
+   "peso": 11.497345452599172,
+   "fatia": 11.5
   },
   {
    "t": "Estudantes e ruas",
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "31,9%",
-   "var": "+9,0 pp",
+   "valor": "31,5%",
+   "var": "+2,0 pp",
    "dir": "sobe",
-   "peso": 31.92099897572369,
-   "fatia": 31.9
-  },
-  {
-   "t": "Pesquisas",
-   "k": "Pesquisas",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "12,4%",
-   "var": "-1,5 pp",
-   "dir": "cai",
-   "peso": 12.350169874125069,
-   "fatia": 12.4
+   "peso": 31.5023577115693,
+   "fatia": 31.5
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "11,8%",
-   "var": "-6,6 pp",
+   "valor": "13,2%",
+   "var": "-1,7 pp",
    "dir": "cai",
-   "peso": 11.805759718255503,
-   "fatia": 11.8
+   "peso": 13.226764999573811,
+   "fatia": 13.2
+  },
+  {
+   "t": "Pesquisas",
+   "k": "Pesquisas",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "12,6%",
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 12.571294899301657,
+   "fatia": 12.6
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "9,6%",
-   "var": "-1,5 pp",
-   "dir": "cai",
-   "peso": 9.577216330250774,
-   "fatia": 9.6
+   "valor": "11,2%",
+   "var": "+1,4 pp",
+   "dir": "sobe",
+   "peso": 11.1971118492158,
+   "fatia": 11.2
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "6,9%",
-   "var": "+1,8 pp",
+   "valor": "9,2%",
+   "var": "+2,3 pp",
    "dir": "sobe",
-   "peso": 6.948504286681984,
-   "fatia": 6.9
+   "peso": 9.178168090163455,
+   "fatia": 9.2
   }
  ],
  "x": [
@@ -427,59 +440,33 @@
  ],
  "google": [
   {
-   "t": "veja",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "200 mil+",
-   "var": "200 mil+",
-   "dir": "sobe",
-   "peso": 2000.0,
-   "nota": "Defesa de Daniel Vorcaro confirma que áudio sobre Lula é do banqueiro",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=veja",
-   "veiculo": "Google Trends"
-  },
-  {
-   "t": "pesquisas segundo turno 2026",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "100 mil+",
-   "var": "100 mil+",
-   "dir": "sobe",
-   "peso": 1000.0,
-   "nota": "Pesquisa com Lula e Flávio para segundo turno: veja últimos números recentes",
-   "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=pesquisas%20segundo%20turno%202026",
-   "veiculo": "Google Trends"
-  },
-  {
-   "t": "crédito",
-   "fonte": "Google",
-   "lado": "disputa",
-   "valor": "20 mil+",
-   "var": "20 mil+",
-   "dir": "sobe",
-   "peso": 200.0,
-   "nota": "também buscam: gasolina, lula zera imposto gasolina, governo zera imposto gasolina",
-   "pauta": false,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=cr%C3%A9dito",
-   "veiculo": "Google Trends"
-  },
-  {
-   "t": "ana elisa lula",
+   "t": "alexandre de moraes",
    "fonte": "Google",
    "lado": "disputa",
    "valor": "10 mil+",
    "var": "10 mil+",
    "dir": "sobe",
    "peso": 100.0,
-   "nota": "Nome forte de Lula para campanha online, deputada eleita Ana Elisa sofre ataques racistas nas redes",
+   "nota": "Encontro entre Moraes e cúpula da PF amplia tensão dentro do STF",
    "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=ana%20elisa%20lula",
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=alexandre%20de%20moraes",
    "veiculo": "Google Trends"
   },
   {
-   "t": "record cancela debate",
+   "t": "eleições 2026 pesquisa segundo turno",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "10 mil+",
+   "var": "10 mil+",
+   "dir": "sobe",
+   "peso": 100.0,
+   "nota": "Apuração RN eleições 2026: resultado para governador no 2º turno",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=elei%C3%A7%C3%B5es%202026%20pesquisa%20segundo%20turno",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "debate record",
    "fonte": "Google",
    "lado": "disputa",
    "valor": "10 mil+",
@@ -488,7 +475,46 @@
    "peso": 100.0,
    "nota": "Record cancela debate entre Flávio Bolsonaro e Lula",
    "pauta": true,
-   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=record%20cancela%20debate",
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=debate%20record",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "defesa de vorcaro confirma audio",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "5 mil+",
+   "var": "5 mil+",
+   "dir": "sobe",
+   "peso": 50.0,
+   "nota": "Defesa de Daniel Vorcaro confirma que áudio sobre Lula é do banqueiro",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=defesa%20de%20vorcaro%20confirma%20audio",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "fernanda bolsonaro",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "1 mil+",
+   "var": "1 mil+",
+   "dir": "sobe",
+   "peso": 10.0,
+   "nota": "Mulher de Flávio diz que “inventar mentiras” é diferente de discordar",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=fernanda%20bolsonaro",
+   "veiculo": "Google Trends"
+  },
+  {
+   "t": "partido político",
+   "fonte": "Google",
+   "lado": "disputa",
+   "valor": "200+",
+   "var": "200+",
+   "dir": "sobe",
+   "peso": 2.0,
+   "nota": "Artigo: Lula pode virar o jogo no segundo turno? O que dizem as pesquisas eleitorais",
+   "pauta": true,
+   "url": "https://trends.google.com/trends/explore?geo=BR&date=now%201-d&q=partido%20pol%C3%ADtico",
    "veiculo": "Google Trends"
   }
  ],
@@ -498,242 +524,209 @@
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "31,9%",
-   "var": "+9,0 pp",
+   "valor": "31,5%",
+   "var": "+2,0 pp",
    "dir": "sobe",
-   "peso": 31.92099897572369,
-   "fatia": 31.9
-  },
-  {
-   "t": "Pesquisas",
-   "k": "Pesquisas",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "12,4%",
-   "var": "-1,5 pp",
-   "dir": "cai",
-   "peso": 12.350169874125069,
-   "fatia": 12.4
+   "peso": 31.5023577115693,
+   "fatia": 31.5
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "11,8%",
-   "var": "-6,6 pp",
+   "valor": "13,2%",
+   "var": "-1,7 pp",
    "dir": "cai",
-   "peso": 11.805759718255503,
-   "fatia": 11.8
+   "peso": 13.226764999573811,
+   "fatia": 13.2
+  },
+  {
+   "t": "Pesquisas",
+   "k": "Pesquisas",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "12,6%",
+   "var": "+0,1 pp",
+   "dir": "igual",
+   "peso": 12.571294899301657,
+   "fatia": 12.6
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "9,6%",
-   "var": "-1,5 pp",
-   "dir": "cai",
-   "peso": 9.577216330250774,
-   "fatia": 9.6
+   "valor": "11,2%",
+   "var": "+1,4 pp",
+   "dir": "sobe",
+   "peso": 11.1971118492158,
+   "fatia": 11.2
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "6,9%",
-   "var": "+1,8 pp",
+   "valor": "9,2%",
+   "var": "+2,3 pp",
    "dir": "sobe",
-   "peso": 6.948504286681984,
-   "fatia": 6.9
+   "peso": 9.178168090163455,
+   "fatia": 9.2
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "4,2%",
-   "var": "+0,2 pp",
-   "dir": "igual",
-   "peso": 4.238667489811776,
-   "fatia": 4.2
+   "valor": "5,3%",
+   "var": "+1,4 pp",
+   "dir": "sobe",
+   "peso": 5.309736070563247,
+   "fatia": 5.3
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "3,9%",
+   "valor": "4,0%",
    "var": "+0,1 pp",
    "dir": "igual",
-   "peso": 3.9465840236137466,
-   "fatia": 3.9
+   "peso": 4.017456924489312,
+   "fatia": 4.0
   },
   {
-   "t": "Constituição",
-   "k": "Constituição",
+   "t": "Salário mínimo",
+   "k": "Salário mínimo",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "3,6%",
-   "var": "+0,7 pp",
+   "valor": "3,5%",
+   "var": "+1,1 pp",
    "dir": "sobe",
-   "peso": 3.5688879309398853,
-   "fatia": 3.6
+   "peso": 3.5349019644495128,
+   "fatia": 3.5
   },
   {
    "t": "Segurança e crime",
    "k": "Segurança e crime",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,7%",
+   "valor": "2,0%",
+   "var": "-0,8 pp",
+   "dir": "cai",
+   "peso": 2.049963463955717,
+   "fatia": 2.0
+  },
+  {
+   "t": "Constituição",
+   "k": "Constituição",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "1,7%",
    "var": "-0,6 pp",
    "dir": "cai",
-   "peso": 2.685111069725803,
-   "fatia": 2.7
+   "peso": 1.7483317326326968,
+   "fatia": 1.7
   },
   {
-   "t": "Centrão e apoios",
-   "k": "Centrão e apoios",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "2,3%",
-   "var": "-0,1 pp",
-   "dir": "igual",
-   "peso": 2.3421094394015407,
-   "fatia": 2.3
-  },
-  {
-   "t": "Exército de Lula",
-   "k": "Exército de Lula",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "1,8%",
-   "var": "-0,5 pp",
-   "dir": "cai",
-   "peso": 1.7758365694090092,
-   "fatia": 1.8
-  },
-  {
-   "t": "Renan Santos",
-   "k": "Renan Santos",
+   "t": "Tortura e ditadura",
+   "k": "Tortura e ditadura",
    "fonte": "Vídeos",
    "lado": "nossa",
    "valor": "1,7%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.6551591400749122,
+   "peso": 1.7301291701890926,
    "fatia": 1.7
   },
   {
    "t": "Moraes",
    "k": "Moraes",
    "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "1,6%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.635693205380536,
+   "fatia": 1.6
+  },
+  {
+   "t": "Moraes",
+   "k": "Moraes",
+   "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "26,3%",
-   "var": "-1,1 pp",
-   "dir": "cai",
-   "peso": 26.34421352616053,
-   "fatia": 26.3
+   "valor": "33,1%",
+   "var": "+7,1 pp",
+   "dir": "sobe",
+   "peso": 33.14640030302191,
+   "fatia": 33.1
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "21,6%",
-   "var": "-9,9 pp",
+   "valor": "19,9%",
+   "var": "-0,9 pp",
    "dir": "cai",
-   "peso": 21.552908151488207,
-   "fatia": 21.6
-  },
-  {
-   "t": "Fake news",
-   "k": "Fake news",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "12,0%",
-   "var": "+3,6 pp",
-   "dir": "sobe",
-   "peso": 12.019045379075001,
-   "fatia": 12.0
+   "peso": 19.891176244463125,
+   "fatia": 19.9
   },
   {
    "t": "STF",
    "k": "STF",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "11,7%",
-   "var": "-1,1 pp",
-   "dir": "cai",
-   "peso": 11.660394096592592,
-   "fatia": 11.7
-  },
-  {
-   "t": "Pesquisas",
-   "k": "Pesquisas",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "9,7%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 9.733784096952204,
-   "fatia": 9.7
-  },
-  {
-   "t": "Escala 6x1",
-   "k": "Escala 6x1",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "4,6%",
-   "var": "+2,5 pp",
+   "valor": "15,0%",
+   "var": "+5,1 pp",
    "dir": "sobe",
-   "peso": 4.619835833868731,
-   "fatia": 4.6
+   "peso": 15.009713020807256,
+   "fatia": 15.0
   },
   {
-   "t": "Janja",
-   "k": "Janja",
+   "t": "Fake news",
+   "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "4,2%",
-   "var": "NOVO",
-   "dir": "novo",
-   "peso": 4.226343854209897,
-   "fatia": 4.2
+   "valor": "12,3%",
+   "var": "+3,4 pp",
+   "dir": "sobe",
+   "peso": 12.28825854314123,
+   "fatia": 12.3
+  },
+  {
+   "t": "Nikolas",
+   "k": "Nikolas",
+   "fonte": "Vídeos",
+   "lado": "deles",
+   "valor": "11,5%",
+   "var": "+5,8 pp",
+   "dir": "sobe",
+   "peso": 11.497345452599172,
+   "fatia": 11.5
   },
   {
    "t": "EUA e Trump",
    "k": "EUA e Trump",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "3,4%",
-   "var": "+1,1 pp",
+   "valor": "3,6%",
+   "var": "+1,3 pp",
    "dir": "sobe",
-   "peso": 3.425833983478726,
-   "fatia": 3.4
+   "peso": 3.643217673870136,
+   "fatia": 3.6
   },
   {
-   "t": "Salário mínimo",
-   "k": "Salário mínimo",
+   "t": "Escala 6x1",
+   "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "2,4%",
-   "var": "-0,4 pp",
+   "valor": "3,1%",
+   "var": "-1,2 pp",
    "dir": "cai",
-   "peso": 2.3826598270035984,
-   "fatia": 2.4
-  },
-  {
-   "t": "Exército de Lula",
-   "k": "Exército de Lula",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "1,9%",
-   "var": "+0,1 pp",
-   "dir": "igual",
-   "peso": 1.924726404548742,
-   "fatia": 1.9
+   "peso": 3.0764931528867985,
+   "fatia": 3.1
   },
   {
    "t": "Impeachment de ministro",
@@ -741,78 +734,43 @@
    "fonte": "Vídeos",
    "lado": "deles",
    "valor": "1,4%",
-   "var": "+0,4 pp",
-   "dir": "sobe",
-   "peso": 1.3844053224528035,
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.4473956092103708,
    "fatia": 1.4
-  },
-  {
-   "t": "Bolsa Família",
-   "k": "Bolsa Família",
-   "fonte": "Vídeos",
-   "lado": "deles",
-   "valor": "0,6%",
-   "var": "-1,4 pp",
-   "dir": "cai",
-   "peso": 0.5674478541831006,
-   "fatia": 0.6
   }
  ],
- "historico": 11,
+ "historico": 3,
  "base_tiktok": {
   "nossa": {
    "Constituição": [
-    228.584,
-    3
+    32.711,
+    1
    ],
    "Tortura e ditadura": [
-    101.017,
-    2
+    32.711,
+    1
    ],
    "Estudantes e ruas": [
-    572.461,
-    7
+    631.556,
+    5
    ],
    "Escala 6x1": [
-    295.597,
-    6
+    292.014,
+    4
    ],
    "Janja": [
-    52.374,
+    55.408,
     1
    ]
   },
   "deles": {
-   "Janja": [
-    149.372,
-    4
-   ],
-   "Escala 6x1": [
-    105.854,
-    1
-   ],
    "Moraes": [
-    247.991,
-    2
-   ],
-   "EUA e Trump": [
-    21.977,
+    214.112,
     1
    ],
-   "Bolsa Família": [
-    14.318,
-    1
-   ],
-   "Centrão e apoios": [
-    7.615,
-    2
-   ],
-   "Pesquisas": [
-    357.428,
-    4
-   ],
-   "Vitória e virada": [
-    78.88,
+   "Nikolas": [
+    163.97,
     1
    ]
   }
