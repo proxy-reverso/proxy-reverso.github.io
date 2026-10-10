@@ -305,6 +305,10 @@ a.dp-t:hover { text-decoration: underline; }
 .dp-tags .sobe { background: #FFF1C2; color: #7A5200; }
 .dp-tags .sem { background: var(--deles-cl); color: var(--deles-esc); }
 .dp-tags .dom { background: var(--nossa-cl); color: var(--nossa-esc); }
+.dp-tags .pouco { background: var(--card-2); color: var(--tx-3); }
+.dp-nome { display: flex; align-items: baseline; gap: 6px; min-width: 0; flex-wrap: wrap; }
+.dp-v { font: 500 11px/1 var(--f-corpo); color: var(--tx-3); white-space: nowrap; }
+.dp.fraco .dp-bar { opacity: .4; }
 .alerta-fixo { margin-top: 10px; background: var(--alerta-cl); color: #8E1016; border-radius: 10px; padding: 9px 12px; font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .alerta-fixo b { background: var(--alerta); color: #FFF; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; padding: 3px 6px; border-radius: 4px; }
 .alerta-fixo button { margin-left: auto; border: 0; background: #FFF; color: var(--alerta); font-weight: 700; border-radius: 999px; padding: 11px 16px; cursor: pointer; }
@@ -999,16 +1003,21 @@ function bolsa() {
   const CARD_TEMA = { "Escala 6x1": "contra-sec", "Constituição": "contra-sec", "Salário mínimo": "contra-sec", "Trabalho por hora": "contra-sec" };
   const disputa = () => {
     const m = {};
-    B.termos.forEach(t => { const x = m[t.t] || (m[t.t] = { t: t.t, nossa: 0, deles: 0, sobe: false, ex: null });
-      x[t.lado] = t.fatia || 0; if ((t.dv ?? 0) >= 2) x.sobe = true; if (t.ex && (!x.ex || t.ex.vph > x.ex.vph)) x.ex = t.ex; });
+    B.termos.forEach(t => { const x = m[t.t] || (m[t.t] = { t: t.t, nossa: 0, deles: 0, n_nossa: 0, n_deles: 0, sobe: false, ex: null });
+      x[t.lado] = t.fatia || 0; x["n_" + t.lado] = t.n || 0; if ((t.dv ?? 0) >= 2) x.sobe = true; if (t.ex && (!x.ex || t.ex.vph > x.ex.vph)) x.ex = t.ex; });
     const l = Object.values(m).sort((a, b) => (b.nossa + b.deles) - (a.nossa + a.deles)).slice(0, 8);
     return `<div class="dp-cab"><span style="color:var(--deles)">◀ Pró-Flávio</span><span style="color:var(--nossa)">Pró-Lula ▶</span></div>` + l.map(x => {
       const tot = x.nossa + x.deles || 1, pf = Math.round(x.deles / tot * 100), pl = 100 - pf;
-      const tags = [x.sobe ? '<span class="sobe">▲ subindo</span>' : "",
-        pf >= 70 ? (CARD_TEMA[x.t] ? `<a class="sem" href="#${CARD_TEMA[x.t]}">sem resposta · ver argumento</a>` : '<span class="sem">sem resposta</span>') : "",
-        pl >= 70 ? '<span class="dom">domínio pró-Lula</span>' : ""].join("");
+      // volume: canais e perfis diferentes que falam do tema. Selo só com volume (4+ no tema e 3+ do lado que domina);
+      // sem volume, a barra fica clara e o tema leva "pouco volume" (sem o arquivo novo, "n" não existe e vale como antes)
+      const n = x.n_nossa + x.n_deles, temN = B.termos.some(t => t.n != null), firme = !temN || n >= 4;
+      const tags = [x.sobe && firme ? '<span class="sobe">▲ subindo</span>' : "",
+        pf >= 70 && firme && (!temN || x.n_deles >= 3) ? (CARD_TEMA[x.t] ? `<a class="sem" href="#${CARD_TEMA[x.t]}">sem resposta · ver argumento</a>` : '<span class="sem">sem resposta</span>') : "",
+        pl >= 70 && firme && (!temN || x.n_nossa >= 3) ? '<span class="dom">domínio pró-Lula</span>' : "",
+        !firme ? '<span class="pouco">pouco volume</span>' : ""].join("");
+      const vol = temN ? `<small class="dp-v" title="Canais e perfis diferentes que falam do tema: ${x.n_deles} do campo de Flávio, ${x.n_nossa} do campo progressista">${n} ${n === 1 ? "fonte" : "fontes"}</small>` : "";
       const nome = x.ex ? `<a class="dp-t" href="${esc(x.ex.u)}" target="_blank" rel="noopener" title="Vídeo de maior alcance: ${esc(x.ex.t)}">${esc(x.t)}</a>` : `<span class="dp-t">${esc(x.t)}</span>`;
-      return `<div class="dp"><div class="dp-l">${nome}<span class="dp-n"><span style="color:var(--deles)">${pf}%</span> × <span style="color:var(--nossa)">${pl}%</span></span></div>
+      return `<div class="dp${firme ? "" : " fraco"}"><div class="dp-l"><span class="dp-nome">${nome}${vol}</span><span class="dp-n"><span style="color:var(--deles)">${pf}%</span> × <span style="color:var(--nossa)">${pl}%</span></span></div>
         <div class="dp-bar"><i style="width:${pf}%;background:var(--deles)"></i><i style="width:${pl}%;background:var(--nossa)"></i></div>${tags ? `<div class="dp-tags">${tags}</div>` : ""}</div>`; }).join("");
   };
   const temW = B.termos.some(t => t.w != null);
