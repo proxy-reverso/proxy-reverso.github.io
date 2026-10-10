@@ -410,242 +410,468 @@
    "k": "Estudantes e ruas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "28,4%",
-   "var": "-1,1 pp",
-   "dir": "cai",
-   "peso": 28.401080176441468,
-   "fatia": 28.4
+   "valor": "24,1%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 24.08369484867071,
+   "fatia": 24.1,
+   "w": 1258.9,
+   "dv": null,
+   "ex": {
+    "u": "https://www.tiktok.com/@ptbrasil/video/7694825109076479253",
+    "t": "Belo Horizonte vai às ruas: vamos virar",
+    "vph": 17237
+   }
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "13,0%",
-   "var": "+0,5 pp",
-   "dir": "sobe",
-   "peso": 13.037062637737634,
-   "fatia": 13.0
+   "valor": "12,4%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 12.41573727727954,
+   "fatia": 12.4,
+   "w": 649.0,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=-m4QSPLhhLc",
+    "t": "LULA VIRA NA PESQUISA E FLÁVIO BOLSONARO PEDE PRA MENDONÇA BANIR CONTAS DE THIAGO E PLANTÃ",
+    "vph": 27163
+   }
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "12,9%",
-   "var": "-2,0 pp",
-   "dir": "cai",
-   "peso": 12.919797737005462,
-   "fatia": 12.9
+   "valor": "11,7%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 11.713156290278375,
+   "fatia": 11.7,
+   "w": 612.3,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=ISHfUSzk0OA",
+    "t": "ESCÂNDALO! ACORDO SECRETO ENVOLVE VORCARO, CLÃ BOLSONARO E DELAÇÃO CONTRA LULA | 09.10.26",
+    "vph": 4193
+   }
   },
   {
    "t": "Vitória e virada",
    "k": "Vitória e virada",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "10,6%",
-   "var": "+0,8 pp",
-   "dir": "sobe",
-   "peso": 10.604079961538893,
-   "fatia": 10.6
+   "valor": "10,1%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 10.098706628027555,
+   "fatia": 10.1,
+   "w": 527.9,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=RSXqT7SckZI",
+    "t": "ONDA PRÓ-LULA ACERTA EM CHEIO CLIMA DE “JÁ GANHOU” DA EXTREMA DIREITA | PLANTÃO",
+    "vph": 9411
+   }
+  },
+  {
+   "t": "Ana Elisa",
+   "k": "Ana Elisa",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "8,5%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 8.462460139404145,
+   "fatia": 8.5,
+   "w": 442.3,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=qL5jlUM8CJg",
+    "t": "ANA ELISA ASSUSTA DIREITA! FLAVIO E VEJA: ARMAÇÃO ENTRE BANDIDOS TERÁ EFEITO CONTRÁRIO! VI",
+    "vph": 8973
+   }
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "8,8%",
-   "var": "+1,9 pp",
-   "dir": "sobe",
-   "peso": 8.771583949629429,
-   "fatia": 8.8
+   "valor": "8,4%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 8.353544417970195,
+   "fatia": 8.4,
+   "w": 436.6,
+   "dv": null,
+   "ex": {
+    "u": "https://www.tiktok.com/@ofofoquinho/video/7694817017785896244",
+    "t": "Vídeo comemora sessão esvaziada sobre o fim da 6x1",
+    "vph": 9753
+   }
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "5,6%",
-   "var": "+1,7 pp",
-   "dir": "sobe",
-   "peso": 5.57742313775713,
-   "fatia": 5.6
+   "valor": "5,3%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 5.311612154272001,
+   "fatia": 5.3,
+   "w": 277.6,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/shorts/Xlfphip3YuA",
+    "t": "😂Nikolas pergunta propostas de Flávio para a saúde e a resposta é um silêncio constrangedo",
+    "vph": 6887
+   }
   },
   {
    "t": "Salário mínimo",
    "k": "Salário mínimo",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "4,8%",
-   "var": "+2,4 pp",
-   "dir": "sobe",
-   "peso": 4.786124938496096,
-   "fatia": 4.8
+   "valor": "4,6%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 4.558025949848098,
+   "fatia": 4.6,
+   "w": 238.3,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=WiB5P08UUW8",
+    "t": "FLAVIO: O ESTELIONATO BOMBA! REVELAÇÃO INCONTESTÁVEL: QUER ESMAGAR POBRES, APOSENTADOS E D",
+    "vph": 6916
+   }
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "4,4%",
-   "var": "+0,5 pp",
-   "dir": "sobe",
-   "peso": 4.4004537611584995,
-   "fatia": 4.4
-  },
-  {
-   "t": "Segurança e crime",
-   "k": "Segurança e crime",
-   "fonte": "Vídeos",
-   "lado": "nossa",
-   "valor": "2,2%",
-   "var": "-0,6 pp",
-   "dir": "cai",
-   "peso": 2.2403443509478196,
-   "fatia": 2.2
+   "valor": "4,2%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 4.190735238259276,
+   "fatia": 4.2,
+   "w": 219.1,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=HmHpulTBB4Q",
+    "t": "BOMBAS, AMEAÇAS E MENTIRAS: DIREITA TENTA REAGIR À ONDA LULA NAS RUAS - ICL URGENTE - 09/1",
+    "vph": 10205
+   }
   },
   {
    "t": "Constituição",
    "k": "Constituição",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,1%",
-   "var": "-0,2 pp",
-   "dir": "igual",
-   "peso": 2.1054772447857086,
-   "fatia": 2.1
+   "valor": "2,0%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 2.0051335980300307,
+   "fatia": 2.0,
+   "w": 104.8,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/shorts/kIkx05uFBnY",
+    "t": "Pedro Serrano: ISSO TEM CHEIRO DE GOLPE! ELES QUEREM RASGAR A CONSTITUIÇÃO!",
+    "vph": 2957
+   }
+  },
+  {
+   "t": "Segurança e crime",
+   "k": "Segurança e crime",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "2,0%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.9916920275840493,
+   "fatia": 2.0,
+   "w": 104.1,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=qL5jlUM8CJg",
+    "t": "ANA ELISA ASSUSTA DIREITA! FLAVIO E VEJA: ARMAÇÃO ENTRE BANDIDOS TERÁ EFEITO CONTRÁRIO! VI",
+    "vph": 8973
+   }
   },
   {
    "t": "Tortura e ditadura",
    "k": "Tortura e ditadura",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "2,0%",
+   "valor": "1,9%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.958547081113657,
-   "fatia": 2.0
+   "peso": 1.8652058887790726,
+   "fatia": 1.9,
+   "w": 97.5,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/shorts/kZgKOBlieng",
+    "t": "Mais de 65% dos brasileiros NÃO QUEREM uma ditadura no país!! Eles PRECISAM ver este vídeo",
+    "vph": 4197
+   }
   },
   {
-   "t": "Moraes",
-   "k": "Moraes",
+   "t": "STF e Moraes",
+   "k": "STF e Moraes",
    "fonte": "Vídeos",
    "lado": "nossa",
-   "valor": "1,8%",
+   "valor": "1,7%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.7938888844063527,
-   "fatia": 1.8
+   "peso": 1.7083950359301472,
+   "fatia": 1.7,
+   "w": 89.3,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=pR41Y-TU9zo",
+    "t": "EDUARDO TEM PRISÃO E PERDA DE PASSAPORTE EXPEDIDA POR MORAES, QUE ARQUIVA DENÚNCIA CONTRA ",
+    "vph": 1464
+   }
   },
   {
-   "t": "Moraes",
-   "k": "Moraes",
+   "t": "Prisão de Eduardo",
+   "k": "Prisão de Eduardo",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "1,3%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.2962953550373504,
+   "fatia": 1.3,
+   "w": 67.8,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=pR41Y-TU9zo",
+    "t": "EDUARDO TEM PRISÃO E PERDA DE PASSAPORTE EXPEDIDA POR MORAES, QUE ARQUIVA DENÚNCIA CONTRA ",
+    "vph": 1464
+   }
+  },
+  {
+   "t": "EUA e Trump",
+   "k": "EUA e Trump",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "1,1%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 1.0921579921614493,
+   "fatia": 1.1,
+   "w": 57.1,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=7e3W6heE7m0",
+    "t": "PF VAI PRA CIMA  E QUER SABER ONDE FLÁVIO ESCONDEU O DINHEIRO DO FILME FEITO COM PROPINA N",
+    "vph": 3259
+   }
+  },
+  {
+   "t": "Renan Santos",
+   "k": "Renan Santos",
+   "fonte": "Vídeos",
+   "lado": "nossa",
+   "valor": "0,9%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 0.8534471584680057,
+   "fatia": 0.9,
+   "w": 44.6,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/shorts/qCYoEZJStiY",
+    "t": "ANA PAULA RENAULT FAZ PEDIDO A ELEITORES DE CURY, CAIADO E RENAN SANTOS | PLANTINHA",
+    "vph": 1097
+   }
+  },
+  {
+   "t": "STF e Moraes",
+   "k": "STF e Moraes",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "30,4%",
-   "var": "+4,4 pp",
-   "dir": "sobe",
-   "peso": 30.371659289171554,
-   "fatia": 30.4
+   "valor": "32,5%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 32.49458686596083,
+   "fatia": 32.5,
+   "w": 1268.7,
+   "dv": null,
+   "ex": {
+    "u": "https://www.tiktok.com/@breakingpolitica/video/7694747900156464402",
+    "t": "Flávio reage a decisão de Moraes sobre Eduardo e cobra renúncia",
+    "vph": 45844
+   }
   },
   {
    "t": "Caso Master",
    "k": "Caso Master",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "13,6%",
-   "var": "-7,2 pp",
-   "dir": "cai",
-   "peso": 13.603961471927924,
-   "fatia": 13.6
+   "valor": "13,2%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 13.234446267951666,
+   "fatia": 13.2,
+   "w": 516.7,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=j9zzPV7A-sw",
+    "t": "BOMBA!! VEJA acaba de VAZAR outro ÁUDIO sobre Vorcaro, LULA e assessor de GONET.",
+    "vph": 30615
+   }
   },
   {
    "t": "Fake news",
    "k": "Fake news",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "13,1%",
-   "var": "+4,2 pp",
-   "dir": "sobe",
-   "peso": 13.062132664113937,
-   "fatia": 13.1
+   "valor": "12,7%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 12.70733478956064,
+   "fatia": 12.7,
+   "w": 496.2,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=3-0srUX0V2M",
+    "t": "Fachin nega pedido de Fux e encaminha inquérito das fake news para arquivamento",
+    "vph": 35573
+   }
   },
   {
-   "t": "STF",
-   "k": "STF",
+   "t": "Ana Elisa",
+   "k": "Ana Elisa",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "12,0%",
-   "var": "+2,1 pp",
-   "dir": "sobe",
-   "peso": 12.014847673743692,
-   "fatia": 12.0
+   "valor": "11,5%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 11.456836439544295,
+   "fatia": 11.5,
+   "w": 447.3,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=v2NsjAwxDw4",
+    "t": "ANA ELISA X NIKOLAS: Deputada eleita do PT desativa redes após embate com a direita",
+    "vph": 48956
+   }
   },
   {
    "t": "Nikolas",
    "k": "Nikolas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "10,1%",
-   "var": "+4,4 pp",
-   "dir": "sobe",
-   "peso": 10.14188720495897,
-   "fatia": 10.1
+   "valor": "9,9%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 9.866409982608863,
+   "fatia": 9.9,
+   "w": 385.2,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=v2NsjAwxDw4",
+    "t": "ANA ELISA X NIKOLAS: Deputada eleita do PT desativa redes após embate com a direita",
+    "vph": 48956
+   }
   },
   {
    "t": "Janja",
    "k": "Janja",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "9,8%",
-   "var": "+3,9 pp",
-   "dir": "sobe",
-   "peso": 9.79982594781399,
-   "fatia": 9.8
+   "valor": "9,5%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 9.533639904027353,
+   "fatia": 9.5,
+   "w": 372.2,
+   "dv": null,
+   "ex": {
+    "u": "https://www.tiktok.com/@osalvadordapatria01/video/7694980023534505224",
+    "t": "Roupas e viagens de Lula e Janja",
+    "vph": 17457
+   }
   },
   {
    "t": "Pesquisas",
    "k": "Pesquisas",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "3,8%",
-   "var": "-4,9 pp",
-   "dir": "cai",
-   "peso": 3.8427394283367797,
-   "fatia": 3.8
+   "valor": "3,7%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 3.73836169640777,
+   "fatia": 3.7,
+   "w": 146.0,
+   "dv": null,
+   "ex": {
+    "u": "https://www.tiktok.com/@edinhos2.0/video/7695040066699136277",
+    "t": "Resumo das pesquisas de 2º turno de 10/10",
+    "vph": 11400
+   }
   },
   {
    "t": "EUA e Trump",
    "k": "EUA e Trump",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "3,2%",
-   "var": "+0,9 pp",
-   "dir": "sobe",
-   "peso": 3.18579793492643,
-   "fatia": 3.2
+   "valor": "3,1%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 3.09926426043899,
+   "fatia": 3.1,
+   "w": 121.0,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=MMNf7EBYHt0",
+    "t": "Militante de Lula solta mentira sobre Flávio: 'Trump mandou acabar com o Pix'",
+    "vph": 10698
+   }
   },
   {
    "t": "Escala 6x1",
    "k": "Escala 6x1",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "2,7%",
-   "var": "-1,6 pp",
-   "dir": "cai",
-   "peso": 2.7083985703408895,
-   "fatia": 2.7
+   "valor": "2,6%",
+   "var": "NOVO",
+   "dir": "novo",
+   "peso": 2.634832171888962,
+   "fatia": 2.6,
+   "w": 102.9,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/shorts/-ySty98LOuo",
+    "t": "O QUE ESTÁ POR TRÁS DA EXIGÊNCIA DE FUX CONTRA MORAES?",
+    "vph": 3667
+   }
   },
   {
    "t": "Impeachment de ministro",
    "k": "Impeachment de ministro",
    "fonte": "Vídeos",
    "lado": "deles",
-   "valor": "1,3%",
+   "valor": "1,2%",
    "var": "NOVO",
    "dir": "novo",
-   "peso": 1.268749814665837,
-   "fatia": 1.3
+   "peso": 1.2342876216106369,
+   "fatia": 1.2,
+   "w": 48.2,
+   "dv": null,
+   "ex": {
+    "u": "https://www.youtube.com/watch?v=acE5ywl0CN4",
+    "t": "\"Não há chance de recuo\": Jordy crava impeachment de Moraes | CAFÉ COM A GAZETA",
+    "vph": 834
+   }
   }
  ],
  "historico": 3,

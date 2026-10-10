@@ -289,6 +289,21 @@ section[id], #videos { scroll-margin-top: 92px; }  /* altura do topo fixo */
 .duas h5 { margin: 0 0 2px; font: 800 10px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .07em; }
 .duas .lin { grid-template-columns: minmax(0, 1fr) auto; font-size: 13px; }
 .barrinha { height: 4px; border-radius: 2px; margin-top: 3px; grid-column: 1 / -1; }
+/* disputa por tema: uma lista só, cada tema com a barra dividida entre os dois lados (pró-Flávio à esquerda) */
+.dp-cab { display: flex; justify-content: space-between; font: 800 10px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .07em; margin: 2px 0 8px; }
+.dp { padding: 7px 0 8px; border-top: 1px solid var(--linha); }
+.dp:first-of-type { border-top: 0; }
+.dp-l { display: flex; align-items: baseline; gap: 6px; justify-content: space-between; }
+.dp-t { font: 600 14px/1.25 var(--f-corpo); color: var(--tinta); text-decoration: none; min-width: 0; }
+a.dp-t:hover { text-decoration: underline; }
+.dp-n { font: 700 12px/1 var(--f-corpo); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--tx-2); }
+.dp-bar { display: flex; height: 7px; border-radius: 4px; overflow: hidden; margin-top: 5px; background: var(--card-2); }
+.dp-bar i { display: block; height: 100%; }
+.dp-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+.dp-tags span, .dp-tags a { font: 700 10px/1 var(--f-corpo); text-transform: uppercase; letter-spacing: .05em; padding: 3px 6px; border-radius: 999px; text-decoration: none; }
+.dp-tags .sobe { background: #FFF1C2; color: #7A5200; }
+.dp-tags .sem { background: var(--deles-cl); color: var(--deles-esc); }
+.dp-tags .dom { background: var(--nossa-cl); color: var(--nossa-esc); }
 .alerta-fixo { margin-top: 10px; background: var(--alerta-cl); color: #8E1016; border-radius: 10px; padding: 9px 12px; font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .alerta-fixo b { background: var(--alerta); color: #FFF; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; padding: 3px 6px; border-radius: 4px; }
 .alerta-fixo button { margin-left: auto; border: 0; background: #FFF; color: var(--alerta); font-weight: 700; border-radius: 999px; padding: 11px 16px; cursor: pointer; }
@@ -977,13 +992,33 @@ function bolsa() {
   const fita = B.fita.map(tk).join("");
   const xs = [...B.x.filter(i => i.var !== "antes").sort((a, b) => b.peso - a.peso).slice(0, 7), ...B.x.filter(i => i.var === "antes").slice(0, 10)];
   const tv = l => B.termos.filter(t => t.lado === l).slice(0, 7);
+  // disputa por tema (bolsa.json com "w", desde 10/10/2026): compara a ÊNFASE de cada lado no tema (a fatia que ele ocupa na
+  // conversa daquele lado), não o alcance bruto, que mediria só o tamanho da amostra (63 canais progressistas, 26 da direita);
+  // o que sobe (2 pp ou mais desde a última leitura) e onde o campo de Flávio fala sozinho ("sem resposta"), com o card de
+  // argumento quando existe. Arquivo antigo, sem "w": cai nas duas listas de antes.
+  const CARD_TEMA = { "Escala 6x1": "contra-sec", "Constituição": "contra-sec", "Salário mínimo": "contra-sec", "Trabalho por hora": "contra-sec" };
+  const disputa = () => {
+    const m = {};
+    B.termos.forEach(t => { const x = m[t.t] || (m[t.t] = { t: t.t, nossa: 0, deles: 0, sobe: false, ex: null });
+      x[t.lado] = t.fatia || 0; if ((t.dv ?? 0) >= 2) x.sobe = true; if (t.ex && (!x.ex || t.ex.vph > x.ex.vph)) x.ex = t.ex; });
+    const l = Object.values(m).sort((a, b) => (b.nossa + b.deles) - (a.nossa + a.deles)).slice(0, 8);
+    return `<div class="dp-cab"><span style="color:var(--deles)">◀ Pró-Flávio</span><span style="color:var(--nossa)">Pró-Lula ▶</span></div>` + l.map(x => {
+      const tot = x.nossa + x.deles || 1, pf = Math.round(x.deles / tot * 100), pl = 100 - pf;
+      const tags = [x.sobe ? '<span class="sobe">▲ subindo</span>' : "",
+        pf >= 70 ? (CARD_TEMA[x.t] ? `<a class="sem" href="#${CARD_TEMA[x.t]}">sem resposta · ver argumento</a>` : '<span class="sem">sem resposta</span>') : "",
+        pl >= 70 ? '<span class="dom">domínio pró-Lula</span>' : ""].join("");
+      const nome = x.ex ? `<a class="dp-t" href="${esc(x.ex.u)}" target="_blank" rel="noopener" title="Vídeo de maior alcance: ${esc(x.ex.t)}">${esc(x.t)}</a>` : `<span class="dp-t">${esc(x.t)}</span>`;
+      return `<div class="dp"><div class="dp-l">${nome}<span class="dp-n"><span style="color:var(--deles)">${pf}%</span> × <span style="color:var(--nossa)">${pl}%</span></span></div>
+        <div class="dp-bar"><i style="width:${pf}%;background:var(--deles)"></i><i style="width:${pl}%;background:var(--nossa)"></i></div>${tags ? `<div class="dp-tags">${tags}</div>` : ""}</div>`; }).join("");
+  };
+  const temW = B.termos.some(t => t.w != null);
   const mxT = Math.max(...B.termos.map(t => t.fatia));
   const linT = t => `<div class="lin"><span>${esc(t.t)}</span><b>${esc(t.valor)}</b><span class="barrinha" style="background:${COR_L[t.lado]};width:${t.fatia / mxT * 100}%"></span></div>`;
   document.getElementById("bolsa").innerHTML = `<div class="visor-escuro"><div class="fita" id="fita"><div class="fita-trilho">${fita}${fita}</div></div>${manchetes(hh)}</div>
     <div class="painel3">
       <div class="pn"><h4><span class="fonte-tag">${LOGO.X}</span>No X agora <span>atualizado às ${hh(B.horas.x)}</span></h4><p class="pn-leg">Posição no Brasil e variação em 1 h.</p>${alertaX()}${xs.map((i, n) => `${i.var === "antes" && (n === 0 || xs[n - 1].var !== "antes") ? `<details class="x-antes"><summary class="pn-sub">Temas do dia: ver ${xs.filter(x => x.var === "antes").length} que passaram pelo top 20 nas últimas 24 h</summary>` : ""}<a class="lin lin-x${i.var === "antes" ? " antes" : ""}" href="https://x.com/search?q=${encodeURIComponent(i.t)}&f=live" target="_blank" rel="noopener" title="${esc(i.nota ? i.nota + " · " : "")}Abrir no X"><i style="background:${COR_L[i.lado]}"></i><span>${esc(i.t)}</span><b class="${i.var === "cidades" ? "cid" : ""}">${esc(i.valor)}</b><em class="${seta(i.dir)}">${i.var === "antes" ? quando((Date.now() - Date.parse(i.visto)) / 36e5) : simb(i.dir, i.var)}</em></a>`).join("")}${xs.some(x => x.var === "antes") ? "</details>" : ""}</div>
       <div class="pn"><h4><span class="fonte-tag">${LOGO.Google}</span>Em alta no Google <span>buscas · atualizado às ${hh(B.horas.google)}</span></h4>${B.google.slice(0, 6).map(i => `<div class="lin"><i style="background:${COR_L[i.lado]}"></i><span>${esc(i.t)}</span><b></b><em class="up">${esc(i.valor)}</em>${i.nota ? (i.pauta ? `<p class="g-nota g-pauta">${esc(i.nota)}</p>` : `<a class="g-nota" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.nota)}</a>`) : ""}</div>`).join("") || `<p class="nota-b">Nenhuma busca ligada à eleição entre as que mais sobem agora.</p>`}</div>
-      <div class="pn"><h4><span class="fonte-tag">${LOGO.TikTok}${LOGO.Kwai}${LOGO.YouTube}</span>Mais falados nos vídeos <span>postados em 24 h · atualizado às ${hh(B.gerado)}</span></h4><div class="duas"><div><h5 style="color:var(--deles)">Pró-Flávio</h5>${tv("deles").map(linT).join("")}</div><div><h5 style="color:var(--nossa)">Pró-Lula</h5>${tv("nossa").map(linT).join("")}</div></div></div>
+      <div class="pn"><h4><span class="fonte-tag">${LOGO.TikTok}${LOGO.Kwai}${LOGO.YouTube}</span>${temW ? "Quem domina cada tema" : "Mais falados nos vídeos"} <span>vídeos postados em 24 h · atualizado às ${hh(B.gerado)}</span></h4>${temW ? disputa() : `<div class="duas"><div><h5 style="color:var(--deles)">Pró-Flávio</h5>${tv("deles").map(linT).join("")}</div><div><h5 style="color:var(--nossa)">Pró-Lula</h5>${tv("nossa").map(linT).join("")}</div></div>`}</div>
     </div>
     <p class="nota-b"><span style="color:var(--nossa)">●</span> pró-Lula · <span style="color:var(--deles)">●</span> pró-Flávio · <span style="color:var(--disputa)">●</span> em disputa</p>`;
   document.querySelector("[data-al]")?.addEventListener("click", e => abre(e.target.dataset.al));
