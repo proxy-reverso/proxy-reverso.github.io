@@ -1,79 +1,79 @@
 {
- "gerado": "2026-10-10T15:10:58Z",
+ "gerado": "2026-10-10T15:51:55Z",
  "janela_h": 72,
  "rede": {
   "nossa": {
    "canais": 63,
    "ativos": 49,
-   "vph": 1017293,
-   "videos": 431,
+   "vph": 1025034,
+   "videos": 432,
    "top_canais": [
     {
      "canal": "Plantão Brasil",
-     "vph": 123076
+     "vph": 123575
     },
     {
      "canal": "Lula",
-     "vph": 107607
+     "vph": 113653
     },
     {
      "canal": "TV Fórum",
-     "vph": 104113
+     "vph": 100465
     },
     {
      "canal": "Mídia NINJA",
-     "vph": 68577
+     "vph": 68499
     },
     {
      "canal": "ICL Notícias",
-     "vph": 55536
+     "vph": 54016
     },
     {
      "canal": "Meteoro Brasil",
-     "vph": 46811
+     "vph": 46607
     }
    ],
    "top_videos": [
     {
-     "canal": "Plantão Brasil",
-     "titulo": "LULA VIRA NA PESQUISA E FLÁVIO BOLSONARO PEDE PRA MENDONÇA BANIR CONTAS DE THIAGO E PLANTÃO BRASIL!!",
-     "url": "https://www.youtube.com/watch?v=-m4QSPLhhLc",
-     "vph": 27163,
-     "tema": "pesquisas"
-    },
-    {
-     "canal": "TV Fórum",
-     "titulo": "Fórum Eleições - Edição das 7h | 10.10.26",
-     "url": "https://www.youtube.com/watch?v=_uw80mctA-M",
-     "vph": 25058,
-     "tema": "outros"
-    },
-    {
      "canal": "Lula",
      "titulo": "Lula no Rio Grande do Norte: O Brasil Pronto Pra Mais",
      "url": "https://www.youtube.com/watch?v=N14IaZQcyek",
-     "vph": 24733,
+     "vph": 29786,
      "tema": "lula_campanha"
+    },
+    {
+     "canal": "Plantão Brasil",
+     "titulo": "LULA VIRA NA PESQUISA E FLÁVIO BOLSONARO PEDE PRA MENDONÇA BANIR CONTAS DE THIAGO E PLANTÃO BRASIL!!",
+     "url": "https://www.youtube.com/watch?v=-m4QSPLhhLc",
+     "vph": 26671,
+     "tema": "pesquisas"
     },
     {
      "canal": "Jones Manoel",
      "titulo": "Minha conversa com o Presidente Lula",
      "url": "https://www.youtube.com/watch?v=kKwkVuB-GBg",
-     "vph": 24242,
+     "vph": 23986,
      "tema": "lula_campanha"
-    },
-    {
-     "canal": "Calma Urgente",
-     "titulo": "Revelando: Quem quer roubar sua praia? | Ep  #04",
-     "url": "https://www.youtube.com/watch?v=egNGR-yyGkY",
-     "vph": 21724,
-     "tema": "outros"
     },
     {
      "canal": "Professor José Kobori",
      "titulo": "De Onde Virão os Cortes Prometidos por Flávio Bolsonaro? - JK Cast #276",
      "url": "https://www.youtube.com/watch?v=j54DVzEpkMk",
-     "vph": 20893,
+     "vph": 22484,
+     "tema": "outros"
+    },
+    {
+     "canal": "Calma Urgente",
+     "titulo": "Revelando: Quem quer roubar sua praia? | Ep  #04",
+     "url": "https://www.youtube.com/watch?v=egNGR-yyGkY",
+     "vph": 21554,
+     "tema": "outros"
+    },
+    {
+     "canal": "TV Fórum",
+     "titulo": "Fórum Eleições - Edição das 7h | 10.10.26",
+     "url": "https://www.youtube.com/watch?v=_uw80mctA-M",
+     "vph": 20417,
      "tema": "outros"
     }
    ]
@@ -81,32 +81,32 @@
   "deles": {
    "canais": 26,
    "ativos": 14,
-   "vph": 1065446,
-   "videos": 163,
+   "vph": 1030140,
+   "videos": 165,
    "top_canais": [
     {
-     "canal": "Jovem Pan News",
-     "vph": 191887
+     "canal": "Gustavo Gayer",
+     "vph": 181364
     },
     {
-     "canal": "Gustavo Gayer",
-     "vph": 188499
+     "canal": "Jovem Pan News",
+     "vph": 165384
     },
     {
      "canal": "Revista Oeste",
-     "vph": 173669
+     "vph": 153590
     },
     {
      "canal": "Gazeta do Povo",
-     "vph": 119244
+     "vph": 125190
     },
     {
      "canal": "Os Pingos nos Is",
-     "vph": 116873
+     "vph": 114109
     },
     {
      "canal": "Brasil Paralelo",
-     "vph": 59467
+     "vph": 58983
     }
    ],
    "top_videos": [
@@ -114,43 +114,43 @@
      "canal": "Jovem Pan News",
      "titulo": "JORNAL DA MANHÃ - 10/10/26",
      "url": "https://www.youtube.com/watch?v=oHIX50XqYOA",
-     "vph": 138678,
+     "vph": 106466,
      "tema": "outros"
     },
     {
      "canal": "Revista Oeste",
      "titulo": "ANA ELISA X NIKOLAS: Deputada eleita do PT desativa redes após embate com a direita",
      "url": "https://www.youtube.com/watch?v=v2NsjAwxDw4",
-     "vph": 48956,
+     "vph": 48193,
      "tema": "lula_campanha"
     },
     {
      "canal": "Revista Oeste",
      "titulo": "OESTE SEM FILTRO | 09/10/2026",
      "url": "https://www.youtube.com/watch?v=SNimHdR2I5g",
-     "vph": 40033,
-     "tema": "outros"
-    },
-    {
-     "canal": "Gustavo Gayer",
-     "titulo": "HAHAHAHA - Esquerda ativa MODO DESESPERO e vira piada na internet",
-     "url": "https://www.youtube.com/watch?v=Yuhs5-KeZZg",
-     "vph": 36615,
+     "vph": 38402,
      "tema": "outros"
     },
     {
      "canal": "Gustavo Gayer",
      "titulo": "URGENTE! Campanha do LULA joga a toalha e petistas abandonam o presidente",
      "url": "https://www.youtube.com/watch?v=jeTsc2WGgw8",
-     "vph": 35667,
+     "vph": 34885,
      "tema": "lula_campanha"
     },
     {
      "canal": "Os Pingos nos Is",
      "titulo": "Fachin nega pedido de Fux e encaminha inquérito das fake news para arquivamento",
      "url": "https://www.youtube.com/watch?v=3-0srUX0V2M",
-     "vph": 35573,
+     "vph": 34698,
      "tema": "stf"
+    },
+    {
+     "canal": "Gustavo Gayer",
+     "titulo": "HAHAHAHA - Esquerda ativa MODO DESESPERO e vira piada na internet",
+     "url": "https://www.youtube.com/watch?v=Yuhs5-KeZZg",
+     "vph": 32619,
+     "tema": "outros"
     }
    ]
   }
@@ -159,29 +159,29 @@
   {
    "id": "outros",
    "nome": "Outros assuntos",
-   "nossa": 35.0,
-   "deles": 41.6,
-   "nossa_vph": 356504,
-   "deles_vph": 442737,
-   "lacuna": 6.5,
+   "nossa": 34.9,
+   "deles": 41.0,
+   "nossa_vph": 357253,
+   "deles_vph": 422725,
+   "lacuna": 6.2,
    "top_nossa": [
     {
-     "canal": "TV Fórum",
-     "titulo": "Fórum Eleições - Edição das 7h | 10.10.26",
-     "url": "https://www.youtube.com/watch?v=_uw80mctA-M",
-     "vph": 25058
+     "canal": "Professor José Kobori",
+     "titulo": "De Onde Virão os Cortes Prometidos por Flávio Bolsonaro? - JK Cast #276",
+     "url": "https://www.youtube.com/watch?v=j54DVzEpkMk",
+     "vph": 22484
     },
     {
      "canal": "Calma Urgente",
      "titulo": "Revelando: Quem quer roubar sua praia? | Ep  #04",
      "url": "https://www.youtube.com/watch?v=egNGR-yyGkY",
-     "vph": 21724
+     "vph": 21554
     },
     {
-     "canal": "Professor José Kobori",
-     "titulo": "De Onde Virão os Cortes Prometidos por Flávio Bolsonaro? - JK Cast #276",
-     "url": "https://www.youtube.com/watch?v=j54DVzEpkMk",
-     "vph": 20893
+     "canal": "TV Fórum",
+     "titulo": "Fórum Eleições - Edição das 7h | 10.10.26",
+     "url": "https://www.youtube.com/watch?v=_uw80mctA-M",
+     "vph": 20417
     }
    ],
    "nossa_caca_clique": 8,
@@ -190,48 +190,48 @@
      "canal": "Jovem Pan News",
      "titulo": "JORNAL DA MANHÃ - 10/10/26",
      "url": "https://www.youtube.com/watch?v=oHIX50XqYOA",
-     "vph": 138678
+     "vph": 106466
     },
     {
      "canal": "Revista Oeste",
      "titulo": "OESTE SEM FILTRO | 09/10/2026",
      "url": "https://www.youtube.com/watch?v=SNimHdR2I5g",
-     "vph": 40033
+     "vph": 38402
     },
     {
      "canal": "Gustavo Gayer",
      "titulo": "HAHAHAHA - Esquerda ativa MODO DESESPERO e vira piada na internet",
      "url": "https://www.youtube.com/watch?v=Yuhs5-KeZZg",
-     "vph": 36615
+     "vph": 32619
     }
    ]
   },
   {
    "id": "lula_campanha",
    "nome": "Lula e a campanha",
-   "nossa": 20.5,
-   "deles": 21.5,
-   "nossa_vph": 208863,
-   "deles_vph": 228951,
-   "lacuna": 1.0,
+   "nossa": 21.0,
+   "deles": 20.0,
+   "nossa_vph": 215631,
+   "deles_vph": 206085,
+   "lacuna": -1.0,
    "top_nossa": [
     {
      "canal": "Lula",
      "titulo": "Lula no Rio Grande do Norte: O Brasil Pronto Pra Mais",
      "url": "https://www.youtube.com/watch?v=N14IaZQcyek",
-     "vph": 24733
+     "vph": 29786
     },
     {
      "canal": "Jones Manoel",
      "titulo": "Minha conversa com o Presidente Lula",
      "url": "https://www.youtube.com/watch?v=kKwkVuB-GBg",
-     "vph": 24242
+     "vph": 23986
     },
     {
      "canal": "Samuel Borelli",
      "titulo": "Flávio liga alerta máximo na campanha",
      "url": "https://www.youtube.com/watch?v=3pT4-HKnGW0",
-     "vph": 12232
+     "vph": 11923
     }
    ],
    "nossa_caca_clique": 14,
@@ -240,19 +240,19 @@
      "canal": "Revista Oeste",
      "titulo": "ANA ELISA X NIKOLAS: Deputada eleita do PT desativa redes após embate com a direita",
      "url": "https://www.youtube.com/watch?v=v2NsjAwxDw4",
-     "vph": 48956
+     "vph": 48193
     },
     {
      "canal": "Gustavo Gayer",
      "titulo": "URGENTE! Campanha do LULA joga a toalha e petistas abandonam o presidente",
      "url": "https://www.youtube.com/watch?v=jeTsc2WGgw8",
-     "vph": 35667
+     "vph": 34885
     },
     {
      "canal": "Gustavo Gayer",
      "titulo": "BOMBA!! VEJA acaba de VAZAR outro ÁUDIO sobre Vorcaro, LULA e assessor de GONET.",
      "url": "https://www.youtube.com/watch?v=j9zzPV7A-sw",
-     "vph": 30615
+     "vph": 29699
     }
    ]
   },
@@ -260,28 +260,28 @@
    "id": "stf",
    "nome": "STF, Moraes e anistia",
    "nossa": 1.9,
-   "deles": 16.3,
-   "nossa_vph": 19180,
-   "deles_vph": 173727,
-   "lacuna": 14.4,
+   "deles": 17.4,
+   "nossa_vph": 18971,
+   "deles_vph": 179691,
+   "lacuna": 15.6,
    "top_nossa": [
     {
      "canal": "Click Política",
      "titulo": "DERROCADA: FLÁVIO PERDE MILHÕES DE VOTOS APÓS ENGANAR ELEITORES SOBRE IMPEACHMENT DE MORAES",
      "url": "https://www.youtube.com/watch?v=9fpeaZjgePA",
-     "vph": 3235
+     "vph": 3189
     },
     {
      "canal": "TV Fórum",
      "titulo": "EXPOSTO - NUNES MARQUES FOI ENGANADO POR MENDONÇA",
      "url": "https://www.youtube.com/watch?v=LMD8xUgNF20",
-     "vph": 2473
+     "vph": 2533
     },
     {
      "canal": "Galãs Feios",
      "titulo": "EDUARDO TEM PRISÃO E PERDA DE PASSAPORTE EXPEDIDA POR MORAES, QUE ARQUIVA DENÚNCIA CONTRA ALLAN | GF",
      "url": "https://www.youtube.com/watch?v=pR41Y-TU9zo",
-     "vph": 1464
+     "vph": 1442
     }
    ],
    "nossa_caca_clique": 3,
@@ -290,48 +290,48 @@
      "canal": "Os Pingos nos Is",
      "titulo": "Fachin nega pedido de Fux e encaminha inquérito das fake news para arquivamento",
      "url": "https://www.youtube.com/watch?v=3-0srUX0V2M",
-     "vph": 35573
+     "vph": 34698
     },
     {
      "canal": "Gazeta do Povo",
      "titulo": "🔴 AO VIVO: Flávio exige renúncia de Moraes após decisão contra Eduardo | GAZETA AGORA",
      "url": "https://www.youtube.com/watch?v=apVlMPxQZOA",
-     "vph": 23913
+     "vph": 23048
     },
     {
-     "canal": "Eduardo Bolsonaro",
-     "titulo": "Moraes acaba de determinar minha prisão. Aqui minha resposta para o tiranete #shorts",
-     "url": "https://www.youtube.com/shorts/CkZrIdlApsc",
-     "vph": 19770
+     "canal": "Gazeta do Povo",
+     "titulo": "FUX REAGE A ENCONTRO SECRETO DE MORAES COM A POLÍCIA FEDERAL",
+     "url": "https://www.youtube.com/watch?v=A7miLtmIJ1g",
+     "vph": 20809
     }
    ]
   },
   {
    "id": "resultado",
    "nome": "Resultado do 1º turno e “já ganhou”",
-   "nossa": 7.1,
-   "deles": 5.5,
-   "nossa_vph": 72268,
-   "deles_vph": 58755,
-   "lacuna": -1.6,
+   "nossa": 7.5,
+   "deles": 5.8,
+   "nossa_vph": 76453,
+   "deles_vph": 59432,
+   "lacuna": -1.7,
    "top_nossa": [
     {
      "canal": "Ian Neves",
      "titulo": "ELEIÇÕES 2026: O QUE EXPLICA O VOTO NA EXTREMA-DIREITA?",
      "url": "https://www.youtube.com/watch?v=cCBopufrPjY",
-     "vph": 17713
-    },
-    {
-     "canal": "Portal do José",
-     "titulo": "ANA ELISA ASSUSTA DIREITA! FLAVIO E VEJA: ARMAÇÃO ENTRE BANDIDOS TERÁ EFEITO CONTRÁRIO! VIRADA VIRÁ",
-     "url": "https://www.youtube.com/watch?v=qL5jlUM8CJg",
-     "vph": 8973
+     "vph": 17565
     },
     {
      "canal": "Cesar Calejon",
      "titulo": "CALEJON E MIZAEL AVALIAM OS RESULTADOS DO PRIMEIRO TURNO - CALELIVE 10/10/26",
      "url": "https://www.youtube.com/watch?v=FXDtcQ-AeME",
-     "vph": 7551
+     "vph": 12187
+    },
+    {
+     "canal": "Portal do José",
+     "titulo": "ANA ELISA ASSUSTA DIREITA! FLAVIO E VEJA: ARMAÇÃO ENTRE BANDIDOS TERÁ EFEITO CONTRÁRIO! VIRADA VIRÁ",
+     "url": "https://www.youtube.com/watch?v=qL5jlUM8CJg",
+     "vph": 8738
     }
    ],
    "nossa_caca_clique": 0,
@@ -340,19 +340,19 @@
      "canal": "Te Atualizei",
      "titulo": "A VITÓRIA DE FLÁVIO: Esquerda perde a própria base e vitória da direita se consolida",
      "url": "https://www.youtube.com/watch?v=F3gL0ToCa90",
-     "vph": 20085
+     "vph": 19844
     },
     {
      "canal": "Gazeta do Povo",
      "titulo": "DERROTA DE LULA no 1º Turno abre temporada de CAÇA ÀS BRUXAS na campanha petista / ALEXANDRE GARCIA",
      "url": "https://www.youtube.com/watch?v=Cq7lqh2EDTE",
-     "vph": 6699
+     "vph": 8089
     },
     {
      "canal": "Os Pingos nos Is",
      "titulo": "José de Abreu critica Janones e aponta perda de votos após resultado das urnas",
      "url": "https://www.youtube.com/watch?v=psRvkJvcXjs",
-     "vph": 6293
+     "vph": 6365
     }
    ]
   },
@@ -360,28 +360,28 @@
    "id": "apoios",
    "nome": "Apoios: Renan, Centrão, Zema, Caiado",
    "nossa": 6.2,
-   "deles": 6.2,
-   "nossa_vph": 62649,
-   "deles_vph": 65603,
-   "lacuna": -0.0,
+   "deles": 6.5,
+   "nossa_vph": 63245,
+   "deles_vph": 66469,
+   "lacuna": 0.3,
    "top_nossa": [
     {
      "canal": "Plantão Brasil",
      "titulo": "VIRADA HISTÓRICA DE LULA! NOVOS APOIOS INESPERADOS! É O  POLÍTICO POPULAR MAIS ACLAMADO DA HISTÓRIA",
      "url": "https://www.youtube.com/watch?v=9QHmwap27A4",
-     "vph": 7854
+     "vph": 9854
     },
     {
-     "canal": "Plantão Brasil",
-     "titulo": "ACABOU PR0 TARCÍSIO, RENAN SANTOS, ZEMA E NIKOLAS FERREIRA DE VEZ! FLÁVIO DESTRUINDO A TODOS!",
-     "url": "https://www.youtube.com/watch?v=pI0l23tw4zM",
-     "vph": 5940
+     "canal": "Andréa Gonçalves",
+     "titulo": "TRAIÇÃO E ILUSÃO: FLÁVIO METE O CACETE EM ALIADOS",
+     "url": "https://www.youtube.com/watch?v=tdnT_JtsMTk",
+     "vph": 6126
     },
     {
      "canal": "Plantão Brasil",
      "titulo": "ALEXANDRE REÚNE COM DIRETOR DA PF PRA PRENDER FLÁVIO BOLSONARO E ALIADOS APÓS RECEBER PROVAS-CHAVE",
      "url": "https://www.youtube.com/watch?v=xbCZX998eM0",
-     "vph": 5937
+     "vph": 5854
     }
    ],
    "nossa_caca_clique": 6,
@@ -390,48 +390,48 @@
      "canal": "Alexandre Garcia",
      "titulo": "Cada vez mais apoios de partidos a Flávio - Alexandre Garcia",
      "url": "https://www.youtube.com/watch?v=kULgwurvMqI",
-     "vph": 13830
+     "vph": 13638
     },
     {
      "canal": "Os Pingos nos Is",
      "titulo": "Ana Elisa busca votos da direita para Lula e mira eleitores do Missão no 2º turno",
      "url": "https://www.youtube.com/watch?v=TTlRtFA-AoM",
-     "vph": 8146
+     "vph": 7942
     },
     {
      "canal": "Brasil Paralelo",
      "titulo": "Revista Veja publica suposto áudio de Vorcaro",
      "url": "https://www.youtube.com/shorts/AQd1Acta_58",
-     "vph": 7383
+     "vph": 7267
     }
    ]
   },
   {
    "id": "economia",
    "nome": "Economia, mercado e programas",
-   "nossa": 6.9,
-   "deles": 4.2,
-   "nossa_vph": 69933,
-   "deles_vph": 44630,
-   "lacuna": -2.7,
+   "nossa": 6.4,
+   "deles": 4.4,
+   "nossa_vph": 65999,
+   "deles_vph": 45471,
+   "lacuna": -2.0,
    "top_nossa": [
     {
      "canal": "Os Três da Manhã",
      "titulo": "O BRASIL VAI VIRAR A ARGENTINA: EXPLICAMOS TUDO SOBRE O PLANO ECONÔMICO DE FLÁVIO BOLSONARO",
      "url": "https://www.youtube.com/watch?v=H5NRL4_55YQ",
-     "vph": 6377
+     "vph": 6213
     },
     {
      "canal": "Luide",
      "titulo": "REINALDO AZEVEDO DETALHA PLANO DE FLÁVIO NA ECONOMIA",
      "url": "https://www.youtube.com/watch?v=IVzRK-JVrJY",
-     "vph": 6251
+     "vph": 6183
     },
     {
-     "canal": "Lula",
-     "titulo": "O plano de Flávio Bolsonaro é acabar com a economia brasileira",
-     "url": "https://www.youtube.com/shorts/GB2Ykk-Mt3o",
-     "vph": 6181
+     "canal": "Rede TVT",
+     "titulo": "Meia-noite Flávio Bolsonaro vai nos contar um segredo?",
+     "url": "https://www.youtube.com/shorts/kyR-ROJHOkA",
+     "vph": 6047
     }
    ],
    "nossa_caca_clique": 2,
@@ -440,48 +440,48 @@
      "canal": "Os Pingos nos Is",
      "titulo": "LULA ZERA IMPOSTO DA GASOLINA / FLÁVIO ACUSA USO DA PETROBRAS | OS PINGOS NOS IS - 09/10/26",
      "url": "https://www.youtube.com/watch?v=eEyGMFiq5fI",
-     "vph": 18880
+     "vph": 18018
     },
     {
      "canal": "Os Pingos nos Is",
      "titulo": "Lula zera impostos federais sobre gasolina e etanol nas véspera da eleição",
      "url": "https://www.youtube.com/watch?v=IP8Gcp9IMyI",
-     "vph": 8227
+     "vph": 8027
     },
     {
      "canal": "Os Pingos nos Is",
      "titulo": "“Enquanto Flávio pretende jogar parado, campanha de Lula aposta no desespero”, diz Marsiglia",
      "url": "https://www.youtube.com/shorts/AMmQv7fPUxw",
-     "vph": 5493
+     "vph": 5524
     }
    ]
   },
   {
    "id": "midia",
    "nome": "Imprensa e Globo",
-   "nossa": 7.6,
-   "deles": 3.1,
-   "nossa_vph": 77081,
-   "deles_vph": 33339,
-   "lacuna": -4.4,
+   "nossa": 6.9,
+   "deles": 3.2,
+   "nossa_vph": 70993,
+   "deles_vph": 32846,
+   "lacuna": -3.7,
    "top_nossa": [
     {
      "canal": "Mídia NINJA",
-     "titulo": "💣Impressionantes imagens aéreas mostram a dimensão gigantesca do ato que tommou as ruas de BH hoje💣",
-     "url": "https://www.youtube.com/shorts/pGxFQnRw7EU",
-     "vph": 9358
+     "titulo": "🔥Lula chegou ao Alecrim, em Natal, e já encontrou as ruas tomadas por uma multidão🔥",
+     "url": "https://www.youtube.com/shorts/jHgrpitVmGw",
+     "vph": 8681
     },
     {
      "canal": "Mídia NINJA",
-     "titulo": "🔥Natal amanhece vermelha e caminhada de Lula e Cadu Xavier toma o Alecrim🔥",
-     "url": "https://www.youtube.com/shorts/h8JBdNuJEr0",
-     "vph": 7455
+     "titulo": "😂Nikolas pergunta propostas de Flávio para a saúde e a resposta é um silêncio constrangedor😂",
+     "url": "https://www.youtube.com/shorts/Xlfphip3YuA",
+     "vph": 6140
     },
     {
-     "canal": "Mídia NINJA",
-     "titulo": "✊🏾Passageiros ficam do lado de estudante em confronto que repercute no trem✊🏾",
-     "url": "https://www.youtube.com/shorts/iLcCbkpJvnM",
-     "vph": 7264
+     "canal": "Lula",
+     "titulo": "Presidente Lula fala com a imprensa",
+     "url": "https://www.youtube.com/watch?v=v0D3SddWkPk",
+     "vph": 5924
     }
    ],
    "nossa_caca_clique": 0,
@@ -490,48 +490,48 @@
      "canal": "Nikolas Ferreira (2)",
      "titulo": "NIKOLAS DEU A MELHOR ENTREVISTA DA VIDA NA… GLOBO ",
      "url": "https://www.youtube.com/watch?v=OyujEo4lNeY",
-     "vph": 19841
+     "vph": 19660
     },
     {
      "canal": "Brasil Paralelo",
      "titulo": "Bolsonaro fala sobre o áudio de Vorcaro publicado pela Revista Veja",
      "url": "https://www.youtube.com/shorts/sVJxzRj3__c",
-     "vph": 12591
+     "vph": 12299
     },
     {
      "canal": "Brasil Paralelo",
      "titulo": "O JORNALISTA QUE DESTRUIU A ESCRAVIDÃO",
      "url": "https://www.youtube.com/watch?v=d9ZAAIXOQ9A",
-     "vph": 907
+     "vph": 887
     }
    ]
   },
   {
    "id": "pesquisas",
    "nome": "Pesquisas",
-   "nossa": 8.8,
+   "nossa": 8.7,
    "deles": 1.3,
-   "nossa_vph": 89895,
-   "deles_vph": 13871,
-   "lacuna": -7.5,
+   "nossa_vph": 88743,
+   "deles_vph": 13670,
+   "lacuna": -7.3,
    "top_nossa": [
     {
      "canal": "Portal do José",
      "titulo": "LIVE! PESQUISAS SURPREENDEM! MOBILIZAÇÕES COMEÇAM A DAR RESULTADOS! LULA: VIRADA HISTÓRICA! ANÁLISE",
      "url": "https://www.youtube.com/watch?v=zrlbHXnw7rI",
-     "vph": 8947
+     "vph": 8722
     },
     {
      "canal": "Gustavo Gaiofato",
      "titulo": "PESQUISADORA CRITICA LUIDE E ACENDE DEBATE",
      "url": "https://www.youtube.com/watch?v=eM-kZnFiXGc",
-     "vph": 5658
+     "vph": 5652
     },
     {
      "canal": "Plantão Brasil",
      "titulo": "LULA PASSA FLÁVIO BOLSONARO EM PESQUISA E VEJA TENTA GOLPE E É DESMENTIDA PELA PF E PGR! DEU RUIM!",
      "url": "https://www.youtube.com/watch?v=6xk7n24m9Dk",
-     "vph": 5582
+     "vph": 5413
     }
    ],
    "nossa_caca_clique": 4,
@@ -540,48 +540,48 @@
      "canal": "Gustavo Gayer",
      "titulo": "PÉSSIMA NOTÍCIA PARA LULA - Acaba de sair a primeira pesquisa e Flávio DISPARA",
      "url": "https://www.youtube.com/watch?v=7BRmzqRbrTU",
-     "vph": 9934
+     "vph": 9802
     },
     {
      "canal": "Carlos Jordy",
      "titulo": "Pesquisa DataFolha no 2° turno mostra vitória de Flávio!",
      "url": "https://www.youtube.com/watch?v=vBOnRPPLi7I",
-     "vph": 2088
+     "vph": 2073
     },
     {
      "canal": "Revista Oeste",
      "titulo": "ELEIÇÕES 2026: Flávio Bolsonaro tem 52,8% contra 47,2% de Lula, aponta pesquisa",
      "url": "https://www.youtube.com/watch?v=f4r5KnaWjYw",
-     "vph": 1536
+     "vph": 1486
     }
    ]
   },
   {
    "id": "6x1",
    "nome": "Fim da escala 6x1 e trabalho",
-   "nossa": 2.5,
+   "nossa": 3.2,
    "deles": 0.0,
-   "nossa_vph": 25817,
+   "nossa_vph": 33098,
    "deles_vph": 0,
-   "lacuna": -2.5,
+   "lacuna": -3.2,
    "top_nossa": [
     {
      "canal": "TV Fórum",
      "titulo": "Veja a jornada de trabalho por hora proposta por Flávio Bolsonaro",
      "url": "https://www.youtube.com/shorts/D02pvgFilrs",
-     "vph": 5995
+     "vph": 6094
+    },
+    {
+     "canal": "Mídia NINJA",
+     "titulo": "🔥Lula bota pressão em Flávio Bolsonaro e fim da escala 6x1 avança para votação no Senado🔥",
+     "url": "https://www.youtube.com/watch?v=fFBoJ2d5dfg",
+     "vph": 4362
     },
     {
      "canal": "ICL Notícias",
      "titulo": "Jorge Seif, aliado de Flávio Bolsonaro, convoca empresários para “piquete” contra o fim da 6x1",
      "url": "https://www.youtube.com/watch?v=pXdJcaRElFw",
-     "vph": 3159
-    },
-    {
-     "canal": "Tutaméia",
-     "titulo": "Em mobilização sem precedentes,  estudantes vão às ruas em todo o país  pela democracia e por Lula",
-     "url": "https://www.youtube.com/watch?v=eiF78_A2NNs",
-     "vph": 2508
+     "vph": 3152
     }
    ],
    "nossa_caca_clique": 1,
@@ -590,29 +590,29 @@
   {
    "id": "constituicao",
    "nome": "Flávio e a Constituição",
-   "nossa": 1.5,
+   "nossa": 1.4,
    "deles": 0.2,
-   "nossa_vph": 14790,
-   "deles_vph": 1992,
-   "lacuna": -1.3,
+   "nossa_vph": 14697,
+   "deles_vph": 1932,
+   "lacuna": -1.2,
    "top_nossa": [
     {
      "canal": "Meteoro Brasil",
      "titulo": "ONDA PRÓ-LULA ACERTA EM CHEIO CLIMA DE “JÁ GANHOU” DA EXTREMA DIREITA | PLANTÃO",
      "url": "https://www.youtube.com/watch?v=RSXqT7SckZI",
-     "vph": 9411
+     "vph": 9303
     },
     {
      "canal": "TV Fórum",
      "titulo": "Pedro Serrano: ISSO TEM CHEIRO DE GOLPE! ELES QUEREM RASGAR A CONSTITUIÇÃO!",
      "url": "https://www.youtube.com/shorts/kIkx05uFBnY",
-     "vph": 2957
+     "vph": 3002
     },
     {
      "canal": "Mídia NINJA",
      "titulo": "🔥Cineastas indígenas divulgaram um manifesto de apoio à reeleição do presidente Lula🔥",
      "url": "https://www.youtube.com/shorts/kOfgNj_A5gk",
-     "vph": 2057
+     "vph": 2050
     }
    ],
    "nossa_caca_clique": 0,
@@ -621,45 +621,13 @@
      "canal": "Os Pingos nos Is",
      "titulo": "Alcolumbre pauta votação da PEC que prevê o fim da jornada 6x1",
      "url": "https://www.youtube.com/watch?v=HrjjTq9SHM0",
-     "vph": 1791
+     "vph": 1734
     },
     {
      "canal": "Os Pingos nos Is",
      "titulo": "Campanha de Lula destina R$6,9 milhões para material impresso e R$2,6 milhões para redes sociais",
      "url": "https://www.youtube.com/watch?v=emXzQV3-f5k",
-     "vph": 201
-    }
-   ]
-  },
-  {
-   "id": "fraude",
-   "nome": "Fraude, crime e interferência na eleição",
-   "nossa": 0.9,
-   "deles": 0.2,
-   "nossa_vph": 8724,
-   "deles_vph": 1841,
-   "lacuna": -0.7,
-   "top_nossa": [
-    {
-     "canal": "ICL Notícias",
-     "titulo": "Advogado investigado por fraude no INSS é braço direito de Flávio Bolsonaro. Por Heloísa Villela",
-     "url": "https://www.youtube.com/watch?v=nOAV6tLQ2no",
-     "vph": 273
-    }
-   ],
-   "nossa_caca_clique": 1,
-   "top_deles": [
-    {
-     "canal": "Os Pingos nos Is",
-     "titulo": "Membros do PT criticam \"onipresença\" e interferência de Janja na campanha de Lula",
-     "url": "https://www.youtube.com/watch?v=k6V9K-UOfVU",
-     "vph": 1620
-    },
-    {
-     "canal": "Os Pingos nos Is",
-     "titulo": "PF arquiva apuração sobre suposta interferência dos EUA e evita tese de 'golpe judicial'",
-     "url": "https://www.youtube.com/watch?v=7_j9L7IhAZk",
-     "vph": 221
+     "vph": 198
     }
    ]
   },
@@ -668,7 +636,7 @@
    "nome": "“Se Flávio vencer…”",
    "nossa": 1.1,
    "deles": 0.0,
-   "nossa_vph": 11589,
+   "nossa_vph": 11457,
    "deles_vph": 0,
    "lacuna": -1.1,
    "top_nossa": [
@@ -676,23 +644,55 @@
      "canal": "TV Fórum",
      "titulo": "Guilherme Boulos   Se Flávio ganhar, acabou aumento de aposentadoria e salário mínimo",
      "url": "https://www.youtube.com/shorts/VUEyJr0KBow",
-     "vph": 5700
+     "vph": 5625
     },
     {
      "canal": "Galãs Feios",
      "titulo": "MALU GASPAR ESTÁ ASSUSTADA COM “FLAVIO PRESIDENTE” APÓS GERAR O BOLSONARISMO NOS ÚLTIMOS ANOS | GF",
      "url": "https://www.youtube.com/watch?v=2vZlaen2NQk",
-     "vph": 3667
+     "vph": 3622
     },
     {
      "canal": "Andréa Gonçalves",
      "titulo": "VOCÊ PREFERE: FLÁVIO PRESIDENTE OU FLÁVIO PRESIDIÁRIO?",
      "url": "https://www.youtube.com/watch?v=-fb7sMLZp9c",
-     "vph": 1931
+     "vph": 1912
     }
    ],
    "nossa_caca_clique": 0,
    "top_deles": []
+  },
+  {
+   "id": "fraude",
+   "nome": "Fraude, crime e interferência na eleição",
+   "nossa": 0.8,
+   "deles": 0.2,
+   "nossa_vph": 8494,
+   "deles_vph": 1819,
+   "lacuna": -0.7,
+   "top_nossa": [
+    {
+     "canal": "ICL Notícias",
+     "titulo": "Advogado investigado por fraude no INSS é braço direito de Flávio Bolsonaro. Por Heloísa Villela",
+     "url": "https://www.youtube.com/watch?v=nOAV6tLQ2no",
+     "vph": 267
+    }
+   ],
+   "nossa_caca_clique": 1,
+   "top_deles": [
+    {
+     "canal": "Os Pingos nos Is",
+     "titulo": "Membros do PT criticam \"onipresença\" e interferência de Janja na campanha de Lula",
+     "url": "https://www.youtube.com/watch?v=k6V9K-UOfVU",
+     "vph": 1602
+    },
+    {
+     "canal": "Os Pingos nos Is",
+     "titulo": "PF arquiva apuração sobre suposta interferência dos EUA e evita tese de 'golpe judicial'",
+     "url": "https://www.youtube.com/watch?v=7_j9L7IhAZk",
+     "vph": 217
+    }
+   ]
   }
  ],
  "cuidado": [],
@@ -703,7 +703,7 @@
    "id": "UC3-JLGJpMKwymQoRFJMkgSg",
    "frente": "comentario",
    "videos": 25,
-   "vph": 123076,
+   "vph": 123575,
    "ultimo": {
     "titulo": "VIRADA HISTÓRICA DE LULA! NOVOS APOIOS INESPERADOS! É O  POLÍTICO POPULAR MAIS ACLAMADO DA HISTÓRIA",
     "url": "https://www.youtube.com/watch?v=9QHmwap27A4",
@@ -717,12 +717,12 @@
    "id": "UC3sMBA3BdnsKSVI0WB9yVWQ",
    "frente": "jornalismo",
    "videos": 21,
-   "vph": 104113,
+   "vph": 100465,
    "ultimo": {
-    "titulo": "O NEGÓCIO BIZARRO DE FLÁVIO BOLSONARO QUE VAI DESTRUIR NOSSA INDÚSTRIA",
-    "url": "https://www.youtube.com/shorts/F_64rJSKJDo",
-    "id": "F_64rJSKJDo",
-    "pub": "2026-10-10T13:00:27Z"
+    "titulo": "O que esconde a conta secreta de Flávio Bolsonaro com Willer Tomaz, o ladrão do INSS",
+    "url": "https://www.youtube.com/shorts/-GYcWJ4kd-0",
+    "id": "-GYcWJ4kd-0",
+    "pub": "2026-10-10T15:10:37Z"
    }
   },
   {
@@ -730,13 +730,13 @@
    "handle": "MídiaNINJA-p1k",
    "id": "UCwefw3viiiaxprsV6jgJvEA",
    "frente": "outros",
-   "videos": 24,
-   "vph": 68577,
+   "videos": 25,
+   "vph": 68499,
    "ultimo": {
-    "titulo": "💥Presidente Lula arrasta uma multidão neste sábado pelas ruas de Natal💥",
-    "url": "https://www.youtube.com/shorts/kgUHhgYeVIk",
-    "id": "kgUHhgYeVIk",
-    "pub": "2026-10-10T15:09:26Z"
+    "titulo": "🟥⭐População de Natal forma um mar vermelho para receber Lula no Rio Grande do Norte⭐🟥",
+    "url": "https://www.youtube.com/shorts/8_qqEDsh5BE",
+    "id": "8_qqEDsh5BE",
+    "pub": "2026-10-10T15:42:12Z"
    }
   },
   {
@@ -745,12 +745,12 @@
    "id": "UCaIqJHHo9TJiLINzOFJRl2Q",
    "frente": "jornalismo",
    "videos": 25,
-   "vph": 55536,
+   "vph": 54016,
    "ultimo": {
     "titulo": "💰 O QUE ESTÁ EM JOGO NESSAS ELEIÇÕES - E COMO ISSO AFETA O SEU BOLSO?",
-    "url": "https://www.youtube.com/shorts/TH0zVBxmzmc",
-    "id": "TH0zVBxmzmc",
-    "pub": "2026-10-10T14:31:26Z"
+    "url": "https://www.youtube.com/shorts/i-_rRqG9Uic",
+    "id": "i-_rRqG9Uic",
+    "pub": "2026-10-10T15:31:29Z"
    }
   },
   {
@@ -759,7 +759,7 @@
    "id": "UCk5BcU1rOy6hepflk7_q_Pw",
    "frente": "comentario",
    "videos": 25,
-   "vph": 46811,
+   "vph": 46607,
    "ultimo": {
     "titulo": "UNIVERSITÁRIOS SE LEVANTAM CONTRA FLÁVIO BOLSONARO, MAS SÃO ATACADOS PELA POLÍCIA | ABDUÇÃO",
     "url": "https://www.youtube.com/watch?v=cLmJ4SyO4xU",
@@ -772,13 +772,13 @@
    "handle": "JonesManoel",
    "id": "UC02coXfDPjEmU8uDT2G8Z2A",
    "frente": "formacao",
-   "videos": 15,
-   "vph": 46133,
+   "videos": 16,
+   "vph": 45670,
    "ultimo": {
-    "titulo": "EM DEFESA DE ANA ELISA",
-    "url": "https://www.youtube.com/shorts/jJAPoXQwFs4",
-    "id": "jJAPoXQwFs4",
-    "pub": "2026-10-10T00:37:49Z"
+    "titulo": "O SUS pode ajudar a virar o jogo no segundo turno? – com Carlos Fidelis",
+    "url": "https://www.youtube.com/watch?v=kjftJbvvwgs",
+    "id": "kjftJbvvwgs",
+    "pub": "2026-10-10T15:35:18Z"
    }
   },
   {
@@ -786,8 +786,8 @@
    "handle": "galasfeios",
    "id": "UC2bZgihqibFD_vhaYEXQZFg",
    "frente": "comentario",
-   "videos": 22,
-   "vph": 46086,
+   "videos": 21,
+   "vph": 45052,
    "ultimo": {
     "titulo": "FONTENELLE AM3AÇ4 JENNY PRIOLI, APÓS INFLUENCER ZOAR COM O FILHO DA EX-ATRIZ | Galãs Feios",
     "url": "https://www.youtube.com/watch?v=ZIOpk5l5m7o",
@@ -800,13 +800,13 @@
    "handle": "andreagoncalves",
    "id": "UCCtYx3ohkS4DKDPJWjvQf1A",
    "frente": "comentario",
-   "videos": 12,
-   "vph": 43031,
+   "videos": 13,
+   "vph": 44706,
    "ultimo": {
-    "titulo": "TRAIÇÃO E ILUSÃO: FLÁVIO METE O CACETE EM ALIADOS",
-    "url": "https://www.youtube.com/watch?v=tdnT_JtsMTk",
-    "id": "tdnT_JtsMTk",
-    "pub": "2026-10-10T11:30:07Z"
+    "titulo": "FLÁVIO E O SEGREDO ESCONDIDO A 7 CHAVES",
+    "url": "https://www.youtube.com/watch?v=RuvPjEVT7xk",
+    "id": "RuvPjEVT7xk",
+    "pub": "2026-10-10T15:30:10Z"
    }
   },
   {
@@ -814,8 +814,8 @@
    "handle": "portaldojosé",
    "id": "UCELku_rf-FHbWhLIwsKLGGA",
    "frente": "comentario",
-   "videos": 7,
-   "vph": 39972,
+   "videos": 6,
+   "vph": 39622,
    "ultimo": {
     "titulo": "FLAVIO: O ESTELIONATO BOMBA! REVELAÇÃO INCONTESTÁVEL: QUER ESMAGAR POBRES, APOSENTADOS E DEFICIENTES",
     "url": "https://www.youtube.com/watch?v=WiB5P08UUW8",
@@ -829,7 +829,7 @@
    "id": "UCOKSOW5uJHdW7Edz37mvAFw",
    "frente": "economia",
    "videos": 6,
-   "vph": 34374,
+   "vph": 35761,
    "ultimo": {
     "titulo": "De Onde Virão os Cortes Prometidos por Flávio Bolsonaro? - JK Cast #276",
     "url": "https://www.youtube.com/watch?v=j54DVzEpkMk",
@@ -843,7 +843,7 @@
    "id": "UCTQHMyQ-RQHtXhFSzccPzmg",
    "frente": "comentario",
    "videos": 8,
-   "vph": 30238,
+   "vph": 29795,
    "ultimo": {
     "titulo": "Todos juntos pra soltar o Vorcaro. Só o povo para impedir!",
     "url": "https://www.youtube.com/shorts/3b3Bz_xDAP4",
@@ -857,7 +857,7 @@
    "id": "UCmQTY7b5w61WlmBbJ5a8XrQ",
    "frente": "jornalismo",
    "videos": 23,
-   "vph": 29166,
+   "vph": 28948,
    "ultimo": {
     "titulo": "Juliana Cardoso, Leonardo Grandini e Ana Carolina Moreira no Conversa sem Curva com Don Ernesto",
     "url": "https://www.youtube.com/watch?v=p4KExdkscvo",
@@ -871,7 +871,7 @@
    "id": "UC8tHT_yp3bpp87o8ckAr2VQ",
    "frente": "jornalismo",
    "videos": 5,
-   "vph": 28183,
+   "vph": 27550,
    "ultimo": {
     "titulo": "“O FLÁVIO TEM UM MENU DE PROBLEMAS!”",
     "url": "https://www.youtube.com/shorts/XSM2nQqBL9k",
@@ -885,7 +885,7 @@
    "id": "UCETjsiWHrAHyADOih7ACwHw",
    "frente": "cultura",
    "videos": 4,
-   "vph": 18682,
+   "vph": 18488,
    "ultimo": {
     "titulo": "REINALDO AZEVEDO DETALHA PLANO DE FLÁVIO NA ECONOMIA",
     "url": "https://www.youtube.com/watch?v=IVzRK-JVrJY",
@@ -899,7 +899,7 @@
    "id": "UCAMExYqcweM7PUebKfmLdFA",
    "frente": "formacao",
    "videos": 1,
-   "vph": 17713,
+   "vph": 17565,
    "ultimo": {
     "titulo": "ELEIÇÕES 2026: O QUE EXPLICA O VOTO NA EXTREMA-DIREITA?",
     "url": "https://www.youtube.com/watch?v=cCBopufrPjY",
@@ -908,26 +908,12 @@
    }
   },
   {
-   "nome": "Samuel Borelli",
-   "handle": "SamuelBorelli",
-   "id": "UC3gQ9lIiPQj7frT5CE5QyRA",
-   "frente": "comentario",
-   "videos": 2,
-   "vph": 15472,
-   "ultimo": {
-    "titulo": "Flávio liga alerta máximo na campanha",
-    "url": "https://www.youtube.com/watch?v=3pT4-HKnGW0",
-    "id": "3pT4-HKnGW0",
-    "pub": "2026-10-09T21:36:12Z"
-   }
-  },
-  {
    "nome": "Os Três da Manhã",
    "handle": "otresnews",
    "id": "UCu4prejLwsME9XCRJJq5Ugw",
    "frente": "jornalismo",
    "videos": 19,
-   "vph": 15155,
+   "vph": 15224,
    "ultimo": {
     "titulo": "AS REDES SOCIAIS ESTÃO FAVORECENDO A EXTREMA DIREITA?",
     "url": "https://www.youtube.com/watch?v=b4Zy2crXYs8",
@@ -936,59 +922,17 @@
    }
   },
   {
-   "nome": "Brasil de Fato",
-   "handle": "brasildefato",
-   "id": "UCOnuheHbS2DgZiAZFL0-Sbg",
-   "frente": "jornalismo",
-   "videos": 25,
-   "vph": 14469,
-   "ultimo": {
-    "titulo": "'O plano de governo do Flávio Bolsonaro não cita a palavra 'livro' uma vez', diz Milton Hatoum",
-    "url": "https://www.youtube.com/shorts/-xZ5bXRHGxA",
-    "id": "-xZ5bXRHGxA",
-    "pub": "2026-10-10T14:12:21Z"
-   }
-  },
-  {
-   "nome": "Parabólica",
-   "handle": "Parabólica",
-   "id": "UCeLwY_iqGhtq3AIdAEvT9-g",
+   "nome": "Samuel Borelli",
+   "handle": "SamuelBorelli",
+   "id": "UC3gQ9lIiPQj7frT5CE5QyRA",
    "frente": "comentario",
-   "videos": 6,
-   "vph": 13613,
+   "videos": 2,
+   "vph": 15113,
    "ultimo": {
-    "titulo": "REVISÃO DE HISTÓRIA GERAL COM QUESTÕES PARA O ENEM 2026",
-    "url": "https://www.youtube.com/watch?v=QaUtpgV_gJo",
-    "id": "QaUtpgV_gJo",
-    "pub": "2026-10-10T00:13:27Z"
-   }
-  },
-  {
-   "nome": "Desce a Letra (Cauê Moura)",
-   "handle": "DESCEALETRASHOW",
-   "id": "UCCD93px0UneWNFg_HxV4naQ",
-   "frente": "cultura",
-   "videos": 3,
-   "vph": 13179,
-   "ultimo": {
-    "titulo": "BRAZIL, 9 DE OUTUBRO DE 1930 // DLSHOW 655",
-    "url": "https://www.youtube.com/watch?v=HebRHknIpXM",
-    "id": "HebRHknIpXM",
-    "pub": "2026-10-09T18:14:00Z"
-   }
-  },
-  {
-   "nome": "Opera Mundi",
-   "handle": "omundi",
-   "id": "UCOjUlJ4EpPxuhtT0zEVw25A",
-   "frente": "jornalismo",
-   "videos": 16,
-   "vph": 12320,
-   "ultimo": {
-    "titulo": "Bolsonarismo virou um movimento de massa no Brasil? - Rodamundo",
-    "url": "https://www.youtube.com/watch?v=aOBn8xiUVqI",
-    "id": "aOBn8xiUVqI",
-    "pub": "2026-10-10T14:00:11Z"
+    "titulo": "Flávio liga alerta máximo na campanha",
+    "url": "https://www.youtube.com/watch?v=3pT4-HKnGW0",
+    "id": "3pT4-HKnGW0",
+    "pub": "2026-10-09T21:36:12Z"
    }
   },
   {
@@ -997,7 +941,7 @@
    "id": "UCFDQTNIlYuxkLX1bg9DC0pg",
    "frente": "comentario",
    "videos": 3,
-   "vph": 10464,
+   "vph": 15060,
    "ultimo": {
     "titulo": "CALEJON E MIZAEL AVALIAM OS RESULTADOS DO PRIMEIRO TURNO - CALELIVE 10/10/26",
     "url": "https://www.youtube.com/watch?v=FXDtcQ-AeME",
@@ -1006,12 +950,40 @@
    }
   },
   {
+   "nome": "Brasil de Fato",
+   "handle": "brasildefato",
+   "id": "UCOnuheHbS2DgZiAZFL0-Sbg",
+   "frente": "jornalismo",
+   "videos": 25,
+   "vph": 14714,
+   "ultimo": {
+    "titulo": "2º turno: o que fazer para conquistar votos? Com a deputada federal Fernanda Melchionna | DE FATO",
+    "url": "https://www.youtube.com/watch?v=IBLn9k2J8Oc",
+    "id": "IBLn9k2J8Oc",
+    "pub": "2026-10-10T15:25:12Z"
+   }
+  },
+  {
+   "nome": "Desce a Letra (Cauê Moura)",
+   "handle": "DESCEALETRASHOW",
+   "id": "UCCD93px0UneWNFg_HxV4naQ",
+   "frente": "cultura",
+   "videos": 3,
+   "vph": 12940,
+   "ultimo": {
+    "titulo": "BRAZIL, 9 DE OUTUBRO DE 1930 // DLSHOW 655",
+    "url": "https://www.youtube.com/watch?v=HebRHknIpXM",
+    "id": "HebRHknIpXM",
+    "pub": "2026-10-09T18:14:00Z"
+   }
+  },
+  {
    "nome": "Filipe Boni",
    "handle": "Filipe_Boni",
    "id": "UCw8gC06oOjUtA553wNXO5jw",
    "frente": "comentario",
    "videos": 9,
-   "vph": 10435,
+   "vph": 12219,
    "ultimo": {
     "titulo": "Manda Pra Sua Mãe: o Que +70 Anos Precisa Saber Antes de Votar",
     "url": "https://www.youtube.com/watch?v=TEEym1WzUoo",
@@ -1020,12 +992,54 @@
    }
   },
   {
+   "nome": "Opera Mundi",
+   "handle": "omundi",
+   "id": "UCOjUlJ4EpPxuhtT0zEVw25A",
+   "frente": "jornalismo",
+   "videos": 16,
+   "vph": 12082,
+   "ultimo": {
+    "titulo": "Bolsonarismo virou um movimento de massa no Brasil? - Rodamundo",
+    "url": "https://www.youtube.com/watch?v=aOBn8xiUVqI",
+    "id": "aOBn8xiUVqI",
+    "pub": "2026-10-10T14:00:11Z"
+   }
+  },
+  {
+   "nome": "Parabólica",
+   "handle": "Parabólica",
+   "id": "UCeLwY_iqGhtq3AIdAEvT9-g",
+   "frente": "comentario",
+   "videos": 5,
+   "vph": 11865,
+   "ultimo": {
+    "titulo": "REVISÃO DE HISTÓRIA GERAL COM QUESTÕES PARA O ENEM 2026",
+    "url": "https://www.youtube.com/watch?v=QaUtpgV_gJo",
+    "id": "QaUtpgV_gJo",
+    "pub": "2026-10-10T00:13:27Z"
+   }
+  },
+  {
+   "nome": "Tutaméia",
+   "handle": "EleonoraeRodolfoLucenaTUTAMEIA",
+   "id": "UCPdT6WY5Cl0o90m4Fca3zIg",
+   "frente": "jornalismo",
+   "videos": 15,
+   "vph": 9140,
+   "ultimo": {
+    "titulo": "Lula participa de grande manifestação no Rio Grande do Norte",
+    "url": "https://www.youtube.com/watch?v=5EjXQyOnr4c",
+    "id": "5EjXQyOnr4c",
+    "pub": "2026-10-10T15:36:22Z"
+   }
+  },
+  {
    "nome": "Pedro Daher",
    "handle": "oipedrodaher",
    "id": "UCEmDI96PRniiegjkSmrpZaQ",
    "frente": "cultura",
    "videos": 1,
-   "vph": 8782,
+   "vph": 8659,
    "ultimo": {
     "titulo": "Precisamos falar de FLÁVIO BOLSONARO",
     "url": "https://www.youtube.com/watch?v=0PYsLUkt7EM",
@@ -1039,7 +1053,7 @@
    "id": "UCqbz_4hrf2D58UFBOleuFnQ",
    "frente": "formacao",
    "videos": 3,
-   "vph": 8227,
+   "vph": 8198,
    "ultimo": {
     "titulo": "PESQUISADORA CRITICA LUIDE E ACENDE DEBATE",
     "url": "https://www.youtube.com/watch?v=eM-kZnFiXGc",
@@ -1053,7 +1067,7 @@
    "id": "UCKvo5P4W0tNYAWORXEqEp-Q",
    "frente": "jornalismo",
    "videos": 12,
-   "vph": 7604,
+   "vph": 7427,
    "ultimo": {
     "titulo": "FLÁVIO BOLSONARO NO PODER: O QUE PODE ACONTECER COM A DEMOCRACIA?",
     "url": "https://www.youtube.com/watch?v=0873MKPO5W4",
@@ -1062,26 +1076,12 @@
    }
   },
   {
-   "nome": "Tutaméia",
-   "handle": "EleonoraeRodolfoLucenaTUTAMEIA",
-   "id": "UCPdT6WY5Cl0o90m4Fca3zIg",
-   "frente": "jornalismo",
-   "videos": 15,
-   "vph": 6482,
-   "ultimo": {
-    "titulo": "Lula participa de grande manifestação no Rio Grande do Norte",
-    "url": "https://www.youtube.com/watch?v=5EjXQyOnr4c",
-    "id": "5EjXQyOnr4c",
-    "pub": "2026-10-10T15:04:38Z"
-   }
-  },
-  {
    "nome": "Leon e Nilce",
    "handle": "republicacoisadenerd",
    "id": "UChmOR1T5ZNnbRUba3lHRTOg",
    "frente": "cultura",
    "videos": 1,
-   "vph": 6098,
+   "vph": 6023,
    "ultimo": {
     "titulo": "NOSSO NOVO CARRO!",
     "url": "https://www.youtube.com/watch?v=8Wevu7cH3So",
@@ -1095,7 +1095,7 @@
    "id": "UCZdJE8KpuFm6NRafHTEIC-g",
    "frente": "cultura",
    "videos": 2,
-   "vph": 4691,
+   "vph": 4645,
    "ultimo": {
     "titulo": "COMO DIALOGAR COM QUEM PENSA EM VOTAR EM FLÁVIO?",
     "url": "https://www.youtube.com/shorts/KYdE5xN2OTk",
@@ -1109,7 +1109,7 @@
    "id": "UCqBY-VQ2BxHOWnVpuC7swrw",
    "frente": "cultura",
    "videos": 1,
-   "vph": 4196,
+   "vph": 4152,
    "ultimo": {
     "titulo": "Flávio tá na frente: será que dá tempo de virar?",
     "url": "https://www.youtube.com/watch?v=kaQ49D3xy88",
@@ -1118,26 +1118,12 @@
    }
   },
   {
-   "nome": "Arvro",
-   "handle": "arvro",
-   "id": "UCXWilBOsa-Dm9BJYAJ3TzoQ",
-   "frente": "cultura",
-   "videos": 1,
-   "vph": 3644,
-   "ultimo": {
-    "titulo": "LULA VAI PRECISAR FAZER ALIANÇAS PERIGOSAS...",
-    "url": "https://www.youtube.com/watch?v=6HcWWbMWyuc",
-    "id": "6HcWWbMWyuc",
-    "pub": "2026-10-09T00:48:42Z"
-   }
-  },
-  {
    "nome": "Felipe Durante",
    "handle": "FelipeDurante",
    "id": "UCuVuYmvwHJLtRfpXphPFm2w",
    "frente": "formacao",
    "videos": 4,
-   "vph": 3629,
+   "vph": 4061,
    "ultimo": {
     "titulo": "A VERDADE SOBRE A INVASÃO CHINESA NA BAHIA",
     "url": "https://www.youtube.com/watch?v=hssygCp2D7w",
@@ -1146,12 +1132,40 @@
    }
   },
   {
+   "nome": "Arvro",
+   "handle": "arvro",
+   "id": "UCXWilBOsa-Dm9BJYAJ3TzoQ",
+   "frente": "cultura",
+   "videos": 1,
+   "vph": 3600,
+   "ultimo": {
+    "titulo": "LULA VAI PRECISAR FAZER ALIANÇAS PERIGOSAS...",
+    "url": "https://www.youtube.com/watch?v=6HcWWbMWyuc",
+    "id": "6HcWWbMWyuc",
+    "pub": "2026-10-09T00:48:42Z"
+   }
+  },
+  {
+   "nome": "Chavoso da USP",
+   "handle": "ChavosoDaUSP",
+   "id": "UCKWus46Vy8gwf1rRLu4II0w",
+   "frente": "formacao",
+   "videos": 2,
+   "vph": 2680,
+   "ultimo": {
+    "titulo": "PALESTRAS NO INTERIOR DE SP",
+    "url": "https://www.youtube.com/shorts/XYuMvtW8gtw",
+    "id": "XYuMvtW8gtw",
+    "pub": "2026-10-10T15:15:33Z"
+   }
+  },
+  {
    "nome": "Assim disse o João",
    "handle": "assimdisseojoao",
    "id": "UC7-Pp09PJX_SYP9oyMzUAtg",
    "frente": "formacao",
-   "videos": 14,
-   "vph": 2611,
+   "videos": 13,
+   "vph": 2523,
    "ultimo": {
     "titulo": "O que faz uma DOULA???",
     "url": "https://www.youtube.com/shorts/P-oc5ncR74w",
@@ -1165,7 +1179,7 @@
    "id": "UC18wvecVYTQMfJsOU7R8UJA",
    "frente": "formacao",
    "videos": 1,
-   "vph": 2547,
+   "vph": 2502,
    "ultimo": {
     "titulo": "O Brasil se encaminha para uma guerra civil",
     "url": "https://www.youtube.com/watch?v=W6No69gjPvw",
@@ -1179,7 +1193,7 @@
    "id": "UCS6vzFfDC-7aMMh4G3v5dLQ",
    "frente": "comentario",
    "videos": 5,
-   "vph": 2435,
+   "vph": 2415,
    "ultimo": {
     "titulo": "✂️ELEIÇÕES 2026 | ANA ELISA REFORÇA CAMPANHA DE LULA E VIRA ALVO DE NIKOLAS FERREIRA #corte",
     "url": "https://www.youtube.com/watch?v=LSzoibprAks",
@@ -1188,26 +1202,12 @@
    }
   },
   {
-   "nome": "Chavoso da USP",
-   "handle": "ChavosoDaUSP",
-   "id": "UCKWus46Vy8gwf1rRLu4II0w",
-   "frente": "formacao",
-   "videos": 1,
-   "vph": 2146,
-   "ultimo": {
-    "titulo": "SOBRE O 2º TURNO DA ELEIÇÃO",
-    "url": "https://www.youtube.com/watch?v=1yg4MpUUd4c",
-    "id": "1yg4MpUUd4c",
-    "pub": "2026-10-09T17:03:00Z"
-   }
-  },
-  {
    "nome": "Os Três Elementos",
    "handle": "ostreselementos",
    "id": "UCNV2eEr4N2DNWv2TC3_EClA",
    "frente": "formacao",
    "videos": 6,
-   "vph": 1855,
+   "vph": 1823,
    "ultimo": {
     "titulo": "3ª JORNADA COM OS TRÊS ELEMENTOS: JAPÃO",
     "url": "https://www.youtube.com/watch?v=xwR_RKHzzIM",
@@ -1221,7 +1221,7 @@
    "id": "UCQNr3rhXfVXhMSYb3k43atA",
    "frente": "comentario",
    "videos": 4,
-   "vph": 1816,
+   "vph": 1789,
    "ultimo": {
     "titulo": "Podemos confiar nas pesquisas?",
     "url": "https://www.youtube.com/watch?v=wMq3VTRpSpg",
@@ -1235,7 +1235,7 @@
    "id": "UC1m1ZZfQYChRZ3aPI6SqZng",
    "frente": "comentario",
    "videos": 10,
-   "vph": 1556,
+   "vph": 1543,
    "ultimo": {
     "titulo": "O AGRO NÃO VAI FAZER O BRASIL CRESCER",
     "url": "https://www.youtube.com/shorts/pY8Oh6_0v7o",
@@ -1249,7 +1249,7 @@
    "id": "UCYVrkMZdrjq5eICOG6Rxiwg",
    "frente": "formacao",
    "videos": 3,
-   "vph": 1418,
+   "vph": 1403,
    "ultimo": {
     "titulo": "QUAL É A DO JEV? / TEM UM \"JEV ABERTO\" | Tecnologia e Classe",
     "url": "https://www.youtube.com/watch?v=VGzHUnA-uW8",
@@ -1263,7 +1263,7 @@
    "id": "UCw_aZuP_zSwoc_hHfuffuWA",
    "frente": "comentario",
    "videos": 3,
-   "vph": 1264,
+   "vph": 1300,
    "ultimo": {
     "titulo": "II - 2026.68 - \"Nós somos abençoadores\"",
     "url": "https://www.youtube.com/watch?v=pNq7LhWj_GQ",
@@ -1277,7 +1277,7 @@
    "id": "UC3Ooj_iDWELBumIEDejyNHQ",
    "frente": "cultura",
    "videos": 1,
-   "vph": 687,
+   "vph": 680,
    "ultimo": {
     "titulo": "BIÓLOGO CÉTICO HIPNOTIZADO AO VIVO",
     "url": "https://www.youtube.com/watch?v=BF_gc3JwF78",
@@ -1291,7 +1291,7 @@
    "id": "UCRQr-UwNfMx-5HzW_GOC1_A",
    "frente": "formacao",
    "videos": 3,
-   "vph": 559,
+   "vph": 552,
    "ultimo": {
     "titulo": "PRECISAMOS MESMO DE ESPERANÇA?",
     "url": "https://www.youtube.com/watch?v=sTxiF3W-pD4",
@@ -1305,7 +1305,7 @@
    "id": "UCVpQ-xuvW2_wL9_usxWw2UQ",
    "frente": "cultura",
    "videos": 2,
-   "vph": 331,
+   "vph": 309,
    "ultimo": {
     "titulo": "A Constituição de 88 (e o Brasil) está sob ameaça",
     "url": "https://www.youtube.com/watch?v=fnWQb9Tsd40",
@@ -1314,12 +1314,26 @@
    }
   },
   {
+   "nome": "Papo de Preta",
+   "handle": "PapodePreta",
+   "id": "UCvu2MvWjNozGxCdRlY1034Q",
+   "frente": "comentario",
+   "videos": 5,
+   "vph": 186,
+   "ultimo": {
+    "titulo": "Vorcaro bancava Yasmin Brunet com o NOSSO DINHEIRO - Papo de Preta",
+    "url": "https://www.youtube.com/watch?v=xGsXvFTXHq8",
+    "id": "xGsXvFTXHq8",
+    "pub": "2026-10-10T15:00:28Z"
+   }
+  },
+  {
    "nome": "TV Grabois",
    "handle": "TVGrabois",
    "id": "UCQ83chf0Yg1yt5Hrya1uVWQ",
    "frente": "formacao",
    "videos": 6,
-   "vph": 125,
+   "vph": 124,
    "ultimo": {
     "titulo": "FLÁVIO DEFENDEU PRIVATIZAR A PETROBRAS",
     "url": "https://www.youtube.com/shorts/V6aE-59aRk4",
@@ -1333,26 +1347,12 @@
    "id": "UC1W7FCgr5ltMev6aGqEukEw",
    "frente": "cultura",
    "videos": 1,
-   "vph": 113,
+   "vph": 111,
    "ultimo": {
     "titulo": "LaiveDasCanjebrinas 8/10/2026",
     "url": "https://www.youtube.com/watch?v=CUIn5RJuxS0",
     "id": "CUIn5RJuxS0",
     "pub": "2026-10-09T02:11:02Z"
-   }
-  },
-  {
-   "nome": "Papo de Preta",
-   "handle": "PapodePreta",
-   "id": "UCvu2MvWjNozGxCdRlY1034Q",
-   "frente": "comentario",
-   "videos": 5,
-   "vph": 72,
-   "ultimo": {
-    "titulo": "Vorcaro bancava Yasmin Brunet com o NOSSO DINHEIRO - Papo de Preta",
-    "url": "https://www.youtube.com/watch?v=xGsXvFTXHq8",
-    "id": "xGsXvFTXHq8",
-    "pub": "2026-10-10T15:00:28Z"
    }
   },
   {
