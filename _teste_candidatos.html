@@ -1,0 +1,36 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Revisão do dia · temas e fandoms</title><style>
+body { font: 15px/1.45 -apple-system, "Segoe UI", Roboto, sans-serif; color: #17171A; margin: 0; background: #F6F5F1; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 60px; } h1 { font-size: 24px; margin: 0 0 4px; } h2 { font-size: 17px; margin: 26px 0 8px; }
+.meta { color: #5C5C64; margin: 0 0 10px; } ul { list-style: none; padding: 0; margin: 0; }
+li { background: #FFF; border: 1px solid #E4E4E8; border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; display: grid; gap: 4px; }
+li .l { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; } .lado { font-size: 12px; font-weight: 700; text-transform: uppercase; }
+small { color: #5C5C64; } a { color: #2A5079; font-size: 13px; } .bts { display: flex; gap: 8px; margin-top: 4px; }
+button { font: 600 13px/1 inherit; padding: 8px 12px; border-radius: 8px; border: 1px solid #C9C9CF; background: #FFF; cursor: pointer; min-height: 36px; }
+li.sim { border-color: #2E8F5B; background: #EEF8F1; } li.nao { opacity: .45; }
+#saida { width: 100%; min-height: 90px; margin-top: 10px; font: 12px ui-monospace, Menlo, monospace; }
+</style></head><body><div class="wrap">
+<h1>Revisão do dia</h1><p class="meta">Gerada em 2026-10-10 16:03 UTC. Nada entra no site sem aprovação. TESTE: as decisões só geram o texto abaixo.</p>
+<h2>Temas novos que os vídeos e o X estão puxando</h2><p class="meta">Expressões que dispararam em 3+ autores e 2+ redes e que o painel "Quem domina cada tema" ainda não cobre.</p>
+<ul><li data-k="tema:Anitta"><div class="l"><b>Anitta</b> <span class="lado" style="color:#C8102E">nossa</span>
+      <small>6 autores · YouTube, TikTok, Imprensa · pico 32x</small></div>
+      <a href="https://www.tiktok.com/@popzone.brr/video/7694737415285689621" target="_blank" rel="noopener">Anitta: bolsonarismo não é a direita</a>
+      <div class="bts"><button data-v="sim">Aprovar</button><button data-v="nao">Recusar</button></div></li><li data-k="tema:INSS"><div class="l"><b>INSS</b> <span class="lado" style="color:#C8102E">nossa</span>
+      <small>3 autores · Imprensa, Kwai</small></div>
+      
+      <div class="bts"><button data-v="sim">Aprovar</button><button data-v="nao">Recusar</button></div></li></ul>
+<h2>Fandoms e mobilização no X</h2><p class="meta">Hashtags e lemas de mobilização no top 20 do Brasil e nos temas do dia. Gifs (GIPHY/Tenor) entram quando houver chave.</p>
+<ul><li data-k="fandom:#EXERCITODOLULAEMCAMPO"><div class="l"><b>#EXERCITODOLULAEMCAMPO</b> <span class="lado" style="color:#C8102E">nossa</span>
+      <small>pico 1º no X</small></div><a href="https://x.com/search?q=%23EXERCITODOLULAEMCAMPO&amp;f=live" target="_blank" rel="noopener">ver no X</a>
+      <div class="bts"><button data-v="sim">Aprovar</button><button data-v="nao">Recusar</button></div></li><li data-k="fandom:LULA VAMOS VIRAR"><div class="l"><b>LULA VAMOS VIRAR</b> <span class="lado" style="color:#C8102E">nossa</span>
+      <small>pico 4º no X</small></div><a href="https://x.com/search?q=LULA%20VAMOS%20VIRAR&amp;f=live" target="_blank" rel="noopener">ver no X</a>
+      <div class="bts"><button data-v="sim">Aprovar</button><button data-v="nao">Recusar</button></div></li><li data-k="fandom:#EleNão"><div class="l"><b>#EleNão</b> <span class="lado" style="color:#C8102E">nossa</span>
+      <small>pico 6º no X</small></div><a href="https://x.com/search?q=%23EleN%C3%A3o&amp;f=live" target="_blank" rel="noopener">ver no X</a>
+      <div class="bts"><button data-v="sim">Aprovar</button><button data-v="nao">Recusar</button></div></li></ul>
+<h2>Decisões</h2><textarea id="saida" readonly></textarea>
+<script>
+const dec = {};
+document.addEventListener("click", ev => { const b = ev.target.closest("button[data-v]"); if (!b) return; const li = b.closest("li");
+  dec[li.dataset.k] = b.dataset.v; li.classList.toggle("sim", b.dataset.v === "sim"); li.classList.toggle("nao", b.dataset.v === "nao");
+  document.getElementById("saida").value = JSON.stringify(dec, null, 1); });
+</script></div></body></html>
